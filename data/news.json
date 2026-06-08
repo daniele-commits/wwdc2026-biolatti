@@ -1,9 +1,247 @@
 {
-  "lastUpdate": "2026-06-08T23:13:27.678952+02:00",
+  "lastUpdate": "2026-06-08T23:19:21.027439+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "wallet-create-a-pass-visual-intelligence-biglietti-digitali",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Wallet crea i pass dal mondo fisico con Visual Intelligence",
+      "titleEn": "Wallet creates passes from the physical world with Visual Intelligence",
+      "excerptIt": "In iOS 27, l'app Wallet acquisisce la funzione \"Create a Pass\": inquadri un biglietto cartaceo o una tessera e l'AI genera un pass digitale pronto per il portafoglio. Un colpo diretto alle app di terze parti che oggi fanno da intermediarie.",
+      "excerptEn": "In iOS 27, the Wallet app gains a \"Create a Pass\" feature: point your camera at a physical ticket or membership card and AI generates a ready-to-use digital pass. A direct blow to third-party apps that currently act as middlemen.",
+      "bodyIt": "## Dall'oggetto fisico al pass digitale in un gesto\n\nApple ha annunciato durante il keynote WWDC 2026 una nuova opzione \"Create a Pass\" nell'app Wallet di iOS 27. Il flusso é semplice: si preme il pulsante \"+\", si inquadra il biglietto fisico con la fotocamera e Visual Intelligence legge il QR code o il barcode, compila automaticamente i campi rilevanti — nome, luogo, data, codice di ammissione — e produce un pass digitale. Se il biglietto non ha codice scansionabile, esiste un percorso manuale per inserire i dati a mano, secondo quanto riportato da MacRumors.\n\n## Tre modelli, dodici colori\n\nI template disponibili sono tre: Standard, Membership ed Event. Apple offre dodici colori di sfondo oppure sette sfondi tematici per categorie come musica, teatro, sport e cinema. I campi del pass — etichetta, data, contatto, codice coupon, numero assicurazione — sono modulari: si aggiungono o rimuovono in base alla tipologia di documento. Secondo MacRumors, la maggior parte delle tessere fisiche dovrebbe essere digitalizzabile senza problemi.\n\n## Perché conta\n\nFino a iOS 26, chi voleva digitalizzare biglietti non standard doveva affidarsi ad app come Stocard o Passbook di terze parti. Apple porta questo flusso nativamente nel sistema operativo, eliminando un passaggio e — non secondariamente — sottraendo dati comportamentali alle app intermediarie. L'integrazione con Visual Intelligence segna anche un ampliamento pratico di quella tecnologia al di là della semplice ricerca visiva, come sottolinea Engadget nella sua copertura del keynote.",
+      "bodyEn": "## From physical object to digital pass in one gesture\n\nApple announced a new \"Create a Pass\" option in the iOS 27 Wallet app during the WWDC 2026 keynote. The flow is straightforward: tap the \"+\" button, point your camera at a physical ticket, and Visual Intelligence reads the QR or barcode, auto-fills the relevant fields — name, venue, date, admission code — and produces a digital pass. If there is no scannable code, a manual entry path is available, according to MacRumors.\n\n## Three templates, twelve colours\n\nThe available templates are Standard, Membership, and Event. Apple offers twelve background colours or seven themed backgrounds for categories such as music, theatre, sports, and cinema. Pass fields — label, date, contact, coupon code, insurance number — are modular, added or removed depending on the document type. MacRumors reports that most physical cards should be digitisable without issue.\n\n## Why it matters\n\nUntil iOS 26, anyone wanting to digitise non-standard tickets had to rely on third-party apps. Apple is now bringing this flow natively into the OS, eliminating a step and — not incidentally — keeping behavioural data away from intermediary apps. The Visual Intelligence integration also marks a practical expansion of that technology beyond simple visual search, as Engadget noted in its keynote coverage.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Developer Beta 1",
+          "url": "https://www.macrumors.com/2026/06/08/apple-releases-ios-27-beta-1/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027356+02:00"
+    },
+    {
+      "slug": "siri-ai-dynamic-island-swipe-down-nuova-interfaccia",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "intelligenza-artificiale",
+        "design",
+        "siri"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "Siri AI cambia faccia: Dynamic Island, swipe e nuova app dedicata",
+      "titleEn": "Siri AI gets a new face: Dynamic Island, swipe gesture, dedicated app",
+      "excerptIt": "In iOS 27, Siri AI abbandona la bolla sul bordo inferiore dello schermo: l'animazione si sposta nel Dynamic Island e uno swipe verso il basso dal centro dello schermo apre direttamente l'interfaccia conversazionale. Cambia il punto di accesso, cambia la metafora.",
+      "excerptEn": "In iOS 27, Siri AI drops the bubble at the bottom of the screen: the animation moves to the Dynamic Island and a swipe down from the top-centre of the screen opens the conversational interface directly. The entry point changes, and so does the metaphor.",
+      "bodyIt": "## Dove vive Siri AI sullo schermo\n\nApple ha ridisegnato il punto di contatto visivo con Siri AI in modo sostanziale. Su iPhone con Dynamic Island, l'animazione dell'assistente compare ora nell'isola in alto al centro — non piú come bordo luminoso tutto intorno allo schermo come in iOS 26. \"Hey Siri\" e il pulsante laterale continuano a funzionare, ma iOS 27 aggiunge un terzo gesto: un'apertura verso il basso dal centro dello schermo che porta direttamente all'interfaccia di Siri AI, come confermato da Engadget nella copertura del keynote.\n\n## L'app Siri: finalmente uno spazio dedicato\n\nPer la prima volta, Siri diventa anche un'app a sé stante su iOS 27, iPadOS 27 e macOS Golden Gate. Non si tratta semplicemente di un alias dell'invocazione vocale: l'app offre uno spazio per conversazioni scritte persistenti, storici delle sessioni e un accesso diretto alle funzionalitá di Siri AI in modalitá chatbot. MacRumors descrive questa come «una destinazione dedicata per interagire pienamente con l'assistente rinnovato». É la stessa architettura che OpenAI e Anthropic hanno normalizzato con ChatGPT e Claude — Apple arriva con due anni di ritardo rispetto alle promesse di WWDC 2024, ma ci arriva.\n\n## Perché conta\n\nSpostare l'animazione dal bordo-schermo al Dynamic Island non é un cambio estetico minore: segnala che Siri AI é trattata come una funzione di sistema primaria, al pari delle notifiche in corso. Lo swipe-down centralizza l'accesso in un punto neutro dello schermo, piú naturale per l'uso con una mano. Il vero salto, tuttavia, é che per la prima volta l'utente ha un luogo permanente dove «stare» con Siri, invece di invocarlo e dimenticarlo.",
+      "bodyEn": "## Where Siri AI lives on screen\n\nApple has substantially redesigned Siri AI's visual contact point. On iPhones with a Dynamic Island, the assistant's animation now appears in the island at the top-centre — no longer as a glowing border around the entire screen as in iOS 26. \"Hey Siri\" and the side button still work, but iOS 27 adds a third gesture: a downward swipe from the centre of the screen that opens the Siri AI interface directly, as confirmed by Engadget's keynote coverage.\n\n## The Siri app: finally a dedicated space\n\nFor the first time, Siri becomes a standalone app on iOS 27, iPadOS 27, and macOS Golden Gate. This is not simply an alias for the voice invocation: the app offers a space for persistent written conversations, session history, and direct access to Siri AI's chatbot capabilities. MacRumors describes this as \"a dedicated spot to fully interact with the revamped assistant.\" It is the same architecture OpenAI and Anthropic normalised with ChatGPT and Claude — Apple arrives two years late relative to its WWDC 2024 promises, but it does arrive.\n\n## Why it matters\n\nMoving the animation from the screen edge to the Dynamic Island is not a minor aesthetic change: it signals that Siri AI is treated as a primary system function, on a par with live notifications. The swipe-down centralises access at a neutral point on the screen, more natural for one-handed use. The real leap, however, is that for the first time users have a permanent place to \"be\" with Siri, rather than invoking it and moving on.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors – iOS 27 Developer Beta 1",
+          "url": "https://www.macrumors.com/2026/06/08/apple-releases-ios-27-beta-1/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027385+02:00"
+    },
+    {
+      "slug": "genmoji-aggiornato-suggested-genmoji-ios-27",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Genmoji si rinnova: modello migliorato e suggerimenti contestuali",
+      "titleEn": "Genmoji gets an upgrade: better model and contextual suggestions",
+      "excerptIt": "In iOS 27, Genmoji genera immagini di qualitá superiore grazie a un modello rinnovato e introduce i \"Suggested Genmoji\": emoji personalizzate suggerite in automatico in base alla cronologia di messaggi e contenuti multimediali dell'utente.",
+      "excerptEn": "In iOS 27, Genmoji produces higher-quality images thanks to a new model and introduces \"Suggested Genmoji\": personalised emoji automatically suggested based on the user's message and media history.",
+      "bodyIt": "## Un modello piú efficiente e piú preciso\n\nApple ha annunciato al keynote WWDC 2026 un aggiornamento sostanziale di Genmoji per iOS 27. Il modello sottostante é stato rinnovato per produrre immagini di qualitá superiore, con una riduzione dichiarata del consumo di risorse — meno calore e meno impatto sulla batteria rispetto alla versione attuale, secondo quanto riportato da MacRumors. La feature, arrivata con iOS 18 come strumento per generare emoji personalizzate da un prompt testuale, guadagna ora una coerenza visiva piú solida tra generazioni diverse dello stesso personaggio.\n\n## Suggested Genmoji: l'emoji che arriva prima che tu la cerchi\n\nLa novitá piú interessante é il sistema di \"Suggested Genmoji\": Apple Intelligence analizza la cronologia di messaggi e contenuti multimediali sul dispositivo e propone Genmoji personalizzate nel momento in cui risultano contestualmente pertinenti — senza che l'utente debba formulare un prompt. É lo stesso meccanismo dei suggerimenti di risposta intelligente applicato alla creazione visiva. La feature si inserisce nel pattern piú ampio di Apple Intelligence come sistema proattivo, non reattivo.\n\n## Perché conta\n\nGenmoji ha avuto un lancio tiepido: generare un'emoji personalizzata richiede un'intenzione esplicita e qualche secondo di attesa, il che la rende un giocattolo occasionale piú che uno strumento integrato nella comunicazione quotidiana. I suggerimenti contestuali abbassano quella soglia di attrito. Se il sistema funziona con precisione sufficiente, Genmoji potrebbe diventare un differenziatore reale nella messaggistica — a patto che le proposte automatiche risultino pertinenti e non invasive.",
+      "bodyEn": "## A more efficient, more precise model\n\nApple announced a substantial Genmoji update for iOS 27 at the WWDC 2026 keynote. The underlying model has been renewed to produce higher-quality images, with a declared reduction in resource consumption — less heat and less battery impact compared to the current version, according to MacRumors. The feature, which arrived with iOS 18 as a tool for generating custom emoji from a text prompt, now gains stronger visual consistency across multiple generations of the same character.\n\n## Suggested Genmoji: the emoji that arrives before you search for it\n\nThe most interesting novelty is the \"Suggested Genmoji\" system: Apple Intelligence analyses the history of messages and media content on the device and proposes personalised Genmoji at contextually relevant moments — without the user needing to formulate a prompt. It is the same mechanism as smart reply suggestions applied to visual creation. The feature fits into the broader pattern of Apple Intelligence as a proactive, not reactive, system.\n\n## Why it matters\n\nGenmoji had a lukewarm launch: generating a custom emoji requires explicit intent and a few seconds of waiting, making it an occasional toy rather than a tool integrated into daily communication. Contextual suggestions lower that friction threshold. If the system works with sufficient precision, Genmoji could become a real differentiator in messaging — provided the automatic proposals turn out to be relevant and non-intrusive.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026: What to Expect",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027395+02:00"
+    },
+    {
+      "slug": "apple-intelligence-writing-tools-smart-reply-grammar-checker",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Writing Tools si espande: Smart Reply, correttore grammaticale e \"Scrivi con Siri\"",
+      "titleEn": "Writing Tools expands: Smart Reply, grammar checker, and \"Write with Siri\"",
+      "excerptIt": "iOS 27 porta Writing Tools ben oltre la riscrittura base: arriva un correttore grammaticale AI dedicato, risposte suggerite nel proprio stile di scrittura e un toggle \"Scrivi con Siri\" sopra la tastiera. L'obiettivo é ridurre il tempo che si passa a formulare testo.",
+      "excerptEn": "iOS 27 takes Writing Tools well beyond basic rewriting: a dedicated AI grammar checker arrives, Smart Reply suggestions in the user's own writing style, and a \"Write with Siri\" toggle above the keyboard. The goal is to reduce time spent formulating text.",
+      "bodyIt": "## Grammar checker nativo e menu trasparente\n\nApple ha annunciato al WWDC 2026 un correttore grammaticale AI che affianca il tradizionale controllo ortografico in iOS 27, iPadOS 27 e macOS Golden Gate. La novitá tecnica é che il sistema propone le correzioni in un menu traslucido che sale dal basso dello schermo, mostrando la revisione suggerita accanto al testo originale — una presentazione che rende visibile il ragionamento dell'AI invece di intervenire silenziosamente. Secondo MacRumors, il menu compare in Messages, Mail e in qualunque app con un campo di testo aperto.\n\n## Smart Reply nel proprio stile\n\nLa funzione Smart Reply — risposte suggerite contestualmente — viene aggiornata per tenere conto dello stile di scrittura personale dell'utente. Apple Intelligence non propone risposte generiche, ma impara dalla cronologia di messaggi e mail per calibrare tono, lunghezza e lessico. La funzione é parte di quella che wi-fiplanet chiama «systemwide automatic proofreading» nel riepilogo post-keynote.\n\n## \"Scrivi con Siri\" sopra la tastiera\n\nBloomberg aveva anticipato nei mesi scorsi un toggle \"Write with Siri\" nella barra sopra la tastiera, confermato ora con il keynote. Toccandolo con un campo di testo aperto, Siri AI apre un pannello per dettare o descrivere in linguaggio naturale cosa scrivere — traducendo l'intenzione in testo formattato. C'é anche l'opzione \"Help Me Write\" che si attiva quando Siri viene invocata direttamente su un campo di testo.\n\n## Perché conta\n\nL'estensione di Writing Tools da strumento di riscrittura a sistema di assistenza alla composizione é un cambio di posizionamento: Apple non interviene piú solo sul testo giá scritto, ma entra nel processo di scrittura stesso. Il rischio é la progressiva omologazione dei testi generati; il vantaggio, per chi scrive in una lingua non madre o sotto pressione di tempo, é concreto.",
+      "bodyEn": "## Native grammar checker and transparent menu\n\nApple announced a dedicated AI grammar checker at WWDC 2026, sitting alongside the traditional spell-checker in iOS 27, iPadOS 27, and macOS Golden Gate. The technical novelty is that the system presents corrections in a translucent menu that slides up from the bottom of the screen, showing the suggested revision next to the original text — a presentation that makes the AI's reasoning visible rather than intervening silently. According to MacRumors, the menu appears in Messages, Mail, and any app with an open text field.\n\n## Smart Reply in your own style\n\nThe Smart Reply feature — contextually suggested responses — is updated to account for the user's personal writing style. Apple Intelligence does not propose generic replies, but learns from message and email history to calibrate tone, length, and vocabulary. The feature is part of what wi-fiplanet calls \"systemwide automatic proofreading\" in its post-keynote summary.\n\n## \"Write with Siri\" above the keyboard\n\nBloomberg had anticipated a \"Write with Siri\" toggle in the bar above the keyboard, now confirmed by the keynote. Tapping it with a text field open, Siri AI opens a panel for dictating or describing in natural language what to write — translating intent into formatted text. There is also a \"Help Me Write\" option that activates when Siri is invoked directly on a text field.\n\n## Why it matters\n\nExtending Writing Tools from a rewriting tool to a composition-assistance system is a positioning shift: Apple is no longer intervening only on already-written text, but entering the writing process itself. The risk is progressive homogenisation of AI-generated text; the benefit, for those writing in a non-native language or under time pressure, is tangible.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026: What to Expect",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide – Apple Intelligence WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027399+02:00"
+    },
+    {
+      "slug": "ios-27-child-accounts-sistema-account-bambini",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Privacy e sicurezza",
+      "titleIt": "iOS 27 introduce i Child Accounts: protezioni di sistema legate all'etá",
+      "titleEn": "iOS 27 introduces Child Accounts: system-level age-linked protections",
+      "excerptIt": "Apple ha annunciato un sistema di account per minori separato dallo Screen Time: obbligatorio sotto i 13 anni, opzionale fino ai 18, abilita protezioni calibrate sull'etá in tutto il sistema operativo. I genitori controllano contatti, app e siti approvabili uno per uno.",
+      "excerptEn": "Apple has announced a child account system separate from Screen Time: mandatory under 13, optional up to 18, enabling age-calibrated system-wide protections. Parents can approve contacts, apps, and websites one by one.",
+      "bodyIt": "## Un livello di protezione che va oltre Screen Time\n\nApple ha presentato al keynote WWDC 2026 i Child Accounts per iOS 27, iPadOS 27 e macOS Golden Gate: un sistema di account specifici per minori che va oltre il semplice Screen Time introdotto negli anni precedenti. Secondo Engadget, gli account sono obbligatori per i bambini sotto i 13 anni e rimangono disponibili fino ai 18. A differenza dei profili Screen Time, i Child Accounts «abilitano protezioni in tutto il sistema, calibrate sull'etá del bambino», come afferma Apple stessa.\n\n## Cosa controllano i genitori\n\nL'interfaccia di configurazione é ridisegnata con un percorso guidato che propone set di app consigliate — essenziali, curate, o personalizzate per il singolo bambino. MacRumors dettaglia il pannello di controllo genitoriale: con \"Ask to Browse\" attivo, ogni nuovo sito visitato richiede approvazione esplicita del genitore; \"Ask to Buy\" si applica a download e acquisti in-app; c'é anche un controllo su chi il minore puó chiamare, scrivere su Messages e FaceTime, con la possibilitá di richiedere permesso prima di aggiungere un nuovo contatto.\n\n## Perché conta\n\nLa pressione regolamentare sui big tech in materia di tutela dei minori online si é intensificata in molti Paesi negli ultimi due anni. Apple risponde con un approccio strutturale — non solo filtri, ma un'identitá di sistema vincolata all'etá — che posiziona l'azienda favorevolmente rispetto alle normative emergenti. Il punto critico sará la facilitá d'uso reale: le protezioni genitoriali funzionano solo se i genitori le attivano, e la complessitá é stata storicamente il principale ostacolo all'adozione di Screen Time.",
+      "bodyEn": "## A level of protection that goes beyond Screen Time\n\nApple presented Child Accounts for iOS 27, iPadOS 27, and macOS Golden Gate at the WWDC 2026 keynote: a system of specific accounts for minors that goes beyond the Screen Time introduced in previous years. According to Engadget, accounts are mandatory for children under 13 and remain available up to 18. Unlike Screen Time profiles, Child Accounts \"enable safeguards across the system, tailored to the child's age,\" as Apple itself states.\n\n## What parents control\n\nThe setup interface is redesigned with a guided flow suggesting curated app sets — essential, curated, or personalised for the individual child. MacRumors details the parental control panel: with \"Ask to Browse\" enabled, every new website visited requires explicit parental approval; \"Ask to Buy\" applies to downloads and in-app purchases; there is also control over who the child can call, message on Messages and FaceTime, with the option to require permission before adding a new contact.\n\n## Why it matters\n\nRegulatory pressure on big tech regarding the protection of minors online has intensified in many countries over the past two years. Apple responds with a structural approach — not just filters, but a system identity tied to age — that positions the company favourably relative to emerging regulations. The critical point will be real-world ease of use: parental controls only work if parents activate them, and complexity has historically been the main barrier to Screen Time adoption.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 keynote coverage",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027407+02:00"
+    },
+    {
+      "slug": "apple-intelligence-app-actions-contesto-cross-app",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "App Actions: Apple Intelligence agisce tra le app senza chiedere permesso",
+      "titleEn": "App Actions: Apple Intelligence acts across apps without asking permission",
+      "excerptIt": "Con \"App Actions\" in iOS 27, Apple Intelligence puó eseguire operazioni in piú app in sequenza — suggerire un evento da un messaggio, trovare foto da una conversazione, avviare azioni contestuali — senza che l'utente avvii nulla manualmente. É l'automazione che Apple prometteva da WWDC 2024.",
+      "excerptEn": "With \"App Actions\" in iOS 27, Apple Intelligence can execute operations across multiple apps in sequence — suggest an event from a message, surface photos from a conversation, trigger contextual actions — without the user manually initiating anything. This is the automation Apple had been promising since WWDC 2024.",
+      "bodyIt": "## Dall'intenzione all'azione: il salto dell'agentic AI\n\nApple ha annunciato al keynote WWDC 2026 le App Actions come componente centrale di Apple Intelligence in iOS 27. Il sistema monitora il contenuto di messaggi, email e altre app per proporre azioni pertinenti nel momento in cui risultano utili: se qualcuno ti scrive di un appuntamento, Apple Intelligence suggerisce di creare un evento nel Calendario; se un amico chiede foto di un viaggio, il sistema porta a galla le immagini rilevanti e le rende pronte per la condivisione, secondo quanto riportato da Tom's Guide.\n\n## Consapevolezza contestuale e ricerca semantica\n\nLe App Actions si appoggiano su una ricerca semantica rifatta dalle fondamenta: Apple ha dichiarato di aver ricostruito l'infrastruttura di indicizzazione che alimenta Spotlight, Mail e Foto, rendendola piú stabile ed efficiente. Engadget riporta che la nuova infrastruttura inizia a indicizzare nuovi file «quasi immediatamente». Questo consente ad Apple Intelligence di localizzare foto usando dettagli citati in conversazioni — nomi di persone, luoghi, parole chiave — e di far emergere informazioni rilevanti da messaggi ed email al momento giusto.\n\n## Il confine tra utile e invasivo\n\nLe App Actions rappresentano il nucleo dell'approccio agentico di Apple: un sistema che non aspetta di essere interrogato, ma agisce in anticipo. La differenza con i concorrenti é che Apple promette di fare tutto questo on-device o tramite Private Cloud Compute, senza che i dati contestuali lascino la sfera personale dell'utente. Il rischio reale, come sempre con i sistemi proattivi, é il rumore: suggerimenti non pertinenti che creano piú distrazioni di quelle che eliminano. La qualitá dell'implementazione sará giudicabile solo con i beta.",
+      "bodyEn": "## From intent to action: the agentic AI leap\n\nApple announced App Actions as a core component of Apple Intelligence in iOS 27 at the WWDC 2026 keynote. The system monitors the content of messages, emails, and other apps to suggest relevant actions when they prove useful: if someone messages you about an appointment, Apple Intelligence suggests creating a Calendar event; if a friend asks for photos from a trip, the system surfaces the relevant images and makes them ready to share, according to Tom's Guide.\n\n## Contextual awareness and semantic search\n\nApp Actions rely on search infrastructure rebuilt from the ground up: Apple declared it rebuilt the indexing infrastructure powering Spotlight, Mail, and Photos, making it more stable and efficient. Engadget reports the new infrastructure begins indexing new files \"almost immediately.\" This enables Apple Intelligence to locate photos using details mentioned in conversations — names, places, keywords — and to surface relevant information from messages and emails at the right moment.\n\n## The line between useful and invasive\n\nApp Actions represent the core of Apple's agentic approach: a system that does not wait to be queried but acts in advance. The difference from competitors is that Apple promises to do all of this on-device or via Private Cloud Compute, without contextual data leaving the user's personal sphere. The real risk, as always with proactive systems, is noise: irrelevant suggestions that create more distraction than they eliminate. The quality of the implementation will only be assessable once betas are in people's hands.",
+      "sources": [
+        {
+          "title": "Tom's Guide – Apple Intelligence WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027415+02:00"
+    },
+    {
+      "slug": "ipados-27-produttivita-siri-ai-performance",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iPadOS 27: Siri AI, produttivitá e un taglio alla compatibilitá piú severo del solito",
+      "titleEn": "iPadOS 27: Siri AI, productivity updates, and a sharper compatibility cut than usual",
+      "excerptIt": "Apple ha presentato iPadOS 27 con gli stessi miglioramenti di performance e Apple Intelligence di iOS 27, ma con una lista di dispositivi supportati piú corta rispetto all'anno scorso. MacRumors descrive il taglio come «considerevolmente piú aggressivo» rispetto a iPadOS 26.",
+      "excerptEn": "Apple unveiled iPadOS 27 with the same performance and Apple Intelligence upgrades as iOS 27, but with a shorter supported-device list than last year. MacRumors describes the cut as \"considerably more aggressive\" than iPadOS 26.",
+      "bodyIt": "## Stessi muscoli, meno iPad supportati\n\nApple ha presentato iPadOS 27 durante il keynote WWDC 2026. Sul fronte delle funzionalitá, iPadOS 27 condivide con iOS 27 l'intera suite Apple Intelligence — App Actions, Writing Tools espanso, Smart Reply, Siri AI, Visual Intelligence — e i miglioramenti generali di performance: animazioni piú fluide, avvii piú rapidi, trasferimenti AirDrop con un incremento dichiarato dell'80 per cento, come riportato da TechCrunch. 9to5Mac segnala anche miglioramenti alla personalizzazione delle slideshow in Foto e al sistema di album condivisi.\n\n## Il taglio piú duro degli ultimi anni\n\nLa novitá piú scomoda é la lista di compatibilitá. MacRumors scrive che «iPadOS 27 rappresenta un taglio considerevolmente piú aggressivo lungo tutta la lineup iPad» rispetto all'anno precedente, in cui iPadOS 26 aveva escluso solo il settimo iPad di settima generazione. I dettagli completi sui modelli tagliati sono in fase di documentazione, ma il segnale é chiaro: chi ha un iPad relativamente recente ma non abbastanza da supportare i modelli di Apple Intelligence piú pesanti troverá in iPadOS 27 un aggiornamento parziale.\n\n## Perché conta\n\nIPad é stato storicamente il prodotto Apple con il ciclo di vita software piú lungo. Un taglio piú netto del solito segnala che i requisiti hardware di Apple Intelligence — in particolare il modello on-device piú potente, riservato ai «sistemi iPhone, iPad e Mac piú capaci», come ha precisato Apple durante il keynote — stanno alzando l'asticella minima necessaria. Per l'ecosistema professionale che si affida all'iPad come strumento di lavoro, la discontinuitá software anticipata é un fattore di costo reale.",
+      "bodyEn": "## Same muscles, fewer supported iPads\n\nApple unveiled iPadOS 27 at the WWDC 2026 keynote. On the features front, iPadOS 27 shares with iOS 27 the full Apple Intelligence suite — App Actions, expanded Writing Tools, Smart Reply, Siri AI, Visual Intelligence — and general performance improvements: smoother animations, faster launches, AirDrop transfers with a declared 80-per-cent increase, as reported by TechCrunch. 9to5Mac also notes improvements to slideshow customisation in Photos and to the shared albums system.\n\n## The sharpest cut in years\n\nThe most uncomfortable news is the compatibility list. MacRumors writes that \"iPadOS 27 represents a considerably more aggressive pruning across the entire iPad lineup\" compared to the previous year, when iPadOS 26 had only dropped the seventh-generation iPad. Full details on which models are cut are still being documented, but the signal is clear: those with a relatively recent but not recent enough iPad to support the heaviest Apple Intelligence models will find iPadOS 27 a partial update.\n\n## Why it matters\n\nThe iPad has historically been the Apple product with the longest software lifecycle. A sharper-than-usual cut signals that Apple Intelligence hardware requirements — particularly the most powerful on-device model, reserved for \"the most capable iPhone, iPad and Mac systems\" as Apple clarified during the keynote — are raising the minimum bar. For the professional ecosystem that relies on iPad as a work tool, the anticipated software discontinuity is a real cost factor.",
+      "sources": [
+        {
+          "title": "9to5Mac – Apple unveils iPadOS 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-unveils-ipados-27-with-new-siri-productivity-upgrades-more/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 keynote coverage",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027423+02:00"
+    },
+    {
+      "slug": "apple-intelligence-call-context-telefonate-ai",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Call Context: Apple Intelligence sa di cosa parla la telefonata in corso",
+      "titleEn": "Call Context: Apple Intelligence knows what your ongoing call is about",
+      "excerptIt": "Con Call Context in iOS 27, Apple Intelligence mostra durante una chiamata telefonica informazioni contestuali pertinenti — dettagli sui contatti, email o messaggi correlati — senza che l'utente debba cercarli manualmente. Un assistente silenzioso attivo mentre parli.",
+      "excerptEn": "With Call Context in iOS 27, Apple Intelligence surfaces contextually relevant information during a phone call — contact details, related emails or messages — without the user having to search manually. A silent assistant active while you talk.",
+      "bodyIt": "## Cosa fa Call Context\n\nApple ha annunciato Call Context come una delle funzionalitá Apple Intelligence in iOS 27 mostrate durante il keynote WWDC 2026. Il sistema analizza la telefonata in corso e il contenuto del dispositivo per portare a schermo informazioni pertinenti: dati del contatto, conversazioni precedenti via messaggi o email, dettagli rilevanti legati al contesto della chiamata. Il tutto avviene on-device, senza che l'audio venga inviato a server remoti, in linea con l'approccio privacy-first dichiarato da Apple per Apple Intelligence.\n\n## Il contesto piú ampio: il telefono che capisce\n\nCall Context si inserisce in un aggiornamento piú ampio dell'app Telefono per iOS 27 che include, tra le altre cose, la trascrizione in tempo reale delle chiamate e la possibilitá per Siri AI di interagire con il contenuto della conversazione. Tom's Guide descrive questa direzione come parte dello sforzo di Apple di «gestire le chiamate telefoniche» tramite AI, riducendo la necessitá di prendere appunti o cercare informazioni mentre si é impegnati in una conversazione.\n\n## Perché conta\n\nCall Context é un caso d'uso dove l'AI aggiunge valore in modo misurabile e non invadente: non parla, non interrompe, ma porta a schermo quello che altrimenti richiederebbe di uscire dalla chiamata per cercare. Il parallelo con strumenti enterprise come Otter.ai o i meeting assistant di Microsoft Teams é diretto — Apple lo porta a livello di sistema operativo nativo, rendendolo disponibile su qualunque chiamata, non solo su piattaforme di videoconferenza.",
+      "bodyEn": "## What Call Context does\n\nApple announced Call Context as one of the Apple Intelligence features in iOS 27 shown during the WWDC 2026 keynote. The system analyses the ongoing call and device content to surface relevant information on screen: contact data, previous message or email conversations, details relevant to the call's context. All of this happens on-device, without audio being sent to remote servers, in line with Apple's declared privacy-first approach for Apple Intelligence.\n\n## The broader context: the phone that understands\n\nCall Context is part of a broader update to the Phone app for iOS 27 that includes, among other things, real-time call transcription and the ability for Siri AI to interact with the content of the conversation. Tom's Guide describes this direction as part of Apple's effort to \"handle phone calls\" via AI, reducing the need to take notes or search for information while engaged in a conversation.\n\n## Why it matters\n\nCall Context is a use case where AI adds measurable, non-intrusive value: it does not speak, does not interrupt, but surfaces on screen what would otherwise require leaving the call to search. The parallel with enterprise tools like Otter.ai or Microsoft Teams meeting assistants is direct — Apple brings it to the level of the native OS, making it available on any call, not just on video-conferencing platforms.",
+      "sources": [
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide – Apple Intelligence WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:19:21.027432+02:00"
+    },
     {
       "slug": "passwords-agentic-ai-cambio-automatico",
       "macroArea": "privacy-sicurezza",
