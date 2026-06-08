@@ -11,3 +11,4 @@ intros_data.py
 build.py
 update_news.py
 _adapt_build.py
+notify_items.json

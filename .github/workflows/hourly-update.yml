@@ -38,11 +38,7 @@ jobs:
           python update_news.py | tee run.log
           SUMMARY_LINE="$(grep -E '^SUMMARY::' run.log | tail -1 || true)"
           COUNT="$(echo "$SUMMARY_LINE" | awk -F'::' '{print $2}')"
-          TITLES="$(echo "$SUMMARY_LINE" | cut -d':' -f5-)"
           echo "count=${COUNT:-0}" >> "$GITHUB_OUTPUT"
-          # i titoli sono generati dal modello: li passo come file artefatto,
-          # non per interpolazione inline (evita problemi con caratteri speciali).
-          printf '%s' "$TITLES" > titles.txt
 
       - name: Commit & push
         id: commit
@@ -53,7 +49,6 @@ jobs:
           git config user.email "kairos@biolatti.it"
           # non versionare i file di lavoro del run
           rm -f run.log
-          git rm --cached titles.txt >/dev/null 2>&1 || true
           git add -A
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -64,16 +59,41 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Notifica Telegram
+      - name: Posta sul canale Telegram
         if: steps.run.outputs.count != '0' && steps.commit.outputs.changed == 'true'
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
-          COUNT: ${{ steps.run.outputs.count }}
         run: |
-          TITLES="$(cat titles.txt)"
-          TEXT="WWDC 2026 — ${COUNT} nuovi annunci pubblicati su wwdc2026.biolatti.it"$'\n\n'"${TITLES}"
-          curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
-            --data-urlencode "chat_id=${TG_CHAT}" \
-            --data-urlencode "text=${TEXT}" \
-            --data "disable_web_page_preview=true" > /dev/null
+          # Un messaggio per articolo: titolo + estratto + link pubblico.
+          # L'anteprima del link e attiva, cosi il canale mostra la card della pagina.
+          python3 - <<'PY'
+          import json, os, time, urllib.parse, urllib.request, urllib.error
+
+          token = os.environ.get("TG_TOKEN", "")
+          chat = os.environ.get("TG_CHAT", "")
+          if not token or not chat:
+              print("Secret Telegram mancanti: skip notifica.")
+              raise SystemExit(0)
+
+          try:
+              items = json.load(open("notify_items.json", encoding="utf-8"))
+          except FileNotFoundError:
+              items = []
+
+          for it in items:
+              text = f"{it['title']}\n\n{it['excerpt']}\n\n{it['url']}"
+              data = urllib.parse.urlencode({
+                  "chat_id": chat,
+                  "text": text,
+                  "disable_web_page_preview": "false",
+              }).encode()
+              url = f"https://api.telegram.org/bot{token}/sendMessage"
+              try:
+                  with urllib.request.urlopen(url, data=data, timeout=30) as r:
+                      r.read()
+                  print("Postato:", it["title"])
+              except urllib.error.HTTPError as e:
+                  print("Errore Telegram:", e.code, e.read().decode("utf-8", "replace")[:200])
+              time.sleep(1)  # rispetta i rate limit del canale
+          PY

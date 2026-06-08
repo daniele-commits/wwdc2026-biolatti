@@ -41,6 +41,8 @@ API_URL = "https://api.anthropic.com/v1/messages"
 API_VERSION = "2023-06-01"
 MODEL = os.environ.get("WWDC_MODEL") or "claude-sonnet-4-6"
 MAX_NEW = int(os.environ.get("WWDC_MAX_NEW") or "8")
+SITE_URL = "https://wwdc2026.biolatti.it"
+NOTIFY_FILE = os.path.join(BASE_DIR, "notify_items.json")
 TZ = timezone(timedelta(hours=2))  # Europe/Rome estate (CEST)
 
 VALID_MACRO = {
@@ -239,6 +241,15 @@ def main():
     if r.returncode != 0:
         fail(f"build.py fallito: {r.stderr[-500:]}")
     log(r.stdout.strip().splitlines()[-1] if r.stdout.strip() else "build ok")
+
+    # Dati per il canale Telegram: un oggetto per articolo (titolo, estratto, link pubblico).
+    notify = [
+        {"title": it["titleIt"], "excerpt": it.get("excerptIt", ""),
+         "url": f"{SITE_URL}/{it['slug']}.html"}
+        for it in added
+    ]
+    with open(NOTIFY_FILE, "w", encoding="utf-8") as f:
+        json.dump(notify, f, ensure_ascii=False)
 
     titles = " | ".join(it["titleIt"] for it in added)
     for it in added:

@@ -4,3 +4,4 @@ __pycache__/
 run.log
 titles.txt
 _adapt_build.py
+notify_items.json
