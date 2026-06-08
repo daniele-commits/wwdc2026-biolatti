@@ -1,9 +1,244 @@
 {
-  "lastUpdate": "2026-06-08T22:28:33.983440+02:00",
+  "lastUpdate": "2026-06-08T23:04:47.874971+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "airpods-eq-personalizzato-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "AirPods: arriva l'equalizzatore personalizzato con iOS 27",
+      "titleEn": "AirPods get custom EQ with iOS 27",
+      "excerptIt": "Per la prima volta gli AirPods supporteranno profili audio personalizzati via equalizzatore. Una funzione attesa da anni che arriva finalmente come aggiornamento software gratuito.",
+      "excerptEn": "For the first time, AirPods will support user-defined EQ profiles. A long-awaited feature arriving as a free software update with iOS 27.",
+      "bodyIt": "## Finalmente un EQ sugli AirPods\n\nTra gli annunci di contorno del keynote WWDC 2026 ce n'è uno che rischia di passare inosservato rispetto alla mole di notizie su Siri AI, ma che interessa milioni di utenti quotidiani: gli AirPods riceveranno un equalizzatore personalizzabile. Lo confermano TechRadar e Engadget nei rispettivi live blog dell'evento.\n\nFinora la riproduzione audio degli AirPods era vincolata al profilo sonoro scelto da Apple in fase di produzione, con l'unica eccezione dell'Adaptive EQ introdotto con AirPods Pro — ma non configurabile dall'utente. Con iOS 27, chiunque potrà impostare un profilo audio su misura direttamente dalle Impostazioni, scegliendo le frequenze preferite per musica, podcast o telefonate.\n\n## Perché conta\n\nIn un mercato dove i concorrenti Android offrono da tempo EQ granulari sugli auricolari di punta, Apple aveva lasciato un vuoto evidente. La mossa non è sorprendente, ma è benvenuta: significa che la qualità d'ascolto percepita potrà variare sensibilmente in base alle preferenze individuali, senza dover acquistare hardware diverso. Resta da vedere se il controllo sarà granulare come quello offerto da Sony o Samsung, o si limiterà a pochi preset — Apple non ha ancora fornito dettagli tecnici precisi.",
+      "bodyEn": "## Custom EQ comes to AirPods at last\n\nAmong the quieter announcements at WWDC 2026, one stands out for everyday listeners: AirPods will finally support user-configurable EQ profiles. TechRadar and Engadget both flagged the feature during their live keynote coverage.\n\nUntil now, AirPods audio output was locked to Apple's factory-tuned profile, with Adaptive EQ on AirPods Pro being the only exception — and not user-adjustable. With iOS 27, users will be able to set a custom sound profile directly in Settings, shaping frequencies to their preference for music, podcasts, or calls.\n\n## Why it matters\n\nAndroid competitors have offered granular per-model EQ on premium earbuds for years. Apple's move closes a gap that audiophile-minded users have complained about since the original AirPods launched in 2016. The key open question is whether Apple will offer full-band control or just a handful of presets — technical specifics were not disclosed at the keynote.",
+      "sources": [
+        {
+          "title": "TechRadar – WWDC 2026 live",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget – WWDC 2026 live blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874899+02:00"
+    },
+    {
+      "slug": "salute-perimenopausa-menopausa-health-ios-27",
+      "macroArea": "salute-benessere",
+      "tags": [
+        "salute"
+      ],
+      "category": "Salute e Benessere",
+      "titleIt": "Health app iOS 27: tracciamento per perimenopausa e menopausa",
+      "titleEn": "iOS 27 Health app adds perimenopause and menopause tracking",
+      "excerptIt": "Apple espande il monitoraggio della salute femminile portando nella app Salute il tracciamento dedicato a perimenopausa e menopausa, colmando un vuoto significativo nella piattaforma.",
+      "excerptEn": "Apple expands women's health tracking in the Health app with dedicated perimenopause and menopause support, addressing a notable gap in its health platform.",
+      "bodyIt": "## Una nuova area di salute femminile\n\nDurante il keynote WWDC 2026, Apple ha annunciato che l'app Salute riceverà il supporto per il tracciamento di perimenopausa e menopausa con iOS 27. Lo riportano Engadget e Investing.com nella loro copertura dell'evento. Si tratta di un ampliamento diretto dell'impegno di Apple nella salute femminile, già avviato con il ciclo mestruale e la fertilità negli anni precedenti.\n\nLa transizione menopausale riguarda circa 1,1 miliardi di persone nel mondo entro il 2025 secondo le stime dell'OMS, eppure è rimasta storicamente sottorappresentata nelle piattaforme di salute digitale. Apple non ha dettagliato le specifiche metriche tracciabili (vampate, variazioni del sonno, sintomi emotivi), ma la categoria è ora esplicitamente parte dell'ecosistema Salute.\n\n## Il quadro più ampio\n\nL'annuncio si inserisce in un filone coerente: Apple ha progressivamente trasformato l'app Salute in un punto di riferimento clinico, integrando dati da Apple Watch e collaborando con università e ospedali. L'aggiunta della menopausa colma un vuoto che altre piattaforme come Google Health e Samsung Health avevano già iniziato ad affrontare. La qualità e l'utilità clinica reale della funzione dipenderanno dai dettagli tecnici e dalle integrazioni con professionisti sanitari, che Apple chiarirà nelle sessioni sviluppatori di questa settimana.",
+      "bodyEn": "## Women's health expands in iOS 27\n\nApple announced at WWDC 2026 that the Health app will gain dedicated perimenopause and menopause tracking with iOS 27, as reported by Engadget and Investing.com during their live event coverage. The move extends Apple's multi-year investment in women's health features, which began with menstrual cycle and fertility tracking.\n\nMenopause transition affects an estimated 1.1 billion people worldwide, yet it has historically been underrepresented in consumer health platforms. Apple has not yet detailed the specific metrics available for tracking — hot flashes, sleep disruption, mood changes — but the category is now explicitly part of the Health ecosystem.\n\n## Context\n\nThis fits a broader pattern: Apple has steadily built the Health app into a clinically credible platform, integrating Apple Watch sensor data and partnering with academic medical centers. The real-world clinical value will depend on technical specifics Apple is expected to share during developer sessions later this week.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 live blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Investing.com – Apple previews new AI features and parental controls",
+          "url": "https://www.investing.com/news/company-news/apple-previews-new-ai-features-and-parental-controls-at-wwdc-93CH-4731289"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874921+02:00"
+    },
+    {
+      "slug": "maps-flyover-rinnovato-immagini-dettaglio",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Maps: Flyover rinnovato con immagini aeree molto piú dettagliate",
+      "titleEn": "Apple Maps: Flyover upgraded with far more detailed aerial imagery",
+      "excerptIt": "Apple ha annunciato un significativo aggiornamento a Flyover in Apple Maps, con immagini aeree di qualitá nettamente superiore per le cittá supportate.",
+      "excerptEn": "Apple announced a significant upgrade to Flyover in Apple Maps, delivering substantially higher-quality aerial imagery for supported cities.",
+      "bodyIt": "## Flyover cresce di qualitá\n\nNel corso del keynote WWDC 2026, Apple ha mostrato un aggiornamento considerevole di Flyover, la modalitá di esplorazione aerea tridimensionale di Apple Maps. Secondo la copertura live di MacRumors e Engadget, le immagini e i filmati delle cittá saranno significativamente piú dettagliati e fedeli rispetto alla versione attuale.\n\nFlyover esiste da oltre un decennio, introdotto con iOS 6 nel 2012 come risposta visiva agli Street View di Google. Nel corso degli anni Apple ha espanso la copertura geografica, ma la qualitá visiva aveva subito aggiornamenti discontinui. L'annuncio al WWDC 2026 suggerisce un lavoro piú sistematico sul dato cartografico aereo.\n\n## Un aggiornamento silenzioso ma utile\n\nApple Maps ha recuperato terreno rispetto a Google Maps negli ultimi anni, soprattutto in termini di dati locali e integrazione con Siri. Un Flyover piú nitido rafforza l'argomento a favore dell'uso di Maps come strumento di pianificazione e navigazione. La funzione resta comunque secondaria rispetto alle novitá AI del keynote, ma rappresenta un miglioramento concreto per chi usa Maps anche come strumento di esplorazione visiva.",
+      "bodyEn": "## Flyover gets a quality upgrade\n\nAt WWDC 2026, Apple showcased a notable improvement to Flyover, the three-dimensional aerial exploration mode in Apple Maps. Live coverage from MacRumors and Engadget indicates that city imagery and footage will be noticeably sharper and more detailed than the current version.\n\nFlyover has existed for over a decade, introduced with iOS 6 in 2012 as a visual counterpart to Google's Street View. Apple has expanded geographic coverage over the years, but visual quality updates have been inconsistent. The WWDC 2026 announcement suggests a more systematic effort to refresh the underlying aerial data.\n\n## A quiet but useful improvement\n\nApple Maps has closed the gap with Google Maps significantly in recent years, particularly in local data accuracy and Siri integration. A sharper Flyover strengthens the case for Maps as both a navigation and visual exploration tool. The feature remains secondary to the AI announcements that dominated the keynote, but represents a tangible improvement for users who rely on Maps for more than turn-by-turn directions.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 live coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – WWDC 2026 live blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Investing.com – Apple previews new AI features",
+          "url": "https://www.investing.com/news/company-news/apple-previews-new-ai-features-and-parental-controls-at-wwdc-93CH-4731289"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874928+02:00"
+    },
+    {
+      "slug": "siri-ai-voci-personalizzabili-passo-espressivita",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI: voci personalizzabili con passo e livello di espressivitá",
+      "titleEn": "Siri AI: customizable voices with adjustable pace and expressivity",
+      "excerptIt": "Con Siri AI, Apple introduce voci che suonano piú naturali e parametri di personalizzazione inediti: l'utente puó regolare il ritmo della voce e il suo grado di espressivitá conversazionale.",
+      "excerptEn": "With Siri AI, Apple introduces more natural-sounding voices and new customization parameters: users can adjust voice pace and degree of conversational expressivity.",
+      "bodyIt": "## Una voce che suona come una persona\n\nTra i dettagli specifici di Siri AI annunciati al WWDC 2026 che meritano attenzione c'é la nuova gestione della voce. Variety e TechRadar riportano che Apple introdurrá voci sintetiche progettate per suonare piú naturali rispetto alle tradizionali voci di Siri, con due nuovi parametri che l'utente potrá regolare: il passo (quanto velocemente parla l'assistente) e il livello di espressivitá (quanto la voce varia in tono e intensitá durante la conversazione).\n\nQuesto aspetto é distinto dalla semplice scelta di una voce maschile o femminile, che esisteva giá. La novitá sta nel rendere l'assistente adattabile allo stile conversazionale dell'utente: chi preferisce risposte brevi e rapide e chi vuole un'interazione piú distesa potranno configurare l'esperienza di conseguenza.\n\n## La posta in gioco\n\nLa qualitá percepita di un assistente vocale é fortemente legata alla naturalezza della sua voce. Amazon e Google hanno investito molto in questa direzione, e l'arrivo di modelli neurali di sintesi vocale ha alzato le aspettative. Apple é arrivata piú tardi su questo fronte rispetto ad alcuni concorrenti, ma la scelta di esporre i parametri di pace ed espressivitá come controlli espliciti suggerisce che la qualitá del parlato é ora una prioritá di prodotto esplicita, non solo una caratteristica tecnica.",
+      "bodyEn": "## A voice that sounds like a person\n\nAmong the specific Siri AI details announced at WWDC 2026 worth noting is its new approach to voice. Variety and TechRadar report that Apple will introduce synthetic voices designed to sound more natural than traditional Siri voices, with two new user-adjustable parameters: pace (how fast the assistant speaks) and expressivity (how much the voice varies in tone and intensity during conversation).\n\nThis is distinct from simply choosing a male or female voice, which already existed. The novelty lies in allowing the assistant to adapt to the user's conversational style: those who prefer quick, concise responses and those who want a more relaxed interaction can configure the experience accordingly.\n\n## What's at stake\n\nThe perceived quality of a voice assistant is closely tied to how natural its voice sounds. Amazon and Google have invested heavily here, and the arrival of neural text-to-speech models has raised the bar. Apple is arriving later than some competitors on this specific front, but exposing pace and expressivity as explicit user controls signals that voice quality is now an explicit product priority.",
+      "sources": [
+        {
+          "title": "Variety – Apple Unveils Siri AI",
+          "url": "https://variety.com/2026/digital/news/apple-siri-ai-wwdc26-announcements-1236769265/"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 live",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874940+02:00"
+    },
+    {
+      "slug": "siri-ai-eu-blocco-ios-ipadOS-disponibile-macos-visionos-watchos",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Siri AI e UE: bloccata su iPhone e iPad, disponibile su Mac, Apple Watch e Vision Pro",
+      "titleEn": "Siri AI and EU: blocked on iPhone and iPad, available on Mac, Apple Watch and Vision Pro",
+      "excerptIt": "Apple chiarisce la mappa geografica di Siri AI in Europa: il DMA blocca il lancio su iOS e iPadOS nell'UE, ma macOS Golden Gate, watchOS 27 e visionOS 27 non sono soggetti allo stesso vincolo regolatorio.",
+      "excerptEn": "Apple clarifies the geographic rollout of Siri AI in Europe: the DMA blocks launch on iOS and iPadOS in the EU, but macOS Golden Gate, watchOS 27 and visionOS 27 are not subject to the same regulatory constraint.",
+      "bodyIt": "## Una distinzione importante che passava in secondo piano\n\nL'annuncio del blocco di Siri AI nell'Unione Europea aveva giá ricevuto ampio spazio, ma un dettaglio cruciale merita un articolo dedicato: il blocco non é uniforme su tutti i sistemi operativi Apple. MacRumors e Engadget precisano che Siri AI non sará disponibile su iOS 27 e iPadOS 27 nell'UE per ragioni legate al Digital Markets Act, ma lo sará su macOS Golden Gate, visionOS 27 e watchOS 27 anche per gli utenti europei.\n\nLa distinzione tecnica e legale é rilevante. Il DMA classifica iOS come \"gatekeeper\" in modo diretto, e impone alle piattaforme di consentire l'accesso di sistemi AI di terze parti con permessi ampi. Apple sostiene che questa interpretazione renderebbe impossibile garantire la privacy degli utenti, citando ricerche di sicurezza che dimostrano come i sistemi AI possano essere dirottati per sottrarre dati personali. La Commissione Europea ha rifiutato tutte le proposte di Apple, compresa la soluzione tecnica chiamata \"Trusted System Agent\".\n\n## Cosa significa in pratica per gli utenti europei\n\nUn utente nell'UE con iPhone 16 Pro non avra accesso a nessuna delle funzionalitá core di Siri AI — la conversazione contestuale, la Visual Intelligence nella Camera, la scrittura assistita — sul proprio smartphone o tablet. Potrebbe tuttavia usarle sul Mac o sull'Apple Watch. Questa frammentazione geografica e di piattaforma é senza precedenti nella storia di Apple e crea una situazione paradossale: lo stesso account iCloud, lo stesso Apple ID, ma esperienze radicalmente diverse a seconda del dispositivo. Anche gli sviluppatori EU sono colpiti: non potranno testare né integrare le nuove API di Siri AI nelle app per iPhone e iPad.",
+      "bodyEn": "## A critical distinction that was getting lost\n\nThe announcement of Siri AI's EU block had already received wide coverage, but a crucial detail deserves its own article: the block is not uniform across all Apple operating systems. MacRumors and Engadget clarify that Siri AI will not be available on iOS 27 and iPadOS 27 in the EU due to the Digital Markets Act, but it will be available on macOS Golden Gate, visionOS 27, and watchOS 27 even for European users.\n\nThe technical and legal distinction is significant. The DMA designates iOS as a direct gatekeeper and requires platforms to grant broad access permissions to third-party AI systems. Apple argues this interpretation would make user privacy guarantees impossible, citing security research showing AI systems can be hijacked to steal personal data. The European Commission rejected all of Apple's proposals, including a technical solution called \"Trusted System Agent.\"\n\n## What this means in practice for European users\n\nAn EU user with an iPhone 16 Pro will have no access to any of the core Siri AI features — contextual conversation, Camera Visual Intelligence, assisted writing — on their smartphone or tablet. They could, however, use them on their Mac or Apple Watch. This geographic and platform fragmentation is unprecedented in Apple's history and creates a paradoxical situation: the same iCloud account, the same Apple ID, but radically different experiences depending on the device. EU developers are also affected: they will be unable to test or integrate the new Siri AI APIs into their iPhone and iPad apps.",
+      "sources": [
+        {
+          "title": "MacRumors – Siri AI not available in EU and China",
+          "url": "https://www.macrumors.com/2026/06/08/siri-ai-not-available-eu-china/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar – iOS 27 and Siri AI compatibility",
+          "url": "https://www.techradar.com/phones/ios/ios-27-and-siri-ai-compatibility-explained-confirmed-device-requirements-for-apples-new-software-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874947+02:00"
+    },
+    {
+      "slug": "watchos-27-compatibilita-serie-tagliate-series-10-ultra2-se3",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "watchOS 27: sei Apple Watch tagliati fuori, sopravvivono Series 10, Ultra 2 e SE 3",
+      "titleEn": "watchOS 27: six Apple Watch models dropped, Series 10, Ultra 2 and SE 3 survive",
+      "excerptIt": "Apple ha confermato la lista di compatibilitá di watchOS 27: solo Apple Watch Series 10 e successivi, Ultra 2 e SE (3a generazione) riceveranno l'aggiornamento, lasciando fuori sei modelli attualmente in vendita.",
+      "excerptEn": "Apple has confirmed the watchOS 27 compatibility list: only Apple Watch Series 10 and later, Ultra 2 and SE (3rd generation) will receive the update, dropping six currently sold models.",
+      "bodyIt": "## I tagli piú severi sono sul polso\n\nMentre iOS 27 ha sorpreso positivamente non lasciando fuori nessun iPhone rispetto alla generazione precedente, watchOS 27 racconta una storia diversa. TechRadar riporta che Apple Watch Series 10, Ultra 2, Ultra 3 e SE (3a generazione) sono i modelli compatibili con watchOS 27, escludendo di fatto sei modelli di generazione corrente o recente.\n\nLa compatibilitá confermata da Engadget indica che Siri AI su watchOS richiede Apple Watch Series 10 o successivi, Apple Watch Ultra 2 o successivi, e Apple Watch SE (3a generazione) accoppiato a un iPhone con Apple Intelligence. I modelli Series 9 e precedenti non ricevono il supporto completo.\n\n## Perché i tagli sull'orologio sono piú rapidi\n\nApple Watch ha un ciclo di aggiornamento hardware mediamente piú aggressivo di iPhone proprio perché l'elaborazione AI on-device richiede chip recenti. La scelta di tagliare Serie 9 e precedenti puó sembrare brusca, ma riflette i requisiti hardware delle funzionalitá di Siri AI contestuale. Chi usa un Apple Watch Series 9 continuerá a ricevere aggiornamenti di sicurezza, ma l'ecosistema AI dell'orologio resta inaccessibile. É un promemoria che il ritmo di obsolescenza dell'Apple Watch resta piú veloce di quello degli iPhone.",
+      "bodyEn": "## The steepest cuts are on the wrist\n\nWhile iOS 27 surprised positively by not dropping any iPhone compared to the previous generation, watchOS 27 tells a different story. TechRadar reports that Apple Watch Series 10, Ultra 2, Ultra 3, and SE (3rd generation) are the compatible models for watchOS 27, effectively excluding six recent or current-generation models.\n\nEngadget's confirmed compatibility indicates that Siri AI on watchOS requires Apple Watch Series 10 or later, Apple Watch Ultra 2 or later, and Apple Watch SE (3rd generation) paired with an Apple Intelligence-enabled iPhone. Series 9 and earlier models do not receive full support.\n\n## Why watch cuts come faster\n\nApple Watch has a more aggressive hardware refresh cycle than iPhone precisely because on-device AI processing demands recent chips. Cutting Series 9 and earlier may feel abrupt but reflects the hardware requirements for contextual Siri AI. Series 9 users will continue to receive security updates, but the watch's AI ecosystem remains out of reach. It's a reminder that the Apple Watch obsolescence pace remains faster than that of iPhones.",
+      "sources": [
+        {
+          "title": "TechRadar – iOS 27 and Siri AI compatibility",
+          "url": "https://www.techradar.com/phones/ios/ios-27-and-siri-ai-compatibility-explained-confirmed-device-requirements-for-apples-new-software-updates"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "ETV Bharat – WWDC 2026 Highlights",
+          "url": "https://www.etvbharat.com/en/technology/apple-wwdc-2026-highlights-ios-27-macos-golden-gate-revamped-siri-ai-more-enn26060900149"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874954+02:00"
+    },
+    {
+      "slug": "tvos-27-podcasts-redesign-nuove-funzioni",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "tvOS 27: l'app Podcasts viene riprogettata, nuove funzioni per Apple TV",
+      "titleEn": "tvOS 27: Podcasts app redesigned, new features for Apple TV",
+      "excerptIt": "tvOS 27 porta una versione riprogettata dell'app Podcasts e un insieme di nuove funzionalitá per Apple TV, confermando che la piattaforma televisiva non é stata dimenticata nel keynote.",
+      "excerptEn": "tvOS 27 brings a redesigned Podcasts app and a set of new features to Apple TV, confirming the television platform was not forgotten in the keynote.",
+      "bodyIt": "## tvOS resta nell'ecosistema\n\nIl keynote WWDC 2026 é stato dominato da Siri AI e dalle novitá di iOS, al punto che Engadget ha annotato nella sua diretta come non ci fosse un momento dedicato esplicitamente a watchOS o tvOS. Eppure tvOS 27 esiste e porta almeno un aggiornamento degno di nota: l'app Podcasts é stata riprogettata, come confermano ETV Bharat e il live blog di Engadget.\n\nApple non ha dettagliato in keynote le specifiche del redesign di Podcasts su tvOS, ma la mossa é coerente con il generale lavoro di rifinitura che ha interessato l'app su iOS e macOS negli ultimi anni. tvOS 27 include anche «diverse nuove funzionalitá» non meglio specificate nel keynote, che saranno probabilmente approfondite nelle sessioni sviluppatori dei giorni successivi.\n\n## Il ruolo di Apple TV nell'ecosistema AI\n\nApple TV é il dispositivo piú lontano dall'integrazione con Siri AI contestuale, per ovvie ragioni di utilizzo (schermo condiviso, nessuna camera, interazione prevalentemente passiva). tvOS 27 adotta Liquid Glass e riceve miglioramenti di sistema, ma non é al centro della narrazione AI di questo WWDC. Resta un dispositivo solido per lo streaming e come hub HomeKit, ma il gap di funzionalitá rispetto agli altri sistemi Apple continua ad ampliarsi.",
+      "bodyEn": "## tvOS remains in the ecosystem\n\nThe WWDC 2026 keynote was dominated by Siri AI and iOS news, to the point where Engadget noted in its live blog that there was no explicitly dedicated moment for watchOS or tvOS. Yet tvOS 27 exists and brings at least one noteworthy update: the Podcasts app has been redesigned, as confirmed by ETV Bharat and the Engadget live blog.\n\nApple did not detail the specifics of the Podcasts redesign on tvOS during the keynote, but the move is consistent with the general refinement work that has affected the app on iOS and macOS in recent years. tvOS 27 also includes \"several new features\" not further specified in the keynote, which will likely be elaborated in developer sessions over the coming days.\n\n## Apple TV's role in the AI ecosystem\n\nApple TV is the device farthest from contextual Siri AI integration, for obvious reasons of use (shared screen, no camera, predominantly passive interaction). tvOS 27 adopts Liquid Glass and receives system improvements, but is not at the center of this WWDC's AI narrative. It remains a solid streaming device and HomeKit hub, but the feature gap relative to other Apple systems continues to widen.",
+      "sources": [
+        {
+          "title": "ETV Bharat – WWDC 2026 Highlights",
+          "url": "https://www.etvbharat.com/en/technology/apple-wwdc-2026-highlights-ios-27-macos-golden-gate-revamped-siri-ai-more-enn26060900149"
+        },
+        {
+          "title": "Engadget – WWDC 2026 live blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874960+02:00"
+    },
+    {
+      "slug": "ios-27-performance-boost-numeri-concreti-30-70-80-percento",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 performance: app 30% piú veloci, foto 70%, AirDrop 80%",
+      "titleEn": "iOS 27 performance: apps 30% faster, photos 70%, AirDrop 80%",
+      "excerptIt": "Apple ha comunicato i numeri concreti delle ottimizzazioni di iOS 27: avvio delle app fino al 30% piú rapido, caricamento delle foto al 70% e trasferimenti AirDrop con un incremento dell'80%.",
+      "excerptEn": "Apple shared concrete performance numbers for iOS 27: app launch up to 30% faster, photo loading 70% quicker, and AirDrop transfers up 80% in speed.",
+      "bodyIt": "## I numeri dietro al \"piú veloce\"\n\nApple ha la consuetudine di annunciare miglioramenti di performance in termini percentuali durante i keynote, ma le cifre di iOS 27 sono piú specifiche del solito. Tom's Guide e MacDailyNews riportano i dati comunicati sul palco da Craig Federighi: le app si avviano fino al 30% piú velocemente, le foto appaiono nel rullino fino al 70% piú in fretta dopo lo scatto, e AirDrop registra un miglioramento dell'80% nella velocitá di trasferimento.\n\nIl meccanismo principale alla base di questi guadagni é un intervento sul CPU scheduler — il componente che decide come distribuire i carichi di lavoro tra i core del processore. Apple sostiene di aver ottimizzato questo layer in modo da ridurre la latenza su tutti i modelli supportati, iPhone 11 incluso. Il trasferimento WiFi/cellulare é stato anch'esso migliorato, con transizioni piú fluide tra reti.\n\n## \"Anno di rifinitura\" nei numeri\n\nQueste cifre descrivono bene la filosofia di iOS 27: non un grande redesign o un'ondata di funzionalitá inedite, ma un lavoro sistematico sull'infrastruttura. Per chi usa iPhone 11 o modelli intermedi, il guadagno percepito potrebbe essere sensibile, specialmente nell'uso quotidiano. Per chi ha giá un iPhone 16, l'effetto potrebbe essere meno drammatico. In ogni caso, i miglioramenti di AirDrop e del caricamento delle foto sono trasversali e riguardano tutti gli utenti supportati.",
+      "bodyEn": "## The numbers behind \"faster\"\n\nApple has a habit of announcing performance improvements in percentage terms during keynotes, but iOS 27's figures are more specific than usual. Tom's Guide and MacDailyNews report the numbers shared from the stage by Craig Federighi: apps launch up to 30% faster, photos appear in the camera roll up to 70% faster after capture, and AirDrop records an 80% improvement in transfer speed.\n\nThe main mechanism behind these gains is an intervention on the CPU scheduler — the component that decides how to distribute workloads across processor cores. Apple claims to have optimized this layer to reduce latency across all supported models, including the iPhone 11. WiFi/cellular handoff has also been improved, with smoother transitions between networks.\n\n## A \"refinement year\" in numbers\n\nThese figures neatly describe iOS 27's philosophy: not a major redesign or a wave of novel features, but systematic infrastructure work. For iPhone 11 or mid-tier model users, the perceived gain could be meaningful in daily use. For those already on iPhone 16, the effect may be less dramatic. Either way, the AirDrop and photo loading improvements are universal across all supported devices.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "MacDailyNews – WWDC 2026 live notes",
+          "url": "https://macdailynews.com/2026/06/08/macdailynews-presents-live-coverage-of-apples-wwdc-2026-keynote-address/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:04:47.874966+02:00"
+    },
     {
       "slug": "ios-27-screen-time-time-allowance-parental-controls",
       "macroArea": "privacy-sicurezza",
