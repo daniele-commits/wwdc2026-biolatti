@@ -1,9 +1,111 @@
 {
-  "lastUpdate": "2026-06-08T12:00:00+02:00",
+  "lastUpdate": "2026-06-08T15:29:31.667242+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
-  "items": [],
+  "items": [
+    {
+      "slug": "wwdc26-programma-ufficiale-sessioni-group-labs",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "WWDC26: oltre 100 sessioni, Group Labs e keynote dall'8 giugno",
+      "titleEn": "WWDC26: Over 100 Sessions, Group Labs, and Keynote Starting June 8",
+      "excerptIt": "Apple ha pubblicato il programma ufficiale della WWDC26: piu di 100 video tecnici, laboratori interattivi con ingegneri Apple e la keynote di apertura lunedi 8 giugno alle 19:00 ora italiana.",
+      "excerptEn": "Apple has published the official WWDC26 schedule: more than 100 technical videos, interactive Group Labs with Apple engineers, and the opening keynote on Monday, June 8.",
+      "bodyIt": "## Struttura della conferenza\n\nLa WWDC26 si apre lunedi 8 giugno con la keynote trasmessa in diretta alle 10:00 PT (19:00 ora italiana), seguita subito dopo dalle Platforms State of the Union, la sessione tecnica destinata agli sviluppatori che approfondisce API, framework e tecnologie introdotte durante la keynote. Entrambi gli eventi sono disponibili in streaming su Apple Developer app, sito web ufficiale, YouTube e bilibili.\n\n## Piu di 100 sessioni on demand\n\nNell'arco della settimana — fino a venerdi 12 giugno — Apple mette a disposizione oltre 100 video su strumenti, tecnologie e design. Le guide curate aiuteranno gli sviluppatori a orientarsi tra gli annunci per piattaforma e argomento. I Group Labs, presentazioni live con sessioni di domande e risposte tenute da ingegneri e designer Apple, completano l'offerta formativa. Come confermato da Apple Newsroom, il formato resta ibrido: interamente online con un evento in presenza riservato ad Apple Park l'8 giugno per una selezione di sviluppatori, studenti e media.",
+      "bodyEn": "## Conference Structure\n\nWWDC26 opens Monday, June 8 with the keynote streaming live at 10:00 a.m. PT, immediately followed by the Platforms State of the Union — the technical deep-dive session aimed at developers covering new APIs, frameworks, and technologies. Both sessions are available on the Apple Developer app, website, YouTube, and bilibili.\n\n## More Than 100 On-Demand Sessions\n\nThroughout the week — running through Friday, June 12 — Apple is making over 100 videos available on tools, technologies, and design. Curated guides will help developers navigate the week's announcements by platform and topic. Group Labs, live online presentations and Q&A sessions hosted by Apple engineers and designers, round out the learning offering. As confirmed by Apple Newsroom, the format remains hybrid: fully online, with an in-person event at Apple Park on June 8 reserved for a select group of developers, students, and media.",
+      "sources": [
+        {
+          "title": "Apple Newsroom – Apple kicks off WWDC on June 8",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        },
+        {
+          "title": "Apple Developer – WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:29:31.667193+02:00"
+    },
+    {
+      "slug": "swift-student-challenge-2026-vincitori",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Swift Student Challenge 2026: 350 vincitori, 50 a Cupertino per la WWDC",
+      "titleEn": "Swift Student Challenge 2026: 350 Winners, 50 Invited to Apple Park",
+      "excerptIt": "Apple ha selezionato 350 vincitori del Swift Student Challenge 2026, di cui 50 Distinguished Winners invitati a Cupertino per una esperienza di tre giorni durante la settimana della WWDC.",
+      "excerptEn": "Apple selected 350 winners for the 2026 Swift Student Challenge, including 50 Distinguished Winners invited to Cupertino for a three-day experience during WWDC week.",
+      "bodyIt": "## La sfida annuale per gli studenti sviluppatori\n\nIl Swift Student Challenge e il principale programma Apple dedicato alla prossima generazione di sviluppatori, designer e imprenditori. I partecipanti costruiscono playground interattivi con Swift Playgrounds o Xcode, dimostrando competenze tecniche e capacita creative. Per l'edizione 2026, Apple ha selezionato 350 vincitori tra le candidature arrivate da tutto il mondo.\n\n## Cinquanta Distinguished Winners ad Apple Park\n\nFra i 350, Apple ha riconosciuto 50 Distinguished Winners per la qualita eccezionale dei progetti presentati. Questo gruppo e stato invitato a Cupertino per partecipare all'evento speciale dell'8 giugno ad Apple Park, con accesso diretto a laboratori e sessioni con ingegneri e designer Apple. Apple Newsroom ha confermato il programma come parte integrante dell'apertura della WWDC26.",
+      "bodyEn": "## The Annual Challenge for Student Developers\n\nThe Swift Student Challenge is Apple's primary program supporting the next generation of developers, designers, and entrepreneurs. Participants build interactive playgrounds using Swift Playgrounds or Xcode, demonstrating both technical proficiency and creativity. For the 2026 edition, Apple selected 350 winners from submissions around the world.\n\n## Fifty Distinguished Winners at Apple Park\n\nAmong the 350, Apple recognized 50 Distinguished Winners for the exceptional quality of their submissions. This group was invited to Cupertino to participate in the special June 8 event at Apple Park, with direct access to labs and sessions led by Apple engineers and designers. Apple Newsroom confirmed the program as an integral part of the WWDC26 opening.",
+      "sources": [
+        {
+          "title": "Apple Newsroom – Apple kicks off WWDC on June 8",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Everything to Expect",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:29:31.667223+02:00"
+    },
+    {
+      "slug": "apple-design-awards-2026-finalisti",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Apple Design Awards 2026: i 36 finalisti nelle sei categorie",
+      "titleEn": "Apple Design Awards 2026: 36 Finalists Across Six Categories",
+      "excerptIt": "Apple ha svelato i 36 finalisti degli Apple Design Awards 2026 in sei categorie. I vincitori saranno annunciati nelle prossime settimane.",
+      "excerptEn": "Apple has revealed the 36 finalists for the 2026 Apple Design Awards across six categories. Winners will be announced in the coming weeks.",
+      "bodyIt": "## Le sei categorie in competizione\n\nGli Apple Design Awards premiano ogni anno le applicazioni che dimostrano il piu alto livello di cura nel design, creativita e competenza tecnica. I 36 finalisti dell'edizione 2026 sono distribuiti nelle categorie Delight and Fun, Inclusivity, Innovation, Interaction, Social Impact e Visuals and Graphics. Apple ha pubblicato i nomi dei finalisti sul sito Apple Developer in occasione dell'apertura della WWDC26.\n\n## Perche conta\n\nL'ADA non e un semplice riconoscimento di prestigio: essere finalisti — e ancor piu vincitori — ha un impatto concreto sulla visibilita su App Store, potendo tradursi in featuring editoriale e incrementi di download significativi. I vincitori saranno annunciati nelle settimane successive alla conferenza, come comunicato da Apple Newsroom.",
+      "bodyEn": "## The Six Competing Categories\n\nThe Apple Design Awards annually recognize apps that demonstrate the highest level of design craft, creativity, and technical expertise. The 36 finalists for the 2026 edition are distributed across the categories Delight and Fun, Inclusivity, Innovation, Interaction, Social Impact, and Visuals and Graphics. Apple published the finalists' names on the Apple Developer website to coincide with the opening of WWDC26.\n\n## Why It Matters\n\nThe ADA is not merely a prestige recognition: being a finalist — and especially a winner — has a concrete impact on App Store visibility, often translating into editorial featuring and meaningful download increases. Winners will be announced in the weeks following the conference, as confirmed by Apple Newsroom.",
+      "sources": [
+        {
+          "title": "Apple Newsroom – Apple kicks off WWDC on June 8",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        },
+        {
+          "title": "Apple Developer – WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:29:31.667231+02:00"
+    },
+    {
+      "slug": "accessibilita-2026-annunci-pre-wwdc-voiceover-didascalie-facetime-lls",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "accessibilita"
+      ],
+      "category": "Accessibilita",
+      "titleIt": "Accessibilita: descrizioni AI in VoiceOver, sottotitoli automatici e API FaceTime per la LIS",
+      "titleEn": "Accessibility: AI Descriptions in VoiceOver, Automatic Captions, and FaceTime Sign Language API",
+      "excerptIt": "Prima del keynote, Apple ha anticipato una suite di miglioramenti all'accessibilita: descrizioni generate dall'intelligenza artificiale in VoiceOver e Magnifier, sottotitoli video prodotti sul dispositivo e una nuova API FaceTime per l'interpretazione in linguaggio dei segni in tempo reale.",
+      "excerptEn": "Ahead of the keynote, Apple previewed an accessibility suite including AI-generated descriptions in VoiceOver and Magnifier, on-device automatic video captions, and a new FaceTime API for live sign language interpretation.",
+      "bodyIt": "## Descrizioni AI per l'utenza non vedente\n\nApple ha preannunciato l'integrazione di descrizioni generate dall'intelligenza artificiale direttamente in VoiceOver e nell'app Magnifier. L'obiettivo dichiarato e ridurre la dipendenza dalle descrizioni testuali inserite manualmente dagli sviluppatori, rendendo piu accessibile un catalogo piu ampio di contenuti visivi — incluse fotografie, UI generiche e ambienti fisici inquadrati con la fotocamera.\n\n## Sottotitoli automatici e API per la lingua dei segni\n\nL'Accessibility Reader riceve un aggiornamento mirato ai layout documentali complessi, mentre l'elaborazione on-device dei sottotitoli video punta a garantire maggiore privacy rispetto alle soluzioni che richiedono connessione remota. Sul fronte di visionOS, Apple aggiunge il controllo della sedia a rotelle motorizzata tramite eye-tracking di Vision Pro, gli Vehicle Motion Cues per chi si trova a bordo di veicoli in movimento, e il supporto ai gesti facciali per le azioni di sistema. La nuova API FaceTime per l'interpretazione in lingua dei segni e un elemento di rilievo per la comunita sorda: consentira alle app di terze parti di integrare servizi di interpretariato in tempo reale nelle videochiamate. Come segnalato da MacRumors, Apple ha comunicato queste funzionalita ufficialmente prima della WWDC, secondo la prassi consolidata degli ultimi anni.",
+      "bodyEn": "## AI Descriptions for Blind Users\n\nApple previewed the integration of AI-generated descriptions directly into VoiceOver and the Magnifier app. The stated goal is to reduce reliance on manually entered text descriptions from developers, making a broader catalog of visual content — including photographs, generic UI, and physical environments captured by the camera — more accessible.\n\n## Automatic Captions and a Sign Language API\n\nAccessibility Reader is being updated to handle complex document layouts, while on-device video caption processing aims to improve privacy compared to solutions requiring a remote connection. On the visionOS side, Apple is adding Power Wheelchair Control via Vision Pro's eye-tracking, Vehicle Motion Cues for users in moving vehicles, and face gesture support for system actions. The new FaceTime API for sign language interpretation is a significant development for the deaf community: it will allow third-party apps to integrate real-time interpreting services into video calls. As reported by MacRumors, Apple officially communicated these features before WWDC, consistent with the practice established in recent years.",
+      "sources": [
+        {
+          "title": "MacRumors – What to Expect at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/05/the-macrumors-show-what-to-expect-at-wwdc26/"
+        },
+        {
+          "title": "Apple Newsroom – WWDC26 returns the week of June 8",
+          "url": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:29:31.667237+02:00"
+    }
+  ],
   "macroAreas": [
     {
       "slug": "sistemi-operativi",
@@ -71,19 +173,63 @@
     }
   ],
   "tagsVocabulary": [
-    { "slug": "intelligenza-artificiale", "slugEn": "artificial-intelligence", "labelIt": "Intelligenza artificiale", "labelEn": "Artificial intelligence" },
-    { "slug": "siri", "slugEn": "siri", "labelIt": "Siri", "labelEn": "Siri" },
-    { "slug": "swift-xcode", "slugEn": "swift-xcode", "labelIt": "Swift e Xcode", "labelEn": "Swift and Xcode" },
-    { "slug": "design", "slugEn": "design", "labelIt": "Design", "labelEn": "Design" },
-    { "slug": "privacy", "slugEn": "privacy", "labelIt": "Privacy", "labelEn": "Privacy" },
-    { "slug": "salute", "slugEn": "health", "labelIt": "Salute", "labelEn": "Health" },
-    { "slug": "continuity", "slugEn": "continuity", "labelIt": "Continuity ed ecosistema", "labelEn": "Continuity and ecosystem" },
-    { "slug": "accessibilita", "slugEn": "accessibility", "labelIt": "Accessibilita", "labelEn": "Accessibility" }
+    {
+      "slug": "intelligenza-artificiale",
+      "slugEn": "artificial-intelligence",
+      "labelIt": "Intelligenza artificiale",
+      "labelEn": "Artificial intelligence"
+    },
+    {
+      "slug": "siri",
+      "slugEn": "siri",
+      "labelIt": "Siri",
+      "labelEn": "Siri"
+    },
+    {
+      "slug": "swift-xcode",
+      "slugEn": "swift-xcode",
+      "labelIt": "Swift e Xcode",
+      "labelEn": "Swift and Xcode"
+    },
+    {
+      "slug": "design",
+      "slugEn": "design",
+      "labelIt": "Design",
+      "labelEn": "Design"
+    },
+    {
+      "slug": "privacy",
+      "slugEn": "privacy",
+      "labelIt": "Privacy",
+      "labelEn": "Privacy"
+    },
+    {
+      "slug": "salute",
+      "slugEn": "health",
+      "labelIt": "Salute",
+      "labelEn": "Health"
+    },
+    {
+      "slug": "continuity",
+      "slugEn": "continuity",
+      "labelIt": "Continuity ed ecosistema",
+      "labelEn": "Continuity and ecosystem"
+    },
+    {
+      "slug": "accessibilita",
+      "slugEn": "accessibility",
+      "labelIt": "Accessibilita",
+      "labelEn": "Accessibility"
+    }
   ],
   "topStories": [],
   "featuredStories": {
-    "mediaBuzz": { "items": [] },
-    "underratedStructural": { "items": [] }
+    "mediaBuzz": {
+      "items": []
+    },
+    "underratedStructural": {
+      "items": []
+    }
   },
   "redirects": []
 }
