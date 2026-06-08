@@ -39,8 +39,8 @@ BUILD = os.path.join(BASE_DIR, "build.py")
 
 API_URL = "https://api.anthropic.com/v1/messages"
 API_VERSION = "2023-06-01"
-MODEL = os.environ.get("WWDC_MODEL", "claude-sonnet-4-6")
-MAX_NEW = int(os.environ.get("WWDC_MAX_NEW", "8"))
+MODEL = os.environ.get("WWDC_MODEL") or "claude-sonnet-4-6"
+MAX_NEW = int(os.environ.get("WWDC_MAX_NEW") or "8")
 TZ = timezone(timedelta(hours=2))  # Europe/Rome estate (CEST)
 
 VALID_MACRO = {
