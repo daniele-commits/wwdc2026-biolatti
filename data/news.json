@@ -1,9 +1,241 @@
 {
-  "lastUpdate": "2026-06-08T20:44:19.745987+02:00",
+  "lastUpdate": "2026-06-08T22:28:33.983440+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ios-27-screen-time-time-allowance-parental-controls",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Privacy e sicurezza",
+      "titleIt": "iOS 27: Time Allowance e Screen Time Schedule ridisegnano il controllo genitori",
+      "titleEn": "iOS 27: Time Allowance and Screen Time Schedule reshape parental controls",
+      "excerptIt": "Apple ha annunciato due nuovi strumenti di Screen Time: Time Allowance per limitare per categoria le app di intrattenimento, giochi e social media, e Screen Time Schedule per bloccare l'accesso in fasce orarie diverse nei giorni feriali e festivi.",
+      "excerptEn": "Apple unveiled Time Allowance for per-category app limits and Screen Time Schedule for time-of-day access controls, giving parents far more granular management of children's device use.",
+      "bodyIt": "## Cosa cambia con Time Allowance e Screen Time Schedule\n\nDurante il keynote del WWDC 2026, Apple ha dedicato un blocco specifico alla sicurezza dei minori, presentando due funzioni che aggiornano in profondità il pannello Screen Time. Come riportato da Engadget nel live blog dell'evento, Time Allowance permette ai genitori di impostare limiti giornalieri per intere categorie di app — Intrattenimento, Giochi e Social Media — senza dover gestire singola app per singola app. I limiti possono essere differenziati tra giorni feriali e weekend, riconoscendo che un sabato pomeriggio non equivale a un mercoledì mattina.\n\nMacObserver precisa che la seconda novità, Screen Time Schedule, consente di definire quali categorie di app siano disponibili in specifiche fasce della giornata: una funzione pensata per evitare, per esempio, che i social siano accessibili durante le ore scolastiche. I due strumenti sono progettati per lavorare insieme: un bambino potrà chiedere ai genitori di estendere il proprio tempo-giochi durante il weekend direttamente dall'interfaccia del sistema.\n\n## Ask to Browse e Communication Safety\n\nTom's Guide segnala che sul fronte della navigazione web, Apple introduce «Ask to Browse»: i minori sotto i 13 anni non potranno aprire siti nuovi in Safari senza approvazione esplicita del genitore, funzione attiva per default. Sul fronte dei contenuti, Communication Safety — già disponibile per i nudi — si estende ora ai contenuti violenti e gore, sfumando automaticamente le immagini problematiche nelle conversazioni.\n\nSi tratta di un aggiornamento atteso da anni da molte famiglie, ma l'efficacia reale dipenderà da quanto questi nuovi blocchi siano più difficili da aggirare rispetto ai controlli attuali, notoriamente permeabili.",
+      "bodyEn": "## What changes with Time Allowance and Screen Time Schedule\n\nAt WWDC 2026, Apple devoted a dedicated segment to child safety, announcing two features that substantially update the Screen Time panel. As reported by Engadget's live blog, Time Allowance lets parents set daily limits for whole app categories — Entertainment, Games, and Social Media — rather than managing individual apps. Limits can differ between weekdays and weekends, acknowledging that Saturday afternoon is not the same as Wednesday morning.\n\nMacObserver notes that Screen Time Schedule allows parents to define which app categories are available during specific parts of the day, designed to keep social media off-limits during school hours. The two tools are built to work in tandem: a child can request more game time on a Saturday directly from the system interface.\n\n## Ask to Browse and Communication Safety\n\nTom's Guide reports that on the web browsing front, Apple introduces 'Ask to Browse': children under 13 will need explicit parental approval to open new websites in Safari, enabled by default. On the content side, Communication Safety — already covering nudity — now also blurs potentially gory content in conversations.\n\nThis is an update many families have been waiting for, but real-world effectiveness will depend on whether these new controls are harder to circumvent than the current, notoriously porous ones.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "MacObserver – Screen Allowance and Screen Time Schedule",
+          "url": "https://www.macobserver.com/news/ios-27-gets-screen-allowance-and-screen-time-schedule-at-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide – Parental Controls iOS 27",
+          "url": "https://www.tomsguide.com/phones/iphones/apple-adds-more-parental-controls-to-its-devices-in-ios-27-heres-whats-new"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983360+02:00"
+    },
+    {
+      "slug": "ios-27-spotlight-search-rifondato-ai",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: Spotlight, Mail e Foto con un motore di ricerca completamente riscritto",
+      "titleEn": "iOS 27: Spotlight, Mail, and Photos get a completely rebuilt search engine",
+      "excerptIt": "Apple ha ricostruito da zero l'infrastruttura di ricerca che alimenta Spotlight, Foto e Mail su iOS, iPadOS e macOS: i nuovi contenuti vengono indicizzati «quasi immediatamente» dopo l'aggiornamento.",
+      "excerptEn": "Apple rebuilt the search foundation powering Spotlight, Photos, and Mail across iOS, iPadOS, and macOS, with new content indexed 'almost immediately' after updating.",
+      "bodyIt": "## Un problema strutturale, finalmente affrontato\n\nChiunque abbia mai cercato una foto o un'email su iPhone sapendo con certezza che esisteva, solo per non trovarla, riconoscerà l'annuncio fatto al WWDC 2026. Apple ha dichiarato sul palco — come riportato fedelmente da MacRumors e da TechCrunch — di aver ricostruito il motore che alimenta Spotlight, Foto e Mail su iOS, iPadOS e macOS. Non si tratta di una patch al sistema esistente, ma di un'architettura nuova: più stabile, più efficiente e, soprattutto, capace di includere sia contenuti vecchi sia nuovi in modo più esaustivo.\n\n## Indicizzazione quasi in tempo reale\n\nEngadget precisa che dopo l'aggiornamento a iOS 27, la nuova infrastruttura si mette immediatamente al lavoro per re-indicizzare il dispositivo. L'obiettivo dichiarato da Apple è che i file appena creati risultino cercabili «quasi immediatamente» — una promessa che, se mantenuta, eliminerebbe uno dei ritardi più frustranti del sistema attuale.\n\nL'integrazione con Apple Intelligence significa che la ricerca non sarà solo più rapida ma anche semanticamente più ricca: il sistema potrà rispondere a query in linguaggio naturale attraverso Spotlight, avvicinando l'esperienza a quella dei concorrenti come Google sul proprio ecosistema Android. Rimane da vedere quanto il vantaggio si mantenga nel tempo man mano che i dispositivi si riempiono di dati.",
+      "bodyEn": "## A structural problem, finally addressed\n\nAnyone who has ever searched for a photo or email on iPhone — knowing with certainty it existed — only to come up empty will recognise the announcement made at WWDC 2026. Apple stated on stage, as faithfully reported by both MacRumors and TechCrunch, that it has rebuilt the engine powering Spotlight, Photos, and Mail on iOS, iPadOS, and macOS. This is not a patch to the existing system, but a new architecture: more stable, more efficient, and able to cover both old and new content more comprehensively.\n\n## Near-real-time indexing\n\nEngadget notes that after updating to iOS 27, the new infrastructure immediately begins reindexing the device. Apple's stated goal is for newly created files to become searchable 'almost immediately' — a promise that, if kept, would eliminate one of the most frustrating delays in the current system.\n\nIntegration with Apple Intelligence means search will be not only faster but also semantically richer, capable of answering natural-language queries through Spotlight. How well that advantage holds over time as devices fill with data remains to be seen.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 Everything Announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983390+02:00"
+    },
+    {
+      "slug": "siri-ai-watchos-carplay-airpods-estensione-ecosistema",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "continuity"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI arriva su watchOS, CarPlay e AirPods: l'assistente esce dall'iPhone",
+      "titleEn": "Siri AI comes to watchOS, CarPlay, and AirPods: the assistant leaves the iPhone",
+      "excerptIt": "Il nuovo Siri AI non e' confinato a iPhone e iPad: Apple lo porta su Apple Watch con un'inedita griglia di app, su CarPlay e sugli AirPods, con voce personalizzabile per ritmo ed espressivita'.",
+      "excerptEn": "The new Siri AI extends beyond iPhone and iPad to Apple Watch with a new app grid, CarPlay, and AirPods, with a customizable voice pace and expressivity.",
+      "bodyIt": "## L'estensione a tutto l'ecosistema\n\nUno degli aspetti meno evidenti del keynote WWDC 2026, ma tra i piu' significativi in termini di coerenza dell'ecosistema, e' l'estensione di Siri AI oltre i confini di iPhone e iPad. Come documentato da Engadget e da TechRadar nel corso del live blog, Apple ha confermato che Siri AI arriva anche su watchOS — con una nuova griglia di app sull'Apple Watch — su CarPlay e sugli AirPods.\n\n## Nuove voci e personalizzazione\n\nTechRadar segnala che il nuovo Siri introduce voci inedite con parametri di personalizzazione: l'utente potra' modificare il ritmo e l'espressivita' della voce dell'assistente secondo le proprie preferenze. Una modifica che potrebbe sembrare estetica, ma che riflette un cambio di paradigma: Siri AI e' pensato per essere un interlocutore continuativo, non solo un esecutore di comandi brevi, e la voce partecipa alla qualita' dell'esperienza conversazionale.\n\nSu macOS, come riporta TechRadar, Siri AI si integra in Spotlight — unica soluzione possibile in assenza del Dynamic Island sui Mac — e compare in un campo dedicato al clic destro su file e finestre. L'obiettivo dichiarato da Apple e' ridurre la necessita' di passare manualmente da un'app all'altra: Siri puo' interrogare Foto, Mappe, Mail e altre app di sistema per rispondere a domande composite senza che l'utente apra mai una singola applicazione.",
+      "bodyEn": "## Extension to the full ecosystem\n\nOne of the less obvious but more significant aspects of the WWDC 2026 keynote — in terms of ecosystem coherence — is the extension of Siri AI beyond iPhone and iPad. As documented by Engadget and TechRadar during their live blogs, Apple confirmed that Siri AI is also coming to watchOS, with a new app grid on Apple Watch, as well as to CarPlay and AirPods.\n\n## New voices and personalisation\n\nTechRadar notes that the new Siri introduces additional voices with customisation parameters: users will be able to adjust the assistant's pace and expressivity. This may seem cosmetic, but it reflects a paradigm shift: Siri AI is designed to be a continuous interlocutor, not just a short-command executor, and voice quality matters in a conversational experience.\n\nOn macOS, TechRadar reports, Siri AI integrates into Spotlight — the only viable solution without a Dynamic Island on Macs — and appears in a dedicated field on right-clicking files and windows. Apple's stated goal is to reduce the need to manually switch between apps: Siri can query Photos, Maps, Mail, and other system apps to answer compound questions without the user ever opening a single application.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983402+02:00"
+    },
+    {
+      "slug": "icloud-shared-albums-full-res-android-windows",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Album condivisi iCloud: foto in full-resolution e apertura ad Android e Windows",
+      "titleEn": "iCloud Shared Albums: full-resolution photos and support for Android and Windows",
+      "excerptIt": "Apple ha annunciato che gli album condivisi di iCloud supporteranno la condivisione di foto a piena risoluzione e che gli utenti Android e Windows potranno finalmente unirsi a questi album condivisi.",
+      "excerptEn": "Apple announced that iCloud Shared Albums will support full-resolution photo sharing and that Android and Windows users will be able to join shared albums for the first time.",
+      "bodyIt": "## Fine della compressione forzata\n\nNel blocco dedicato alle novita' trasversali ai sistemi operativi durante il keynote WWDC 2026, Apple ha comunicato due aggiornamenti agli album condivisi di iCloud. Come riportato da MacRumors e confermato da Engadget, gli album condivisi potranno ora ospitare foto a piena risoluzione: fino a oggi, le immagini condivise tramite questa funzione venivano compresse dal sistema, rendendo la funzione poco utile per chi vuole conservare la qualita' originale degli scatti.\n\n## Apertura cross-platform\n\nLa seconda novita' e' probabilmente piu' impattante in termini pratici: gli album condivisi iCloud saranno accessibili anche da dispositivi Android e Windows. Engadget segnala che la risposta del pubblico presente all'evento e' stata particolarmente calorosa su questo punto — quasi a rimarcare quanto l'incompatibilita' con i sistemi non-Apple avesse reso la funzione un ostacolo piu' che una comodita' nelle famiglie e nei gruppi amici eterogenei.\n\nSi tratta di un passo nella direzione della interoperabilita', un tema su cui Apple e' tradizionalmente prudente. Non e' ancora chiaro se l'accesso da Android e Windows passera' per un'app dedicata, un'applicazione web o un'integrazione diversa: i dettagli tecnici arriveranno presumibilmente nelle sessioni di questa settimana.",
+      "bodyEn": "## End of forced compression\n\nDuring the cross-platform highlights segment of the WWDC 2026 keynote, Apple announced two updates to iCloud Shared Albums. As reported by MacRumors and confirmed by Engadget, shared albums will now support full-resolution photo sharing: until now, images shared through this feature were compressed by the system, making it poorly suited for anyone wanting to preserve original image quality.\n\n## Cross-platform opening\n\nThe second update is arguably more impactful in practical terms: iCloud Shared Albums will be accessible from Android and Windows devices. Engadget notes that the audience's reaction to this announcement was particularly warm — underlining how cross-platform incompatibility had turned the feature into a friction point rather than a convenience in mixed-platform families and friend groups.\n\nThis is a step toward interoperability, a topic on which Apple is traditionally cautious. It is not yet clear whether Android and Windows access will come via a dedicated app, a web application, or another integration; technical details will presumably emerge in this week's developer sessions.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983409+02:00"
+    },
+    {
+      "slug": "ios-27-dettatura-sistema-ai-punteggiatura-correzione",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: la dettatura di sistema diventa AI-first con correzione automatica di ortografia e punteggiatura",
+      "titleEn": "iOS 27: system-wide dictation goes AI-first with automatic spelling and punctuation correction",
+      "excerptIt": "Apple introduce una nuova esperienza di dettatura integrata nella tastiera di iOS 27, capace di correggere ortografia, punteggiatura e maiuscole in tempo reale — muovendosi sullo stesso terreno di app terze parti come Wispr Flow.",
+      "excerptEn": "Apple introduces a new dictation experience built into the iOS 27 keyboard, able to correct spelling, punctuation, and capitalisation in real time — moving onto the same ground as third-party apps like Wispr Flow.",
+      "bodyIt": "## La dettatura diventa uno strumento professionale\n\nFino a iOS 26, la dettatura di sistema su iPhone era una trascrizione fedele ma grezza: registrava ogni parola, incluse le esitazioni, e lasciava all'utente il compito di correggere errori di ortografia, maiuscole e punteggiatura. Con iOS 27, Apple cambia il paradigma. Come riportato da TechCrunch, la nuova dettatura e' integrata direttamente nella tastiera ed e' in grado di correggere automaticamente ortografia, punteggiatura e uso delle maiuscole nel momento stesso in cui si parla.\n\n## La sfida alle app terze parti\n\nTechCrunch nota esplicitamente che la mossa arriva mentre app di dettatura AI come Wispr Flow e Willow stanno guadagnando popolarita', anche grazie alla loro capacita' di eliminare riempitivi («ehm», «allora») e di formattare il testo in base al contesto. Apple entra ora su questo terreno con il vantaggio di essere integrata nativamente nel sistema, senza necessita' di autorizzazioni aggiuntive e con accesso a qualsiasi campo di testo dell'intero sistema operativo.\n\nIl potenziale e' evidente per chi usa il telefono in mobilita' per produrre testo — email, note, messaggi lunghi — ma la qualita' reale rispetto alle app specializzate si valutera' solo con l'uso quotidiano della beta e della versione finale in autunno.",
+      "bodyEn": "## Dictation becomes a professional tool\n\nUntil iOS 26, system dictation on iPhone was faithful but raw: it recorded every word including hesitations, leaving the user to correct spelling, capitalisation, and punctuation. With iOS 27, Apple changes the paradigm. As reported by TechCrunch, the new dictation is built directly into the keyboard and can automatically correct spelling, punctuation, and capitalisation in real time as you speak.\n\n## The challenge to third-party apps\n\nTechCrunch explicitly notes that the move comes as AI dictation apps like Wispr Flow and Willow are gaining popularity, partly thanks to their ability to remove filler words ('ums', 'ahs') and format text based on context. Apple now enters this space with the advantage of native system integration, requiring no extra permissions and with access to any text field across the entire operating system.\n\nThe potential is clear for anyone who uses their phone on the go to produce text — emails, notes, long messages — but real-world quality versus specialised apps will only be assessed with daily use of the beta and the final autumn release.",
+      "sources": [
+        {
+          "title": "TechCrunch – WWDC 2026 Everything Announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983416+02:00"
+    },
+    {
+      "slug": "safari-apple-intelligence-tab-organizer-notifiche-pagine",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Safari con Apple Intelligence: tab organizzati in automatico e notifiche sui cambiamenti delle pagine",
+      "titleEn": "Safari with Apple Intelligence: automatic tab organisation and web page change notifications",
+      "excerptIt": "In Safari su iOS 27 e macOS Golden Gate, Apple Intelligence raggruppa in automatico i tab per argomento e puo' notificare l'utente quando una pagina specifica cambia — come un calo di prezzo o un restocking di prodotto.",
+      "excerptEn": "In Safari on iOS 27 and macOS Golden Gate, Apple Intelligence automatically groups tabs by topic and can alert users when a specific web page changes — such as a price drop or product restock.",
+      "bodyIt": "## Organizzazione automatica dei tab\n\nTra le funzioni di Apple Intelligence annunciate al WWDC 2026 per Safari, quella che risalta di piu' e' l'organizzazione automatica dei tab. Come riportato da Engadget e da The Shortcut nel live blog del keynote, Safari sara' in grado di raggruppare i tab aperti per argomento o contesto d'uso senza che l'utente debba farlo manualmente. La funzione e' pensata per chi accumula decine di tab senza una struttura, e rappresenta una risposta diretta a funzioni simili gia' disponibili in browser come Arc o nelle versioni recenti di Chrome.\n\n## Notifiche intelligenti sulle pagine web\n\nEngadget segnala una seconda capacita' particolarmente utile: Safari potra' notificare l'utente quando il contenuto di una pagina specifica cambia. Gli esempi citati durante il keynote includono il calo di prezzo di un prodotto, il rientro in stock di un articolo esaurito o una modifica ai termini di servizio di un sito. In pratica, Safari acquisisce una funzione simile a quella di servizi di monitoraggio web come Visualping, ma integrata nativamente nel browser e presumibilmente piu' efficiente sul piano della privacy grazie all'elaborazione on-device.\n\nThe Shortcut aggiunge che Safari supporta ora anche estensioni di vibe coding, un segnale diretto agli sviluppatori che usano il browser come ambiente di lavoro. La combinazione di intelligenza nel browser e integrazione con il sistema Apple Intelligence potrebbe fare di Safari una proposta concreta per chi oggi preferisce Chrome o Firefox per motivi di produttivita'.",
+      "bodyEn": "## Automatic tab organisation\n\nAmong the Apple Intelligence features announced at WWDC 2026 for Safari, the most prominent is automatic tab organisation. As reported by Engadget and The Shortcut in the keynote live blog, Safari will be able to group open tabs by topic or usage context without manual intervention. The feature targets users who accumulate dozens of tabs without structure, and is a direct response to similar capabilities already available in browsers like Arc or recent versions of Chrome.\n\n## Intelligent web page notifications\n\nEngadget reports a second particularly useful capability: Safari will be able to notify the user when the content of a specific page changes. Examples cited during the keynote include a product price drop, an out-of-stock item coming back, or a change to a site's terms of service. In practice, Safari acquires a function similar to web monitoring services like Visualping, but natively integrated into the browser and presumably more privacy-efficient thanks to on-device processing.\n\nThe Shortcut adds that Safari now also supports vibe coding extensions — a direct signal to developers who use the browser as a working environment. The combination of in-browser intelligence and Apple Intelligence system integration could make Safari a credible proposition for those currently preferring Chrome or Firefox for productivity reasons.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "The Shortcut – WWDC 2026 Liveblog Highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983422+02:00"
+    },
+    {
+      "slug": "visionos-27-siri-ai-3d-panorami-spaziali",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale"
+      ],
+      "category": "Spatial computing e visionOS",
+      "titleIt": "visionOS 27: Siri AI in 3D con un orb interattivo e panorami spaziali dalle proprie foto",
+      "titleEn": "visionOS 27: 3D Siri AI with an interactive orb and spatial scenes from your own panoramas",
+      "excerptIt": "Su Apple Vision Pro, Siri AI si manifesta come una visualizzazione 3D attivabile con lo sguardo, senza pronunciare «Hey Siri». In piu', i propri panorami fotografici potranno diventare ambienti spaziali immersivi.",
+      "excerptEn": "On Apple Vision Pro, Siri AI appears as a 3D visualisation activated by gaze, without saying 'Hey Siri'. Additionally, personal panorama photos can now become immersive spatial scenes.",
+      "bodyIt": "## Un Siri costruito per lo spazio\n\nIl WWDC 2026 e' stato dominato dagli aggiornamenti a iOS e dall'intelligenza artificiale, ma visionOS 27 ha ricevuto due annunci concreti. Come riportato da Engadget nel live blog, su Apple Vision Pro Siri AI viene presentato con una nuova visualizzazione tridimensionale — un «orb» — che compare nello spazio visivo dell'utente. La novita' piu' rilevante sul piano dell'interazione e' che non sara' piu' necessario pronunciare «Hey Siri» per attivarlo: basta guardare l'orb. Un cambiamento che elimina una delle frizioni piu' evidenti nell'uso di Siri in un ambiente dove si indossa un visore e la voce non e' sempre lo strumento piu' comodo.\n\n## I propri panorami come ambienti immersivi\n\nMacRumors documenta una seconda funzione, piu' creativa: Apple Vision Pro potra' trasformare le fotografie panoramiche dell'utente in scene spaziali, cioe' in ambienti tridimensionali all'interno dei quali immergersi con il visore. Si tratta di un utilizzo delle fotocamere degli iPhone — o di qualsiasi camera capace di scattare panorami — come strumento di creazione di contenuti spaziali personali, senza necessita' di hardware dedicato alla cattura 3D.\n\nEngadget osserva che il keynote non ha avuto un momento specifico dedicato a watchOS o a visionOS come piattaforme autonome — le novita' di questi sistemi sono state annunciate nel contesto piu' ampio di Siri AI e Apple Intelligence. Un segnale che Apple considera questi aggiornamenti come parte di un unico layer intelligente distribuito sull'ecosistema, piu' che come aggiornamenti di sistema indipendenti.",
+      "bodyEn": "## A Siri built for spatial computing\n\nWWDC 2026 was dominated by iOS updates and artificial intelligence, but visionOS 27 received two concrete announcements. As reported by Engadget in the live blog, on Apple Vision Pro, Siri AI is presented as a new three-dimensional visualisation — an 'orb' — that appears in the user's visual space. The most relevant interaction change is that 'Hey Siri' is no longer required to activate it: simply looking at the orb is enough. A change that eliminates one of the most obvious friction points when using Siri in an environment where a headset is worn and voice is not always the most convenient input method.\n\n## Personal panoramas as immersive environments\n\nMacRumors documents a second, more creative feature: Apple Vision Pro will be able to turn a user's panoramic photographs into spatial scenes — three-dimensional environments to immerse oneself in while wearing the headset. This turns iPhone cameras — or any camera capable of shooting panoramas — into tools for creating personal spatial content, without the need for dedicated 3D capture hardware.\n\nEngadget notes that the keynote had no dedicated segment for watchOS or visionOS as standalone platforms — updates to these systems were announced within the broader context of Siri AI and Apple Intelligence. A signal that Apple views these updates as part of a single intelligent layer distributed across the ecosystem, rather than as independent system updates.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983428+02:00"
+    },
+    {
+      "slug": "sviluppatori-apple-foundation-models-api-modelli-terzi-xcode",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "WWDC 2026: le API di Apple Foundation Models si aprono agli sviluppatori e ai modelli di terze parti",
+      "titleEn": "WWDC 2026: Apple Foundation Models APIs open to developers and third-party models",
+      "excerptIt": "Apple consente ora agli sviluppatori di integrare Apple Intelligence nelle proprie app tramite API familiari, di portare modelli AI di terze parti nell'ecosistema e di usare immagini — non solo testo — come input per il modello.",
+      "excerptEn": "Apple now allows developers to integrate Apple Intelligence into their apps via familiar APIs, bring third-party AI models into the ecosystem, and use images — not just text — as input to the model.",
+      "bodyIt": "## Apple Intelligence diventa una piattaforma per sviluppatori\n\nSe il keynote del WWDC 2026 ha mostrato le funzioni di Apple Intelligence rivolte agli utenti finali, le sessioni sviluppatori hanno chiarito la strategia sottostante: Apple intende rendere Apple Intelligence una piattaforma aperta, non solo un insieme di funzioni proprietarie. Come riportato da Yahoo Tech nel live blog del keynote, gli sviluppatori possono ora portare Apple Intelligence nelle loro app usando API gia' note, abbassando la barriera di integrazione.\n\n## Modelli di terze parti e input visivo\n\nYahoo Tech documenta due aperture specifiche: la prima e' la possibilita' per gli sviluppatori di portare in-app modelli AI di terze parti — non solo il modello Apple — aprendo uno spazio di competizione all'interno dell'ecosistema che fino a oggi era chiuso. La seconda e' l'introduzione del supporto alle immagini come input del modello: oltre al testo, gli sviluppatori possono ora passare contenuti visivi al foundation model. Come riporta The Shortcut, il modello piu' potente on-device sara' disponibile sui dispositivi iPhone, iPad e Mac «piu' capaci», una distinzione che implica che alcune funzioni avanzate resteranno precluse agli hardware meno recenti.\n\nXcode ricevera' una serie di nuovi strumenti — i dettagli arriveranno attraverso le sessioni della settimana — e la combinazione di API aperte, multimodalita' e accesso a modelli terzi suggerirebbe un Apple piu' disposto del solito a cedere il controllo dell'esperienza AI agli sviluppatori. La coerenza di questa apertura con la filosofia Apple si verifichera' nei mesi successivi all'uscita pubblica.",
+      "bodyEn": "## Apple Intelligence becomes a developer platform\n\nWhile the WWDC 2026 keynote showcased Apple Intelligence features aimed at end users, the developer-facing announcements clarified the underlying strategy: Apple intends to make Apple Intelligence an open platform, not just a set of proprietary features. As reported by Yahoo Tech in the keynote live blog, developers can now bring Apple Intelligence into their apps using familiar APIs, lowering the integration barrier.\n\n## Third-party models and visual input\n\nYahoo Tech documents two specific openings: the first is the ability for developers to bring third-party AI models into their apps — not just Apple's model — opening up a competitive space within the ecosystem that was previously closed. The second is the introduction of image support as model input: in addition to text, developers can now pass visual content to the foundation model. As The Shortcut reports, the most powerful on-device model will be available on the 'most capable' iPhone, iPad, and Mac systems — a distinction implying that some advanced features will remain out of reach for older hardware.\n\nXcode will receive a series of new tools — details will emerge through this week's sessions — and the combination of open APIs, multimodality, and access to third-party models would suggest an Apple more willing than usual to cede control of the AI experience to developers. Whether this openness holds up against Apple's habitual philosophy will become clear in the months following the public release.",
+      "sources": [
+        {
+          "title": "Yahoo Tech – WWDC 2026 Keynote Live Updates",
+          "url": "https://tech.yahoo.com/general/live/wwdc-2026-keynote-live-updates-siri-overhaul-ios-27-apple-intelligence-and-more-news-from-apple-park-120000133.html"
+        },
+        {
+          "title": "The Shortcut – WWDC 2026 Liveblog Highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T22:28:33.983435+02:00"
+    },
     {
       "slug": "macos-27-golden-gate-nome-ufficiale",
       "macroArea": "sistemi-operativi",
