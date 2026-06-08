@@ -1,0 +1,13 @@
+*.py
+__pycache__/
+*.pyc
+.DS_Store
+.github/
+data/news.json.bak
+run.log
+titles.txt
+README.md
+intros_data.py
+build.py
+update_news.py
+_adapt_build.py

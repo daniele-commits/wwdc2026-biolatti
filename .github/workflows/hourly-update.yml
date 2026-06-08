@@ -1,0 +1,79 @@
+name: WWDC 2026 hourly update
+
+# Gira ogni ora (UTC). Lo script update_news.py si auto-limita alla finestra
+# evento (8-12 giugno 2026 + 12h di grazia): fuori finestra esce subito.
+# Dopo il 13 giugno il workflow puo essere disabilitato da Actions > ... > Disable.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}   # esecuzione manuale dal tab Actions
+
+# Evita run sovrapposti.
+concurrency:
+  group: wwdc-hourly
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # necessario per fare push del news.json e dell'HTML rigenerato
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Esegui aggiornamento
+        id: run
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          WWDC_MODEL: ${{ vars.WWDC_MODEL }}
+        run: |
+          set -o pipefail
+          python update_news.py | tee run.log
+          SUMMARY_LINE="$(grep -E '^SUMMARY::' run.log | tail -1 || true)"
+          COUNT="$(echo "$SUMMARY_LINE" | awk -F'::' '{print $2}')"
+          TITLES="$(echo "$SUMMARY_LINE" | cut -d':' -f5-)"
+          echo "count=${COUNT:-0}" >> "$GITHUB_OUTPUT"
+          # i titoli sono generati dal modello: li passo come file artefatto,
+          # non per interpolazione inline (evita problemi con caratteri speciali).
+          printf '%s' "$TITLES" > titles.txt
+
+      - name: Commit & push
+        id: commit
+        env:
+          COUNT: ${{ steps.run.outputs.count }}
+        run: |
+          git config user.name  "Kairos Bot"
+          git config user.email "kairos@biolatti.it"
+          # non versionare i file di lavoro del run
+          rm -f run.log
+          git rm --cached titles.txt >/dev/null 2>&1 || true
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Nessuna modifica da committare."
+          else
+            git commit -m "WWDC update: ${COUNT} nuovi annunci [skip ci]"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notifica Telegram
+        if: steps.run.outputs.count != '0' && steps.commit.outputs.changed == 'true'
+        env:
+          TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COUNT: ${{ steps.run.outputs.count }}
+        run: |
+          TITLES="$(cat titles.txt)"
+          TEXT="WWDC 2026 — ${COUNT} nuovi annunci pubblicati su wwdc2026.biolatti.it"$'\n\n'"${TITLES}"
+          curl -s -X POST "https://api.telegram.org/bot${TG_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT}" \
+            --data-urlencode "text=${TEXT}" \
+            --data "disable_web_page_preview=true" > /dev/null

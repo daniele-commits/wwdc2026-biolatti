@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+run.log
+titles.txt
+_adapt_build.py

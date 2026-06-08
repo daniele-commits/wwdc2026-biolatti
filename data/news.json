@@ -1,0 +1,89 @@
+{
+  "lastUpdate": "2026-06-08T12:00:00+02:00",
+  "eventName": "Apple WWDC 2026",
+  "eventStart": "2026-06-08T19:00:00+02:00",
+  "eventEnd": "2026-06-12T23:59:00+02:00",
+  "items": [],
+  "macroAreas": [
+    {
+      "slug": "sistemi-operativi",
+      "slugEn": "operating-systems",
+      "labelIt": "Sistemi operativi",
+      "labelEn": "Operating systems",
+      "seoTitleIt": "Cosa cambia in iOS, iPadOS e macOS dopo il WWDC 2026",
+      "seoTitleEn": "What changes in iOS, iPadOS and macOS after WWDC 2026"
+    },
+    {
+      "slug": "apple-intelligence",
+      "slugEn": "apple-intelligence",
+      "labelIt": "Apple Intelligence e Siri",
+      "labelEn": "Apple Intelligence and Siri",
+      "seoTitleIt": "Apple Intelligence e il nuovo Siri al WWDC 2026",
+      "seoTitleEn": "Apple Intelligence and the new Siri at WWDC 2026"
+    },
+    {
+      "slug": "sviluppatori",
+      "slugEn": "developers",
+      "labelIt": "Sviluppatori",
+      "labelEn": "Developers",
+      "seoTitleIt": "Xcode, Swift e SDK: le novita per gli sviluppatori al WWDC 2026",
+      "seoTitleEn": "Xcode, Swift and SDKs: developer news at WWDC 2026"
+    },
+    {
+      "slug": "design-interfacce",
+      "slugEn": "design-interfaces",
+      "labelIt": "Design e interfacce",
+      "labelEn": "Design and interfaces",
+      "seoTitleIt": "Il nuovo linguaggio di design Apple al WWDC 2026",
+      "seoTitleEn": "Apple's new design language at WWDC 2026"
+    },
+    {
+      "slug": "spatial-visionos",
+      "slugEn": "spatial-visionos",
+      "labelIt": "Spatial computing e visionOS",
+      "labelEn": "Spatial computing and visionOS",
+      "seoTitleIt": "visionOS e lo spatial computing al WWDC 2026",
+      "seoTitleEn": "visionOS and spatial computing at WWDC 2026"
+    },
+    {
+      "slug": "salute-benessere",
+      "slugEn": "health-wellbeing",
+      "labelIt": "Salute e benessere",
+      "labelEn": "Health and wellbeing",
+      "seoTitleIt": "Salute, fitness e watchOS al WWDC 2026",
+      "seoTitleEn": "Health, fitness and watchOS at WWDC 2026"
+    },
+    {
+      "slug": "servizi-ecosistema",
+      "slugEn": "services-ecosystem",
+      "labelIt": "Servizi ed ecosistema",
+      "labelEn": "Services and ecosystem",
+      "seoTitleIt": "iCloud, Continuity e servizi: l'ecosistema Apple al WWDC 2026",
+      "seoTitleEn": "iCloud, Continuity and services: Apple's ecosystem at WWDC 2026"
+    },
+    {
+      "slug": "privacy-sicurezza",
+      "slugEn": "privacy-security",
+      "labelIt": "Privacy e sicurezza",
+      "labelEn": "Privacy and security",
+      "seoTitleIt": "Privacy e sicurezza nelle novita del WWDC 2026",
+      "seoTitleEn": "Privacy and security in the WWDC 2026 announcements"
+    }
+  ],
+  "tagsVocabulary": [
+    { "slug": "intelligenza-artificiale", "slugEn": "artificial-intelligence", "labelIt": "Intelligenza artificiale", "labelEn": "Artificial intelligence" },
+    { "slug": "siri", "slugEn": "siri", "labelIt": "Siri", "labelEn": "Siri" },
+    { "slug": "swift-xcode", "slugEn": "swift-xcode", "labelIt": "Swift e Xcode", "labelEn": "Swift and Xcode" },
+    { "slug": "design", "slugEn": "design", "labelIt": "Design", "labelEn": "Design" },
+    { "slug": "privacy", "slugEn": "privacy", "labelIt": "Privacy", "labelEn": "Privacy" },
+    { "slug": "salute", "slugEn": "health", "labelIt": "Salute", "labelEn": "Health" },
+    { "slug": "continuity", "slugEn": "continuity", "labelIt": "Continuity ed ecosistema", "labelEn": "Continuity and ecosystem" },
+    { "slug": "accessibilita", "slugEn": "accessibility", "labelIt": "Accessibilita", "labelEn": "Accessibility" }
+  ],
+  "topStories": [],
+  "featuredStories": {
+    "mediaBuzz": { "items": [] },
+    "underratedStructural": { "items": [] }
+  },
+  "redirects": []
+}

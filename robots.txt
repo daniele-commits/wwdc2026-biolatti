@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wwdc2026.biolatti.it/sitemap.xml
