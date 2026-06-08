@@ -1,9 +1,246 @@
 {
-  "lastUpdate": "2026-06-08T23:33:40.452744+02:00",
+  "lastUpdate": "2026-06-09T00:03:47.381423+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "macos-golden-gate-visual-intelligence-scorciatoia-mac",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Visual Intelligence su Mac: finalmente una scorciatoia da tastiera",
+      "titleEn": "Visual Intelligence on Mac: a dedicated keyboard shortcut at last",
+      "excerptIt": "macOS Golden Gate porta Visual Intelligence fuori dall'app Fotocamera e la rende accessibile ovunque sul desktop con un tasto rapido, simile allo screenshot. Dal risultato si può proseguire direttamente nella nuova app Siri.",
+      "excerptEn": "macOS Golden Gate brings Visual Intelligence out of the Camera app and makes it accessible anywhere on the desktop via a keyboard shortcut, similar to the screenshot tool. Results can continue directly in the new Siri app.",
+      "bodyIt": "## Una scorciatoia che cambia il flusso di lavoro sul Mac\n\nFino a macOS Tahoe, Visual Intelligence era una funzione legata principalmente alla fotocamera degli iPhone e, in forma ridotta, alla barra di ricerca su Mac. Con macOS Golden Gate 27, Apple introduce una scorciatoia da tastiera dedicata che funziona in modo analogo al comando di acquisizione schermata: l'utente seleziona una porzione qualsiasi dello schermo e ottiene risposte contestuali sull'area selezionata. Lo riportano sia 9to5Mac sia TechRadar nella copertura del keynote.\n\n## Azioni dirette e continuita con Siri\n\nLa funzione non si limita all'identificazione passiva. Apple ha mostrato una demo in cui Visual Intelligence legge una schermata con dettagli di eventi e aggiunge automaticamente piu voci al Calendario in un colpo solo. Dall'interfaccia di Visual Intelligence si puo inoltre aprire la conversazione nell'app Siri per approfondire o completare operazioni piu complesse. Si tratta di un collegamento diretto tra la visione artificiale e l'assistente testuale, senza bisogno di copiare e incollare testo o cambiare contesto.\n\n## Perche conta\n\nSu iPhone la Visual Intelligence era gia integrata nell'app Fotocamera e nel pulsante azione; sul Mac, invece, mancava un punto di ingresso veloce. La scorciatoia da tastiera colma questo divario e rende la funzione praticabile durante il lavoro quotidiano, non solo in scenari da dimostrazione. L'accesso rapido allo schermo intero — e non solo alle immagini — e' il passo che mancava per rendere Visual Intelligence uno strumento realmente trasversale nell'ecosistema Apple.",
+      "bodyEn": "## A shortcut that changes the Mac workflow\n\nUntil macOS Tahoe, Visual Intelligence was mainly tied to the iPhone's camera and, in limited form, to the Mac's search bar. With macOS Golden Gate 27, Apple introduces a dedicated keyboard shortcut that works similarly to the screenshot command: users select any portion of their screen and receive contextual answers about the selected area, as reported by 9to5Mac and TechRadar during keynote coverage.\n\n## Direct actions and Siri continuity\n\nThe feature is not limited to passive identification. Apple demonstrated a scenario where Visual Intelligence reads an event-details screen and automatically adds multiple Calendar entries at once. From the Visual Intelligence interface, users can also open the conversation in the Siri app for deeper follow-up. This creates a direct link between machine vision and the conversational assistant, removing the need to copy, paste, or switch contexts.\n\n## Why it matters\n\nOn iPhone, Visual Intelligence was already integrated into the Camera app and the Action button; on Mac, however, a fast entry point was missing. The keyboard shortcut fills that gap and makes the feature viable in everyday work, not just demo scenarios. Access across the full screen — not just images — is the step that was needed to make Visual Intelligence a genuinely cross-platform tool in the Apple ecosystem.",
+      "sources": [
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        },
+        {
+          "title": "TechRadar — macOS 27 Golden Gate announced at WWDC 2026",
+          "url": "https://www.techradar.com/computing/mac-os/macos-27-golden-gate-announced-at-wwdc-2026-heres-everything-you-need-to-know"
+        },
+        {
+          "title": "MacObserver — Apple Reveals macOS Golden Gate 27",
+          "url": "https://www.macobserver.com/news/apple-reveals-macos-golden-gate-27-heres-whats-new-for-mac-users/"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381351+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-writing-tools-ai-adattamento-contatto",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Writing Tools su Mac: l'AI impara come scrivi a ciascun contatto",
+      "titleEn": "Writing Tools on Mac: AI learns how you write to each contact",
+      "excerptIt": "macOS Golden Gate aggiorna Writing Tools con capacita contestuali piu profonde: il sistema capisce il tono e lo stile che l'utente usa con ogni singolo contatto e adatta di conseguenza le bozze generate. Arriva anche il feedback sulla scrittura.",
+      "excerptEn": "macOS Golden Gate upgrades Writing Tools with deeper contextual capabilities: the system learns the tone and style a user adopts with each contact and adapts generated drafts accordingly. Writing feedback is also new.",
+      "bodyIt": "## Dallo stile generico allo stile personale\n\nI Writing Tools arrivati con macOS Tahoe sapevano riscrivere, riassumere e correggere. Con macOS Golden Gate 27, Apple aggiunge una dimensione relazionale: il modello on-device analizza lo storico delle conversazioni e capisce come l'utente scrive abitualmente a ciascun contatto — piu formale con un collega, piu diretto con un amico — e genera le bozze di conseguenza. Lo riportano 9to5Mac e MacObserver nella copertura del keynote.\n\n## Feedback sulla scrittura come funzione separata\n\nNovita distinta e la possibilita di chiedere un parere sulla propria scrittura: l'utente puo selezionare un testo e ricevere suggerimenti critici, non solo correzioni automatiche. E' un comportamento piu vicino a uno strumento editoriale che a un correttore ortografico. La generazione di bozze di email avviene direttamente nel campo di testo, senza aprire un pannello separato.\n\n## Il nodo della privacy\n\nLa personalizzazione per contatto richiede che il modello acceda allo storico delle comunicazioni. Apple non ha fornito dettagli tecnici granulari su dove avviene l'elaborazione — on-device o Private Cloud Compute — ne su quali dati vengono effettivamente indicizzati. E' un aspetto che vale la pena monitorare durante il ciclo beta, soprattutto per chi usa Mail e Messages con account aziendali.",
+      "bodyEn": "## From generic style to personal style\n\nWriting Tools introduced with macOS Tahoe could already rewrite, summarize, and correct. With macOS Golden Gate 27, Apple adds a relational dimension: the on-device model analyzes conversation history and learns how a user typically writes to each contact — more formal with a colleague, more direct with a friend — and generates drafts accordingly, as reported by 9to5Mac and MacObserver during keynote coverage.\n\n## Writing feedback as a separate feature\n\nA distinct new addition is the ability to request feedback on your own writing: users can select a passage and receive critical suggestions, not just automatic corrections. This behavior is closer to an editorial tool than a spell-checker. Email draft generation happens directly in the text field, without opening a separate panel.\n\n## The privacy question\n\nContact-level personalization requires that the model access communication history. Apple provided no granular technical detail on whether processing happens on-device or via Private Cloud Compute, nor on which data is actually indexed. This is worth monitoring during the beta cycle, especially for those using Mail and Messages with corporate accounts.",
+      "sources": [
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        },
+        {
+          "title": "MacObserver — Apple Reveals macOS Golden Gate 27",
+          "url": "https://www.macobserver.com/news/apple-reveals-macos-golden-gate-27-heres-whats-new-for-mac-users/"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381373+02:00"
+    },
+    {
+      "slug": "ios-27-notifiche-lato-sinistro-schermo",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "iOS 27: le notifiche arrivano dal lato sinistro dello schermo",
+      "titleEn": "iOS 27: notifications now slide in from the left side of the screen",
+      "excerptIt": "Piccola ma visibile modifica al comportamento delle notifiche in iOS 27: invece di comparire dall'alto, scivolano dal bordo sinistro. Un cambiamento che altera l'abitudine visiva di quindici anni di iPhone.",
+      "excerptEn": "A small but visible change to notification behavior in iOS 27: instead of dropping from the top, alerts slide in from the left edge. A shift that alters fifteen years of iPhone muscle memory.",
+      "bodyIt": "## Una convenzione che cambia\n\nDal primo iPhone in poi, le notifiche sono sempre arrivate dall'alto dello schermo. iOS 27 rompe questa convenzione: i banner scivolano dal bordo sinistro, un dettaglio che MacRumors aveva anticipato citando Bloomberg prima del keynote e che e' stato poi confermato nell'aggiornamento del sistema annunciato al WWDC.\n\n## Perche proprio da sinistra\n\nApple non ha fornito una spiegazione esplicita nella presentazione. Una lettura plausibile e' che il bordo superiore sia sempre piu occupato dall'isola dinamica e dalle indicazioni di stato, e che uno scorrimento laterale riduca la sovrapposizione visiva con contenuti in corso di visione — video, mappe, giochi. Il gesto di scorrimento verso destra per chiudere la notifica rimane coerente con la nuova direzione di provenienza.\n\n## Piccola attrito, grande abitudine da reimparare\n\nNon e' un cambiamento funzionale, ma e' il tipo di modifica che genera frizione nei primi giorni d'uso. La memoria muscolare di guardare in alto a sinistra per leggere le notifiche e' consolidata da oltre un decennio. La scelta ha senso sul piano del design, ma il rodaggio sara' percepibile.",
+      "bodyEn": "## A convention that changes\n\nSince the original iPhone, notifications have always arrived from the top of the screen. iOS 27 breaks that convention: banners slide in from the left edge, a detail MacRumors had previewed citing Bloomberg before the keynote and which was confirmed in the system update announced at WWDC.\n\n## Why from the left\n\nApple offered no explicit explanation during the presentation. A plausible reading is that the top edge is increasingly occupied by the Dynamic Island and status indicators, and a lateral slide-in reduces visual overlap with ongoing content — videos, maps, games. The swipe-right-to-dismiss gesture remains consistent with the new direction of arrival.\n\n## Small friction, big habit to relearn\n\nThis is not a functional change, but it is the kind of modification that generates friction in the first days of use. The muscle memory of glancing to the top-left for incoming notifications is more than a decade old. The choice makes sense from a design standpoint, but the adjustment will be noticeable.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381380+02:00"
+    },
+    {
+      "slug": "safari-vibe-coding-extensions-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Safari supporta le estensioni create con il vibe coding",
+      "titleEn": "Safari now supports extensions built with vibe coding",
+      "excerptIt": "Tra le novita annunciate per Safari a WWDC 2026 c'e' il supporto alle estensioni generate tramite vibe coding, il paradigma in cui si descrive a parole cio che si vuole costruire e l'AI scrive il codice. Un segnale diretto alla nuova generazione di sviluppatori.",
+      "excerptEn": "Among the Safari announcements at WWDC 2026 is support for vibe coding extensions — the paradigm where you describe in plain language what you want to build and AI writes the code. A direct signal to the next generation of developers.",
+      "bodyIt": "## Cosa sono le vibe coding extensions\n\nIl termine 'vibe coding' indica l'approccio in cui l'utente descrive in linguaggio naturale l'obiettivo di uno strumento e un modello AI genera il codice corrispondente. Apple ha annunciato al WWDC 2026 che Safari accettera estensioni create con questo metodo, secondo quanto riportato da The Shortcut nella copertura live del keynote. La mossa si collega direttamente all'annuncio parallelo su Xcode con capacita agentiche e alle API Apple Foundation Models per sviluppatori terzi.\n\n## Il contesto piu ampio\n\nApple sta costruendo un ecosistema in cui la barriera d'ingresso alla creazione di software si abbassa drasticamente. Shortcuts in linguaggio naturale, Xcode agentico, Foundation Models API e ora estensioni Safari via vibe coding sono tasselli della stessa strategia: permettere a piu persone di creare strumenti per l'ecosistema Apple senza dover padroneggiare Swift a fondo. Il rischio speculare e' la proliferazione di estensioni di bassa qualita o con problemi di sicurezza non immediatamente visibili.\n\n## Cosa manca ancora sapere\n\nApple non ha chiarito se esistera un processo di revisione specifico per le estensioni generate via AI ne se il modello di distribuzione passa comunque per il Mac App Store. Dettagli che emergeranno durante le sessioni per sviluppatori nei prossimi giorni del WWDC.",
+      "bodyEn": "## What vibe coding extensions are\n\n'Vibe coding' refers to the approach where a user describes in natural language the goal of a tool and an AI model generates the corresponding code. Apple announced at WWDC 2026 that Safari will accept extensions created this way, as reported by The Shortcut in their live keynote coverage. The move connects directly to the parallel announcement of agentic Xcode capabilities and Apple Foundation Models APIs for third-party developers.\n\n## The broader context\n\nApple is building an ecosystem where the barrier to entry for software creation drops significantly. Natural-language Shortcuts, agentic Xcode, Foundation Models APIs, and now Safari vibe coding extensions are pieces of the same strategy: enabling more people to build tools for the Apple ecosystem without needing deep Swift proficiency. The inverse risk is a proliferation of low-quality or insecure extensions that are not immediately obvious.\n\n## What we still need to know\n\nApple did not clarify whether there will be a specific review process for AI-generated extensions, nor whether distribution still goes through the Mac App Store. Details will emerge during developer sessions over the remaining days of WWDC.",
+      "sources": [
+        {
+          "title": "The Shortcut — Apple WWDC 2026 Liveblog Highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381386+02:00"
+    },
+    {
+      "slug": "photos-spatial-reframing-prospettiva-ai",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Photos: Spatial Reframing cambia la prospettiva delle foto con l'AI",
+      "titleEn": "Photos: Spatial Reframing uses AI to shift a photo's perspective",
+      "excerptIt": "Con Spatial Reframing, l'app Foto in iOS 27 e macOS Golden Gate analizza la profondita spaziale di un'immagine e consente di modificarne la prospettiva, non solo il ritaglio. Una funzione distinta da Extend e da Clean Up, piu vicina al dominio della fotografia computazionale.",
+      "excerptEn": "With Spatial Reframing, the Photos app in iOS 27 and macOS Golden Gate analyzes the spatial depth of an image and allows its perspective to be changed, not just its crop. A feature distinct from Extend and Clean Up, closer to the domain of computational photography.",
+      "bodyIt": "## Non e' solo un ritaglio\n\nApple ha annunciato tre nuove funzioni AI per l'app Foto a WWDC 2026: Extend, Clean Up ed Enhance erano gia state anticipate o sono gia coperte. Spatial Reframing e' quella piu tecnica: usa i modelli spaziali del dispositivo per analizzare la profondita dell'immagine e consente di modificare il punto di vista della foto, non semplicemente di allargarne i bordi. Lo riportano 9to5Mac e Tom's Guide nella copertura del keynote.\n\n## Come funziona in pratica\n\nSecondo la descrizione di Apple, Spatial Reframing combina le funzioni di Clean Up ed Extend con un'analisi della prospettiva. Il risultato e' che l'utente puo, ad esempio, spostare leggermente il punto di ripresa virtuale per correggere una composizione leggermente storta o per avvicinare o allontanare il piano principale della scena. L'AI ricostruisce le aree mancanti in modo coerente con la scena originale.\n\n## Il peso computazionale\n\nSpatial Reframing richiede i modelli spaziali del dispositivo, il che suggerisce un requisito hardware non banale. Apple non ha specificato quali chip supporteranno la funzione nella sua forma completa, un dettaglio che sara' chiarito durante il ciclo beta. Per chi usa iPhone 15 Pro o i chip della serie M, la disponibilita appare probabile; per i modelli piu datati, meno.",
+      "bodyEn": "## Not just a crop\n\nApple announced three new AI features for the Photos app at WWDC 2026: Extend, Clean Up, and Enhance were already previewed or are covered separately. Spatial Reframing is the most technically involved: it uses the device's spatial models to analyze image depth and allows the photo's viewpoint to be changed, not merely its borders extended. This is reported by both 9to5Mac and Tom's Guide in their keynote coverage.\n\n## How it works in practice\n\nAccording to Apple's description, Spatial Reframing combines Clean Up and Extend functionality with a perspective analysis pass. The result is that users can, for example, shift the virtual camera position slightly to correct a slightly off-center composition or to adjust the distance to the main subject. The AI reconstructs missing areas in a way that is coherent with the original scene.\n\n## The computational cost\n\nSpatial Reframing requires the device's spatial models, suggesting a non-trivial hardware requirement. Apple has not specified which chips will support the full feature — a detail that will become clearer during the beta cycle. Availability seems likely for iPhone 15 Pro and M-series chips; less so for older models.",
+      "sources": [
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        },
+        {
+          "title": "Tom's Guide — Apple Intelligence biggest upgrade at WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381395+02:00"
+    },
+    {
+      "slug": "image-playground-wallpaper-contact-poster-ai",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Image Playground genera wallpaper e Contact Poster con l'AI",
+      "titleEn": "Image Playground now generates wallpapers and Contact Posters with AI",
+      "excerptIt": "Con iOS 27 e macOS Golden Gate, Image Playground allarga il suo raggio d'azione oltre le immagini autonome: puo creare sfondi personalizzati e Contact Poster, e nuove API consentono agli sviluppatori di integrare le stesse capacita nelle proprie app.",
+      "excerptEn": "With iOS 27 and macOS Golden Gate, Image Playground expands beyond standalone images: it can now create custom wallpapers and Contact Posters, and new APIs let developers integrate the same capabilities into their own apps.",
+      "bodyIt": "## Oltre l'immagine standalone\n\nQuando Image Playground e' arrivata con iOS 18, la sua utilita pratica era limitata: si generavano immagini in stili stilizzati che poi dovevano essere esportate manualmente. Con iOS 27 e macOS Golden Gate 27, Apple ha ampliato significativamente i casi d'uso. Tra i nuovi sbocchi ci sono la generazione di wallpaper personalizzati e la creazione di Contact Poster, la schermata personalizzata che appare quando si riceve una chiamata da un contatto. Lo riportano 9to5Mac e TechRadar.\n\n## API per sviluppatori\n\nParallelamente, Apple introduce nuove Image Playground API che permettono agli sviluppatori di integrare le stesse funzionalita di generazione di immagini nelle proprie applicazioni. Non e' un dettaglio secondario: significa che app di terze parti potranno offrire creazione di immagini AI con la stessa qualita e le stesse garanzie di privacy on-device che Apple garantisce nell'app nativa, senza dover costruire un proprio modello o appoggiarsi a servizi cloud esterni.\n\n## Il modello foto-realistico come elemento centrale\n\nCome gia emerso per Image Playground 2 in generale, anche in questo contesto il nuovo stile foto-realistico cambia il profilo della funzione. Un wallpaper generato con stile illustrativo era un prodotto di nicchia; un wallpaper foto-realistico generato a partire da una descrizione testuale o da una foto esistente ha un bacino d'uso molto piu ampio.",
+      "bodyEn": "## Beyond the standalone image\n\nWhen Image Playground arrived with iOS 18, its practical utility was limited: it generated stylized images that then had to be manually exported. With iOS 27 and macOS Golden Gate 27, Apple has significantly broadened the use cases. Among the new outputs are custom wallpapers and Contact Poster creation — the personalized screen shown when receiving a call from a contact. This is reported by 9to5Mac and TechRadar.\n\n## APIs for developers\n\nAlongside this, Apple is introducing new Image Playground APIs that allow developers to integrate the same image-generation capabilities into their own applications. This is not a minor detail: it means third-party apps can offer AI image creation with the same quality and on-device privacy guarantees Apple provides in its native app, without building their own model or relying on external cloud services.\n\n## The photo-realistic model as the central element\n\nAs already noted for Image Playground 2 more broadly, the new photo-realistic style also changes this feature's profile. A wallpaper generated in an illustrative style was a niche product; a photo-realistic wallpaper generated from a text description or an existing photo has a much wider audience.",
+      "sources": [
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "The Shortcut — Apple WWDC 2026 Liveblog Highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381405+02:00"
+    },
+    {
+      "slug": "siri-ai-requisiti-hardware-iphone-15-pro-m1",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "Siri AI: la lista dei dispositivi compatibili e' piu corta di quanto ci si aspettasse",
+      "titleEn": "Siri AI: the compatible device list is shorter than expected",
+      "excerptIt": "Apple ha reso pubblica la lista ufficiale di dispositivi che supporteranno Siri AI: iPhone 16 e successivi piu iPhone 15 Pro e Pro Max, iPad con M1 o successivo, Mac con M1 o successivo. Una fascia che esclude quasi tutto il parco installato pre-2023.",
+      "excerptEn": "Apple has published the official device list for Siri AI support: iPhone 16 and later plus iPhone 15 Pro and Pro Max, iPad with M1 or later, Mac with M1 or later. A tier that excludes nearly all of the installed base pre-2023.",
+      "bodyIt": "## I requisiti ufficiali\n\nEngage ha riportato integralmente la dichiarazione Apple sui requisiti hardware per Siri AI: la funzione sara' disponibile su iPhone 16 o successivi, iPhone 15 Pro e iPhone 15 Pro Max, iPad mini con chip A17 Pro, iPad con M1 o successivo, Mac con M1 o successivo, Apple Vision Pro, Apple Watch Series 10, Ultra 2 e SE3 — quest'ultimo solo se abbinato a un iPhone compatibile con Apple Intelligence. TechRadar ha sottolineato che la lista e' sorprendentemente breve.\n\n## Cosa resta fuori\n\nIPhone 15 standard, iPhone 15 Plus, tutta la linea iPhone 14 e le generazioni precedenti non accederanno a Siri AI, anche se iOS 27 sara' installabile su di essi. La linea di demarcazione corrisponde sostanzialmente all'adozione del chip A17 Pro e della serie M per iPad e Mac. Chi ha comprato un iPhone 15 base nel 2023 — un dispositivo di soli tre anni — si trova escluso dalla funzione principale del nuovo sistema operativo.\n\n## Piu limitante di Apple Intelligence base\n\nE' importante distinguere: iOS 27 gira su iPhone 11 e successivi, Apple Intelligence base gira su un sottoinsieme piu ristretto, ma Siri AI — la funzione con piu visibilita — ha requisiti ancora piu selettivi. Questo stratifica di fatto l'esperienza utente in tre livelli: aggiornamento software senza AI, Apple Intelligence parziale, Siri AI completo. Una segmentazione che spingerebbe verso l'aggiornamento hardware, non solo software.",
+      "bodyEn": "## The official requirements\n\nEngadget published Apple's complete hardware requirements for Siri AI: the feature will be available on iPhone 16 or later, iPhone 15 Pro and iPhone 15 Pro Max, iPad mini with A17 Pro chip, iPad with M1 or later, Mac with M1 or later, Apple Vision Pro, Apple Watch Series 10, Ultra 2, and SE3 — the latter only when paired with an Apple Intelligence-capable iPhone. TechRadar noted that the list is surprisingly short.\n\n## What is excluded\n\nIPhone 15, iPhone 15 Plus, the entire iPhone 14 lineup, and earlier generations will not get Siri AI, even though iOS 27 will install on them. The cutoff corresponds broadly to the adoption of the A17 Pro chip and the M-series for iPad and Mac. Someone who bought an iPhone 15 base model in 2023 — a device just three years old — is excluded from the flagship feature of the new operating system.\n\n## More restrictive than base Apple Intelligence\n\nIt is important to distinguish: iOS 27 runs on iPhone 11 and later; base Apple Intelligence runs on a narrower subset; but Siri AI — the most prominently featured function — has even more selective requirements. This effectively creates three tiers of user experience: software update without AI, partial Apple Intelligence, and full Siri AI. A segmentation that nudges toward hardware upgrades, not just software ones.",
+      "sources": [
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Macworld — macOS 27 Golden Gate Guide",
+          "url": "https://www.macworld.com/article/3139330/macos-27-mac-features-siri-apple-intelligence-release-date-compatibility.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381411+02:00"
+    },
+    {
+      "slug": "apple-intelligence-proofreading-automatico-systemwide",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple Intelligence: revisione automatica del testo in ogni app",
+      "titleEn": "Apple Intelligence: automatic proofreading across every app",
+      "excerptIt": "Con iOS 27 e macOS Golden Gate, Apple Intelligence introduce una revisione grammaticale e stilistica automatica attiva in quasi tutte le applicazioni, senza che l'utente debba attivarla manualmente. Non e' autocorrettore: e' un livello di analisi piu profondo.",
+      "excerptEn": "With iOS 27 and macOS Golden Gate, Apple Intelligence introduces automatic grammar and style checking active in nearly every application, without manual activation. It is not autocorrect: it is a deeper layer of analysis.",
+      "bodyIt": "## Diverso dall'autocorrect classico\n\nL'autocorrettore di iOS corregge errori di battitura in tempo reale, parola per parola. Il proofreading automatico annunciato a WWDC 2026 opera a un livello diverso: analizza il testo scritto e segnala o corregge errori grammaticali, costruzioni ambigue e problemi stilistici, in modo simile a quanto fa Grammarly come estensione di terze parti. Apple Intelligence lo rende nativo e trasversale a quasi ogni campo di testo del sistema. Lo riportano The Shortcut e wi-fiplanet.com nella copertura del keynote.\n\n## Systemwide: cosa significa in pratica\n\nLa parola chiave e' 'systemwide'. Non si tratta di una funzione in Mail o in Note soltanto, ma di un layer che si attiva in qualsiasi app che utilizzi i controlli testo standard di iOS e macOS. Questo include app di terze parti. Chi scrive documenti in Word per iOS, messaggi su Telegram o commenti in un'app di project management potra ricevere suggerimenti senza installare nulla di aggiuntivo.\n\n## Automatico non significa invasivo (in teoria)\n\nApple non ha dettagliato il comportamento preciso quando il proofreading trova un problema: sottolineatura, suggerimento inline o pannello separato. Il modello sembra rispecchiare l'approccio gia visto con i Writing Tools — sottile, non bloccante — ma i dettagli emergeranno dalle beta. Vale anche qui la domanda sulla privacy: l'analisi avviene on-device o transita per Private Cloud Compute per i testi piu lunghi?",
+      "bodyEn": "## Different from classic autocorrect\n\niOS autocorrect fixes typos in real time, word by word. The automatic proofreading announced at WWDC 2026 operates at a different level: it analyzes written text and flags or corrects grammatical errors, ambiguous constructions, and stylistic issues, similarly to what Grammarly does as a third-party extension. Apple Intelligence makes this native and cross-platform across nearly every text field in the system, as reported by The Shortcut and wi-fiplanet.com in their keynote coverage.\n\n## Systemwide: what it means in practice\n\nThe key word is 'systemwide'. This is not a feature limited to Mail or Notes — it is a layer that activates in any app using standard iOS and macOS text controls. That includes third-party apps. Users writing documents in Word for iOS, messages in Telegram, or comments in a project management app will receive suggestions without installing anything additional.\n\n## Automatic does not mean intrusive (in theory)\n\nApple has not detailed the exact behavior when proofreading finds an issue: underline, inline suggestion, or separate panel. The model seems to mirror the approach already seen with Writing Tools — subtle, non-blocking — but specifics will emerge from the betas. The privacy question applies here too: does analysis happen on-device, or does it route through Private Cloud Compute for longer passages?",
+      "sources": [
+        {
+          "title": "The Shortcut — Apple WWDC 2026 Liveblog Highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "wi-fiplanet.com — Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide — Apple Intelligence biggest upgrade at WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        }
+      ],
+      "publishedAt": "2026-06-09T00:03:47.381417+02:00"
+    },
     {
       "slug": "watchos-27-dynamic-app-grid-siri-smart-stack",
       "macroArea": "sistemi-operativi",
