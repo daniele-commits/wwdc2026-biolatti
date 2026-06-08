@@ -128,7 +128,7 @@ def call_anthropic(prompt, api_key):
     payload = {
         "model": MODEL,
         "max_tokens": 8000,
-        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 4}],
         "messages": [{"role": "user", "content": prompt}],
     }
     req = urllib.request.Request(

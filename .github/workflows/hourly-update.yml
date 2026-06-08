@@ -5,8 +5,11 @@ name: WWDC 2026 hourly update
 # Dopo il 13 giugno il workflow puo essere disabilitato da Actions > ... > Disable.
 on:
   schedule:
-    - cron: "0 * * * *"
-  workflow_dispatch: {}   # esecuzione manuale dal tab Actions
+    # Solo ore attive (UTC; CEST = UTC+2): keynote + giornata/serata USA.
+    # Salta le ore morte europee (mattina/pomeriggio) per non bruciare credito.
+    - cron: "0 16-23 * * *"   # 18:00 - 01:00 CEST
+    - cron: "0 0-1 * * *"     # 02:00 - 03:00 CEST (coda notturna keynote)
+  workflow_dispatch: {}   # esecuzione manuale dal tab Actions (per effetto "live")
 
 # Evita run sovrapposti.
 concurrency:
@@ -95,5 +98,5 @@ jobs:
                   print("Postato:", it["title"])
               except urllib.error.HTTPError as e:
                   print("Errore Telegram:", e.code, e.read().decode("utf-8", "replace")[:200])
-              time.sleep(1)  # rispetta i rate limit del canale
+              time.sleep(3)  # distanzia i messaggi: meno effetto "raffica" nel canale
           PY
