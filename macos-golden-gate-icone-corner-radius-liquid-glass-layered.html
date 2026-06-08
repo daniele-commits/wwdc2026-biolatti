@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti | Apple WWDC 2026</title>
+  <meta name="description" content="Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">
+  <meta property="og:title" content="macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti | Apple WWDC 2026">
+  <meta property="og:description" content="Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti | Apple WWDC 2026">
+  <meta name="twitter:description" content="Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e…">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Aree tematiche</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a>
+            <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a>
+            <a href="./macro-aree/sviluppatori.html">Sviluppatori</a>
+            <a href="./macro-aree/design-interfacce.html">Design e interfacce</a>
+            <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a>
+            <a href="./macro-aree/salute-benessere.html">Salute e benessere</a>
+            <a href="./macro-aree/servizi-ecosistema.html">Servizi ed ecosistema</a>
+            <a href="./macro-aree/privacy-sicurezza.html">Privacy e sicurezza</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Argomenti</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/intelligenza-artificiale.html">Intelligenza artificiale</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift e Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/salute.html">Salute</a>
+            <a href="./tag/continuity.html">Continuity ed ecosistema</a>
+            <a href="./tag/accessibilita.html">Accessibilita</a>
+          </div>
+        </details>
+        <a href="./analisi.html" >Analisi</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archivio</a>
+        <div class="lang-switch">
+          <a href="#" class="active">IT</a>
+          <span class="sep">/</span>
+          <a href="en/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-aree/design-interfacce.html">Design e interfacce</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti</h1>
+        <p class="article__lede">Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e ridisegna la toolbar per ridurre il rumore visivo — risposte concrete alle critiche di leggibilita di macOS Tahoe.</p>
+        <div class="article__meta">
+          <span>Pubblicato: <span data-ts="2026-06-09T01:13:36.725418+02:00">2026-06-09T01:13:36.725418+02:00</span></span>
+          <span>Area tematica: Design e interfacce</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Le icone diventano tridimensionali</h2>
+<p>In macOS Golden Gate, Apple applica l'estetica Liquid Glass direttamente alle icone delle applicazioni, aggiungendo profondita e definizione attraverso livelli sovrapposti. Digit.in riporta che alcune icone sono state completamente ridisegnate con strati multipli che ne migliorano la leggibilita su qualsiasi sfondo. Non si tratta di un semplice cambio di colore: la struttura dell'icona acquista dimensione.</p>
+<h2>Coerenza tra finestre e toolbar</h2>
+<p>Uno dei punti di frizione di macOS 26 Tahoe era la difformita nel rapporto d'aspetto delle finestre tra app diverse — alcune piu squadrate, altre con angoli piu morbidi, senza una logica unitaria. Golden Gate risolve il problema con un corner radius uniforme applicato a tutte le finestre, indipendentemente dall'app. La toolbar e stata ridisegnata per essere piu omogenea tra le applicazioni, con meno rumore visivo e una struttura piu prevedibile.</p>
+<p>Secondo Digit.in, ogni finestra condivide ora lo stesso angolo stretto per un aspetto piu coerente in tutto il sistema. BGR aggiunge che alcune interazioni sono state affinate in risposta ai feedback degli utenti — Apple ha esplicitamente detto di aver 'prestato attenzione ai dettagli'. Il risultato complessivo e un sistema operativo che non introduce nessun elemento visivo nuovo, ma che lima le asperita di un redesign che il pubblico aveva accolto con divisioni l'anno scorso.</p>
+        
+        <div class="sources">
+          <h3>Fonti</h3>
+          <ul><li><a href="https://www.digit.in/news/general/apple-announces-macos-golden-gate-and-ipados-27-new-design-siri-ai-and-visual-intelligence-on-desktop.html" target="_blank" rel="noopener">Digit.in – Apple announces macOS Golden Gate and iPadOS 27</a></li><li><a href="https://www.bgr.com/2190090/macos-27-golden-gate-new-features-wwdc-2026/" target="_blank" rel="noopener">BGR – 5 New Features That Make macOS 27 Golden Gate A Worthwhile Update</a></li><li><a href="https://www.techradar.com/news/live/apple-wwdc-2026-live" target="_blank" rel="noopener">TechRadar – Apple WWDC 2026 as it happened</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tag</h4>
+          <div class="tag-pills"><a href="./tag/design.html" class="tag-pill">Design</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Torna alla home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Copertura indipendente, in italiano, dell'Apple WWDC 2026. A cura di Daniele Biolatti con il supporto di Kairos.</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analisi.html">Analisi</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archivio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Risorse</h4>
+        <ul>
+          <li><a href="https://biolatti.it">Sito principale</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Sito ufficiale Apple WWDC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. Tutte le notizie restano di proprieta delle rispettive fonti.</span>
+      <span>Informazioni aggiornate al 12 giugno 2026. Nessuna affiliazione con Apple. Le fonti originali sono linkate in ogni articolo.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti", "description": "Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e ridisegna la toolbar per ridurre il rumore visivo — risposte concrete alle critiche di leggibilita di macOS Tahoe.", "datePublished": "2026-06-09T01:13:36.725418+02:00", "dateModified": "2026-06-09T01:13:36.725418+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "it", "mainEntityOfPage": "https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html", "url": "https://wwdc2026.biolatti.it/macos-golden-gate-icone-corner-radius-liquid-glass-layered.html", "articleSection": "Design e interfacce", "keywords": "design"}</script><script src="assets/js/main.js"></script>
+</body>
+</html>

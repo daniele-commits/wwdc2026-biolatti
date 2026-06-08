@@ -1,9 +1,245 @@
 {
-  "lastUpdate": "2026-06-09T01:03:29.031337+02:00",
+  "lastUpdate": "2026-06-09T01:13:36.725497+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "shortcuts-describe-a-shortcut-ai-linguaggio-naturale",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Shortcuts diventa conversazionale: basta descrivere l'automazione ad Apple Intelligence",
+      "titleEn": "Shortcuts goes conversational: just describe your automation to Apple Intelligence",
+      "excerptIt": "Con 'Describe a Shortcut', l'utente spiega in prosa cosa vuole automatizzare e Apple Intelligence costruisce i passaggi da sola. Un cambio di paradigma che abbassa la soglia di accesso a uno degli strumenti piu potenti della piattaforma.",
+      "excerptEn": "With 'Describe a Shortcut', users explain in plain language what they want to automate and Apple Intelligence builds the steps automatically — lowering the barrier to one of the platform's most powerful tools.",
+      "bodyIt": "## Finalmente accessibile a tutti\n\nShortcuts esiste da anni, ma il numero di utenti che la usa davvero per creare automazioni complesse e rimasto basso. Il motivo e semplice: costruire una sequenza di azioni richiede logica, pazienza e una certa familiarita con il modello mentale dell'app. Apple ha deciso di eliminare quella frizione introducendo 'Describe a Shortcut', una funzione che consente di creare un'automazione semplicemente descrivendo cosa si vuole ottenere in linguaggio naturale.\n\nL'esempio mostrato durante il keynote e concreto e rivelatore: l'utente digita 'Quando esco dal lavoro, manda un messaggio a Pedro con il mio orario di arrivo stimato', e Shortcuts assembla automaticamente il rilevamento della posizione, il calcolo dell'ETA e l'invio del messaggio. Secondo Fox Business, Apple ha mostrato anche il caso di un iPad connesso a una Magic Keyboard che apre automaticamente un set di app produttive in una disposizione specifica di finestre.\n\n## Una funzione che vale anche su Mac\n\nBGR e Digit.in confermano che la funzione e presente sia su iOS 27 che su iPadOS 27 e macOS Golden Gate. Su Mac, l'esempio citato da Apple riguarda la possibilita di impostare una sveglia diversa ogni sera in base al primo evento in Calendario il giorno successivo — un compito che avrebbe richiesto diversi passaggi manuali. L'intelligence e on-device per le istruzioni di assemblaggio, anche se i modelli di linguaggio sottostanti attingono all'infrastruttura Apple Foundation Models.\n\nIl rischio, come sempre con le funzioni AI di questo tipo, e che il risultato sia approssimativo nei casi limite. Ma per le automazioni piu comuni, 'Describe a Shortcut' potrebbe finalmente trasformare Shortcuts da strumento per entusiasti a funzione usata dalla maggioranza.",
+      "bodyEn": "## Finally accessible to everyone\n\nShortcuts has existed for years, but the number of users who actually build complex automations has remained low. The reason is simple: assembling a sequence of actions requires logic, patience and familiarity with the app's mental model. Apple has decided to eliminate that friction with 'Describe a Shortcut', a feature that lets you create an automation by simply describing what you want in plain language.\n\nThe example shown during the keynote is concrete and telling: the user types 'When I leave work, message Pedro I'm on my way with my ETA', and Shortcuts automatically assembles location detection, ETA calculation and message sending. According to Fox Business, Apple also demonstrated an iPad connected to a Magic Keyboard that automatically opens a set of productivity apps in a specific window arrangement.\n\n## A feature that works on Mac too\n\nBGR and Digit.in confirm the feature is present on iOS 27, iPadOS 27 and macOS Golden Gate. On Mac, Apple's cited example involves setting a different alarm each evening based on the first Calendar event the following day — a task that would have required several manual steps. The intelligence is on-device for assembly instructions, though the underlying language models draw on Apple Foundation Models infrastructure.\n\nThe risk, as always with AI features of this type, is that results may be imprecise in edge cases. But for common automations, 'Describe a Shortcut' could finally turn Shortcuts from an enthusiast tool into a feature used by the majority.",
+      "sources": [
+        {
+          "title": "Fox Business – WWDC26 keynote live updates",
+          "url": "https://www.foxbusiness.com/live-news/apple-tim-cook-wwdc26-keynote-iphone-ai-tech-june-8"
+        },
+        {
+          "title": "BGR – 5 New Features That Make macOS 27 Golden Gate A Worthwhile Update",
+          "url": "https://www.bgr.com/2190090/macos-27-golden-gate-new-features-wwdc-2026/"
+        },
+        {
+          "title": "Digit.in – Apple announces macOS Golden Gate and iPadOS 27",
+          "url": "https://www.digit.in/news/general/apple-announces-macos-golden-gate-and-ipados-27-new-design-siri-ai-and-visual-intelligence-on-desktop.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725379+02:00"
+    },
+    {
+      "slug": "ios-27-child-safety-ask-to-browse-communication-safety-violenza",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "accessibilita"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "iOS 27: 'Ask to Browse' e Communication Safety estesa ai contenuti violenti",
+      "titleEn": "iOS 27: 'Ask to Browse' and Communication Safety extended to violent content",
+      "excerptIt": "Apple amplia le protezioni per i minori con una funzione che richiede approvazione parentale prima di accedere a nuovi siti web, e porta Communication Safety — gia attiva per la nudita — anche ai contenuti violenti e gore.",
+      "excerptEn": "Apple expands protections for minors with a feature requiring parental approval before accessing new websites, and extends Communication Safety — already active for nudity — to violent and gore content.",
+      "bodyIt": "## Ask to Browse: il genitore come gatekeeper del web\n\nCon iOS 27, Apple introduce 'Ask to Browse', una funzione attivata per impostazione predefinita per i bambini sotto i 13 anni. Quando un minore tenta di aprire un sito web non ancora approvato in Safari, il sistema invia automaticamente una richiesta al genitore, che puo approvare o rifiutare direttamente dal proprio dispositivo. Tbreak conferma che i genitori potranno anche gestire con chi i figli possono comunicare tramite Messaggi, FaceTime e l'app Telefono.\n\nL'approccio e simile a quello gia esistente per i download sull'App Store ('Ask to Buy'), ma applicato alla navigazione web — un contesto notoriamente piu difficile da controllare. Secondo BGR, man mano che i ragazzi crescono i genitori potranno progressivamente ampliare i permessi, con un modello a sblocchi graduali.\n\n## Communication Safety: dalla nudita alla violenza\n\nCommunication Safety, la funzione che rileva e oscura automaticamente le immagini di nudita nei messaggi ricevuti e inviati, si estende ora ai contenuti violenti e gore. Tbreak riporta che il sistema puo intervenire prima ancora che il minore veda o condivida un'immagine potenzialmente disturbante — non solo a rilevamento avvenuto, ma in modo proattivo.\n\nL'espansione arriva in un momento di forte pressione regolatoria a livello globale sulla sicurezza dei minori online. Ingamenews segnala che Apple ha collaborato con l'American Academy of Pediatrics per sviluppare linee guida basate su evidenze scientifiche, ora integrate in un nuovo SDK per sviluppatori che consente di costruire ambienti piu sicuri direttamente nelle app. Si tratta di una mossa che ha implicazioni anche per i developer: le aspettative di sicurezza per le app rivolte ai minori diventano piu stringenti.",
+      "bodyEn": "## Ask to Browse: the parent as web gatekeeper\n\nWith iOS 27, Apple introduces 'Ask to Browse', a feature enabled by default for children under 13. When a minor attempts to open a previously unapproved website in Safari, the system automatically sends a request to the parent, who can approve or decline directly from their own device. Tbreak confirms that parents will also be able to manage who their children can communicate with via Messages, FaceTime and the Phone app.\n\nThe approach mirrors the existing 'Ask to Buy' system for App Store downloads, but applied to web browsing — a context notoriously harder to control. According to BGR, as children grow older, parents can progressively expand permissions through a graduated unlock model.\n\n## Communication Safety: from nudity to violence\n\nCommunication Safety, the feature that automatically detects and blurs nudity in received and sent images, now extends to violent and gore content. Tbreak reports that the system can intervene before a minor even sees or shares a potentially disturbing image — not just reactively after detection, but proactively.\n\nThe expansion comes at a time of strong regulatory pressure globally on online child safety. Ingamenews notes that Apple collaborated with the American Academy of Pediatrics to develop evidence-based guidelines, now integrated into a new developer SDK that allows safer environments to be built directly into apps. This also has implications for developers: safety expectations for apps aimed at minors become more stringent.",
+      "sources": [
+        {
+          "title": "Tbreak – Apple WWDC 2026: Siri AI and All Announcements",
+          "url": "https://tbreak.com/apple-wwdc-2026-everything-announced/"
+        },
+        {
+          "title": "BGR – 5 New Features That Make macOS 27 Golden Gate A Worthwhile Update",
+          "url": "https://www.bgr.com/2190090/macos-27-golden-gate-new-features-wwdc-2026/"
+        },
+        {
+          "title": "Inshorts – What are the new child safety features Apple announced at WWDC?",
+          "url": "https://inshorts.com/en/amp_news/what-are-the-new-child-safety-features-apple-announced-at-wwdc--1780940825941"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725406+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-icone-corner-radius-liquid-glass-layered",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "macOS Golden Gate ridisegna le icone app: livelli extra, corner radius uniforme e finestre coerenti",
+      "titleEn": "macOS Golden Gate redesigns app icons: extra layers, uniform corner radius and consistent windows",
+      "excerptIt": "Apple applica Liquid Glass direttamente alle icone delle app con livelli aggiuntivi di profondita, impone un corner radius uniforme a tutte le finestre e ridisegna la toolbar per ridurre il rumore visivo — risposte concrete alle critiche di leggibilita di macOS Tahoe.",
+      "excerptEn": "Apple applies Liquid Glass directly to app icons with additional depth layers, imposes a uniform corner radius across all windows and redesigns the toolbar to reduce visual noise — concrete responses to macOS Tahoe's readability criticisms.",
+      "bodyIt": "## Le icone diventano tridimensionali\n\nIn macOS Golden Gate, Apple applica l'estetica Liquid Glass direttamente alle icone delle applicazioni, aggiungendo profondita e definizione attraverso livelli sovrapposti. Digit.in riporta che alcune icone sono state completamente ridisegnate con strati multipli che ne migliorano la leggibilita su qualsiasi sfondo. Non si tratta di un semplice cambio di colore: la struttura dell'icona acquista dimensione.\n\n## Coerenza tra finestre e toolbar\n\nUno dei punti di frizione di macOS 26 Tahoe era la difformita nel rapporto d'aspetto delle finestre tra app diverse — alcune piu squadrate, altre con angoli piu morbidi, senza una logica unitaria. Golden Gate risolve il problema con un corner radius uniforme applicato a tutte le finestre, indipendentemente dall'app. La toolbar e stata ridisegnata per essere piu omogenea tra le applicazioni, con meno rumore visivo e una struttura piu prevedibile.\n\nSecondo Digit.in, ogni finestra condivide ora lo stesso angolo stretto per un aspetto piu coerente in tutto il sistema. BGR aggiunge che alcune interazioni sono state affinate in risposta ai feedback degli utenti — Apple ha esplicitamente detto di aver 'prestato attenzione ai dettagli'. Il risultato complessivo e un sistema operativo che non introduce nessun elemento visivo nuovo, ma che lima le asperita di un redesign che il pubblico aveva accolto con divisioni l'anno scorso.",
+      "bodyEn": "## Icons become three-dimensional\n\nIn macOS Golden Gate, Apple applies the Liquid Glass aesthetic directly to app icons, adding depth and definition through layered elements. Digit.in reports that some icons have been completely redesigned with multiple layers that improve readability on any background. This is not a simple color change: the icon structure gains dimension.\n\n## Consistency across windows and toolbar\n\nOne of macOS 26 Tahoe's friction points was the inconsistency in window aspect ratios across different apps — some squarer, others with softer corners, without a unified logic. Golden Gate resolves this with a uniform corner radius applied to all windows, regardless of app. The toolbar has been redesigned to be more uniform across applications, with less visual noise and a more predictable structure.\n\nAccording to Digit.in, every window now shares the same tighter corner radius for a more consistent look across the system. BGR adds that certain interactions have been refined in response to user feedback — Apple explicitly said it had been 'paying attention to details'. The overall result is an operating system that introduces no new visual elements, but smooths the rough edges of a redesign the public received with mixed feelings last year.",
+      "sources": [
+        {
+          "title": "Digit.in – Apple announces macOS Golden Gate and iPadOS 27",
+          "url": "https://www.digit.in/news/general/apple-announces-macos-golden-gate-and-ipados-27-new-design-siri-ai-and-visual-intelligence-on-desktop.html"
+        },
+        {
+          "title": "BGR – 5 New Features That Make macOS 27 Golden Gate A Worthwhile Update",
+          "url": "https://www.bgr.com/2190090/macos-27-golden-gate-new-features-wwdc-2026/"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725418+02:00"
+    },
+    {
+      "slug": "apple-azione-borsa-negativa-wwdc-2026-mercati-ai-delusione",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Il mercato non e convinto: le azioni Apple scivolano durante il keynote WWDC 2026",
+      "titleEn": "Markets unconvinced: Apple shares slide during WWDC 2026 keynote",
+      "excerptIt": "Le azioni Apple aprono in rialzo moderato e poi virano al negativo durante la presentazione del keynote. Gli investitori non hanno trovato in Siri AI e negli aggiornamenti software un segnale abbastanza forte da posizionare Apple come leader nell'attuale corsa all'intelligenza artificiale.",
+      "excerptEn": "Apple shares open modestly higher then turn negative during the keynote presentation. Investors did not find in Siri AI and software updates a strong enough signal to position Apple as a leader in the current AI race.",
+      "bodyIt": "## Rialzo iniziale, poi retromarcia\n\nLe azioni Apple hanno aperto la seduta dell'8 giugno in rialzo di circa il 2% sulla scia dell'attesa per gli annunci WWDC, salvo poi invertire la rotta e chiudere in territorio negativo durante la stessa presentazione keynote, come riporta CNBC. Il mercato ha ascoltato gli annunci in tempo reale e non ha gradito.\n\nSecondo XTB, gli investitori potrebbero non aver ritenuto gli annunci sufficientemente convincenti per vedere Apple come uno dei protagonisti dell'attuale ondata AI. Siri AI, pur rappresentando il piu importante aggiornamento del prodotto, era gia ampiamente anticipato. I miglioramenti di performance, il ridisegno di Liquid Glass e le funzioni di parental control — per quanto utili — non configurano una svolta narrativa per chi valuta Apple come investimento AI.\n\n## La pressione su Ternus\n\nIl timing non e indifferente. Il WWDC 2026 e l'ultimo keynote di Tim Cook come CEO: da settembre John Ternus assume la guida dell'azienda. Dan Ives di Wedbush Securities ha sintetizzato la posta in gioco in termini netti, citato da Yahoo Finance: Cook lascia un'eredita enorme, ma Ternus si trovera sotto pressione immediata per dimostrare risultati sul fronte AI. Il mercato, in altre parole, ha gia spostato l'attenzione al prossimo capitolo — e vuole sapere se il capitolo avra una storia diversa.",
+      "bodyEn": "## Initial rise, then reversal\n\nApple shares opened the June 8 session up around 2% on the back of WWDC anticipation, only to reverse course and close in negative territory during the keynote itself, as CNBC reports. The market listened to announcements in real time and was unimpressed.\n\nAccording to XTB, investors may not have seen a sufficiently compelling reason to view Apple as one of the leaders of the current AI wave. Siri AI, while representing the most important product update, was already widely anticipated. Performance improvements, the Liquid Glass redesign and parental control features — however useful — do not configure a narrative breakthrough for those valuing Apple as an AI investment.\n\n## Pressure on Ternus\n\nThe timing is not irrelevant. WWDC 2026 is Tim Cook's last keynote as CEO: from September, John Ternus takes the helm. Dan Ives of Wedbush Securities summarized the stakes bluntly, as quoted by Yahoo Finance: Cook leaves an enormous legacy, but Ternus will face immediate pressure to deliver results on the AI front. The market, in other words, has already shifted its attention to the next chapter — and wants to know whether that chapter will have a different story.",
+      "sources": [
+        {
+          "title": "CNBC – WWDC 2026: Apple makes its big Siri AI reveal",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "XTB – Apple shares fall amid WWDC conference",
+          "url": "https://www.xtb.com/int/market-analysis/news-and-research/apple-shares-fall-amid-wwdc-conference-no-ai-breakthrough"
+        },
+        {
+          "title": "Yahoo Finance / TheStreet – Tim Cook's final act as Apple CEO",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/tim-cooks-final-act-apple-150700880.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725427+02:00"
+    },
+    {
+      "slug": "john-ternus-cena-pre-wwdc-assente-keynote-debutto-pubblico",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Ternus alla cena pre-WWDC ma assente dal keynote: il passaggio di consegne in penombra",
+      "titleEn": "Ternus at the pre-WWDC dinner but absent from keynote: the handover in the shadows",
+      "excerptIt": "Il futuro CEO di Apple e apparso alla cena per i media la sera prima del keynote, intrattenendosi con i presenti per selfie e conversazioni. Durante la presentazione ufficiale, pero, non ha fatto alcuna apparizione — una scelta che segnala quanto Cook voglia chiudere la propria era senza ombre.",
+      "excerptEn": "Apple's incoming CEO appeared at the media dinner the evening before the keynote, mingling with attendees for selfies and conversation. During the official presentation, however, he made no appearance — a choice signaling how much Cook wants to close his own era without shadows.",
+      "bodyIt": "## Il debutto informale\n\nLa sera di domenica 7 giugno, Apple ha organizzato una cena per i media in vista del keynote. John Ternus — che il 1° settembre subentra a Tim Cook come CEO — era presente e, secondo CNBC, e stato preso d'assalto per selfie dai partecipanti. L'analista Carolina Milanesi ha condiviso su X una foto che mostra Ternus sorridente mentre chiacchiera con gli ospiti. E stato il suo primo test pubblico nel ruolo di CEO designato, e ha scelto un registro informale e accessibile.\n\n## L'assenza calcolata dal palco\n\nNonostante la sua presenza in loco, Ternus non e comparso durante il keynote dell'8 giugno. TechRadar ha notato l'assenza con un certo stupore. CNBC conferma che il futuro CEO non e stato presentato durante la presentazione ufficiale. La spiegazione piu ovvia e che Cook — che ha versato lacrime genuine durante le riprese del keynote, come documentato da CNBC — ha voluto che il suo addio fosse completo e non condiviso. Un keynote e un prodotto narrativo costruito con mesi di anticipo: inserire Ternus avrebbe diviso l'attenzione e anticipato una transizione che Apple preferisce gestire con precisione chirurgica. Il successore di Cook prende in eredita un'azienda con numeri record, ma con una storia AI ancora da scrivere — e il mercato lo sa gia.",
+      "bodyEn": "## The informal debut\n\nOn the evening of Sunday June 7, Apple held a media dinner ahead of the keynote. John Ternus — who succeeds Tim Cook as CEO on September 1 — was present and, according to CNBC, was mobbed for selfies by attendees. Analyst Carolina Milanesi shared a photo on X showing Ternus smiling while chatting with guests. It was his first public test in the designated CEO role, and he chose an informal, approachable register.\n\n## The calculated absence from the stage\n\nDespite his on-site presence, Ternus did not appear during the June 8 keynote. TechRadar noted the absence with some surprise. CNBC confirms the incoming CEO was not featured during the official presentation. The most obvious explanation is that Cook — who shed genuine tears during keynote filming, as documented by CNBC — wanted his farewell to be complete and unshared. A keynote is a narrative product built months in advance: inserting Ternus would have divided attention and anticipated a transition Apple prefers to manage with surgical precision. Cook's successor inherits a company with record numbers, but with an AI story still to be written — and the market already knows it.",
+      "sources": [
+        {
+          "title": "CNBC – WWDC 2026: Apple makes its big Siri AI reveal",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Gadget Hacks – Tim Cook's Final WWDC as Apple CEO",
+          "url": "https://apple.gadgethacks.com/news/tim-cooks-final-apple-event-as-ceo-what-wwdc-2026-means-for-siri-and-ternus/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725437+02:00"
+    },
+    {
+      "slug": "image-playground-limite-giornaliero-icloud-plus-freemium",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Image Playground con limiti giornalieri: le immagini AI diventano un servizio a consumo legato a iCloud+",
+      "titleEn": "Image Playground with daily limits: AI image generation becomes a consumption-based service tied to iCloud+",
+      "excerptIt": "Apple introduce un tetto giornaliero alla generazione di immagini in Image Playground. Chi vuole sbloccare piu capacita dovra farlo attraverso abbonamenti iCloud+ piu elevati — un primo segnale concreto di come Apple intenda monetizzare le funzioni AI piu onerose.",
+      "excerptEn": "Apple introduces a daily cap on image generation in Image Playground. Those wanting to unlock more capacity will need to do so through higher iCloud+ subscriptions — a first concrete signal of how Apple intends to monetize its most resource-intensive AI features.",
+      "bodyIt": "## Un tetto che non era stato annunciato\n\nImage Playground 2 porta immagini fotorealistiche e nuovi stili, ma porta anche una novita meno pubblicizzata: un limite giornaliero alla generazione di immagini. BGR riporta esplicitamente che Apple prevede 'limiti giornalieri per la generazione di immagini' e che gli utenti potranno aumentarli attraverso certi abbonamenti iCloud+. Non e un dettaglio secondario: e la struttura economica sottostante a una delle funzioni AI piu visibili della piattaforma.\n\n## Il modello freemium prende forma\n\nGia in occasione degli annunci su Siri AI era emerso un modello con soglia giornaliera gratuita e capacita estesa per gli abbonati iCloud+ (gia coperto su questo sito). Image Playground aggiunge un secondo livello alla stessa architettura: le funzioni generative piu costose dal punto di vista computazionale vengono distribuite tramite un meccanismo a crediti, con l'abbonamento come chiave per sbloccare piu volume.\n\nQuesto ha implicazioni concrete per gli utenti. Chi usa Image Playground di rado non sentira la differenza. Chi invece la integra nel flusso di lavoro quotidiano — o chi la usa intensivamente per creare poster di contatto, wallpaper o contenuti per social — trovera il tetto come un invito piu o meno esplicito ad aggiornare l'abbonamento. Il modello e coerente con la direzione generale di Apple Intelligence: gratuito di base, potenziato con iCloud+.",
+      "bodyEn": "## A cap that wasn't front-and-center\n\nImage Playground 2 brings photorealistic images and new styles, but also brings a less-publicized addition: a daily cap on image generation. BGR explicitly reports that Apple has 'daily limits when it comes to image generation' and that users can increase these limits with certain iCloud+ subscriptions. This is not a minor detail: it is the underlying economic structure of one of the platform's most visible AI features.\n\n## The freemium model takes shape\n\nAlready during the Siri AI announcements, a model with a free daily threshold and extended capacity for iCloud+ subscribers had emerged (already covered on this site). Image Playground adds a second layer to the same architecture: the most computationally expensive generative features are distributed through a credit mechanism, with the subscription as the key to unlocking more volume.\n\nThis has concrete implications for users. Those who use Image Playground rarely won't notice the difference. Those who integrate it into their daily workflow — or who use it intensively to create contact posters, wallpapers or social content — will find the cap as a more or less explicit invitation to upgrade their subscription. The model is consistent with the general direction of Apple Intelligence: free at baseline, enhanced with iCloud+.",
+      "sources": [
+        {
+          "title": "BGR – 5 New Features That Make macOS 27 Golden Gate A Worthwhile Update",
+          "url": "https://www.bgr.com/2190090/macos-27-golden-gate-new-features-wwdc-2026/"
+        },
+        {
+          "title": "Wi-Fi Planet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725472+02:00"
+    },
+    {
+      "slug": "ipados-27-visual-intelligence-screenshot-siri-spotlight",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "iPadOS 27: Visual Intelligence arriva sugli screenshot e Siri AI entra in Spotlight",
+      "titleEn": "iPadOS 27: Visual Intelligence comes to screenshots and Siri AI enters Spotlight",
+      "excerptIt": "Su iPad, Visual Intelligence si integra direttamente nel flusso degli screenshot: cattura uno schermo e l'analisi AI e immediatamente disponibile. Parallelamente, Siri AI approda in Spotlight con la stessa profondia di risposta e consapevolezza del contesto personale gia vista su Mac.",
+      "excerptEn": "On iPad, Visual Intelligence integrates directly into the screenshot workflow: capture a screen and AI analysis is immediately available. In parallel, Siri AI lands in Spotlight with the same depth of response and personal context awareness already seen on Mac.",
+      "bodyIt": "## Lo screenshot come punto di ingresso all'AI\n\nApple ha scelto per iPad un punto di accesso a Visual Intelligence diverso rispetto a Mac. Su macOS Golden Gate, la funzione si attiva tramite una scorciatoia da tastiera che permette di selezionare qualsiasi contenuto sullo schermo. Su iPadOS 27, invece, Digit.in riporta che Visual Intelligence e integrata direttamente nell'esperienza degli screenshot: l'utente cattura lo schermo e puo immediatamente richiamare l'analisi AI su qualsiasi elemento presente nell'immagine. E una scelta adatta alla modalita di interazione tattile dell'iPad, dove la scorciatoia da tastiera e meno naturale.\n\n## Siri AI in Spotlight: la stessa profondia del Mac\n\nOltre a Visual Intelligence, iPadOS 27 porta Siri AI in Spotlight, replicando l'approccio introdotto su macOS Golden Gate. Digit.in conferma che gli utenti potranno fare domande su file, cercare informazioni tra le app e usare istruzioni in linguaggio naturale per costruire automazioni tramite Shortcuts — tutto dall'interfaccia di ricerca unificata.\n\nTbreak aggiunge che gli iPad compatibili riceveranno anche l'accesso all'app dedicata Siri, con sincronizzazione della cronologia delle conversazioni via iCloud. Il requisito hardware rimane lo stesso di Apple Intelligence in generale: iPad mini con chip A17 Pro, e tutti i modelli iPad con M1 o successivo. Un numero di dispositivi che, a differenza del mondo iPhone, e effettivamente piu ristretto e potrebbe lasciare fuori molti utenti con iPad di fascia media.",
+      "bodyEn": "## The screenshot as AI entry point\n\nApple chose a different access point for Visual Intelligence on iPad compared to Mac. On macOS Golden Gate, the feature activates via a keyboard shortcut that lets users select any content on screen. On iPadOS 27, however, Digit.in reports that Visual Intelligence is integrated directly into the screenshot experience: the user captures the screen and can immediately invoke AI analysis on any element in the image. It's a choice suited to the iPad's touch interaction model, where keyboard shortcuts are less natural.\n\n## Siri AI in Spotlight: the same depth as Mac\n\nBeyond Visual Intelligence, iPadOS 27 brings Siri AI to Spotlight, mirroring the approach introduced on macOS Golden Gate. Digit.in confirms that users can ask questions about files, search for information across apps and use natural language instructions to build automations through Shortcuts — all from the unified search interface.\n\nTbreak adds that eligible iPads will also gain access to the dedicated Siri app, with conversation history synced via iCloud. Hardware requirements remain the same as Apple Intelligence generally: iPad mini with A17 Pro chip, and all iPad models with M1 or later. A device count that, unlike the iPhone world, is effectively more restricted and could leave out many users with mid-range iPads.",
+      "sources": [
+        {
+          "title": "Digit.in – Apple announces macOS Golden Gate and iPadOS 27",
+          "url": "https://www.digit.in/news/general/apple-announces-macos-golden-gate-and-ipados-27-new-design-siri-ai-and-visual-intelligence-on-desktop.html"
+        },
+        {
+          "title": "Tbreak – Apple WWDC 2026: Siri AI and All Announcements",
+          "url": "https://tbreak.com/apple-wwdc-2026-everything-announced/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725483+02:00"
+    },
+    {
+      "slug": "ios-27-search-or-ask-panel-chatbot-terze-parti-claude-gemini",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "'Search or Ask': il nuovo pannello AI di iOS 27 smista le query tra sistema e chatbot di terze parti",
+      "titleEn": "'Search or Ask': iOS 27's new AI panel routes queries between system and third-party chatbots",
+      "excerptIt": "Scorrendo verso il basso dal centro dello schermo si apre 'Search or Ask', un pannello unificato da cui lanciare ricerche di sistema, eseguire shortcut o delegare domande complesse a ChatGPT, Claude o Gemini. E l'interfaccia che sostituisce la vecchia barra di Spotlight come hub centrale di iOS 27.",
+      "excerptEn": "Swiping down from the top center of the screen opens 'Search or Ask', a unified panel from which to launch system searches, run shortcuts or delegate complex queries to ChatGPT, Claude or Gemini. It is the interface that replaces the old Spotlight bar as iOS 27's central hub.",
+      "bodyIt": "## Un pannello, tre destinazioni\n\nCon iOS 27, Apple introduce 'Search or Ask', accessibile scorrendo verso il basso dal centro dello schermo. Tom's Guide riporta che dal pannello e possibile fare tre cose distinte: eseguire ricerche sul dispositivo, avviare shortcut di sistema, oppure inoltrare domande complesse a chatbot di terze parti come ChatGPT, Claude o Gemini. Non e semplicemente una versione potenziata di Spotlight: e un router intelligente per le intenzioni dell'utente.\n\n## La scelta del chatbot come funzione di sistema\n\nL'elemento piu significativo e che la selezione del chatbot di terze parti diventa una funzione integrata a livello di sistema operativo, non piu mediata da singole app. L'utente puo scegliere a chi delegare la domanda senza uscire dal flusso di interazione principale. Questo amplia quanto gia visto con l'integrazione di ChatGPT in iOS 26, portando la scelta tra modelli multipli direttamente nel cuore dell'interfaccia.\n\nL'implicazione strategica e rilevante: Apple posiziona se stessa come orchestratore neutrale tra ecosistemi AI competitivi, incassando l'utilita dell'apertura senza cedere il controllo dell'esperienza. Resta da verificare se questa architettura sia genuinamente aperta — chi decide quali chatbot compaiono nell'elenco, con quali criteri e con quali accordi commerciali sottostanti — ma come scelta di interfaccia e una delle piu concrete novita di iOS 27.",
+      "bodyEn": "## One panel, three destinations\n\nWith iOS 27, Apple introduces 'Search or Ask', accessible by swiping down from the top center of the screen. Tom's Guide reports that from the panel you can do three distinct things: run on-device searches, launch system shortcuts, or forward complex queries to third-party chatbots such as ChatGPT, Claude or Gemini. It is not simply an enhanced version of Spotlight: it is an intelligent router for user intent.\n\n## Chatbot selection as a system-level feature\n\nThe most significant element is that third-party chatbot selection becomes a system-level integrated feature, no longer mediated by individual apps. The user can choose who to delegate the question to without leaving the main interaction flow. This extends what was already seen with ChatGPT integration in iOS 26, bringing the choice between multiple models directly into the heart of the interface.\n\nThe strategic implication is relevant: Apple positions itself as a neutral orchestrator between competing AI ecosystems, capturing the utility of openness without relinquishing control of the experience. It remains to be verified whether this architecture is genuinely open — who decides which chatbots appear in the list, by what criteria and with what underlying commercial agreements — but as an interface choice it is one of iOS 27's most concrete novelties.",
+      "sources": [
+        {
+          "title": "Tom's Guide – Apple WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Wi-Fi Planet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:13:36.725490+02:00"
+    },
     {
       "slug": "visionos-27-control-center-redesign-curvature-windows",
       "macroArea": "spatial-visionos",
