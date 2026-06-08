@@ -1,9 +1,237 @@
 {
-  "lastUpdate": "2026-06-08T15:33:48.387224+02:00",
+  "lastUpdate": "2026-06-08T20:44:19.745987+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "macos-27-golden-gate-nome-ufficiale",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "macOS 27 si chiama Golden Gate: il nome ufficiale arriva al WWDC 2026",
+      "titleEn": "macOS 27 is named Golden Gate: the official name revealed at WWDC 2026",
+      "excerptIt": "Apple ha svelato il nome della prossima versione di macOS: Golden Gate, in linea con la tradizione californiana. Craig Federighi lo ha annunciato sul palco con la consueta scenetta del marketing team scomparso.",
+      "excerptEn": "Apple has unveiled the name of the next macOS version: Golden Gate, continuing the California landmark tradition. Craig Federighi announced it on stage with the usual missing-marketing-team skit.",
+      "bodyIt": "## Un nome, una tradizione\n\nApple rispetta il copione: ogni anno un nuovo paesaggio californiano diventa il nome di macOS, e questa volta tocca al Golden Gate. Lo ha confermato Craig Federighi durante il keynote del WWDC 2026, con la classica scenetta del team marketing che sparisce lasciando un biglietto criptico con indizi geografici — rapidamente decifrati dal pubblico.\n\nmacOS Golden Gate porta con sé il Liquid Glass raffinato, barre degli strumenti più uniformi tra le app, sidebar che si estendono fino ai bordi dello schermo e un raggio degli angoli delle finestre leggermente ridotto, secondo quanto riportato da Engadget. Sul versante prestazioni, Apple promette lanci delle app fino al 30% più veloci, trasferimenti AirDrop dell'80% più rapidi e foto che compaiono nel rullino il 70% prima rispetto a macOS Sequoia.\n\n## Fine dei Mac Intel, inizio della coerenza\n\nCome già anticipato nei giorni precedenti, macOS Golden Gate segna anche l'addio formale al supporto dei Mac con processori Intel. Il sistema è ora pensato esclusivamente per Apple Silicon, una scelta che semplifica le ottimizzazioni ma taglia fuori macchine del 2020 e precedenti.\n\nLa beta per sviluppatori è disponibile da oggi, la beta pubblica arriverà a luglio; il rilascio generale è atteso in autunno insieme ai nuovi iPhone 18, come riportato da wi-fiplanet.",
+      "bodyEn": "## A name, a tradition\n\nApple sticks to the script: every year a new California landmark becomes the name of macOS, and this time it's the Golden Gate. Craig Federighi confirmed it during the WWDC 2026 keynote, complete with the classic skit of the marketing team disappearing and leaving a cryptic note with geographic clues.\n\nmacOS Golden Gate brings refined Liquid Glass, more uniform toolbars across apps, sidebars that stretch to screen edges, and a slightly tighter corner radius on windows, according to Engadget. On the performance side, Apple promises app launches up to 30 percent faster, AirDrop transfers 80 percent quicker, and photos appearing in the camera roll 70 percent faster than on macOS Sequoia.\n\n## End of Intel Macs, start of consistency\n\nAs previously anticipated, macOS Golden Gate also formally marks the end of support for Intel-based Macs. The system is now designed exclusively for Apple Silicon, a choice that simplifies optimisations but cuts off machines from 2020 and earlier.\n\nThe developer beta is available today, the public beta arrives in July, and the general release is expected in autumn alongside the new iPhone 18 lineup, as reported by wi-fiplanet.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026: Live Updates",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745915+02:00"
+    },
+    {
+      "slug": "ios-27-compatibilita-iphone-11-nessun-drop",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27 supporta ancora l'iPhone 11: nessun modello escluso quest'anno",
+      "titleEn": "iOS 27 still supports iPhone 11: no devices dropped this year",
+      "excerptIt": "Apple ha confermato che iOS 27 sarà compatibile con tutti i dispositivi che già girano iOS 26, iPhone 11 incluso. Una scelta insolita che porta il sistema operativo sui telefoni del 2019.",
+      "excerptEn": "Apple confirmed that iOS 27 will be compatible with all devices already running iOS 26, including the iPhone 11. An unusual move that brings the new OS to phones from 2019.",
+      "bodyIt": "## Nessun taglio, almeno per quest'anno\n\nDi norma ogni ciclo annuale di iOS porta con sé la cancellazione di uno o più modelli di iPhone dalla lista di compatibilità. Quest'anno Apple ha scelto diversamente: iOS 27 sarà disponibile su tutti i dispositivi che attualmente eseguono iOS 26, il che significa che anche l'iPhone 11 — presentato nel settembre 2019 — riceverà l'aggiornamento. TechCrunch ha riportato la dichiarazione di Apple, secondo cui iOS 27 sarà \"disponibile per più utenti di qualsiasi versione di iOS nella storia\".\n\n## Intelligenza a più velocità\n\nIl supporto esteso non significa però funzionalità uniformi. Come precisato da Republic World, alcune funzioni avanzate di Apple Intelligence restano esclusive dei modelli più recenti per ragioni di hardware. In pratica, più il dispositivo è vecchio, più l'esperienza AI sarà limitata — e le funzioni di Siri AI più potenti richiederanno iPhone con chip recenti.\n\nLa decisione di non escludere l'iPhone 11 è verosimilmente legata alla strategia commerciale: mantenere una base installata ampia favorisce l'adozione del nuovo Siri e dei servizi connessi, tra cui il piano iCloud+ che monetizzerà l'uso intensivo dell'assistente.",
+      "bodyEn": "## No cuts, at least this year\n\nNormally every annual iOS cycle brings the removal of one or more iPhone models from the compatibility list. This year Apple has chosen differently: iOS 27 will be available on all devices currently running iOS 26, meaning even the iPhone 11 — released in September 2019 — will receive the update. TechCrunch reported Apple's claim that iOS 27 will be \"available to more users than any iOS release ever.\"\n\n## Intelligence at different speeds\n\nExtended support does not mean uniform features, however. As noted by Republic World, some advanced Apple Intelligence functions remain exclusive to newer models due to hardware requirements. In practice, the older the device, the more limited the AI experience — with the most powerful Siri AI features requiring recent iPhone chips.\n\nThe decision not to drop the iPhone 11 is likely tied to commercial strategy: keeping a large installed base favours adoption of the new Siri and related services, including the iCloud+ plan that will monetise heavy use of the assistant.",
+      "sources": [
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Republic World – iOS 27 Announced at Apple WWDC 2026",
+          "url": "https://www.republicworld.com/tech/ios-27-announced-at-apple-wwdc-2026-coming-to-iphone-11-and-above-in-september-06-08-127452"
+        },
+        {
+          "title": "Tom's Guide – iOS 27 is official",
+          "url": "https://www.tomsguide.com/phones/iphones/ios-27-is-official-all-the-new-upgrades-and-features-announced-at-wwdc-2026"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745942+02:00"
+    },
+    {
+      "slug": "ios-27-macos-golden-gate-performance-boost",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27 e macOS Golden Gate promettono un salto di prestazioni: AirDrop +80%, foto +70%",
+      "titleEn": "iOS 27 and macOS Golden Gate promise a performance leap: AirDrop +80%, photos +70%",
+      "excerptIt": "Apple ha presentato numeri concreti sul miglioramento delle prestazioni in iOS 27 e macOS Golden Gate: trasferimenti AirDrop fino all'80% più veloci, caricamento delle foto nel rullino il 70% più rapido, avvio delle app il 30% più veloce.",
+      "excerptEn": "Apple presented concrete performance numbers for iOS 27 and macOS Golden Gate: AirDrop transfers up to 80 percent faster, photos loading in the camera roll 70 percent quicker, and app launches 30 percent faster.",
+      "bodyIt": "## Un anno di pulizia, anche sotto al cofano\n\nIl tema conduttore del WWDC 2026 — un anno di rifinitura, non di rivoluzioni — si riflette anche nelle promesse di prestazioni. Engadget ha riportato i dati dichiarati da Apple sul palco: trasferimenti AirDrop fino all'80% più veloci, messaggi che si caricano in Mail e la riproduzione che parte in Apple Music con la stessa velocità, foto che appaiono nel rullino il 70% prima rispetto all'anno scorso. Le app si avviano fino al 30% più rapidamente.\n\nApple ha anche citato miglioramenti agli scheduler CPU per il multitasking e un passaggio alla connessione cellulare più fluido quando si esce dalla portata del Wi-Fi. TechCrunch lo ha definito parte di un focus sulla stabilità e sull'esperienza d'uso quotidiana, coerente con quanto Federighi ha letto dal biglietto del marketing team all'inizio del keynote.\n\n## Cifre da verificare\n\nNumeri come questi vanno presi con la necessaria cautela: Apple li misura in condizioni controllate e i miglioramenti percepiti in uso reale possono differire. Detto ciò, la direzione è chiara: dopo anni in cui le nuove versioni di iOS sono state accusate di rallentare i dispositivi meno recenti, Apple dichiara esplicitamente di aver investito sull'efficienza. I beta tester nelle prossime settimane forniranno una risposta più affidabile.",
+      "bodyEn": "## A year of housekeeping, under the hood too\n\nThe running theme of WWDC 2026 — a year of refinement, not revolution — is also reflected in the performance promises. Engadget reported the figures Apple stated on stage: AirDrop transfers up to 80 percent faster, messages loading in Mail and playback starting in Apple Music at the same speed, and photos appearing in the camera roll 70 percent faster than last year. Apps launch up to 30 percent more quickly.\n\nApple also cited improvements to CPU schedulers for multitasking and a smoother transition to a cellular connection when moving out of Wi-Fi range. TechCrunch described it as part of a focus on stability and everyday usability, consistent with what Federighi read from the marketing team's note at the start of the keynote.\n\n## Numbers to verify\n\nFigures like these should be taken with appropriate caution: Apple measures them under controlled conditions and real-world improvements can differ. That said, the direction is clear: after years in which new iOS versions were accused of slowing down older devices, Apple is explicitly stating it has invested in efficiency. Beta testers over the coming weeks will provide a more reliable answer.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745953+02:00"
+    },
+    {
+      "slug": "siri-ai-foundation-models-google-blocco-ue-ios-ipadOS",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI: Foundation Models co-sviluppati con Google e blocco UE su iPhone e iPad",
+      "titleEn": "Siri AI: Foundation Models co-developed with Google and EU block on iPhone and iPad",
+      "excerptIt": "Apple ha confermato la collaborazione con Google per sviluppare i nuovi Foundation Models alla base di Apple Intelligence. Il nuovo Siri non sarà disponibile nell'Unione Europea su iOS e iPadOS al lancio, a causa del Digital Markets Act.",
+      "excerptEn": "Apple confirmed collaboration with Google to develop the new Foundation Models powering Apple Intelligence. The new Siri will not be available in the EU on iOS and iPadOS at launch, citing the Digital Markets Act.",
+      "bodyIt": "## La partnership con Google\n\nCraig Federighi ha dichiarato sul palco che Apple ha avviato \"una collaborazione profonda con Google\", sfruttando la tecnologia alla base della famiglia di modelli Gemini. Come riportato da Fox Business, le due aziende hanno lavorato insieme per creare i Foundation Models di nuova generazione che alimentano le funzioni di Apple Intelligence. Apple ha adattato questi modelli per girare sia sul dispositivo sia attraverso la sua infrastruttura Private Cloud Compute.\n\n## Il nodo UE\n\nIl risvolto più rilevante per gli utenti europei è che Siri AI non sarà disponibile su iOS 27 e iPadOS 27 nell'Unione Europea al momento del lancio autunnale. Engadget ha riportato le parole di Federighi, che ha attribuito il ritardo al Digital Markets Act e all'impossibilità di trovare un accordo con le autorità europee su soluzioni che preservino privacy e sicurezza. Siri AI sarà invece disponibile nell'UE su macOS Golden Gate, watchOS 27 e visionOS 27.\n\nPer gli utenti iPhone e iPad in Europa — la maggioranza degli utenti Apple nel continente — questo significa che la funzione di punta del WWDC 2026 potrebbe non arrivare per mesi o potenzialmente più a lungo. Non è la prima volta: Apple Intelligence ha subito ritardi analoghi nell'UE negli scorsi cicli. Il pattern si ripete e per ora non c'è una data.",
+      "bodyEn": "## The Google partnership\n\nCraig Federighi stated on stage that Apple had undertaken \"a deep collaboration with Google,\" leveraging the technology behind the Gemini family of AI models. As reported by Fox Business, the two companies worked together to create the next-generation Foundation Models powering Apple Intelligence features. Apple adapted these models to run both on-device and through its Private Cloud Compute infrastructure.\n\n## The EU issue\n\nThe most significant implication for European users is that Siri AI will not be available on iOS 27 and iPadOS 27 in the European Union at the autumn launch. Engadget reported Federighi's words, attributing the delay to the Digital Markets Act and the inability to reach an agreement with European regulators on solutions that preserve privacy and security. Siri AI will, however, be available in the EU on macOS Golden Gate, watchOS 27, and visionOS 27.\n\nFor iPhone and iPad users in Europe — the majority of Apple users on the continent — this means the headline feature of WWDC 2026 may not arrive for months or potentially longer. This is not the first time: Apple Intelligence faced similar EU delays in previous cycles. The pattern repeats, and for now there is no timeline.",
+      "sources": [
+        {
+          "title": "Fox Business – Live updates: Apple's Tim Cook delivers WWDC26 keynote",
+          "url": "https://www.foxbusiness.com/live-news/apple-tim-cook-wwdc26-keynote-iphone-ai-tech-june-8"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745963+02:00"
+    },
+    {
+      "slug": "siri-ai-modello-freemium-icloud-plus",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Siri AI è gratuita fino a un limite giornaliero: l'uso intensivo passa per iCloud+",
+      "titleEn": "Siri AI is free up to a daily limit: heavy use goes through iCloud+",
+      "excerptIt": "Apple ha scelto un modello freemium per il nuovo Siri: gratis con un tetto giornaliero di utilizzo, a pagamento attraverso iCloud+ per chi ne fa un uso più intenso. La scelta allinea Apple al resto del settore AI.",
+      "excerptEn": "Apple has chosen a freemium model for the new Siri: free with a daily usage cap, paid through iCloud+ for heavier users. The choice aligns Apple with the rest of the AI industry.",
+      "bodyIt": "## Gratuito, con limiti\n\nIl nuovo Siri AI non sarà a pagamento di default, ma non sarà nemmeno illimitato. Come riportato da wi-fiplanet, Apple offrirà una quota giornaliera gratuita di utilizzo; chi vuole andare oltre potrà farlo attraverso iCloud+, il servizio in abbonamento che Apple già utilizza per backup, spazio di archiviazione e altre funzionalità premium.\n\nIl meccanismo rispecchia quanto già adottato da OpenAI con ChatGPT, Google con Gemini e Anthropic con Claude: un livello base accessibile a tutti, un livello superiore per gli utenti più esigenti. Per Apple, integrare il consumo AI nell'abbonamento iCloud+ ha anche un vantaggio di fidelizzazione: chi usa molto Siri sarà incentivato a mantenere o aumentare il proprio piano.\n\n## Quanto è generoso il limite?\n\nIl dettaglio critico — quanto sia ampia la quota giornaliera gratuita — non è stato precisato durante il keynote. wi-fiplanet ha sottolineato che tutto dipende da quanto si rivelerà generosa o restrittiva quella soglia nella pratica quotidiana. Apple fornirà probabilmente maggiori dettagli nelle prossime settimane, quando le prime beta saranno nelle mani degli sviluppatori.",
+      "bodyEn": "## Free, with limits\n\nThe new Siri AI will not be paid by default, but it will not be unlimited either. As reported by wi-fiplanet, Apple will offer a free daily usage allowance; those who want more can do so through iCloud+, the subscription service Apple already uses for backups, storage, and other premium features.\n\nThe mechanism mirrors what OpenAI, Google, and Anthropic already offer: a baseline accessible to everyone, a higher tier for more demanding users. For Apple, folding AI consumption into iCloud+ also has a lock-in advantage: heavy Siri users will be incentivised to maintain or upgrade their plan.\n\n## How generous is the limit?\n\nThe critical detail — how large the free daily allowance actually is — was not specified during the keynote. wi-fiplanet noted that everything depends on how generous or restrictive that threshold proves in everyday use. Apple will likely provide further details in the coming weeks as the first betas reach developers' hands.",
+      "sources": [
+        {
+          "title": "wi-fiplanet – Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide – Biggest WWDC 2026 announcements",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745971+02:00"
+    },
+    {
+      "slug": "apple-intelligence-app-sistema-messages-mail-phone-home-passwords",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple Intelligence arriva nelle app di sistema: Messages, Mail, Phone, Home e Passwords",
+      "titleEn": "Apple Intelligence reaches system apps: Messages, Mail, Phone, Home and Passwords",
+      "excerptIt": "iOS 27 porta Apple Intelligence dentro le app di uso quotidiano: Messaggi suggerisce eventi in calendario, Mail propone azioni contestuali, Telefono mostra info rilevanti durante le chiamate, Casa riduce il rumore delle notifiche e Password aggiorna le credenziali deboli.",
+      "excerptEn": "iOS 27 brings Apple Intelligence into everyday apps: Messages suggests calendar events, Mail surfaces contextual actions, Phone displays relevant info during calls, Home reduces notification noise, and Passwords upgrades weak credentials.",
+      "bodyIt": "## L'intelligenza dove si lavora davvero\n\nSe Siri AI è la vetrina del WWDC 2026, l'integrazione di Apple Intelligence nelle singole app di sistema è forse la parte più concretamente utile dell'annuncio. The Shortcut ha riportato in dettaglio le novità: in Messaggi, l'intelligenza contestuale suggerisce di aggiungere un evento al calendario o alle Note quando qualcuno lo menziona nella conversazione, oppure recupera foto pertinenti dal rullino; in Mail, l'app propone azioni suggerite in base al contenuto dei messaggi ricevuti.\n\nL'app Telefono si aggiorna con una funzione chiamata Call Context: durante una telefonata, Siri porta in primo piano le informazioni rilevanti — come il numero del volo quando si chiama una compagnia aerea. La app Casa impara dai pattern delle notifiche frequenti e le aggrega in attività continuative anziché bombardare l'utente di avvisi singoli.\n\n## Sicurezza e calendario\n\nDue novità meritano attenzione specifica. In Password, Apple introduce una funzione che individua le credenziali deboli o datate e propone di aggiornarle con password più robuste, come riportato da The Shortcut. Nel Calendario, si potrà aggiungere eventi usando il linguaggio naturale, senza dover compilare manualmente i campi della data — una funzione che app di terze parti come Fantastical offrono da anni e che finalmente arriva sull'app nativa.",
+      "bodyEn": "## Intelligence where work actually happens\n\nIf Siri AI is the showcase of WWDC 2026, the integration of Apple Intelligence into individual system apps is perhaps the most concretely useful part of the announcement. The Shortcut reported the details: in Messages, contextual intelligence suggests adding an event to Calendar or Notes when someone mentions it in conversation, or retrieves relevant photos from the camera roll; in Mail, the app surfaces suggested actions based on the contents of received messages.\n\nThe Phone app is updated with a feature called Call Context: during a call, Siri surfaces relevant information — such as the flight number when calling an airline. The Home app learns from frequent notification patterns and groups them into ongoing activities rather than flooding the user with individual alerts.\n\n## Security and calendar\n\nTwo updates deserve specific attention. In Passwords, Apple introduces a feature that identifies weak or outdated credentials and offers to update them with stronger passwords, as reported by The Shortcut. In Calendar, events can be added using natural language, without manually filling in date fields — a feature that third-party apps like Fantastical have offered for years, now finally arriving in the native app.",
+      "sources": [
+        {
+          "title": "The Shortcut – Apple WWDC 2026 Liveblog highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "Engadget – WWDC 2026 Live updates from Apple Park",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Tom's Guide – Biggest WWDC 2026 announcements",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745976+02:00"
+    },
+    {
+      "slug": "image-playground-2-immagini-realistiche-nuovi-stili",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Image Playground 2: finalmente immagini realistiche e nuovi stili di generazione",
+      "titleEn": "Image Playground 2: finally realistic images and new generation styles",
+      "excerptIt": "Apple ha aggiornato in profondità Image Playground: la generazione di immagini esce dal registro cartoonesco e abbraccia stili molto più realistici. Arrivano anche nuovi formati e dimensioni, oltre alla possibilità di applicare effetti alle foto esistenti.",
+      "excerptEn": "Apple has deeply updated Image Playground: image generation moves away from the cartoon aesthetic and embraces far more realistic styles. New formats and sizes arrive too, along with the ability to apply effects to existing photos.",
+      "bodyIt": "## Da funzione dimenticabile a strumento usabile\n\nQuando Apple lanciò Image Playground con iOS 18, la critica principale era la qualità stilistica delle immagini prodotte: troppo cartoonesca, troppo piatta per essere davvero utile. Con iOS 27, Apple corregge il tiro in modo deciso. TechRadar ha scritto che la funzione \"ora sembra genuinamente utilizzabile\": si possono generare immagini in quasi qualsiasi stile, inclusi quelli molto più realistici, e in quasi qualsiasi dimensione e formato.\n\nThe Shortcut ha aggiunto che è ora possibile prendere foto già scattate e trasformarle con effetti, opzioni di stile e altro ancora. Image Playground diventa anche un generatore di sfondi personalizzati per la schermata di blocco, fondali per i messaggi e inviti per eventi — funzioni che finora richiedevano app di terze parti.\n\n## Integrazione più profonda\n\nLa funzione si integra con quasi tutte le piattaforme Apple, non più circoscritta a una singola app dedicata. Genmoji, il sistema per creare emoji personalizzate, riceve anch'esso miglioramenti ai modelli sottostanti. Il tutto rimane vincolato alle stesse restrizioni di Apple Intelligence in termini di compatibilità hardware: funzionalità piena solo sui dispositivi più recenti.",
+      "bodyEn": "## From forgettable feature to usable tool\n\nWhen Apple launched Image Playground with iOS 18, the main criticism was the stylistic quality of the produced images: too cartoon-like, too flat to be truly useful. With iOS 27, Apple corrects course decisively. TechRadar noted that the feature \"now looks genuinely usable\": images can be generated in almost any style, including much more realistic ones, and in almost any size and format.\n\nThe Shortcut added that it is now possible to take existing photos and transform them with effects, style options, and more. Image Playground also becomes a generator for custom lock screen wallpapers, backgrounds for messages, and event invitations — functions that previously required third-party apps.\n\n## Deeper integration\n\nThe feature integrates across almost all Apple platforms, no longer confined to a single dedicated app. Genmoji, the system for creating custom emoji, also receives improvements to its underlying models. Everything remains subject to the same Apple Intelligence hardware compatibility restrictions: full functionality only on the most recent devices.",
+      "sources": [
+        {
+          "title": "TechRadar – Apple WWDC 2026 live",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "The Shortcut – Apple WWDC 2026 Liveblog highlights",
+          "url": "https://www.theshortcut.com/p/apple-wwdc-2026-liveblog-highlights"
+        },
+        {
+          "title": "Tom's Guide – Biggest WWDC 2026 announcements",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745979+02:00"
+    },
+    {
+      "slug": "wwdc-2026-tim-cook-ultimo-keynote-addio",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Tim Cook chiude il suo ultimo WWDC: l'addio di un CEO che non ha cercato applausi",
+      "titleEn": "Tim Cook closes his last WWDC: the farewell of a CEO who did not seek applause",
+      "excerptIt": "Il WWDC 2026 è stato l'ultimo keynote di Tim Cook come CEO di Apple. Cook ha concluso con un messaggio personale ai developer; il suo successore John Ternus non è apparso sul palco.",
+      "excerptEn": "WWDC 2026 was Tim Cook's last keynote as Apple CEO. Cook closed with a personal message to developers; his successor John Ternus did not appear on stage.",
+      "bodyIt": "## Un'uscita sobria\n\nTim Cook ha aperto e chiuso il WWDC 2026 senza eccessi di retorica, ma con un peso specifico insolito: è stato il suo ultimo keynote come amministratore delegato di Apple. Come riportato da CNBC, Cook si è congedato con un messaggio personale ai developer, con una frase che ne riassume il tono — e che non ha preteso di essere storica.\n\nIl passaggio di consegne era già noto: Cook lascia la carica di CEO il 1° settembre 2026 per diventare Executive Chairman, e il suo posto sarà preso da John Ternus, attuale SVP of Hardware Engineering, come ricordato da Fox Business. Ternus, però, non è comparso sul palco — scelta comprensibile per un ingegnere hardware al suo primo WWDC da erede designato, ma che alimenta qualche dubbio su come gestirà il lato software della sua leadership.\n\n## Quindici anni di WWDC\n\nCook ha aperto il suo primo keynote WWDC nel 2012, un anno dopo la morte di Steve Jobs. Ha guidato l'azienda attraverso l'era dell'iPhone XS, del Mac con Apple Silicon, del Vision Pro. Il bilancio è quello di un'azienda diventata la più capitalizzata al mondo. La domanda che Ternus dovrà rispondere nei prossimi anni è diversa: se Cook ha saputo eseguire, al nuovo CEO spetta dimostrare di saper immaginare.",
+      "bodyEn": "## A sober exit\n\nTim Cook opened and closed WWDC 2026 without rhetorical excess, but with unusual weight: it was his last keynote as Apple's chief executive officer. As reported by CNBC, Cook closed with a personal message to developers, in a tone that did not pretend to be historic.\n\nThe handover was already known: Cook leaves the CEO role on September 1, 2026 to become Executive Chairman, and his place will be taken by John Ternus, current SVP of Hardware Engineering, as noted by Fox Business. Ternus, however, did not appear on stage — an understandable choice for a hardware engineer at his first WWDC as designated heir, but one that raises some questions about how he will handle the software side of his leadership.\n\n## Fifteen years of WWDC\n\nCook opened his first WWDC keynote in 2012, a year after Steve Jobs' death. He led the company through the era of the iPhone XS, the Apple Silicon Mac, and Vision Pro. The balance sheet is that of a company that became the most valuable in the world. The question Ternus must answer in the coming years is different: if Cook knew how to execute, the new CEO must demonstrate the ability to imagine.",
+      "sources": [
+        {
+          "title": "CNBC – Watch live: Tim Cook kicks off final Apple WWDC keynote as CEO",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "Fox Business – Live updates: Apple's Tim Cook delivers WWDC26 keynote",
+          "url": "https://www.foxbusiness.com/live-news/apple-tim-cook-wwdc26-keynote-iphone-ai-tech-june-8"
+        },
+        {
+          "title": "Macworld – Apple event live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-08T20:44:19.745983+02:00"
+    },
     {
       "slug": "macos-27-fine-supporto-intel-rosetta-2",
       "macroArea": "sistemi-operativi",
