@@ -1,9 +1,240 @@
 {
-  "lastUpdate": "2026-06-08T23:19:21.027439+02:00",
+  "lastUpdate": "2026-06-08T23:33:40.452744+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "watchos-27-dynamic-app-grid-siri-smart-stack",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente",
+      "titleEn": "watchOS 27: Dynamic App Grid, Siri at the center and smarter Smart Stack",
+      "excerptIt": "Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai collegamenti più usati e da suggerimenti contestuali che variano nel corso della giornata.",
+      "excerptEn": "Apple redesigns the watchOS 27 home screen around Siri AI: a new dynamic app grid puts the assistant at the center, flanked by most-used shortcuts and contextual suggestions that shift throughout the day.",
+      "bodyIt": "## Una schermata ripensata intorno all'AI\n\nCon watchOS 27, Apple riorganizza la struttura dell'interfaccia principale dell'Apple Watch. Secondo quanto riferito da Engadget e confermato da AppleInsider, il nuovo Dynamic App Grid pone Siri AI al centro del menu, circondato dalle app aperte di recente e da scorciatoie che il sistema ritiene rilevanti nel momento in uso. Non si tratta di un semplice riordino estetico: la griglia si aggiorna in modo autonomo in base al contesto, all'orario e alle abitudini registrate.\n\n## Smart Stack più consapevole del momento\n\nLo Smart Stack riceve a sua volta un'espansione: le sue schede contestuali diventano più numerose e più reattive agli eventi della giornata. Tom's Guide segnala che toccando indice e pollice insieme una sola volta si attiva lo Smart Stack con una sola mano — una modifica ergonomica pensata per chi usa il polso durante l'attività fisica o in mobilità, senza dover ricorrere all'altra mano.\n\n## Accesso a Siri tramite app dedicata\n\nOltre alla griglia, watchOS 27 introduce un'app Siri autonoma nella nuova griglia, accessibile sia con la voce sia tramite tocco. Secondo Tom's Guide, l'AI processing avviene tramite cloud privato piuttosto che direttamente sul dispositivo, e Apple sottolinea che le query non sono accessibili neanche internamente. La sessione Siri avviata sull'orologio puó essere ripresa su un altro dispositivo Apple, mantenendo il contesto della conversazione.",
+      "bodyEn": "## An interface rebuilt around AI\n\nWith watchOS 27, Apple reorganizes the main interface structure of Apple Watch. As reported by Engadget and confirmed by AppleInsider, the new Dynamic App Grid places Siri AI at the center of the menu, surrounded by recently opened apps and shortcuts the system considers relevant in the current moment. This is not a simple aesthetic reorder: the grid updates autonomously based on context, time of day, and recorded habits.\n\n## A more moment-aware Smart Stack\n\nThe Smart Stack also receives an expansion: its contextual cards become more numerous and more responsive to daily events. Tom's Guide notes that tapping index finger and thumb together once now activates the Smart Stack one-handed — an ergonomic change designed for users who need wrist access during workouts or on the move.\n\n## Dedicated Siri app access\n\nBeyond the grid, watchOS 27 introduces a standalone Siri app accessible both by voice and by tap. According to Tom's Guide, AI processing occurs via private cloud rather than on-device, and Apple emphasizes that queries remain inaccessible even to Apple itself. A Siri session started on the watch can be resumed on another Apple device, maintaining conversation context.",
+      "sources": [
+        {
+          "title": "Tom's Guide – watchOS 27 all new features",
+          "url": "https://www.tomsguide.com/wellness/smartwatches/watchos-27-all-the-new-features-coming-to-apple-watch-later-this-year"
+        },
+        {
+          "title": "AppleInsider – Coaching, wellness features & AI in watchOS 27",
+          "url": "https://appleinsider.com/articles/26/06/08/coaching-wellness-features-ai-make-the-biggest-impact-in-watchos-27"
+        },
+        {
+          "title": "Gadget Hacks – watchOS 27 Siri Upgrade explained",
+          "url": "https://apple.gadgethacks.com/news/watchos-27-siri-upgrade-ai-assistant-and-perimenopause-tools-explained/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452662+02:00"
+    },
+    {
+      "slug": "watchos-27-workout-buddy-senza-iphone-coaching-spagnolo",
+      "macroArea": "salute-benessere",
+      "tags": [
+        "salute",
+        "intelligenza-artificiale"
+      ],
+      "category": "Salute e benessere",
+      "titleIt": "watchOS 27: Workout Buddy funziona senza iPhone e impara a conoscerti",
+      "titleEn": "watchOS 27: Workout Buddy works without iPhone and learns your fitness history",
+      "excerptIt": "Apple aggiorna Workout Buddy in watchOS 27 con coaching più personalizzato basato sulla cronologia degli allenamenti, supporto alla lingua spagnola e, soprattutto, la possibilità di usarlo senza avere l'iPhone nelle vicinanze.",
+      "excerptEn": "Apple updates Workout Buddy in watchOS 27 with more personalized coaching based on workout history, Spanish language support, and — crucially — the ability to use it without an iPhone nearby.",
+      "bodyIt": "## L'indipendenza dall'iPhone\n\nFino a watchOS 26, Workout Buddy richiedeva un iPhone compatibile nelle vicinanze per funzionare correttamente. Con watchOS 27, Apple rompe questo vincolo: la funzione puó ora girare in autonomia sull'orologio, come confermato da AppleInsider. Per chi si allena in piscina, in palestra o in viaggio senza portare il telefono, il cambiamento è concreto e immediato.\n\n## Coaching che ricorda la tua storia\n\nIl coaching diventa più contestuale: Workout Buddy puó ora attingere alla cronologia degli allenamenti dell'utente per fornire feedback in tempo reale su ritmo, distanza e durata. AppleInsider riporta che i commenti motivazionali e le indicazioni tattiche si adattano al profilo di fitness accumulato nel tempo, invece di trattare ogni sessione come un evento isolato. Il supporto allo spagnolo amplia la base di utenti raggiungibili.\n\n## Nuovi dati di corsa\n\nParallelamente, watchOS 27 introduce funzioni di monitoraggio della corsa più granulari, con metriche aggiuntive pensate per misurare i progressi nel tempo. Apple non ha dettagliato pubblicamente quali dati vengano aggiunti, ma AppleInsider descrive un miglioramento generale nelle workout insights dedicate alla corsa. Il quadro complessivo di watchOS 27 per la salute e il fitness è caratterizzato da un focus sulla profondità piuttosto che sull'ampiezza: meno annunci, più sostanza per chi usa l'orologio come strumento di allenamento quotidiano.",
+      "bodyEn": "## Independence from the iPhone\n\nUntil watchOS 26, Workout Buddy required a compatible iPhone nearby to function properly. With watchOS 27, Apple breaks this constraint: the feature can now run independently on the watch itself, as confirmed by AppleInsider. For users who train in pools, gyms, or while traveling without a phone, the change is immediate and practical.\n\n## Coaching that remembers your history\n\nCoaching becomes more contextual: Workout Buddy can now draw on the user's workout history to provide real-time feedback on pace, distance, and duration. AppleInsider reports that motivational comments and tactical guidance adapt to the fitness profile built up over time, rather than treating each session as an isolated event. Spanish language support broadens the addressable user base.\n\n## New running data\n\nAlongside this, watchOS 27 introduces more granular run tracking, with additional metrics designed to measure progress over time. Apple did not publicly detail which data points are being added, but AppleInsider describes a general improvement in workout insights dedicated to running.",
+      "sources": [
+        {
+          "title": "AppleInsider – Coaching, wellness features & AI in watchOS 27",
+          "url": "https://appleinsider.com/articles/26/06/08/coaching-wellness-features-ai-make-the-biggest-impact-in-watchos-27"
+        },
+        {
+          "title": "Gadget Hacks – watchOS 27 Siri Upgrade explained",
+          "url": "https://apple.gadgethacks.com/news/watchos-27-siri-upgrade-ai-assistant-and-perimenopause-tools-explained/"
+        },
+        {
+          "title": "Tom's Guide – watchOS 27 all new features",
+          "url": "https://www.tomsguide.com/wellness/smartwatches/watchos-27-all-the-new-features-coming-to-apple-watch-later-this-year"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452690+02:00"
+    },
+    {
+      "slug": "siri-ai-solo-inglese-lancio-lingue-future",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "accessibilita"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI parte solo in inglese: le altre lingue arriveranno dopo il lancio autunnale",
+      "titleEn": "Siri AI launches in English only: other languages to follow after the fall release",
+      "excerptIt": "Apple ha confermato durante il keynote che Siri AI sarà disponibile inizialmente solo in inglese. Il supporto per ulteriori lingue arriverà in un secondo momento, senza una data precisa annunciata.",
+      "excerptEn": "Apple confirmed during the keynote that Siri AI will initially be available in English only. Support for additional languages will follow, with no specific date announced.",
+      "bodyIt": "## Un lancio ristretto per una funzione centrale\n\nNel presentare Siri AI durante il keynote del WWDC 2026, Apple ha specificato che al momento del rilascio autunnale — in contemporanea con iOS 27, iPadOS 27, macOS Golden Gate e watchOS 27 — l'assistente rinnovato sarà disponibile soltanto in lingua inglese. Engadget riporta che Apple ha dichiarato che il supporto per altre lingue verrà aggiunto in seguito, senza indicare un calendario definito.\n\n## Il precedente di Apple Intelligence\n\nNon è la prima volta che Apple lancia una funzione AI con disponibilità linguistica limitata: Apple Intelligence ha debuttato nel 2024 in inglese americano, aggiungendo progressivamente inglese australiano, britannico, canadese e altre lingue nel corso di iOS 18.x. Il pattern si ripete, questa volta su una funzione di portata maggiore. Per gli utenti italiani, la domanda non è solo se e quando Siri AI arriverà in italiano, ma quando potrà essere usata in Italia: la combinazione del blocco DMA per iOS e iPadOS e del vincolo linguistico rende la funzione inaccessibile per la stragrande maggioranza degli utenti europei fino a data da destinarsi.\n\n## Una scelta tecnica o commerciale?\n\nApple non ha spiegato le ragioni della scelta. Le possibili motivazioni includono la complessità dell'integrazione con i modelli Gemini di Google per lingue diverse dall'inglese, oppure semplicemente la necessità di validare prima il sistema sulla lingua principale. TechRadar osserva che la lista dei dispositivi compatibili con Siri AI è già descritta come \"shockingly short\", e questa ulteriore limitazione linguistica riduce ulteriormente la base di utenti che potranno accedere alla funzione al lancio.",
+      "bodyEn": "## A restricted launch for a central feature\n\nIn presenting Siri AI during the WWDC 2026 keynote, Apple specified that at the fall release — alongside iOS 27, iPadOS 27, macOS Golden Gate, and watchOS 27 — the revamped assistant will be available in English only. Engadget reports that Apple stated support for additional languages will be added later, without specifying a timeline.\n\n## The Apple Intelligence precedent\n\nThis is not the first time Apple has launched an AI feature with limited language availability: Apple Intelligence debuted in 2024 in US English, progressively adding Australian, British, Canadian English and other languages throughout iOS 18.x. The pattern repeats, this time on a feature of greater scope.\n\n## A technical or commercial choice?\n\nApple did not explain the reasons for the choice. Possible motivations include the complexity of integrating Google's Gemini models for languages other than English, or simply the need to validate the system on the primary language first. TechRadar notes that the list of Siri AI-compatible devices is already described as 'shockingly short', and this additional language restriction further reduces the user base able to access the feature at launch.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452701+02:00"
+    },
+    {
+      "slug": "ios-27-compatibilita-iphone-12-taglio-iphone-11-se2020",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27 taglia iPhone 11 e iPhone SE 2020: il supporto parte da iPhone 12",
+      "titleEn": "iOS 27 drops iPhone 11 and 2020 iPhone SE: support starts with iPhone 12",
+      "excerptIt": "Contrariamente a quanto anticipato nelle settimane precedenti, iOS 27 abbandona ufficialmente iPhone 11 e l'iPhone SE di seconda generazione. La compatibilità parte dall'iPhone 12, il modello che ha introdotto il chip A14 Bionic.",
+      "excerptEn": "Contrary to earlier pre-WWDC reports, iOS 27 officially drops iPhone 11 and the second-generation iPhone SE. Compatibility starts with iPhone 12, the model that introduced the A14 Bionic chip.",
+      "bodyIt": "## Un taglio che contraddice le anticipazioni\n\nNelle settimane precedenti al WWDC, numerose fonti — tra cui alcune dello stesso sito — avevano riportato che iOS 27 avrebbe mantenuto la compatibilità con iPhone 11, estendendo il supporto alla base di utenti piú ampia della storia di iOS. Quella ricostruzione si è rivelata inesatta. Tom's Guide, nel resoconto post-keynote, conferma che Apple ha ufficialmente delimitato la compatibilità a partire da iPhone 12, escludendo iPhone 11 e l'iPhone SE del 2020.\n\n## Perché iPhone 12\n\nIl salto ha una logica tecnica: iPhone 12 è stato il primo modello ad adottare il chip A14 Bionic, costruito a 5 nanometri, con un Neural Engine di quarta generazione significativamente più capace rispetto all'A13 di iPhone 11. Alcune delle funzioni di sistema introdotte in iOS 27 — in particolare quelle legate all'elaborazione locale dei modelli di linguaggio e alle animazioni potenziate — richiedono risorse che l'A13 fatica a garantire in modo stabile.\n\n## Chi rimane escluso\n\nL'iPhone SE di seconda generazione, uscito nel 2020 con chip A13, condivide lo stesso destino di iPhone 11. Gli utenti di questi modelli potranno continuare a usare iOS 26, che Apple mantiene con aggiornamenti di sicurezza per un periodo di tempo limitato. L'esclusione è meno brutale di quanto sembri in termini numerici: iPhone 12 ha oltre quattro anni di supporto garantito alle spalle, un ciclo piú lungo della media del settore.",
+      "bodyEn": "## A cut that contradicts earlier reports\n\nIn the weeks before WWDC, numerous sources had reported that iOS 27 would maintain compatibility with iPhone 11, extending support to the broadest user base in iOS history. That reconstruction proved inaccurate. Tom's Guide, in its post-keynote summary, confirms that Apple officially drew the compatibility line at iPhone 12, excluding iPhone 11 and the 2020 iPhone SE.\n\n## Why iPhone 12\n\nThe jump has technical logic: iPhone 12 was the first model to adopt the A14 Bionic chip, built on 5 nanometers, with a significantly more capable fourth-generation Neural Engine compared to iPhone 11's A13. Some system functions introduced in iOS 27 — particularly those tied to local language model processing and enhanced animations — require resources that the A13 cannot reliably provide.\n\n## Who is left out\n\nThe second-generation iPhone SE, released in 2020 with an A13 chip, shares iPhone 11's fate. Users of these models can continue to use iOS 26, which Apple maintains with security updates for a limited period. The exclusion is less brutal than it appears in numerical terms: iPhone 12 has over four years of guaranteed support behind it, a longer cycle than the industry average.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452709+02:00"
+    },
+    {
+      "slug": "afm-2-secondo-modello-on-device-multimodale-voce-testo-immagini",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple Foundation Models 2: il nuovo modello on-device capisce voce, testo e immagini",
+      "titleEn": "Apple Foundation Models 2: the new on-device model understands voice, text, and images",
+      "excerptIt": "Apple ha presentato una seconda versione dei suoi Apple Foundation Models, stavolta multimodale: il modello è in grado di comprendere il parlato, leggere testo e interpretare immagini, tutto sull'hardware dell'utente senza passare dal cloud.",
+      "excerptEn": "Apple has unveiled a second version of its Apple Foundation Models, this time multimodal: the model can understand speech, read text, and interpret images, all on the user's hardware without cloud involvement.",
+      "bodyIt": "## Un secondo modello, stavolta sensoriale\n\nDurante il keynote del WWDC 2026, Apple ha annunciato una seconda generazione dei propri Apple Foundation Models (AFM). Come riporta CNBC, il nuovo modello non si limita all'elaborazione testuale: è progettato per comprendere il parlato, elaborare testo scritto e interpretare immagini in modo combinato. Si tratta di un passo verso un'AI genuinamente multimodale che gira interamente sul dispositivo dell'utente.\n\n## Differenza rispetto ad AFM Cloud Pro\n\nIl nuovo AFM 2 on-device si distingue dall'AFM Cloud Pro — il modello annunciato in parallelo che gira su GPU Nvidia nel cloud Google e si confronta in qualità con Gemini Frontier. AFM 2 è pensato per le elaborazioni locali, quelle dove la latenza e la privacy dell'utente hanno la precedenza sulla potenza computazionale. La separazione tra un tier locale e uno cloud rispecchia l'architettura ibrida che Apple sta costruendo per Apple Intelligence.\n\n## Implicazioni per gli sviluppatori\n\nLa multimodalità di AFM 2 apre nuove possibilità per le API pubbliche destinate agli sviluppatori terzi, già annunciate al WWDC. Un modello on-device capace di ragionare su voce, testo e immagini contemporaneamente abbassa la dipendenza dal cloud per categorie di app che finora richiedevano un back-end esterno per qualsiasi analisi visiva o vocale. Quante di queste capacità saranno effettivamente esposte nelle API pubbliche è ancora da chiarire nelle sessioni tecniche della settimana.",
+      "bodyEn": "## A second model, this time sensory\n\nDuring the WWDC 2026 keynote, Apple announced a second generation of its Apple Foundation Models (AFM). As CNBC reports, the new model goes beyond text processing: it is designed to understand speech, process written text, and interpret images in a combined manner. This is a step toward genuinely multimodal AI running entirely on the user's device.\n\n## Difference from AFM Cloud Pro\n\nThe new on-device AFM 2 is distinct from AFM Cloud Pro — the model announced in parallel that runs on Nvidia GPUs in Google's cloud and matches Gemini Frontier in quality. AFM 2 is designed for local processing, where user latency and privacy take precedence over computational power. The separation between a local tier and a cloud tier reflects the hybrid architecture Apple is building for Apple Intelligence.\n\n## Implications for developers\n\nThe multimodality of AFM 2 opens new possibilities for the public APIs announced for third-party developers at WWDC. An on-device model capable of reasoning about voice, text, and images simultaneously reduces cloud dependency for app categories that previously required an external back-end for any visual or voice analysis.",
+      "sources": [
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452717+02:00"
+    },
+    {
+      "slug": "visionos-27-siri-ai-orb-fluttuante-visione-ambiente",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "visionOS 27: Siri AI diventa un orb fluttuante e guarda la stanza per te",
+      "titleEn": "visionOS 27: Siri AI becomes a floating orb and looks around the room for you",
+      "excerptIt": "Su Apple Vision Pro, Siri AI si materializza come una sfera luminosa nello spazio digitale. L'utente puó parlarle direttamente per delegarle compiti, mentre i sensori esterni del visore permettono all'AI di rispondere a domande sull'ambiente fisico circostante.",
+      "excerptEn": "On Apple Vision Pro, Siri AI materializes as a glowing sphere in digital space. Users can speak directly to it to delegate tasks, while the headset's external sensors allow the AI to answer questions about the physical environment.",
+      "bodyIt": "## L'assistente prende forma nello spazio\n\nNel keynote del WWDC 2026, Apple ha dedicato solo un breve segmento a visionOS 27, ma l'elemento annunciato è concettualmente significativo. Come riportato da Gizmodo — che aveva un reporter sul campo ad Apple Park — Siri AI su Vision Pro non si presenta come un overlay testuale o come una barra laterale: esiste nello spazio digitale come un orb fluttuante, un oggetto tridimensionale con cui l'utente puó interagire direttamente tramite voce.\n\n## L'AI che vede la stanza\n\nLa distinzione più rilevante rispetto alle altre piattaforme è l'uso dei sensori esterni del visore. Gizmodo riferisce che Siri AI su visionOS 27 è in grado di \"guardare\" l'ambiente fisico in cui si trova l'utente e rispondere a domande su ciò che lo circonda. L'AI sfrutta le telecamere pass-through del Vision Pro per analizzare il contesto reale e integrarlo nelle risposte. Apple non ha specificato la profondità di questa funzione ambientale, né i suoi limiti.\n\n## Un'anteprima dell'interfaccia spaziale del futuro\n\nLa scelta di rappresentare Siri come un oggetto tridimensionale — piuttosto che come testo o come una voce disincarnata — segna un passo verso un modello di interazione spaziale autentico. L'orb può essere avvicinato, ignorato o interpellato come si farebbe con un oggetto presente nella stanza. Quanto questo approccio si traduca in usabilità concreta lo dirà il test con la developer beta disponibile da oggi.",
+      "bodyEn": "## The assistant takes shape in space\n\nDuring the WWDC 2026 keynote, Apple dedicated only a brief segment to visionOS 27, but the announced element is conceptually significant. As reported by Gizmodo — which had a reporter on the ground at Apple Park — Siri AI on Vision Pro does not appear as a text overlay or a sidebar: it exists in digital space as a floating orb, a three-dimensional object the user can interact with directly via voice.\n\n## The AI that sees the room\n\nThe most relevant distinction from other platforms is the use of the headset's external sensors. Gizmodo reports that Siri AI on visionOS 27 can 'look' at the physical environment the user is in and answer questions about their surroundings. The AI uses Vision Pro's pass-through cameras to analyze the real-world context and integrate it into responses. Apple did not specify the depth of this environmental feature or its limitations.\n\n## A preview of future spatial interaction\n\nThe choice to represent Siri as a three-dimensional object — rather than as text or a disembodied voice — marks a step toward a genuinely spatial interaction model. The orb can be approached, ignored, or addressed as one would with an object in the room.",
+      "sources": [
+        {
+          "title": "Gizmodo – Live Updates From Apple WWDC 2026",
+          "url": "https://gizmodo.com/live-updates-from-apple-wwdc-2026-2000765748"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452724+02:00"
+    },
+    {
+      "slug": "ios-27-liquid-glass-accessibilita-tab-bar-sidebar-espansa",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design",
+        "accessibilita"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "Liquid Glass in iOS 27: tab bar rifatta, sidebar a tutto schermo e fix di accessibilità",
+      "titleEn": "Liquid Glass in iOS 27: rebuilt tab bar, full-edge sidebar and accessibility fixes",
+      "excerptIt": "Oltre allo slider di opacità già annunciato, iOS 27 porta modifiche strutturali al design Liquid Glass: la ricerca torna integrata nella tab bar, le sidebar si espandono fino al bordo della finestra e Apple risponde alle critiche documentate sull'accessibilità visiva.",
+      "excerptEn": "Beyond the already-announced opacity slider, iOS 27 brings structural changes to the Liquid Glass design: search returns integrated into the tab bar, sidebars expand to the window edge, and Apple responds to documented visual accessibility criticism.",
+      "bodyIt": "## Non solo uno slider\n\nLa copertura dello slider Liquid Glass è già presente su questo sito, ma il pacchetto di modifiche al design system in iOS 27 è più ampio di quanto sintetizzato in un singolo elemento. Neowin e TechTimes riportano che la tab bar reintegra la ricerca direttamente nella barra di navigazione — una funzione che in iOS 26 era stata separata creando confusione — e che le sidebar si estendono ora fino al bordo fisico della finestra, eliminando il gap visivo che molti sviluppatori avevano segnalato come incoerente.\n\n## La risposta alle critiche di accessibilità\n\nTechTimes documenta che la ricerca Nielsen Norman Group aveva formalmente identificato problemi di contrasto in iOS 26: gli elementi traslucidi su sfondi complessi scendevano sotto la soglia di leggibilità per utenti con lievi deficit visivi. iOS 27 risponde con il nuovo slider e con ulteriori aggiustamenti al rendering degli elementi Liquid Glass, che Apple descrive come \"integrazione di strati aggiuntivi di Liquid Glass direttamente nell'artwork stesso.\" La Riduzione Trasparenza nelle Impostazioni rimane disponibile, ma non è più l'unico strumento di modulazione.\n\n## Gli sviluppatori devono aggiornare\n\nChi ha costruito percorsi di codice separati per compensare i fallimenti di contrasto di iOS 26 dovrà verificare nella developer beta — disponibile da oggi — se le modifiche di Apple risolvono il problema sottostante o se i workaround personalizzati rimangono necessari. Neowin ricorda che le sidebar espanse al bordo impongono un ripensamento dei layout nelle app che usavano margini fissi.",
+      "bodyEn": "## Not just a slider\n\nThe Liquid Glass slider coverage is already on this site, but the full package of design system changes in iOS 27 is broader than a single element. Neowin and TechTimes report that the tab bar reintegrates search directly into the navigation bar — a function that in iOS 26 had been separated, causing confusion — and that sidebars now extend to the physical edge of the window, eliminating the visual gap that many developers had flagged as inconsistent.\n\n## The response to accessibility criticism\n\nTechTimes documents that Nielsen Norman Group research had formally identified contrast issues in iOS 26: translucent elements against complex backgrounds fell below readability thresholds for users with mild visual impairments. iOS 27 responds with the new slider and further adjustments to Liquid Glass element rendering, which Apple describes as 'integrating additional layers of Liquid Glass directly into the artwork itself.'\n\n## Developers need to update\n\nThose who built separate code paths to compensate for iOS 26's contrast failures will need to verify in today's developer beta whether Apple's changes resolve the underlying issue or whether custom workarounds remain necessary. Neowin notes that full-edge sidebars require rethinking layouts in apps that used fixed margins.",
+      "sources": [
+        {
+          "title": "Neowin – Apple finally brings the slider for Liquid Glass",
+          "url": "https://www.neowin.net/news/apple-finally-brings-the-slider-for-liquid-glass-and-many-other-changes/"
+        },
+        {
+          "title": "TechTimes – Apple Liquid Glass iOS 27 WWDC 2026",
+          "url": "https://www.techtimes.com/articles/317975/20260608/apple-liquid-glass-ios-27-wwdc-2026-brings-refinements-developers-must-adopt-today.htm"
+        },
+        {
+          "title": "Gizmodo – Apple Announces iOS 27 With New Liquid Glass Slider",
+          "url": "https://gizmodo.com/apple-announces-ios-27-for-iphone-with-new-liquid-glass-slider-2000768712"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452731+02:00"
+    },
+    {
+      "slug": "siri-ai-china-blocco-eu-ios-ipad-disponibile-macos-watchos-visionos",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI bloccata anche in Cina: il quadro completo dei mercati esclusi al lancio",
+      "titleEn": "Siri AI blocked in China too: the full picture of markets excluded at launch",
+      "excerptIt": "Al lancio di iOS 27 e iPadOS 27, Siri AI non sarà disponibile né nell'Unione Europea — a causa del Digital Markets Act — né in Cina. Su macOS Golden Gate, watchOS 27 e visionOS 27, il blocco europeo non si applica.",
+      "excerptEn": "At the launch of iOS 27 and iPadOS 27, Siri AI will not be available in either the European Union — due to the Digital Markets Act — or in China. On macOS Golden Gate, watchOS 27 and visionOS 27, the European block does not apply.",
+      "bodyIt": "## Due blocchi, due ragioni diverse\n\nL'assenza di Siri AI nell'Unione Europea su iOS 27 e iPadOS 27 è già documentata su questo sito. Quello che merita un approfondimento è l'immagine completa della distribuzione geografica al lancio. TechRadar, nell'ampia copertura post-keynote, conferma che Siri AI non sarà disponibile in Cina al lancio, oltre che nell'UE, su iPhone e iPad. Le ragioni cinesi non coincidono con il Digital Markets Act: si tratta di un contesto regolatorio e di censura separato, che storicamente ha imposto ad Apple restrizioni specifiche sui servizi AI e cloud.\n\n## La nota ufficiale di Apple sul DMA\n\nPer l'Unione Europea, Apple ha rilasciato una dichiarazione esplicita: a causa del Digital Markets Act, l'azienda non è riuscita a trovare con i regolatori europei soluzioni che permettessero di portare Siri AI su iOS e iPadOS garantendo al contempo il supporto ad altri assistenti virtuali. TechRadar cita testualmente la comunicazione di Apple, che identifica i mesi di negoziato falliti come causa diretta del blocco.\n\n## Cosa resta accessibile in Europa\n\nLa limitazione riguarda solo iOS 27 e iPadOS 27. Engadget conferma che Siri AI sarà disponibile nell'UE su macOS Golden Gate, visionOS 27 e watchOS 27 fin dal lancio autunnale. Gli utenti europei con un Mac Apple Silicon, un Apple Vision Pro o un Apple Watch compatibile potranno quindi accedere al nuovo assistente, mentre chi usa iPhone o iPad dovrà aspettare che Apple e i regolatori europei trovino un accordo.",
+      "bodyEn": "## Two blocks, two different reasons\n\nThe absence of Siri AI in the European Union on iOS 27 and iPadOS 27 is already documented on this site. What merits a deeper look is the complete geographic distribution picture at launch. TechRadar, in its extensive post-keynote coverage, confirms that Siri AI will also not be available in China at launch, beyond the EU, on iPhone and iPad. The Chinese reasons do not coincide with the Digital Markets Act: this is a separate regulatory and censorship context that has historically imposed specific restrictions on Apple's AI and cloud services.\n\n## Apple's official DMA statement\n\nFor the European Union, Apple released an explicit statement: due to the Digital Markets Act, the company was unable to find solutions with European regulators that would allow bringing Siri AI to iOS and iPadOS while safely supporting other virtual assistants. TechRadar cites Apple's communication directly, identifying the months of failed negotiation as the direct cause of the block.\n\n## What remains accessible in Europe\n\nThe limitation only affects iOS 27 and iPadOS 27. Engadget confirms that Siri AI will be available in the EU on macOS Golden Gate, visionOS 27 and watchOS 27 from the fall launch. European users with an Apple Silicon Mac, an Apple Vision Pro, or a compatible Apple Watch will therefore be able to access the new assistant, while iPhone and iPad users will need to wait for Apple and European regulators to reach an agreement.",
+      "sources": [
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-08T23:33:40.452738+02:00"
+    },
     {
       "slug": "wallet-create-a-pass-visual-intelligence-biglietti-digitali",
       "macroArea": "servizi-ecosistema",

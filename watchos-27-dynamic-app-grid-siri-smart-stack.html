@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente | Apple WWDC 2026</title>
+  <meta name="description" content="Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/watchos-27-dynamic-app-grid-siri-smart-stack.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html">
+  <meta property="og:title" content="watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente | Apple WWDC 2026">
+  <meta property="og:description" content="Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente | Apple WWDC 2026">
+  <meta name="twitter:description" content="Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai…">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Aree tematiche</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a>
+            <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a>
+            <a href="./macro-aree/sviluppatori.html">Sviluppatori</a>
+            <a href="./macro-aree/design-interfacce.html">Design e interfacce</a>
+            <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a>
+            <a href="./macro-aree/salute-benessere.html">Salute e benessere</a>
+            <a href="./macro-aree/servizi-ecosistema.html">Servizi ed ecosistema</a>
+            <a href="./macro-aree/privacy-sicurezza.html">Privacy e sicurezza</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Argomenti</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/intelligenza-artificiale.html">Intelligenza artificiale</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift e Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/salute.html">Salute</a>
+            <a href="./tag/continuity.html">Continuity ed ecosistema</a>
+            <a href="./tag/accessibilita.html">Accessibilita</a>
+          </div>
+        </details>
+        <a href="./analisi.html" >Analisi</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archivio</a>
+        <div class="lang-switch">
+          <a href="#" class="active">IT</a>
+          <span class="sep">/</span>
+          <a href="en/watchos-27-dynamic-app-grid-siri-smart-stack.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente</h1>
+        <p class="article__lede">Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai collegamenti più usati e da suggerimenti contestuali che variano nel corso della giornata.</p>
+        <div class="article__meta">
+          <span>Pubblicato: <span data-ts="2026-06-08T23:33:40.452662+02:00">2026-06-08T23:33:40.452662+02:00</span></span>
+          <span>Area tematica: Sistemi operativi</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Una schermata ripensata intorno all'AI</h2>
+<p>Con watchOS 27, Apple riorganizza la struttura dell'interfaccia principale dell'Apple Watch. Secondo quanto riferito da Engadget e confermato da AppleInsider, il nuovo Dynamic App Grid pone Siri AI al centro del menu, circondato dalle app aperte di recente e da scorciatoie che il sistema ritiene rilevanti nel momento in uso. Non si tratta di un semplice riordino estetico: la griglia si aggiorna in modo autonomo in base al contesto, all'orario e alle abitudini registrate.</p>
+<h2>Smart Stack più consapevole del momento</h2>
+<p>Lo Smart Stack riceve a sua volta un'espansione: le sue schede contestuali diventano più numerose e più reattive agli eventi della giornata. Tom's Guide segnala che toccando indice e pollice insieme una sola volta si attiva lo Smart Stack con una sola mano — una modifica ergonomica pensata per chi usa il polso durante l'attività fisica o in mobilità, senza dover ricorrere all'altra mano.</p>
+<h2>Accesso a Siri tramite app dedicata</h2>
+<p>Oltre alla griglia, watchOS 27 introduce un'app Siri autonoma nella nuova griglia, accessibile sia con la voce sia tramite tocco. Secondo Tom's Guide, l'AI processing avviene tramite cloud privato piuttosto che direttamente sul dispositivo, e Apple sottolinea che le query non sono accessibili neanche internamente. La sessione Siri avviata sull'orologio puó essere ripresa su un altro dispositivo Apple, mantenendo il contesto della conversazione.</p>
+        
+        <div class="sources">
+          <h3>Fonti</h3>
+          <ul><li><a href="https://www.tomsguide.com/wellness/smartwatches/watchos-27-all-the-new-features-coming-to-apple-watch-later-this-year" target="_blank" rel="noopener">Tom's Guide – watchOS 27 all new features</a></li><li><a href="https://appleinsider.com/articles/26/06/08/coaching-wellness-features-ai-make-the-biggest-impact-in-watchos-27" target="_blank" rel="noopener">AppleInsider – Coaching, wellness features & AI in watchOS 27</a></li><li><a href="https://apple.gadgethacks.com/news/watchos-27-siri-upgrade-ai-assistant-and-perimenopause-tools-explained/" target="_blank" rel="noopener">Gadget Hacks – watchOS 27 Siri Upgrade explained</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tag</h4>
+          <div class="tag-pills"><a href="./tag/siri.html" class="tag-pill">Siri</a><a href="./tag/intelligenza-artificiale.html" class="tag-pill">Intelligenza artificiale</a><a href="./tag/design.html" class="tag-pill">Design</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Torna alla home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Copertura indipendente, in italiano, dell'Apple WWDC 2026. A cura di Daniele Biolatti con il supporto di Kairos.</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analisi.html">Analisi</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archivio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Risorse</h4>
+        <ul>
+          <li><a href="https://biolatti.it">Sito principale</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Sito ufficiale Apple WWDC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. Tutte le notizie restano di proprieta delle rispettive fonti.</span>
+      <span>Informazioni aggiornate al 12 giugno 2026. Nessuna affiliazione con Apple. Le fonti originali sono linkate in ogni articolo.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "watchOS 27: Dynamic App Grid, Siri al centro e Smart Stack più intelligente", "description": "Apple ridisegna la schermata principale di watchOS 27 attorno a Siri AI: una nuova griglia dinamica delle app mette l'assistente al centro, affiancato dai collegamenti più usati e da suggerimenti contestuali che variano nel corso della giornata.", "datePublished": "2026-06-08T23:33:40.452662+02:00", "dateModified": "2026-06-08T23:33:40.452662+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "it", "mainEntityOfPage": "https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html", "url": "https://wwdc2026.biolatti.it/watchos-27-dynamic-app-grid-siri-smart-stack.html", "articleSection": "Sistemi operativi", "keywords": "siri, intelligenza-artificiale, design"}</script><script src="assets/js/main.js"></script>
+</body>
+</html>
