@@ -1,9 +1,151 @@
 {
-  "lastUpdate": "2026-06-08T15:29:31.667242+02:00",
+  "lastUpdate": "2026-06-08T15:33:48.387224+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "macos-27-fine-supporto-intel-rosetta-2",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "macOS 27 chiude con i Mac Intel: fine del supporto e di Rosetta 2",
+      "titleEn": "macOS 27 drops Intel Mac support, signaling the end of Rosetta 2",
+      "excerptIt": "Apple ha confermato che macOS 27 non girerà sui Mac con processore Intel. Con questo passo si avvicina anche il tramonto di Rosetta 2, lo strato di traduzione binaria introdotto nel 2020.",
+      "excerptEn": "Apple has confirmed macOS 27 will not support Intel-based Macs, bringing the end of the Rosetta 2 compatibility layer closer.",
+      "bodyIt": "## La transizione si chiude\n\nCon macOS 27, Apple completa formalmente la transizione avviata nel 2020: i Mac dotati di processore Intel non potranno installare il nuovo sistema operativo. macOS Tahoe (26) rimarrà l'ultima versione compatibile con quella generazione di hardware.\n\nLa conseguenza diretta riguarda Rosetta 2, il traduttore binario che ha permesso alle app a 64 bit scritte per Intel di girare su Apple Silicon. TechRepublic segnala che la mossa segna \"l'inizio della fine\" per quella tecnologia, con implicazioni concrete per le organizzazioni che gestiscono ancora flotte di Mac Intel: i tempi di aggiornamento hardware diventano meno negoziabili.\n\n## Cosa cambia in pratica\n\nPer gli utenti consumer l'impatto è limitato: Apple Silicon è in distribuzione da quasi sei anni e la penetrazione nei parchi macchine aziendali è ormai maggioritaria. Il peso della decisione ricade soprattutto sui team IT che mantengono software legacy compilato solo per architettura x86-64. Queste applicazioni, finora protette da Rosetta 2, dovranno essere aggiornate o sostituite prima che il parco macchine venga portato su macOS 27.",
+      "bodyEn": "## The transition closes\n\nWith macOS 27, Apple formally completes the transition that began in 2020: Intel-based Macs will not be able to install the new operating system. macOS Tahoe (26) will remain the last version compatible with that hardware generation.\n\nThe direct consequence concerns Rosetta 2, the binary translator that allowed 64-bit Intel apps to run on Apple Silicon. TechRepublic notes that the move marks \"the beginning of the end\" for that technology, with concrete implications for organizations still managing Intel Mac fleets.\n\n## What changes in practice\n\nFor consumer users the impact is limited: Apple Silicon has been shipping for nearly six years. The burden falls mainly on IT teams maintaining legacy software compiled only for x86-64 architecture. These applications, previously protected by Rosetta 2, will need to be updated or replaced before the fleet is moved to macOS 27.",
+      "sources": [
+        {
+          "title": "TechRepublic – Apple WWDC26 Live Updates",
+          "url": "https://www.techrepublic.com/article/news-apple-wwdc-26-live-blog/"
+        },
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Apple Newsroom – WWDC26",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:33:48.387169+02:00"
+    },
+    {
+      "slug": "siri-27-chatbot-gemini-app-dedicata",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri diventa un chatbot: app dedicata, Gemini sotto il cofano e terze parti come opzione predefinita",
+      "titleEn": "Siri becomes a chatbot: standalone app, Gemini-powered backend, third-party AI as default option",
+      "excerptIt": "Con iOS 27 Siri ottiene una propria applicazione standalone, un'interfaccia conversazionale ridisegnata e la possibilità di impostare assistenti AI di terze parti come opzione predefinita al posto delle funzioni native.",
+      "excerptEn": "With iOS 27, Siri gets its own standalone app, a redesigned conversational interface, and the ability to set third-party AI assistants as the default for Apple Intelligence features.",
+      "bodyIt": "## Un assistente che parla, non solo risponde\n\nL'aggiornamento di Siri atteso da due anni approda con iOS 27 in una forma concretamente diversa dalla voce di sistema a cui gli utenti erano abituati. Secondo quanto riportato da MacRumors e confermato da Bloomberg, la nuova Siri introduce un'esperienza di tipo chatbot — conversazioni multi-turno, contesto persistente, capacità di operare tra applicazioni diverse — che per la prima volta trova spazio in un'app dedicata scaricabile e non più soltanto nella UI di sistema.\n\n## Gemini e apertura ai competitor\n\nIl motore che alimenta le funzionalità più avanzate si basa su una versione personalizzata dei modelli Gemini di Google, integrata da Apple secondo le proprie specifiche di privacy. La scelta è il risultato di una partnership formalizzata all'inizio del 2026 dopo che i piani originali di Apple Intelligence, annunciati al WWDC 2024, sono rimasti in larga parte inattuati per due anni consecutivi.\n\nPiù significativo per l'ecosistema è un altro cambiamento: iOS 27, iPadOS 27 e macOS 27 permetteranno agli utenti di impostare servizi AI di terze parti — tra cui Gemini e Claude — come opzione predefinita per funzioni come Writing Tools e Image Playground. Per una piattaforma storicamente chiusa, si tratta di un'apertura strutturale, non di una concessione marginale.\n\n## Privacy e controllo\n\nBloomberg riferisce che l'app Siri includerà opzioni per scegliere per quanto tempo conservare la cronologia delle conversazioni, da 30 giorni a tempo indefinito. Apple mantiene il proprio strato di elaborazione on-device e Private Cloud Compute per le richieste che non richiedono capacità di modelli esterni, tenendo separati i percorsi di elaborazione locale da quelli che transitano sui server Google.",
+      "bodyEn": "## An assistant that converses, not just responds\n\nThe long-awaited Siri update arrives with iOS 27 in a substantially different form from the system voice users were accustomed to. According to MacRumors and Bloomberg, the new Siri introduces a chatbot-style experience — multi-turn conversations, persistent context, the ability to operate across different apps — now housed in a dedicated standalone app for the first time.\n\n## Gemini and opening to competitors\n\nThe engine powering the most advanced features is based on a customized version of Google's Gemini models, integrated by Apple under its own privacy specifications. The choice results from a partnership formalized in early 2026 after Apple's original Apple Intelligence plans, announced at WWDC 2024, went largely undelivered for two consecutive years.\n\nMore significant for the ecosystem is another change: iOS 27, iPadOS 27, and macOS 27 will allow users to set third-party AI services — including Gemini and Claude — as the default for features like Writing Tools and Image Playground. For a historically closed platform, this is a structural opening.\n\n## Privacy and control\n\nBloomberg reports the Siri app will include options for choosing how long conversation history is retained, from 30 days to indefinitely. Apple maintains its own on-device and Private Cloud Compute processing layer for requests that don't require external model capabilities.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026: Everything to Expect",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        },
+        {
+          "title": "9to5Mac – How to watch Apple's WWDC keynote: iOS 27, new Siri, and more",
+          "url": "https://9to5mac.com/2026/05/27/how-to-watch-apples-wwdc-keynote-ios-27-new-siri-and-more/"
+        },
+        {
+          "title": "TechRepublic – Apple WWDC26 Live Updates",
+          "url": "https://www.techrepublic.com/article/news-apple-wwdc-26-live-blog/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:33:48.387196+02:00"
+    },
+    {
+      "slug": "ios-27-liquid-glass-slider-shortcut-linguaggio-naturale",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "iOS 27: cursore Liquid Glass e Shortcuts in linguaggio naturale",
+      "titleEn": "iOS 27: Liquid Glass slider and natural language Shortcuts",
+      "excerptIt": "iOS 27 introduce un cursore di sistema per regolare gli effetti Liquid Glass sull'intera interfaccia e permette di costruire automazioni in Shortcuts descrivendo l'azione in linguaggio naturale, senza blocchi di codice.",
+      "excerptEn": "iOS 27 introduces a system-wide Liquid Glass slider for fine-tuning transparency effects across the interface, and lets users build Shortcuts automations by describing actions in plain language.",
+      "bodyIt": "## Il vetro si regola\n\nLiquid Glass, il linguaggio visivo introdotto con iOS 26 e macOS Tahoe, non scompare in iOS 27 ma diventa configurabile. Secondo quanto riportato da Tom's Guide e MacRumors, Apple aggiunge un cursore di sistema che consente di graduare i livelli di trasparenza e contrasto su tutti gli elementi dell'interfaccia — cartelle, barre di navigazione, schermata Home — e non solo sull'orologio del lock screen come era previsto nella versione precedente. La funzione era stata pianificata per iOS 26 ma era stata accantonata per limitazioni tecniche.\n\nL'intervento risponde a critiche concrete sollevate da utenti e sviluppatori nel corso dell'anno: le sovrapposizioni semitrasparenti di Tahoe creavano in alcuni contesti problemi di leggibilità, specialmente su sfondi complessi. Il cursore non elimina lo stile ma concede margine di adattamento senza costringere a scegliere tra trasparente pieno e opaco.\n\n## Shortcuts senza blocchi di codice\n\nTom's Guide segnala un'altra modifica di sostanza: iOS 27 permette di creare automazioni in Shortcuts descrivendo l'azione desiderata in testo semplice, in italiano o in altra lingua, invece di assemblare blocchi logici come avveniva finora. La funzionalità abbassa la soglia di accesso a uno strumento che aveva una curva di apprendimento alta per gli utenti non tecnici, avvicinandolo al modo in cui si interagisce già con i modelli linguistici di uso quotidiano.",
+      "bodyEn": "## Adjustable glass\n\nLiquid Glass, the visual language introduced with iOS 26 and macOS Tahoe, doesn't disappear in iOS 27 but becomes configurable. According to Tom's Guide and MacRumors, Apple adds a system-wide slider to adjust transparency and contrast levels across all interface elements — folders, navigation bars, Home screen — not just the lock screen clock as had been planned in the previous version. The feature had been planned for iOS 26 but was shelved due to technical limitations.\n\nThe change responds to concrete criticism from users and developers over the past year: Tahoe's semi-transparent overlays created readability issues in some contexts, especially on complex wallpapers. The slider doesn't eliminate the style but provides room to adapt without forcing a binary choice.\n\n## Shortcuts without code blocks\n\nTom's Guide highlights another substantive change: iOS 27 lets users create Shortcuts automations by describing the desired action in plain text, instead of assembling logical blocks as before. This lowers the barrier to a tool that previously had a steep learning curve for non-technical users.",
+      "sources": [
+        {
+          "title": "Tom's Guide – Apple WWDC 2026 Live",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Tom's Guide – 9 biggest announcements we expect",
+          "url": "https://www.tomsguide.com/phones/iphones/wwdc-2026-7-biggest-announcements-we-expect"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:33:48.387205+02:00"
+    },
+    {
+      "slug": "macos-27-slight-redesign-liquid-glass-leggibilita",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "macOS 27: leggero redesign dell'interfaccia Liquid Glass per migliorare la leggibilità",
+      "titleEn": "macOS 27: subtle Liquid Glass interface redesign to improve readability",
+      "excerptIt": "macOS 27 porta un ridisegno contenuto rispetto a Tahoe, con modifiche agli effetti di trasparenza e ai contrasti per risolvere i problemi di leggibilità più segnalati dagli utenti nel corso dell'anno.",
+      "excerptEn": "macOS 27 brings a contained redesign compared to Tahoe, adjusting transparency effects and contrast to address the readability issues most reported by users over the past year.",
+      "bodyIt": "## Tahoe messo a punto\n\nSecondo Mark Gurman di Bloomberg, citato da MacRumors, macOS 27 includerà un \"ridisegno contenuto\" dell'interfaccia rispetto a macOS Tahoe. L'obiettivo dichiarato è migliorare la leggibilità: gli effetti di trasparenza di Tahoe e le ombre associate hanno generato nei dodici mesi successivi al lancio un flusso costante di segnalazioni da parte di utenti che trovavano l'interfaccia difficile da leggere in determinate condizioni di luce o su determinati sfondi.\n\n## Una revisione funzionale, non estetica\n\nLe modifiche non implicano un cambio di direzione stilistica: Liquid Glass rimane il sistema di design di riferimento per tutte le piattaforme Apple. Ciò che cambia è la calibrazione — contrasti, peso delle ombre, intensità della traslucenza — per fare in modo che l'estetica non comprometta l'usabilità. È la normale fase di rifinitura che segue ogni introduzione visiva importante, ma la velocità con cui Apple vi arriva — un solo ciclo di rilascio dopo Tahoe — segnala che la pressione degli utenti è stata presa sul serio.",
+      "bodyEn": "## Tahoe fine-tuned\n\nAccording to Bloomberg's Mark Gurman, cited by MacRumors, macOS 27 will include a \"subtle redesign\" of the interface compared to macOS Tahoe. The stated goal is improved readability: Tahoe's transparency effects and associated shadows generated a steady stream of reports over the twelve months after launch from users who found the interface difficult to read under certain lighting conditions or against certain wallpapers.\n\n## A functional revision, not aesthetic\n\nThe changes don't imply a change of stylistic direction: Liquid Glass remains the reference design system for all Apple platforms. What changes is the calibration — contrasts, shadow weight, translucency intensity — to ensure aesthetics don't compromise usability. This is the normal refinement phase that follows every major visual introduction, but the speed at which Apple arrives there — just one release cycle after Tahoe — signals that user pressure was taken seriously.",
+      "sources": [
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Schedule, Media Invites",
+          "url": "https://www.macrumors.com/2026/05/18/wwdc-2026-schedule-invites/"
+        },
+        {
+          "title": "9to5Mac – How to watch Apple's WWDC keynote",
+          "url": "https://9to5mac.com/2026/05/27/how-to-watch-apples-wwdc-keynote-ios-27-new-siri-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:33:48.387211+02:00"
+    },
+    {
+      "slug": "ios-27-ai-editing-foto-extend-enhance-reframe",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Editing fotografico con AI in iOS 27: Extend, Enhance e Reframe nelle Foto",
+      "titleEn": "AI-powered photo editing in iOS 27: Extend, Enhance, and Reframe in Photos",
+      "excerptIt": "iOS 27 porta nell'app Foto tre nuove funzioni di editing assistite dall'AI: Extend espande i bordi dell'immagine, Enhance ottimizza la qualità, Reframe cambia la prospettiva nelle foto spaziali.",
+      "excerptEn": "iOS 27 brings three new AI-assisted editing functions to the Photos app: Extend expands image borders, Enhance optimizes quality, and Reframe changes perspective in spatial photos.",
+      "bodyIt": "## Tre strumenti, logiche diverse\n\nTom's Guide riporta che iOS 27 introduce nell'app Foto tre funzionalità di editing basate sull'intelligenza artificiale: Extend, Enhance e Reframe. Le prime due seguono logiche già consolidate nel settore — la prima genera contenuto visivo oltre i bordi originali del fotogramma, la seconda applica ottimizzazioni automatiche alla qualità dell'immagine. Reframe è la più interessante dal punto di vista tecnico: è progettata per modificare la prospettiva nelle foto spaziali visualizzate in modalità 3D, un caso d'uso che ha senso soprattutto per chi utilizza Vision Pro o per il formato spaziale introdotto con iPhone 15 Pro.\n\n## Competizione con Google Photos\n\nL'insieme dei tre strumenti porta l'app Foto di Apple su un terreno che Google Photos occupa da anni con funzioni comparabili. La differenza che Apple sottolinea — e che dipende dall'architettura di elaborazione on-device — è che queste operazioni avvengono senza che le immagini lascino il dispositivo, salvo nei casi in cui vengano coinvolti modelli cloud. Come sempre, il confine tra elaborazione locale e remota dipende dalla complessità dell'operazione richiesta.",
+      "bodyEn": "## Three tools, different logics\n\nTom's Guide reports that iOS 27 introduces three AI-based editing functions in the Photos app: Extend, Enhance, and Reframe. The first two follow already established industry logic — the first generates visual content beyond the original frame edges, the second applies automatic quality optimizations. Reframe is the most technically interesting: it's designed to modify perspective in spatial photos viewed in 3D mode, a use case that makes most sense for Vision Pro users or the spatial format introduced with iPhone 15 Pro.\n\n## Competition with Google Photos\n\nThe three tools bring Apple's Photos app onto ground that Google Photos has occupied for years with comparable features. The difference Apple emphasizes — and which depends on on-device processing architecture — is that these operations happen without images leaving the device, except where cloud models are involved.",
+      "sources": [
+        {
+          "title": "Tom's Guide – 9 biggest announcements we expect at WWDC 2026",
+          "url": "https://www.tomsguide.com/phones/iphones/wwdc-2026-7-biggest-announcements-we-expect"
+        },
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        }
+      ],
+      "publishedAt": "2026-06-08T15:33:48.387218+02:00"
+    },
     {
       "slug": "wwdc26-programma-ufficiale-sessioni-group-labs",
       "macroArea": "sviluppatori",
