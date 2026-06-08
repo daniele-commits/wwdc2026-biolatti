@@ -437,8 +437,11 @@ def site_header(lang, current_page_type, other_lang_path, data):
     L = LABELS[lang]
     home_href = home_path(lang, current_page_type)
     asset_pref = asset_prefix(lang, current_page_type)
-    other_lang_label = "EN" if lang == "it" else "IT"
-    current_lang_label = "IT" if lang == "it" else "EN"
+    # Switcher lingua a posizioni FISSE: IT sempre a sinistra, EN sempre a destra.
+    # L'attiva e' evidenziata (class active, href #); l'altra punta all'altra lingua.
+    it_is_active = (lang == "it")
+    it_link = '<a href="#" class="active">IT</a>' if it_is_active else f'<a href="{other_lang_path}">IT</a>'
+    en_link = f'<a href="{other_lang_path}">EN</a>' if it_is_active else '<a href="#" class="active">EN</a>'
 
     # Build macroarea dropdown items
     aree_items = []
@@ -485,9 +488,9 @@ def site_header(lang, current_page_type, other_lang_path, data):
         <a href="{simple_page_url(lang, 'top10', lang, current_page_type)}" {'class="active"' if current_page_type == "top10" else ""}>{L["nav_top10"]}</a>
         <a href="{simple_page_url(lang, 'timeline', lang, current_page_type)}" {'class="active"' if current_page_type == "timeline" else ""}>{L["nav_timeline"]}</a>
         <div class="lang-switch">
-          <a href="#" class="active">{current_lang_label}</a>
+          {it_link}
           <span class="sep">/</span>
-          <a href="{other_lang_path}">{other_lang_label}</a>
+          {en_link}
         </div>
       </nav>
     </div>
