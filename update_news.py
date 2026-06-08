@@ -90,18 +90,23 @@ def within_window(data):
 
 def build_prompt(existing_slugs):
     slugs_str = ", ".join(sorted(existing_slugs)) if existing_slugs else "(nessuno: e il primo run)"
-    return f"""Sei Kairos, l'AI di Daniele Biolatti. Stai aggiornando in autonomia il sito wwdc2026.biolatti.it, copertura italiana indipendente dell'Apple WWDC 2026 (8-12 giugno 2026, keynote di apertura l'8 giugno alle 19:00 ora italiana).
+    now_str = datetime.now(TZ).strftime("%d/%m/%Y %H:%M")
+    return f"""Sei Kairos, l'AI di Daniele Biolatti. Stai aggiornando in autonomia il sito wwdc2026.biolatti.it, copertura italiana indipendente dell'Apple WWDC 2026 (8-12 giugno 2026).
+
+CONTESTO TEMPORALE — LEGGI CON ATTENZIONE
+Adesso sono le {now_str} (ora italiana). L'Apple WWDC 2026 E' IN CORSO PROPRIO IN QUESTO MOMENTO: il keynote di apertura e' iniziato l'8 giugno alle 19:00 ora italiana. Apple sta gia annunciando dal vivo iOS 27, iPadOS 27, macOS 27, watchOS 27, tvOS 27, visionOS 27, il nuovo Siri, le funzioni di Apple Intelligence e molto altro. NON e' un evento futuro o ipotetico: sta succedendo ORA e ci sono gia decine di annunci concreti gia fatti.
 
 COMPITO
-Usa la ricerca web per trovare gli annunci PIU RECENTI e VERIFICATI dell'Apple WWDC 2026 (keynote, Platforms State of the Union, sessioni, comunicati Apple). Restituisci SOLO annunci NUOVI non gia coperti.
+Usa la ricerca web (live blog e articoli di MacRumors, 9to5Mac, The Verge, Engadget, TechRadar, AppleInsider, Macworld, Apple Newsroom) per raccogliere gli annunci CONCRETI gia fatti da Apple durante il keynote e le sessioni in corso. Ogni singola novita annunciata (una funzione o un prodotto) diventa un articolo. Restituisci SOLO annunci NUOVI non gia coperti.
 
 GIA COPERTI (non ripetere, ne come slug ne come contenuto):
 {slugs_str}
 
-REGOLE
-- Solo annunci reali e confermati da fonti autorevoli. Niente rumor, niente indiscrezioni pre-evento, niente speculazioni.
-- Fonti accettate: Apple Newsroom, MacRumors, 9to5Mac, The Verge, TechCrunch, Engadget, Ars Technica, Wired, Macworld, TechRadar. Cita 2-3 fonti con URL diretti reali presi dalla ricerca.
-- Massimo {MAX_NEW} item per run. Se non c'e nulla di nuovo, restituisci lista vuota.
+REGOLE — IMPORTANTE
+- Un annuncio FATTO da Apple sul palco e riportato dalla copertura live E' un fatto confermato, NON un rumor. I "rumor" sono solo le ipotesi PRIMA dell'evento; ora l'evento e' iniziato, quindi raccogli cio che Apple ha effettivamente mostrato e annunciato, cosi come riportato dalle fonti. Non auto-censurarti: se le fonti live lo riportano, e' materiale valido.
+- Evita solo le pure speculazioni su cosa potrebbe arrivare in futuro: attieniti a cio che e' GIA stato annunciato durante l'evento.
+- Cita 2-3 fonti con URL diretti reali presi dalla ricerca.
+- Massimo {MAX_NEW} item per run, dando priorita agli annunci piu importanti. Se davvero non trovi nulla di nuovo oltre ai gia coperti, restituisci lista vuota.
 - Tono Biolatti: prosa lucida, leggermente critica, niente sicofantia, niente "rivoluzionario/game-changer". Spiega COSA cambia e PERCHE conta.
 - Niente emoji nel contenuto.
 - TIPOGRAFIA ITALIANA con accenti UTF-8 corretti (e/E con accento grave o acuto, piu, perche, poiche, gia, sara, citta, qualita, ecc.) e apostrofo solo per elisioni (l'app, dell'utente, c'e).
@@ -128,7 +133,7 @@ def call_anthropic(prompt, api_key):
     payload = {
         "model": MODEL,
         "max_tokens": 8000,
-        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 4}],
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
         "messages": [{"role": "user", "content": prompt}],
     }
     req = urllib.request.Request(
