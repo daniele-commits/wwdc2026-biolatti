@@ -132,7 +132,7 @@ Nessun altro testo dopo il blocco. Se non ci sono novita: {{"newItems": []}}."""
 def call_anthropic(prompt, api_key):
     payload = {
         "model": MODEL,
-        "max_tokens": 8000,
+        "max_tokens": 16000,
         "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
         "messages": [{"role": "user", "content": prompt}],
     }
@@ -221,6 +221,12 @@ def main():
 
     resp = call_anthropic(build_prompt(existing), api_key)
     text = extract_text(resp)
+    # --- DIAGNOSTICA: capire COSA produce il modello (stop_reason, lunghezza, coda) ---
+    usage = resp.get("usage", {})
+    log(f"[debug] stop_reason={resp.get('stop_reason')} | text_len={len(text)} | "
+        f"json_blocks={text.count('```json')} | out_tokens={usage.get('output_tokens')} | "
+        f"search_uses={(usage.get('server_tool_use') or {}).get('web_search_requests')}")
+    log("[debug] CODA risposta (ultimi 600 char):\n" + (text[-600:] if text else "(testo vuoto)"))
     raw_items = parse_new_items(text)
     log(f"Item proposti dal modello: {len(raw_items)}")
 
