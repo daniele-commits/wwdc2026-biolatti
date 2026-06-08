@@ -57,7 +57,7 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "Nessuna modifica da committare."
           else
-            git commit -m "WWDC update: ${COUNT} nuovi annunci [skip ci]"
+            git commit -m "WWDC update: ${COUNT} nuovi annunci"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

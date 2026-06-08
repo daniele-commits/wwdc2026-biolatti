@@ -198,8 +198,8 @@ LABELS = {
         "nav_about": "About",
         "switch_lang_label": "IT",
         "hero_eyebrow": f"WWDC 2026 coverage, updated in real time",
-        "hero_title": "Apple WWDC 2026: <em>the announcements</em>, in Italian, organized by topic.",
-        "hero_subtitle": "Apple's developer conference runs from June 8 to 12, 2026, with the opening keynote on Monday June 8 at 10am PT. This page updates automatically as announcements land: everything rebuilt in Italian, organized by area, with original sources one click away.",
+        "hero_title": "Apple WWDC 2026: <em>the announcements</em>, organized by topic.",
+        "hero_subtitle": "Apple's developer conference runs from June 8 to 12, 2026, with the opening keynote on Monday June 8 at 10am PT. This page updates automatically as announcements land: everything organized by area, with original sources one click away.",
         "hero_meta_dates": "June 8-12, 2026",
         "section_featured_eyebrow": "The announcements that matter most",
         "section_featured_title": "Start here",
@@ -681,6 +681,10 @@ def render_home(lang, data):
 
     media_group = render_featured_group("mediaBuzz", L["media_buzz_label"])
     underrated_group = render_featured_group("underratedStructural", L["underrated_label"])
+    # Durante la live i due gruppi sono vuoti (curati a mano in fase 2): in quel
+    # caso la sezione viene omessa del tutto, per non mostrare blocchi vuoti.
+    has_featured = bool((featured.get("mediaBuzz") or {}).get("items")) or \
+                   bool((featured.get("underratedStructural") or {}).get("items"))
     featured_section = f"""
   <section class="section--featured">
     <div class="container">
@@ -693,7 +697,7 @@ def render_home(lang, data):
       {underrated_group}
     </div>
   </section>
-"""
+""" if has_featured else ""
 
     # Macro-areas grid (with narrative subtitle + hero thumbnail)
     ma_cards = []
