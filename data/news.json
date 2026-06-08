@@ -1,9 +1,235 @@
 {
-  "lastUpdate": "2026-06-09T00:03:47.381423+02:00",
+  "lastUpdate": "2026-06-09T01:03:29.031337+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "visionos-27-control-center-redesign-curvature-windows",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design"
+      ],
+      "category": "Spatial / visionOS",
+      "titleIt": "visionOS 27: Control Center ridisegnato e nuove finestre a curvatura",
+      "titleEn": "visionOS 27: Redesigned Control Center and new curvature windows",
+      "excerptIt": "Apple Vision Pro riceve in visionOS 27 un Control Center completamente ridisegnato e un nuovo tipo di finestra a curvatura, oltre all'integrazione di Siri AI.",
+      "excerptEn": "Apple Vision Pro gets a fully redesigned Control Center and new curvature windows in visionOS 27, alongside Siri AI integration.",
+      "bodyIt": "## Oltre Siri: cosa cambia davvero in visionOS 27\n\nIl keynote del WWDC 2026 ha dedicato poco tempo a visionOS 27, ma le novità annunciate vanno oltre il solo aggiornamento di Siri. Tom's Guide e TechRadar riferiscono che il Control Center del visore riceve un redesign completo, e che Apple introduce un nuovo formato di finestra definito \"curvature windows\": superfici con bordi incurvati che si adattano meglio alla percezione spaziale tridimensionale dell'ambiente circostante.\n\nLa nuova tipologia di finestre rappresenta un'evoluzione dell'interfaccia spaziale che Apple aveva introdotto con Liquid Glass in visionOS 26: anziché riquadri piatti, le app potranno ora presentarsi con bordi che seguono la geometria dello spazio percepito dall'utente. Non sono stati forniti dettagli tecnici su come i developer dovranno adottare questo formato, ma le sessioni della settimana WWDC forniranno le linee guida.\n\nIl Control Center ridisegnato risponde a critiche ricorrenti sull'accesso rapido alle funzioni del visore, un'area in cui il sistema operativo aveva mostrato rigidità sin dal lancio. Non é ancora chiaro se il redesign porta anche nuovi controlli di primo livello o si limita a riorganizzare quelli esistenti. Gli approfondimenti arriveranno dalle sessioni tecniche dei prossimi giorni.",
+      "bodyEn": "## Beyond Siri: what's actually new in visionOS 27\n\nThe WWDC 2026 keynote dedicated limited time to visionOS 27, but the announced changes go beyond the Siri AI update. Tom's Guide and TechRadar report that the headset's Control Center receives a full redesign, and that Apple introduces a new window format called \"curvature windows\": surfaces with curved edges that better adapt to the three-dimensional spatial perception of the surrounding environment.\n\nThis new window type represents an evolution of the spatial interface Apple introduced with Liquid Glass in visionOS 26: rather than flat panels, apps can now present themselves with edges that follow the geometry of the space perceived by the user. No technical details were provided on how developers will need to adopt this format, but WWDC sessions throughout the week will provide guidelines.\n\nThe redesigned Control Center addresses recurring criticism about quick access to the headset's functions, an area where the operating system had shown rigidity since launch. It remains unclear whether the redesign also brings new first-level controls or simply reorganizes existing ones.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031242+02:00"
+    },
+    {
+      "slug": "ios-27-imessage-status-slider",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design",
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27: arriva lo slider di stato in iMessage",
+      "titleEn": "iOS 27: iMessage gets a new status slider",
+      "excerptIt": "iOS 27 introduce nella app Messaggi uno slider di stato direttamente nei thread di iMessage, un dettaglio piccolo ma atteso da molti utenti.",
+      "excerptEn": "iOS 27 introduces a status slider directly within iMessage threads in the Messages app, a small but long-awaited detail for many users.",
+      "bodyIt": "## Un controllo in piú dentro le conversazioni\n\nTra gli annunci meno evidenziati nel keynote del WWDC 2026 figura una novità pratica per chi usa iMessage quotidianamente: iOS 27 aggiunge uno slider di stato all'interno dei thread di conversazione. TechRadar lo segnala come un dettaglio emerso durante la rapida successione di feature annunciate, senza che Apple gli abbia dedicato uno spazio esplicito nel keynote.\n\nLa funzione sembra rispondere a un'esigenza di comunicazione del proprio stato di disponibilità senza dover uscire dalla conversazione o ricorrere a Focus. Nessuna fonte ha ancora chiarito se lo slider interagisce con le modalitá Focus esistenti o si tratta di un meccanismo autonomo. Ulteriori dettagli emergeranno con l'analisi dei developer beta, disponibili giá da oggi.\n\nÉ un esempio di come iOS 27 abbia incorporato numerose richieste dell'utenza in funzioni di dettaglio, spesso piú utili nel quotidiano delle grandi novitá titolate. Apple ha dimostrato di ascoltare il feedback, almeno per alcune delle richieste piú elementari.",
+      "bodyEn": "## One more control inside conversations\n\nAmong the least highlighted announcements in the WWDC 2026 keynote is a practical addition for everyday iMessage users: iOS 27 adds a status slider within conversation threads. TechRadar flagged it as a detail that emerged during the rapid succession of announced features, without Apple dedicating explicit keynote time to it.\n\nThe feature appears to address the need to communicate one's availability status without leaving the conversation or resorting to Focus modes. No source has yet clarified whether the slider interacts with existing Focus modes or operates as an independent mechanism. Further details will emerge with analysis of the developer betas, available as of today.\n\nThis is an example of how iOS 27 has incorporated numerous user requests into detail-level features, often more useful in daily life than the headlining novelties. Apple has shown it listens to feedback, at least for some of the most elementary requests.",
+      "sources": [
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 live coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031272+02:00"
+    },
+    {
+      "slug": "watchos-27-modular-ultra-face-standard-heartrate",
+      "macroArea": "salute-benessere",
+      "tags": [
+        "salute",
+        "design"
+      ],
+      "category": "Salute e Benessere",
+      "titleIt": "watchOS 27: il quadrante Modular Ultra arriva sugli Apple Watch standard, migliorato il rilevamento cardiaco",
+      "titleEn": "watchOS 27: Modular Ultra watch face comes to standard Apple Watches, improved heart rate tracking",
+      "excerptIt": "Apple democratizza il quadrante Modular Ultra — finora esclusivo di Apple Watch Ultra — portandolo sui modelli Series, con una versione semplificata. In arrivo anche miglioramenti al monitoraggio della frequenza cardiaca.",
+      "excerptEn": "Apple brings the Modular Ultra watch face — previously exclusive to Apple Watch Ultra — to standard Series models in a simplified form, alongside improvements to heart rate monitoring.",
+      "bodyIt": "## La faccia dell'Ultra, per tutti\n\nUno degli annunci piú concreti per gli utenti Apple Watch al WWDC 2026 riguarda il quadrante Modular Ultra: da sempre esclusivo dell'Apple Watch Ultra, in watchOS 27 arriverá anche sui modelli Series in una versione adattata. Come riportano 9to5Mac e MacRumors, la versione per i modelli standard mantiene il grande orologio digitale che occupa i due terzi superiori del display, ma rinuncia alla complicazione centrale grande e alla fila di tre complicazioni piú piccole sopra l'ora, sostituendo il tutto con una riga di tre complicazioni sotto il display del tempo.\n\nIl risultato é un quadrante piú pulito, orientato alla leggibilitá, che porta l'estetica Ultra sui polsi di chi non ha speso il prezzo maggiorato del modello top di gamma. È una concessione pratica che Apple avrebbe potuto fare giá anni fa, ma che è comunque ben accetta.\n\nParallelamente, watchOS 27 introduce miglioramenti al rilevamento della frequenza cardiaca, segnalati da Mark Gurman di Bloomberg. I dettagli tecnici non sono stati resi pubblici durante il keynote — Apple ha trattato watchOS in modo molto rapido — ma le sessioni della settimana WWDC chiariranno la portata dell'aggiornamento. Il miglioramento é atteso su hardware giá in commercio, senza richiedere il nuovo Apple Watch previsto per l'autunno.",
+      "bodyEn": "## The Ultra face, for everyone\n\nOne of the most concrete announcements for Apple Watch users at WWDC 2026 concerns the Modular Ultra watch face: previously exclusive to Apple Watch Ultra, in watchOS 27 it will also arrive on Series models in an adapted version. As reported by 9to5Mac and MacRumors, the version for standard models retains the large digital clock occupying the top two-thirds of the display, but drops the large center complication and the row of three smaller complications above the time, replacing everything with a row of three complications below the time display.\n\nThe result is a cleaner, readability-focused watch face that brings Ultra aesthetics to wrists that haven't paid the premium price of the top-tier model. It's a practical concession Apple could have made years ago, but it's welcome nonetheless.\n\nAlongside this, watchOS 27 introduces improvements to heart rate tracking, flagged by Bloomberg's Mark Gurman. Technical details were not made public during the keynote — Apple covered watchOS very quickly — but WWDC sessions throughout the week will clarify the scope of the update. The improvement is expected on existing hardware, without requiring the new Apple Watch expected this fall.",
+      "sources": [
+        {
+          "title": "9to5Mac – watchOS 27: three new Apple Watch features",
+          "url": "https://9to5mac.com/2026/06/01/watchos-27-three-new-apple-watch-features-being-announced-next-week/"
+        },
+        {
+          "title": "MacRumors – watchOS 27 new features",
+          "url": "https://www.macrumors.com/2026/05/28/watchos-27-rumors/"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031285+02:00"
+    },
+    {
+      "slug": "tvos-27-ai-subtitles-on-device-text-size",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "accessibilita",
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "tvOS 27: sottotitoli AI on-device e regolazione dimensione testo sullo schermo",
+      "titleEn": "tvOS 27: on-device AI subtitles and on-screen text size adjustment",
+      "excerptIt": "tvOS 27 porta sottotitoli generati in locale da un modello AI direttamente sull'Apple TV, senza mandare l'audio in cloud, e introduce la regolazione della dimensione del testo a schermo.",
+      "excerptEn": "tvOS 27 brings locally generated subtitles from an on-device AI model directly on Apple TV, without sending audio to the cloud, and introduces on-screen text size adjustment.",
+      "bodyIt": "## L'Apple TV impara a leggere i contenuti da sola\n\ntvOS 27 si fa notare per una funzione di accessibilitá sostanziale: i sottotitoli generati da un modello AI direttamente sul dispositivo, senza connessione a server remoti. AppleInsider riferisce che la funzione — definita \"on-device AI subtitles\" — permette all'Apple TV di generare didascalie in tempo reale per qualsiasi contenuto video, inclusi quelli che non dispongono di tracce di sottotitoli ufficiali. L'elaborazione locale garantisce che l'audio non lasci mai il dispositivo, in linea con l'approccio privacy-first dichiarato da Apple per tutta la suite di funzioni AI presentate al WWDC 2026.\n\nLa seconda novitá annunciata per tvOS 27 é la regolazione della dimensione del testo a schermo, una funzione di accessibilitá di base che mancava ancora dal sistema operativo del televisore. È una lacuna che molti utenti anziani o con difficoltá visive avevano segnalato da tempo, e il fatto che arrivi senza particolari fanfare la dice lunga su quanto questo segmento dell'ecosistema riceva attenzione solo a margine.\n\ntvOS 27 porta anche un'app Podcasts ridisegnata — giá coperta in precedenza — ma l'insieme delle novità conferma che Apple sta cercando di alzare la qualitá del software per il grande schermo in modo piú sistematico rispetto alle versioni precedenti.",
+      "bodyEn": "## Apple TV learns to read content on its own\n\ntvOS 27 stands out for a substantial accessibility feature: subtitles generated by an on-device AI model directly on the device, without connecting to remote servers. AppleInsider reports that the feature — defined as \"on-device AI subtitles\" — allows Apple TV to generate real-time captions for any video content, including those without official subtitle tracks. Local processing ensures audio never leaves the device, in line with the privacy-first approach Apple declared for the entire suite of AI features presented at WWDC 2026.\n\nThe second announced tvOS 27 feature is on-screen text size adjustment, a basic accessibility function that had been missing from the TV operating system. It's a gap that many elderly users or those with visual difficulties had flagged for some time, and the fact that it arrives without particular fanfare speaks volumes about how much this segment of the ecosystem receives attention only at the margins.\n\ntvOS 27 also brings a redesigned Podcasts app — already covered previously — but the overall set of new features confirms that Apple is trying to raise the quality of its big-screen software in a more systematic way than previous versions.",
+      "sources": [
+        {
+          "title": "AppleInsider – iOS 27, macOS 27, Siri: What to expect at WWDC 2026",
+          "url": "https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031294+02:00"
+    },
+    {
+      "slug": "federighi-qa-post-keynote-siri-ai-integrazione-sistema",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Federighi dopo il keynote: Siri AI é un'estensione del sistema, non una chat separata",
+      "titleEn": "Federighi after the keynote: Siri AI is a system extension, not a separate chat",
+      "excerptIt": "In un Q&A con la stampa subito dopo il keynote, Craig Federighi ha chiarito la filosofia di Siri AI: non una finestra di chat alternativa, ma un assistente profondamente radicato nell'esperienza di sistema.",
+      "excerptEn": "In a Q&A with press immediately after the keynote, Craig Federighi clarified the philosophy behind Siri AI: not an alternative chat window, but an assistant deeply rooted in the system experience.",
+      "bodyIt": "## La distinzione che conta\n\nAppena terminato il keynote del WWDC 2026, Craig Federighi ha incontrato la stampa per un Q&A dedicato a Siri AI. Tom's Guide riporta che Federighi ha sottolineato come la nuova versione del assistente non vada intesa come una semplice chatbox innestata nel sistema operativo: «É profondamente integrata nella tua esperienza, capisce cosa c'é sullo schermo [...] le conversazioni sono realmente un'estensione dell'esperienza di sistema».\n\nLa distinzione è rilevante sul piano competitivo. Apple non vuole che Siri AI sia percepita come un ChatGPT vestito da Apple: punta invece sull'integrazione profonda con le app, i dati personali e il contesto di sistema come elemento differenziante. Questa visione era giá stata anticipata l'anno scorso dallo stesso Federighi in un'intervista a Tom's Guide, ma ora assume la forma di funzioni concrete annunciate sul palco.\n\nRimane da vedere se questa filosofia regge nel confronto pratico con gli utenti. I modelli concorrenti — Gemini Live, ChatGPT Advanced Voice — hanno giá dimostrato capacitá di contesto cross-app che fino a ieri erano promesse non mantenute da Apple. La differenza, se c'é, la diranno i beta tester nelle prossime settimane.",
+      "bodyEn": "## The distinction that matters\n\nImmediately after the WWDC 2026 keynote, Craig Federighi met with press for a Q&A dedicated to Siri AI. Tom's Guide reports that Federighi emphasized that the new version of the assistant should not be understood as a simple chatbox grafted onto the operating system: \"It's deeply integrated into your experience, understanding what's on screen [...] the experiences are really an extension of your system experience.\"\n\nThe distinction matters competitively. Apple does not want Siri AI to be perceived as a ChatGPT dressed up by Apple: instead, it bets on deep integration with apps, personal data, and system context as a differentiator. This vision had already been previewed last year by Federighi himself in a Tom's Guide interview, but now takes the form of concrete features announced on stage.\n\nIt remains to be seen whether this philosophy holds up in practical comparison with users. Competing models — Gemini Live, ChatGPT Advanced Voice — have already demonstrated cross-app context capabilities that until yesterday were unfulfilled promises from Apple. The difference, if any, will be told by beta testers in the coming weeks.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031303+02:00"
+    },
+    {
+      "slug": "ios-27-beta-sviluppatori-oggi-pubblica-luglio-autunno",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "iOS 27 e tutti gli OS 27: beta sviluppatori disponibili oggi, pubblica a luglio",
+      "titleEn": "iOS 27 and all OS 27: developer betas available today, public beta in July",
+      "excerptIt": "Apple ha rilasciato i developer beta di iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27 e visionOS 27 subito dopo il keynote. La beta pubblica arriverà a luglio, il rilascio generale in autunno.",
+      "excerptEn": "Apple released developer betas of iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27, and visionOS 27 immediately after the keynote. The public beta arrives in July, general release in fall.",
+      "bodyIt": "## Il ciclo inizia adesso\n\nSubito dopo la conclusione del keynote del WWDC 2026, Apple ha reso disponibili i developer beta di tutti i suoi sistemi operativi di nuova generazione: iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27 e visionOS 27. Lo confermano MacRumors, Engadget e Tom's Guide. La beta pubblica seguirá a luglio, secondo la consueta cadenza annuale, mentre il rilascio generale per tutti gli utenti é previsto in autunno — presumibilmente in coincidenza con il lancio di iPhone 18.\n\nPer gli sviluppatori, questa é la finestra critica: le prossime settimane serviranno ad aggiornare le app per supportare le nuove API di Siri AI, il framework Apple Foundation Models e le linee guida aggiornate su Liquid Glass. Apple ha annunciato oltre cento sessioni video e laboratori di gruppo durante la settimana del WWDC per accompagnare la transizione.\n\nUn avviso pratico: i beta dei sistemi operativi Apple non sono mai consigliati su dispositivi primari, specialmente nelle prime settimane. La mole di novitá introdotte in questa generazione — dalla nuova architettura di Siri AI alla ristrutturazione della ricerca — lascia prevedere un ciclo di beta piú movimentato del solito.",
+      "bodyEn": "## The cycle starts now\n\nImmediately after the WWDC 2026 keynote concluded, Apple made developer betas available for all its next-generation operating systems: iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27, and visionOS 27. This is confirmed by MacRumors, Engadget, and Tom's Guide. The public beta will follow in July, according to the usual annual schedule, while the general release for all users is expected in fall — presumably coinciding with the iPhone 18 launch.\n\nFor developers, this is the critical window: the coming weeks will be used to update apps to support the new Siri AI APIs, the Apple Foundation Models framework, and the updated Liquid Glass guidelines. Apple announced over a hundred video sessions and group labs during WWDC week to accompany the transition.\n\nA practical note: Apple operating system betas are never recommended on primary devices, especially in the first weeks. The volume of changes introduced in this generation — from the new Siri AI architecture to the search infrastructure overhaul — suggests a more turbulent beta cycle than usual.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 live coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031311+02:00"
+    },
+    {
+      "slug": "siri-ai-privacy-on-device-federighi-dichiarazione-dati",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "intelligenza-artificiale"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Siri AI e privacy: Federighi garantisce che i dati servono solo all'esecuzione della richiesta",
+      "titleEn": "Siri AI and privacy: Federighi guarantees data is used only to execute the request",
+      "excerptIt": "Craig Federighi ha dichiarato al WWDC 2026 che i dati elaborati da Siri AI vengono usati esclusivamente per eseguire la richiesta dell'utente, e che esperti esterni possono verificare questa promessa in qualsiasi momento.",
+      "excerptEn": "Craig Federighi stated at WWDC 2026 that data processed by Siri AI is used exclusively to execute the user's request, and that external experts can verify this promise at any time.",
+      "bodyIt": "## La promessa verificabile\n\nDurante il keynote del WWDC 2026, Craig Federighi ha affrontato direttamente il nodo privacy di Siri AI — particolarmente delicato visto che il nuovo assistente si appoggia in parte all'infrastruttura cloud di Google attraverso AFM Cloud Pro. Federighi ha dichiarato che Apple considera la privacy nell'AI «non negoziabile» e che i dati vengono usati soltanto per eseguire la richiesta dell'utente, aggiungendo che esperti esterni possono verificare questa promessa in qualsiasi momento.\n\nLa clausola sulla verifica esterna si inserisce nel quadro del Private Cloud Compute introdotto con le precedenti generazioni di Apple Intelligence, un'architettura che Apple aveva giá descritto come ispezionabile da ricercatori di sicurezza indipendenti. L'estensione di questo principio alla componente Gemini-based di AFM Cloud Pro é però un elemento nuovo: in passato il cloud computing di Apple era completamente proprietario, mentre ora una porzione dei carichi di lavoro piú intensi gira su GPU Nvidia nell'infrastruttura Google.\n\nLa dichiarazione di Federighi va letta come una risposta preventiva alle critiche che il deal con Google ha già generato in ambienti privacy-oriented. La verifica concreta di queste promesse richiederá tempo e, probabilmente, audit indipendenti che non sono ancora stati annunciati.",
+      "bodyEn": "## The verifiable promise\n\nDuring the WWDC 2026 keynote, Craig Federighi directly addressed the privacy question around Siri AI — particularly sensitive given that the new assistant partly relies on Google's cloud infrastructure through AFM Cloud Pro. Federighi stated that Apple considers privacy in AI \"non-negotiable\" and that data is used only to execute the user's request, adding that external experts can verify this promise at any time.\n\nThe external verification clause fits within the Private Cloud Compute framework introduced with previous generations of Apple Intelligence, an architecture Apple had already described as inspectable by independent security researchers. The extension of this principle to the Gemini-based component of AFM Cloud Pro is, however, a new element: previously Apple's cloud computing was entirely proprietary, whereas now a portion of the most intensive workloads runs on Nvidia GPUs in Google's infrastructure.\n\nFederighi's statement should be read as a preemptive response to the criticism that the Google deal has already generated in privacy-oriented circles. Concrete verification of these promises will require time and, likely, independent audits that have not yet been announced.",
+      "sources": [
+        {
+          "title": "BitcoinWorld / MEXC – WWDC 2026 Tim Cook final keynote",
+          "url": "https://www.mexc.com/news/1134865"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031318+02:00"
+    },
+    {
+      "slug": "ios-27-liquid-glass-intensity-slider-accessibilita-risposta",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design",
+        "accessibilita"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "iOS 27: lo slider di intensitá Liquid Glass risponde alle critiche di accessibilitá documentate",
+      "titleEn": "iOS 27: Liquid Glass intensity slider responds to documented accessibility criticism",
+      "excerptIt": "Il nuovo slider per regolare l'intensitá del Liquid Glass in iOS 27 non è solo personalizzazione estetica: è una risposta diretta a fallimenti di accessibilitá documentati dal Nielsen Norman Group dopo il lancio di iOS 26.",
+      "excerptEn": "The new slider to adjust Liquid Glass intensity in iOS 27 is not just aesthetic customization: it's a direct response to accessibility failures documented by the Nielsen Norman Group after the iOS 26 launch.",
+      "bodyIt": "## Non solo gusto: il problema di contrasto che Apple doveva risolvere\n\nLo slider per regolare l'intensitá del Liquid Glass in iOS 27 — confermato al WWDC 2026 da TechRadar e Macworld — viene spesso presentato come una funzione di personalizzazione estetica. Ma c'é una ragione piú concreta alla base: i ricercatori del Nielsen Norman Group avevano documentato fallimenti reali di accessibilitá nell'implementazione di Liquid Glass in iOS 26. Gli elementi traslucenti sopra sfondi complessi riducevano il contrasto sotto le soglie di leggibilitá, in particolare per gli utenti con lievi disabilitá visive.\n\nL'opzione «Riduzione Trasparenza» disponibile in iOS 26 non risolveva completamente il problema. Come riporta TechTimes, iOS 27 introduce uno slider graduato che permette di controllare l'opacitá degli elementi Liquid Glass, offrendo un controllo intermedio tra la trasparenza piena e l'opacizzazione totale. È una soluzione pratica che Apple avrebbe potuto implementare fin dall'inizio, evitando nove mesi di critiche documentate.\n\nPer gli sviluppatori, il cambiamento ha implicazioni dirette: chi aveva costruito percorsi di codice separati per compensare i problemi di contrasto di iOS 26 dovrá verificare se il nuovo slider risolve il problema a livello di sistema, o se i workaround custom vanno mantenuti. Le sessioni tecniche del WWDC 2026 forniranno le indicazioni aggiornate nelle Human Interface Guidelines.",
+      "bodyEn": "## Not just taste: the contrast problem Apple had to fix\n\nThe slider to adjust Liquid Glass intensity in iOS 27 — confirmed at WWDC 2026 by TechRadar and Macworld — is often presented as an aesthetic customization feature. But there's a more concrete reason behind it: researchers at the Nielsen Norman Group had documented real accessibility failures in iOS 26's Liquid Glass implementation. Translucent elements over complex backgrounds reduced contrast below readability thresholds, particularly for users with mild visual disabilities.\n\nThe \"Reduce Transparency\" option available in iOS 26 did not fully resolve the problem. As TechTimes reports, iOS 27 introduces a graduated slider that allows control over the opacity of Liquid Glass elements, offering an intermediate control between full transparency and full opacification. It's a practical solution Apple could have implemented from the start, avoiding nine months of documented criticism.\n\nFor developers, the change has direct implications: those who had built separate code paths to compensate for iOS 26's contrast failures will need to verify whether the new slider resolves the issue at the system level, or whether custom workarounds need to be maintained. WWDC 2026 technical sessions will provide updated guidance in the Human Interface Guidelines.",
+      "sources": [
+        {
+          "title": "TechTimes – Apple Liquid Glass iOS 27: WWDC 2026 brings refinements",
+          "url": "https://www.techtimes.com/articles/317975/20260608/apple-liquid-glass-ios-27-wwdc-2026-brings-refinements-developers-must-adopt-today.htm"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Macworld – WWDC 2026 live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T01:03:29.031325+02:00"
+    },
     {
       "slug": "macos-golden-gate-visual-intelligence-scorciatoia-mac",
       "macroArea": "apple-intelligence",
