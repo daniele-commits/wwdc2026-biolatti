@@ -1,9 +1,230 @@
 {
-  "lastUpdate": "2026-06-09T22:03:57.234671+02:00",
+  "lastUpdate": "2026-06-09T22:57:32.934177+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ios-27-camera-app-widget-personalizzabili-redesign",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27: la Camera diventa modulare con widget personalizzabili",
+      "titleEn": "iOS 27: Camera app goes modular with customizable widgets",
+      "excerptIt": "Apple ridisegna l'app Fotocamera di iOS 27 con un sistema di widget configurabili che sostituisce la riga fissa di scorciatoie in cima all'interfaccia. Gli utenti possono riordinare i controlli scegliendo tra flash, esposizione, timer, profondità di campo, stili fotografici e risoluzione.",
+      "excerptEn": "Apple redesigns the iOS 27 Camera app with a configurable widget system replacing the fixed top row of shortcuts. Users can reorder controls by choosing from flash, exposure, timer, depth of field, photo styles, and resolution.",
+      "bodyIt": "## Un'interfaccia finalmente adattabile\n\nDopo anni di layout fisso, l'app Fotocamera di iOS 27 adotta un modello modulare: la riga superiore di scorciatoie rapide diventa personalizzabile, con controlli — ora chiamati widget — che possono essere riposizionati liberamente. Secondo MacRumors, gli utenti selezionano le opzioni desiderate da un pannello trasparente che emerge dal basso, organizzato in categorie come base, manuale e impostazioni.\n\n## Come funziona in pratica\n\nLa disposizione predefinita rimane invariata per chi non vuole toccare nulla: flash, Live Photos e modalità Notte restano dove sono sempre stati. Chi invece vuole esposizione manuale o accesso rapido agli stili fotografici potrà costruire la propria barra degli strumenti. È una funzione attesa da anni dalla fotografia mobile seria, anche se rimane da vedere quanto profonda sarà l'integrazione rispetto a soluzioni di terze parti.\n\n## Visual Intelligence nel nuovo layout\n\nLa modalità Siri della Camera — punto di accesso principale a Visual Intelligence — è integrata in questo nuovo sistema, confermando che il redesign non è solo estetico ma risponde anche alla necessità di rendere accessibili le nuove funzioni AI senza affollare ulteriormente l'interfaccia. Tom's Guide e MacRumors hanno riportato entrambi questa modifica come uno degli aggiornamenti concreti dell'app.",
+      "bodyEn": "## A finally adaptable interface\n\nAfter years of a fixed layout, the iOS 27 Camera app adopts a modular model: the top row of quick shortcuts becomes customizable, with controls — now called widgets — that can be freely repositioned. According to MacRumors, users select desired options from a transparent tray that slides up from the bottom, organized into categories such as basic, manual, and settings.\n\n## How it works in practice\n\nThe default layout remains unchanged for those who prefer not to adjust anything: flash, Live Photos, and Night Mode stay in their familiar spots. Those wanting manual exposure or quick access to photo styles can build their own toolbar. This is a long-awaited feature for serious mobile photographers, though the depth of integration compared to third-party solutions remains to be seen.\n\n## Visual Intelligence in the new layout\n\nThe Siri mode of the Camera — the primary access point to Visual Intelligence — is integrated into this new system, confirming that the redesign is not purely aesthetic but also addresses the need to surface new AI features without crowding the interface. Tom's Guide and MacRumors both reported this change as one of the concrete app updates.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 What to Expect",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934100+02:00"
+    },
+    {
+      "slug": "visual-intelligence-ios-27-nutrizione-biglietti-da-visita-contacts",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "salute"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Visual Intelligence su iOS 27: scansione nutrizionale e biglietti da visita",
+      "titleEn": "Visual Intelligence on iOS 27: nutrition label scanning and business card contacts",
+      "excerptIt": "Apple espande Visual Intelligence con due funzioni pratiche: la Camera può leggere le etichette nutrizionali degli alimenti e registrarne i dati nell'app Salute, oppure estrarre numero di telefono e indirizzo da un biglietto da visita e aggiungerli direttamente ai Contatti.",
+      "excerptEn": "Apple expands Visual Intelligence with two practical features: the Camera can read food nutrition labels and log data to the Health app, or extract phone numbers and addresses from business cards and add them directly to Contacts.",
+      "bodyIt": "## Fotocamera come sensore del mondo reale\n\nCon iOS 27, Visual Intelligence smette di essere una funzione di nicchia per l'identificazione di piante e monumenti e acquisisce due applicazioni quotidiane ad alto utilizzo. La prima riguarda la salute: puntando la Camera su un'etichetta nutrizionale, il sistema estrae calorie e macronutrienti e li registra automaticamente nell'app Salute, senza digitazione manuale. MacRumors e Tom's Guide hanno entrambi confermato questa funzione tra gli annunci del keynote.\n\n## Biglietti da visita finalmente utili\n\nLa seconda funzione risolve un problema che gli utenti affrontano da decenni: scattare una foto a un biglietto da visita senza poi dover riscrivere manualmente i dati. Visual Intelligence estrae numero di telefono, indirizzo e altre informazioni e le propone direttamente per l'aggiunta ai Contatti. Secondo ZeroHedge e MacRumors, il riconoscimento funziona anche su materiale stampato generico, non solo su biglietti formali.\n\n## Considerazioni\n\nEntrami gli scenari erano già parzialmente coperti da app terze parti come Google Lens o scanner OCR dedicati. L'integrazione nativa di Apple porta il vantaggio dell'accesso diretto alle app di sistema senza passaggi intermedi, il che conta in termini di fluidità d'uso. Rimane da verificare l'accuratezza in condizioni reali, soprattutto per le etichette nutrizionali con caratteri piccoli o layout irregolari.",
+      "bodyEn": "## Camera as a real-world sensor\n\nWith iOS 27, Visual Intelligence moves beyond niche plant and landmark identification to acquire two high-frequency everyday uses. The first involves health: pointing the Camera at a nutrition label allows the system to extract calories and macronutrients and automatically log them to the Health app, without manual input. MacRumors and Tom's Guide both confirmed this feature among keynote announcements.\n\n## Business cards finally made useful\n\nThe second feature addresses a problem users have faced for decades: photographing a business card and then having to retype the data manually. Visual Intelligence extracts phone numbers, addresses, and other information and proposes them directly for addition to Contacts. According to ZeroHedge and MacRumors, recognition also works on general printed material, not just formal business cards.\n\n## Considerations\n\nBoth scenarios were already partially covered by third-party apps like Google Lens or dedicated OCR scanners. Apple's native integration brings the advantage of direct access to system apps without intermediate steps, which matters for workflow smoothness. Accuracy in real-world conditions — especially for nutrition labels with small text or irregular layouts — remains to be verified.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 What to Expect",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live news",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "ZeroHedge – Apple WWDC AI Siri",
+          "url": "https://www.zerohedge.com/technology/goldman-and-ubs-preview-apples-wwdc-ai-siri-takes-center-stage"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934134+02:00"
+    },
+    {
+      "slug": "apple-intelligence-synthid-watermark-immagini-generate",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple adotta SynthID: filigrana invisibile su tutte le immagini AI",
+      "titleEn": "Apple adopts SynthID: invisible watermark on all AI-generated images",
+      "excerptIt": "Tutte le immagini generate o modificate con Apple Intelligence in iOS 27 riceveranno automaticamente un watermark SynthID, lo standard di Google DeepMind per l'identificazione dei contenuti sintetici. La filigrana e' invisibile all'occhio ma rilevabile da strumenti di analisi.",
+      "excerptEn": "All images generated or edited with Apple Intelligence in iOS 27 will automatically receive a SynthID watermark, Google DeepMind's standard for identifying synthetic content. The watermark is invisible to the eye but detectable by analysis tools.",
+      "bodyIt": "## Cosa e' SynthID e perche' conta\n\nSynthID e' lo standard sviluppato da Google DeepMind per incorporare una filigrana digitale nei contenuti generati da AI — immagini, audio, testo — senza alterarne la qualita' visiva. Apple ha annunciato durante il keynote del WWDC 2026 che tutte le immagini prodotte o modificate tramite Apple Intelligence, incluse quelle di Image Playground, delle funzioni foto di iOS 27 (Extend, Reframe, Enhance) e dei Genmoji, porteranno questo watermark automaticamente. Engadget ha riportato esplicitamente questa informazione tra i dettagli dell'annuncio.\n\n## Il contesto normativo\n\nL'adozione di SynthID si inserisce in un panorama regolatorio in rapida evoluzione: l'AI Act europeo e varie proposte legislative negli Stati Uniti richiedono o incentivano la marcatura dei contenuti sintetici. Per Apple, aderire a uno standard esistente e riconosciuto — invece di svilupparne uno proprietario — e' una mossa pragmatica che riduce il rischio di conflitti normativi futuri e facilita l'interoperabilita' con piattaforme che gia' supportano il rilevamento SynthID.\n\n## Limiti aperti\n\nIl watermark non impedisce la disinformazione: un'immagine AI puo' essere modificata, compressa o ritagliata in modo da rendere il watermark non piu' rilevabile. L'efficacia di SynthID dipende dalla catena di verifica a valle — piattaforme social, motori di ricerca, strumenti di fact-checking — che devono essere attrezzate per leggerlo. Al momento, l'ecosistema di verifica rimane frammentato.",
+      "bodyEn": "## What SynthID is and why it matters\n\nSynthID is the standard developed by Google DeepMind to embed a digital watermark in AI-generated content — images, audio, text — without altering visual quality. Apple announced during the WWDC 2026 keynote that all images produced or modified through Apple Intelligence, including those from Image Playground, iOS 27 photo features (Extend, Reframe, Enhance), and Genmoji, will carry this watermark automatically. Engadget explicitly reported this detail among the keynote announcements.\n\n## The regulatory context\n\nAdopting SynthID fits into a rapidly evolving regulatory landscape: the EU AI Act and various US legislative proposals require or incentivize the marking of synthetic content. For Apple, adhering to an existing recognized standard — rather than developing a proprietary one — is a pragmatic move that reduces future regulatory friction and facilitates interoperability with platforms already supporting SynthID detection.\n\n## Open limitations\n\nThe watermark does not prevent disinformation: an AI image can be modified, compressed, or cropped in ways that render the watermark undetectable. SynthID's effectiveness depends on the downstream verification chain — social platforms, search engines, fact-checking tools — being equipped to read it. For now, the verification ecosystem remains fragmented.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934143+02:00"
+    },
+    {
+      "slug": "siri-ai-app-dedicata-analisi-file-generazione-immagini-chatbot",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI come chatbot completo: analisi file, immagini e ricerca web nell'app",
+      "titleEn": "Siri AI as a full chatbot: file analysis, image generation, and web search in the app",
+      "excerptIt": "L'app dedicata Siri AI non e' solo una porta d'accesso all'assistente vocale: Apple ha confermato che supporta l'analisi di documenti e file, la generazione di immagini e la ricerca web avanzata, avvicinando l'esperienza a quella dei chatbot autonomi come ChatGPT.",
+      "excerptEn": "The dedicated Siri AI app is not just a gateway to the voice assistant: Apple confirmed it supports document and file analysis, image generation, and advanced web search, bringing the experience closer to standalone chatbots like ChatGPT.",
+      "bodyIt": "## Oltre la risposta vocale\n\nLa nuova app Siri AI — annunciata durante il keynote del WWDC 2026 — e' concepita come destinazione autonoma, non come semplice estensione dell'assistente vocale esistente. Engadget e TechCrunch hanno entrambi dettagliato che dall'app sara' possibile porre domande in linguaggio naturale, generare testo e immagini, analizzare file e documenti caricati, oltre a effettuare ricerche web. Questa e' la risposta di Apple all'interfaccia conversazionale di ChatGPT, con la differenza che il contesto personale del dispositivo — calendario, messaggi, foto, email — e' disponibile direttamente senza esportazioni manuali.\n\n## Il confine con il chatbot\n\nApple ha scelto di non chiamarla esplicitamente \"chatbot\" durante la presentazione, probabilmente per evitare paragoni diretti con OpenAI o Google. Ma la descrizione funzionale — conversazioni bidirezionali, analisi di contenuti, generazione multimodale — corrisponde esattamente a quel paradigma. Secondo Engadget, l'utente puo' anche personalizzare il ritmo e l'espressivita' della voce di Siri AI, confermando un'attenzione al registro conversazionale che va oltre le risposte rapide tradizionali.\n\n## Integrazione o sovrapposizione?\n\nUna questione aperta e' il rapporto tra questa app e il pannello \"Search or Ask\" accessibile con uno swipe verso il basso dallo schermo. I due punti di accesso sembrano complementari: il pannello per query rapide e contestuali, l'app per sessioni di lavoro piu' articolate. Come l'utente distinguera' i due flussi nella pratica quotidiana dipende molto dal design dell'interfaccia, dettagli che le beta dei prossimi mesi chiarirranno.",
+      "bodyEn": "## Beyond voice responses\n\nThe new Siri AI app — announced during the WWDC 2026 keynote — is designed as a standalone destination, not merely an extension of the existing voice assistant. Engadget and TechCrunch both detailed that users will be able to ask natural language questions, generate text and images, analyze uploaded files and documents, and conduct web searches from the app. This is Apple's answer to ChatGPT's conversational interface, with the difference that personal device context — calendar, messages, photos, email — is available directly without manual exports.\n\n## The chatbot boundary\n\nApple chose not to explicitly call it a \"chatbot\" during the presentation, likely to avoid direct comparisons with OpenAI or Google. But the functional description — two-way conversations, content analysis, multimodal generation — corresponds exactly to that paradigm. According to Engadget, users can also customize the pace and expressiveness of Siri AI's voice, confirming a conversational register focus that goes beyond traditional quick responses.\n\n## Integration or overlap?\n\nAn open question is the relationship between this app and the 'Search or Ask' panel accessible by swiping down from the screen. The two access points appear complementary: the panel for quick, contextual queries, and the app for more elaborate work sessions. How users will distinguish between the two flows in daily practice depends heavily on interface design details that upcoming betas will clarify.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live news",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934151+02:00"
+    },
+    {
+      "slug": "wwdc-2026-platforms-state-of-union-recap-video-apple",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Apple pubblica il recap in 5 minuti del Platforms State of the Union WWDC26",
+      "titleEn": "Apple publishes 5-minute Platforms State of the Union recap for WWDC26",
+      "excerptIt": "A distanza di un giorno dall'evento, Apple ha diffuso un video di riepilogo di cinque minuti che sintetizza i temi principali del Platforms State of the Union: modelli Foundation rinnovati, cambiamenti di design tra le piattaforme e aggiornamenti sostanziali agli strumenti per sviluppatori.",
+      "excerptEn": "A day after the event, Apple released a five-minute summary video covering the main themes of the Platforms State of the Union: rebuilt Foundation Models, cross-platform design changes, and substantial developer tools updates.",
+      "bodyIt": "## Cosa contiene il video\n\nApple ha pubblicato il 9 giugno 2026 un video di cinque minuti che riassume i contenuti tecnici del Platforms State of the Union, il secondo appuntamento ufficiale del WWDC rivolto principalmente agli sviluppatori. MacRumors ha segnalato che il video copre tre grandi aree: i Foundation Models ridisegnati dalle fondamenta, i cambiamenti al design delle piattaforme e i principali aggiornamenti agli strumenti di sviluppo.\n\n## Perche' e' uno strumento utile per gli sviluppatori\n\nLo State of the Union e' storicamente il momento in cui Apple scende nei dettagli tecnici che il keynote omette per ragioni di ritmo e comunicazione al pubblico generale. Il formato da cinque minuti serve come punto di ingresso rapido per chi deve decidere a quali sessioni approfondite partecipare durante la settimana. In un'edizione ricca come questa, con oltre cento nuovi video di sessione disponibili, avere un riepilogo curato da Apple stessa riduce il tempo di orientamento.\n\n## Il contesto della settimana\n\nIl video arriva mentre le sessioni tecniche del WWDC sono gia' in corso — dal 9 all'12 giugno — e i Group Lab sui Foundation Models registrano forte affluenza, come documentato da diversi partecipanti. La pubblicazione rapida del recap segnala che Apple vuole massimizzare l'adozione dei nuovi framework durante la finestra della conferenza stessa, non solo in vista del lancio autunnale.",
+      "bodyEn": "## What the video contains\n\nOn June 9, 2026, Apple published a five-minute video summarizing the technical content of the Platforms State of the Union, the second official WWDC session aimed primarily at developers. MacRumors noted that the video covers three main areas: the rebuilt Foundation Models, cross-platform design changes, and major developer tools updates.\n\n## Why it is a useful tool for developers\n\nThe State of the Union is historically the moment when Apple goes into technical detail that the keynote omits for pacing and general audience communication reasons. The five-minute format serves as a quick entry point for those deciding which in-depth sessions to attend during the week. In a content-rich edition like this one, with over a hundred new session videos available, having a curated recap from Apple itself reduces orientation time.\n\n## The week's context\n\nThe video arrives as WWDC technical sessions are already underway — from June 9 to 12 — and Foundation Models Group Labs are drawing strong attendance, as documented by several attendees. The quick release of the recap signals that Apple wants to maximize adoption of new frameworks during the conference window itself, not just ahead of the fall launch.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Shares State of the Union Recap Video",
+          "url": "https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/"
+        },
+        {
+          "title": "Apple Developer – WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934158+02:00"
+    },
+    {
+      "slug": "ios-27-visual-intelligence-macos-screenshot-calendario-siri",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Visual Intelligence su Mac: dallo screenshot al calendario con Siri AI",
+      "titleEn": "Visual Intelligence on Mac: from screenshot to calendar via Siri AI",
+      "excerptIt": "Su macOS Golden Gate, lo strumento screenshot acquisisce capacita' di Visual Intelligence: e' possibile inquadrare ad esempio un programma di festival, selezionare gli eventi di interesse e aggiungerli al calendario direttamente tramite Siri AI, senza copiare e incollare testo.",
+      "excerptEn": "On macOS Golden Gate, the screenshot tool gains Visual Intelligence capabilities: users can frame a festival schedule, select events of interest, and add them to the calendar directly via Siri AI, without copying and pasting text.",
+      "bodyIt": "## Screenshot come punto di partenza per azioni\n\nSu macOS Golden Gate, lo strumento screenshot non si limita piu' a catturare un'area dello schermo: grazie a Visual Intelligence integrata con Siri AI, il contenuto dell'immagine diventa materiale azionabile. L'esempio mostrato durante il keynote e' emblematico: un utente fotografa un programma di festival, seleziona i concerti di interesse, e Siri AI li aggiunge direttamente al calendario. Engadget ha riportato questa demo come uno dei casi d'uso piu' concreti della giornata.\n\n## La differenza rispetto a iOS\n\nSu iPhone, Visual Intelligence opera principalmente attraverso la fotocamera in tempo reale oppure su foto gia' scattate. Su Mac, il vettore di ingresso naturale e' lo screenshot, che permette di lavorare su qualsiasi contenuto visualizzato sullo schermo — pagine web, PDF, presentazioni, applicazioni di terze parti. Questo amplia significativamente il perimetro di utilizzo: non serve che il sito o l'app sia nativa Apple, basta che il contenuto sia visibile.\n\n## Implicazioni per la produttivita'\n\nLa funzione risolve un problema frequente: leggere informazioni su schermo e doverle poi trascrivere manualmente in un'altra app. Con Siri AI che media tra il contenuto visivo e le app di sistema, il flusso diventa lineare. Rimane da capire quanto questo funzionera' in scenari non ottimali — testi su sfondi complessi, lingue diverse dall'inglese, layout non standard — ma come dimostrazione di integrazione verticale tra la visione artificiale e le app di produttivita', il principio e' solido.",
+      "bodyEn": "## Screenshot as a starting point for actions\n\nOn macOS Golden Gate, the screenshot tool no longer merely captures a screen area: thanks to Visual Intelligence integrated with Siri AI, the image content becomes actionable material. The example shown during the keynote is emblematic: a user photographs a festival schedule, selects concerts of interest, and Siri AI adds them directly to the calendar. Engadget reported this demo as one of the most concrete use cases of the day.\n\n## The difference from iOS\n\nOn iPhone, Visual Intelligence operates primarily through the live camera or on already-taken photos. On Mac, the natural input vector is the screenshot, which allows working on any content displayed on screen — web pages, PDFs, presentations, third-party applications. This significantly broadens the scope: there is no need for the site or app to be native Apple; the content just needs to be visible.\n\n## Implications for productivity\n\nThe feature addresses a frequent problem: reading information on screen and then having to manually transcribe it into another app. With Siri AI mediating between visual content and system apps, the workflow becomes linear. It remains to be seen how this will work in non-optimal scenarios — text on complex backgrounds, languages other than English, non-standard layouts — but as a demonstration of vertical integration between computer vision and productivity apps, the principle is sound.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934162+02:00"
+    },
+    {
+      "slug": "ios-27-siri-ai-voce-ritmo-espressivita-personalizzazione-avanzata",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "accessibilita"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI: ritmo e tono della voce diventano personalizzabili su iOS 27",
+      "titleEn": "Siri AI: speech pace and expressiveness become customizable on iOS 27",
+      "excerptIt": "Con iOS 27, Siri AI consente di regolare non solo la voce scelta ma anche il ritmo del parlato e il grado di espressivita', adattando la modalita' conversazionale dell'assistente alle preferenze personali o alle esigenze di accessibilita' dell'utente.",
+      "excerptEn": "With iOS 27, Siri AI allows adjusting not only the chosen voice but also the speech rate and expressiveness level, adapting the assistant's conversational style to personal preferences or the user's accessibility needs.",
+      "bodyIt": "## Piu' che un cambio di voce\n\nApple ha gia' copertura per le voci personalizzabili di Siri AI (slug `siri-ai-voci-personalizzabili-passo-espressivita`), ma la comunicazione durante il keynote ha chiarito una distinzione importante: la personalizzazione non riguarda solo la selezione di una voce diversa, ma include parametri conversazionali come il ritmo del parlato e l'espressivita' tonale. Engadget ha specificato che gli utenti potranno regolare sia la velocita' che il carattere emotivo delle risposte vocali.\n\n## Accessibilita' come caso d'uso primario\n\nPer chi usa Siri come strumento di accessibilita' — utenti con disabilita' visive, difficolta' di lettura o semplicemente preferenze neuromotorie — la possibilita' di rallentare il ritmo o ridurre l'espressivita' ha un impatto pratico diretto. Apple ha storicamente investito in queste personalizzazioni per l'utenza con esigenze specifiche, e l'estensione al livello di Siri AI — alimentato da modelli linguistici piu' sofisticati — apre possibilita' che le versioni precedenti non potevano offrire per limiti dei modelli stessi.\n\n## La coerenza cross-device\n\nRimane aperta la questione di come queste impostazioni si sincronizzino tra dispositivi. Se le conversazioni di Siri AI sono gia' sincronizzate cross-device (come da un altro annuncio del keynote), ci' si aspetta che anche le preferenze vocali seguano lo stesso percorso. Apple non ha fornito dettagli tecnici su questo punto, che le beta sviluppatori nelle prossime settimane dovrebbero chiarire.",
+      "bodyEn": "## More than a voice change\n\nApple already has coverage for Siri AI's customizable voices, but the keynote communication clarified an important distinction: customization is not just about selecting a different voice, but includes conversational parameters such as speech rate and tonal expressiveness. Engadget specified that users will be able to adjust both the speed and the emotional character of voice responses.\n\n## Accessibility as a primary use case\n\nFor users who rely on Siri as an accessibility tool — users with visual impairments, reading difficulties, or simply neuromotor preferences — the ability to slow the pace or reduce expressiveness has a direct practical impact. Apple has historically invested in these customizations for users with specific needs, and extending this to the Siri AI level — powered by more sophisticated language models — opens possibilities that previous versions could not offer due to model limitations.\n\n## Cross-device consistency\n\nHow these settings synchronize across devices remains an open question. If Siri AI conversations are already synchronized cross-device, one would expect voice preferences to follow the same path. Apple did not provide technical details on this point, which developer betas in the coming weeks should clarify.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934167+02:00"
+    },
+    {
+      "slug": "ios-27-safari-notifiche-cambiamenti-pagine-web-monitoring",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "Safari su iOS 27 monitora le pagine web e notifica i cambiamenti rilevanti",
+      "titleEn": "Safari on iOS 27 monitors web pages and notifies users of relevant changes",
+      "excerptIt": "Oltre al raggruppamento automatico dei tab, Safari in iOS 27 acquisisce una funzione di monitoraggio passivo delle pagine: l'utente puo' indicare a Safari di tenere d'occhio una pagina specifica e ricevere una notifica quando il contenuto cambia in modo significativo.",
+      "excerptEn": "Beyond automatic tab grouping, Safari in iOS 27 gains a passive page monitoring feature: users can tell Safari to watch a specific page and receive a notification when its content changes significantly.",
+      "bodyIt": "## Come funziona il monitoraggio\n\nZeroHedge e Tom's Guide hanno entrambi segnalato che Safari su iOS 27 non si limita alla gestione intelligente dei tab tramite AI, ma aggiunge una funzione di sorveglianza passiva delle pagine web. L'utente puo' attivare il monitoraggio su una pagina — un articolo in aggiornamento, una pagina di prodotto, un orario di eventi — e Safari invia una notifica quando rileva modifiche sostanziali al contenuto. La funzione si integra con Apple Intelligence per distinguere aggiornamenti rilevanti da cambiamenti minori come quelli pubblicitari o di layout.\n\n## Casi d'uso concreti\n\nLo scenario piu' immediato e' quello dell'acquisto online: monitorare il prezzo di un prodotto senza dover tornare periodicamente sulla pagina. Ma la funzione si presta anche a seguire aggiornamenti su notizie in sviluppo, disponibilita' di biglietti, modifiche a documenti pubblici o annunci istituzionali. E' una funzione che i browser desktop di terze parti e alcune estensioni offrono da anni; la novita' e' l'integrazione nativa nel browser mobile piu' diffuso al mondo.\n\n## Il limite del walled garden\n\nUna domanda legittima riguarda la privacy: per monitorare una pagina, Safari deve periodicamente effettuare richieste a quel server. Apple non ha ancora dettagliato come questo viene gestito in termini di frequenza delle richieste e di trattamento dei dati, specialmente per pagine che richiedono autenticazione. Sono aspetti che la documentazione tecnica e le sessioni WWDC di questa settimana dovrebbero approfondire.",
+      "bodyEn": "## How monitoring works\n\nZeroHedge and Tom's Guide both noted that Safari on iOS 27 goes beyond AI-powered tab management to add a passive web page surveillance feature. Users can enable monitoring on a page — a live-updated article, a product page, an events schedule — and Safari sends a notification when it detects substantial content changes. The feature integrates with Apple Intelligence to distinguish relevant updates from minor changes such as advertising or layout shifts.\n\n## Concrete use cases\n\nThe most immediate scenario is online shopping: monitoring a product price without having to periodically return to the page. But the feature also lends itself to following breaking news updates, ticket availability, changes to public documents, or institutional announcements. Third-party desktop browsers and some extensions have offered this for years; what is new is the native integration in the world's most widely used mobile browser.\n\n## The walled garden limit\n\nA legitimate question concerns privacy: to monitor a page, Safari must periodically make requests to that server. Apple has not yet detailed how this is handled in terms of request frequency and data treatment, especially for pages requiring authentication. These are aspects that technical documentation and this week's WWDC sessions should address.",
+      "sources": [
+        {
+          "title": "ZeroHedge – Apple WWDC AI Siri",
+          "url": "https://www.zerohedge.com/technology/goldman-and-ubs-preview-apples-wwdc-ai-siri-takes-center-stage"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 live news",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026 everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:57:32.934171+02:00"
+    },
     {
       "slug": "ios-27-liquid-glass-icone-strati-artwork-integrato",
       "macroArea": "design-interfacce",
