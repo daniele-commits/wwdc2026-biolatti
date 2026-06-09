@@ -1,9 +1,245 @@
 {
-  "lastUpdate": "2026-06-09T21:03:51.057773+02:00",
+  "lastUpdate": "2026-06-09T22:03:57.234671+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ios-27-liquid-glass-icone-strati-artwork-integrato",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "iOS 27: Liquid Glass entra nell'artwork delle icone con strati integrati",
+      "titleEn": "iOS 27: Liquid Glass moves inside icon artwork with integrated layers",
+      "excerptIt": "Apple non si ferma ai bordi arrotondati: con iOS 27, il Liquid Glass viene incorporato direttamente nell'illustrazione delle icone, aggiungendo profondità visiva all'interno dell'artwork stesso.",
+      "excerptEn": "Apple goes beyond rounded corners: in iOS 27, Liquid Glass is embedded directly into icon artwork, adding visual depth within the illustration itself.",
+      "bodyIt": "## Icone che respirano\n\nFino a iOS 26, il Liquid Glass operava come sfondo e cornice delle icone di sistema: il materiale traslucido avvolgeva l'artwork ma rimaneva esterno ad esso. Con iOS 27, Apple compie un passo ulteriore. Durante il keynote WWDC 2026, Craig Federighi ha dichiarato che il team ha ridisegnato le icone di sistema integrando strati di vetro liquido direttamente nell'artwork: il materiale non decora piú soltanto i contorni, ma diventa parte costitutiva della composizione visiva.\n\n## Coerenza tra piattaforme\n\nIl MacRumors live blog ha riportato le parole esatte: \"This year we're taking this new design even further by integrating additional layers of liquid glass directly into the icon artwork itself.\" L'obiettivo dichiarato è costruire un linguaggio visivo piú armonioso tra le piattaforme, dove ogni icona incorpora la stessa grammatica traslucida sia su iPhone sia su Mac. In pratica, le icone di app come Safari, Impostazioni e Foto appaiono piú tridimensionali, con riflessi interni che reagiscono al contesto dell'interfaccia.\n\n## Quanto conta\n\nLa mossa è coerente con la revisione complessiva del Liquid Glass annunciata in questo WWDC: il sistema risponde alle critiche di scarsa leggibilità aggiungendo controllo granulare (lo slider di trasparenza) e, allo stesso tempo, spinge il linguaggio visivo verso una coerenza piú profonda, non solo superficiale. Il rischio è che icone troppo elaborate diventino difficili da riconoscere a colpo d'occhio su sfondi complessi.",
+      "bodyEn": "## Icons that breathe\n\nThrough iOS 26, Liquid Glass operated as a background and frame for system icons: the translucent material wrapped the artwork but remained external to it. With iOS 27, Apple takes a further step. During the WWDC 2026 keynote, Craig Federighi stated that the team has redesigned system icons by integrating layers of liquid glass directly into the artwork — the material no longer merely decorates the outlines but becomes a constituent part of the visual composition.\n\n## Cross-platform coherence\n\nThe MacRumors live blog captured the exact quote: \"This year we're taking this new design even further by integrating additional layers of liquid glass directly into the icon artwork itself.\" The stated goal is to build a more harmonious visual language across platforms, where every icon incorporates the same translucent grammar on both iPhone and Mac. In practice, icons for apps like Safari, Settings, and Photos appear more three-dimensional, with internal reflections that react to the interface context.\n\n## Why it matters\n\nThe move is consistent with the broader Liquid Glass revision announced at this WWDC: the system responds to readability criticism by adding granular control (the transparency slider) while simultaneously pushing the visual language toward deeper, not merely surface-level, coherence. The risk is that overly elaborate icons become harder to recognize at a glance on complex backgrounds.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Apple Event Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Cult of Mac – WWDC26 recap",
+          "url": "https://www.cultofmac.com/news/wwdc26-recap"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234584+02:00"
+    },
+    {
+      "slug": "foundation-models-immagini-input-sviluppatori-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Foundation Models: immagini come input nei modelli AI per gli sviluppatori",
+      "titleEn": "Foundation Models: images as input in developer AI models",
+      "excerptIt": "Con iOS 27 e macOS Golden Gate, il framework Foundation Models consente agli sviluppatori di passare immagini come input diretto ai modelli on-device, aprendo nuovi scenari per app di analisi visiva senza dipendere dal cloud.",
+      "excerptEn": "With iOS 27 and macOS Golden Gate, the Foundation Models framework lets developers pass images as direct input to on-device models, opening new scenarios for visual analysis apps without cloud dependency.",
+      "bodyIt": "## Multimodalità nelle mani degli sviluppatori\n\nFino a WWDC 2026, il framework Foundation Models che Apple mette a disposizione degli sviluppatori gestiva principalmente input testuali. Il Platforms State of the Union e la successiva sessione sul framework hanno confermato che ora gli sviluppatori possono usare immagini come input nei modelli on-device. Lo ha riportato anche il live blog di Engadget: \"Developers can use images as input in the foundation models framework now.\"\n\n## Custom skills e server models\n\nInsieme al supporto multimodale per le immagini, Apple ha annunciato che sviluppatori possono definire \"custom skills\" — capacità personalizzate che estendono il comportamento del modello — e accedere a server models oltre ai modelli locali. Questo amplia significativamente il perimetro applicativo: non piú solo assistenti testuali, ma app che analizzano fotografie, documenti scansionati o screenshot direttamente sul dispositivo.\n\n## Perché conta per la privacy\n\nIl punto qualificante rimane l'esecuzione on-device: un'app che analizza immagini attraverso Foundation Models non invia dati fotografici verso server esterni. Per categorie sensibili — immagini mediche, documenti d'identità, fotografie personali — si tratta di una distinzione concreta rispetto a soluzioni cloud. Resta da verificare, nel corso delle sessioni tecniche dei giorni successivi al keynote, quali siano i limiti dimensionali e prestazionali sui dispositivi piú datati compatibili con iOS 27.",
+      "bodyEn": "## Multimodality in developers' hands\n\nUntil WWDC 2026, the Foundation Models framework Apple provides to developers primarily handled text input. The Platforms State of the Union and subsequent framework sessions confirmed that developers can now use images as direct input to on-device models. Engadget's live blog noted: \"Developers can use images as input in the foundation models framework now.\"\n\n## Custom skills and server models\n\nAlongside multimodal image support, Apple announced that developers can define \"custom skills\" — custom capabilities that extend model behavior — and access server models in addition to local ones. This significantly expands the application scope: no longer just text assistants, but apps that analyze photographs, scanned documents, or screenshots directly on-device.\n\n## Why it matters for privacy\n\nThe qualifying point remains on-device execution: an app that analyzes images through Foundation Models does not send photographic data to external servers. For sensitive categories — medical images, identity documents, personal photographs — this is a concrete distinction from cloud-based solutions. The technical sessions in the days following the keynote will clarify size and performance limits on the older devices compatible with iOS 27.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        },
+        {
+          "title": "TechTimes – WWDC 2026 Developer Tools",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234611+02:00"
+    },
+    {
+      "slug": "xcode-27-coding-assistant-simula-intere-app",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Xcode 27: il coding assistant può simulare un'intera app prima di eseguirla",
+      "titleEn": "Xcode 27: the coding assistant can simulate an entire app before running it",
+      "excerptIt": "L'assistente di coding agéntico in Xcode 27 non si limita a suggerire codice: puó generare, costruire e simulare un'intera applicazione in autonomia, senza che lo sviluppatore avvii manualmente la compilazione.",
+      "excerptEn": "The agentic coding assistant in Xcode 27 doesn't just suggest code: it can generate, build, and simulate an entire application autonomously, without the developer manually triggering a build.",
+      "bodyIt": "## Un passo oltre l'autocompletamento\n\nCraig Federighi ha dedicato una parte del keynote WWDC 2026 all'evoluzione dell'ambiente di sviluppo. L'assistente di codice agéntico in Xcode 27 — già annunciato nel quadro del framework Core AI — porta una capacità specifica che va oltre la generazione di singoli snippet: secondo quanto riportato dal live blog di Engadget, \"Xcode has a coding assistant that can simulate entire apps.\" In altre parole, il sistema puó costruire autonomamente un progetto, compilarlo e simularne il funzionamento per verificare il comportamento prima che lo sviluppatore lo avvii sul simulatore o su un dispositivo reale.\n\n## Resize e preview interattivi\n\nFederighi ha anche mostrato che gli sviluppatori possono ridimensionare e interagire con le anteprime delle app direttamente all'interno del flusso agéntico, senza uscire dal contesto di editing. Apple ha rimandato ai dettagli delle sessioni successive per approfondire le API sottostanti.\n\n## Il contesto competitivo\n\nFederighi ha affermato che Xcode è \"the best place for agentic coding\" — una dichiarazione chiaramente orientata al confronto con strumenti come Cursor, Windsurf e GitHub Copilot Workspace, che hanno guadagnato terreno tra i professionisti. La capacità di simulare intere app on-device, integrata con la toolchain Apple, è la risposta concreta: l'argomento è che nessun ambiente esterno ha lo stesso livello di accesso agli strumenti di build, firma e distribuzione su piattaforma Apple.",
+      "bodyEn": "## A step beyond autocomplete\n\nCraig Federighi devoted part of the WWDC 2026 keynote to the evolution of the development environment. The agentic coding assistant in Xcode 27 — already announced as part of the Core AI framework — brings a specific capability that goes beyond generating individual snippets: according to Engadget's live blog, \"Xcode has a coding assistant that can simulate entire apps.\" In other words, the system can autonomously build a project, compile it, and simulate its behavior to verify functionality before the developer launches it on a simulator or real device.\n\n## Interactive resize and preview\n\nFederighi also demonstrated that developers can resize and interact with app previews directly within the agentic workflow, without leaving the editing context. Apple deferred to subsequent sessions for the underlying API details.\n\n## Competitive context\n\nFederighi stated that Xcode is \"the best place for agentic coding\" — a statement clearly aimed at tools like Cursor, Windsurf, and GitHub Copilot Workspace, which have gained ground among professionals. The ability to simulate entire apps on-device, integrated with Apple's toolchain, is the concrete response: the argument is that no external environment has the same level of access to build, signing, and distribution tools on Apple's platform.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "CNBC – WWDC 2026: Apple makes its big Siri AI reveal",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234620+02:00"
+    },
+    {
+      "slug": "wwdc-2026-keynote-formato-insolito-76-minuti-senza-piattaforme",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "WWDC 2026: keynote atipico, 76 minuti senza la struttura per piattaforma",
+      "titleEn": "WWDC 2026: atypical keynote, 76 minutes without platform-by-platform structure",
+      "excerptIt": "Il keynote di apertura del WWDC 2026 ha rotto con la tradizione: niente segmenti dedicati a watchOS, iPadOS o tvOS in sequenza. Apple ha organizzato la presentazione attorno a temi trasversali, con un formato piú breve e meno cerimonioso del solito.",
+      "excerptEn": "The WWDC 2026 opening keynote broke with tradition: no dedicated segments for watchOS, iPadOS, or tvOS in sequence. Apple organized the presentation around cross-cutting themes, with a shorter and less ceremonious format than usual.",
+      "bodyIt": "## Fine della sfilata delle piattaforme\n\nDa anni il keynote WWDC seguiva uno schema prevedibile: iOS, poi iPadOS, poi macOS, watchOS, tvOS, visionOS, ognuno con il suo segmento autonomo. Il 2026 ha cambiato formula. Come ha notato la reporter di Engadget presente ad Apple Park, il keynote è stato \"all about Siri and Apple Intelligence\" e \"there was no dedicated moment for watchOS for example, or something about iPadOS. Felt quite different than usual!\"\n\n## Settantasei minuti\n\nIl Cult of Mac ha riportato una durata di 76 minuti, significativamente inferiore alla media recente dei keynote WWDC (spesso oltre i 100 minuti). La struttura ha privilegiato la narrativa per funzione — performance, design Liquid Glass, Apple Intelligence, Siri AI — piuttosto che la suddivisione per sistema operativo. Il risultato è una presentazione piú fluida ma che ha lasciato senza spazio visibile molti aggiornamenti specifici delle singole piattaforme, distribuiti poi attraverso comunicati stampa e sessioni tecniche.\n\n## Cosa cambia nella comunicazione Apple\n\nLa scelta non è banale: significa che Apple considera l'AI e la performance elementi abbastanza trasversali da giustificare un racconto unificato, anziché piattaforme separate con caratteristiche distinte. È anche una risposta alla critica ricorrente che i keynote WWDC siano diventati troppo lunghi e dispersivi. Il contro: dettagli rilevanti per watchOS, tvOS e visionOS sono stati relegati a comunicati stampa e sessioni, con minore visibilità mediatica.",
+      "bodyEn": "## End of the platform parade\n\nFor years the WWDC keynote followed a predictable pattern: iOS, then iPadOS, then macOS, watchOS, tvOS, visionOS, each with its own standalone segment. 2026 changed the formula. As Engadget's reporter on-site at Apple Park noted, the keynote was \"all about Siri and Apple Intelligence\" with \"no dedicated moment for watchOS for example, or something about iPadOS. Felt quite different than usual!\"\n\n## Seventy-six minutes\n\nCult of Mac reported a runtime of 76 minutes, significantly shorter than the recent WWDC keynote average (often over 100 minutes). The structure prioritized narrative by function — performance, Liquid Glass design, Apple Intelligence, Siri AI — rather than operating system division. The result is a more fluid presentation, but one that left little visible space for platform-specific updates, which were then distributed via press releases and technical sessions.\n\n## What changes in Apple's communication\n\nThe choice is not trivial: it means Apple considers AI and performance sufficiently cross-cutting to justify a unified narrative rather than separate platforms with distinct features. It's also a response to the recurring criticism that WWDC keynotes had become too long and unfocused. The trade-off: relevant details for watchOS, tvOS, and visionOS were relegated to press releases and sessions, with less media visibility.",
+      "sources": [
+        {
+          "title": "Engadget – WWDC 2026 Live Blog",
+          "url": "https://www.engadget.com/2189169/apple-wwdc-2026-live-blog-siri-ai-ios-27/"
+        },
+        {
+          "title": "Cult of Mac – WWDC26 recap",
+          "url": "https://www.cultofmac.com/news/wwdc26-recap"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234633+02:00"
+    },
+    {
+      "slug": "stacey-lysik-vp-os-programs-keynote-wwdc-2026",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "Stacey Lysik sul palco: la VP dei programmi OS parla di ottimizzazioni di sistema",
+      "titleEn": "Stacey Lysik on stage: the VP of OS Programs talks system optimizations",
+      "excerptIt": "Una nuova voce sul palco del WWDC: Stacey Lysik, Vice President of OS Programs, ha presentato in prima persona le ottimizzazioni di basso livello di iOS 27 e macOS Golden Gate, spiegando l'approccio ai fondamentali di sistema.",
+      "excerptEn": "A new voice on the WWDC stage: Stacey Lysik, Vice President of OS Programs, personally presented the low-level optimizations of iOS 27 and macOS Golden Gate, explaining the approach to system fundamentals.",
+      "bodyIt": "## Chi è Stacey Lysik\n\nIl WWDC 2026 ha visto salire sul palco una figura relativamente nuova per il grande pubblico: Stacey Lysik, Vice President of OS Programs di Apple. Lysik ha preso la parola per illustrare le ottimizzazioni di sistema al cuore di iOS 27 e macOS Golden Gate, un segmento che in passato era spesso gestito da Craig Federighi o da ingegneri di secondo piano.\n\n## Il discorso sulle fondamenta\n\nSecondo quanto riportato da CNBC, Lysik ha dichiarato: \"We optimize the parts of the system that make a big difference in the responsiveness of our products.\" Il discorso ha toccato memoria, utilizzo della CPU, operazioni di rete e rendering display — i livelli piú profondi dello stack software. La specificità tecnica del linguaggio è insolita per un keynote che di solito privilegia le funzioni visibili all'utente finale.\n\n## Il segnale organizzativo\n\nLa presenza di Lysik sul palco non è solo una curiosità di casting. Indica che Apple vuole dare credibilità tecnica concreta alla narrativa delle performance, dopo anni in cui le promesse di ottimizzazione erano arrivate senza sufficienti prove misurabili. Mettere un VP di programmi OS — non solo un ingegnere di prodotto — a parlare dei fondamentali suggerisce che le ottimizzazioni di iOS 27 hanno un peso organizzativo significativo all'interno dell'azienda, non sono un tema marginale del keynote.",
+      "bodyEn": "## Who is Stacey Lysik\n\nWWDC 2026 saw a relatively new face for the general public take the stage: Stacey Lysik, Vice President of OS Programs at Apple. Lysik stepped up to present the system-level optimizations at the heart of iOS 27 and macOS Golden Gate, a segment that in the past was often handled by Craig Federighi or lower-profile engineers.\n\n## The foundations speech\n\nAccording to CNBC, Lysik stated: \"We optimize the parts of the system that make a big difference in the responsiveness of our products.\" The presentation covered memory, CPU utilization, network operations, and display rendering — the deepest levels of the software stack. The technical specificity of the language is unusual for a keynote that typically prioritizes features visible to end users.\n\n## The organizational signal\n\nLysik's presence on stage is not merely a casting curiosity. It signals that Apple wants to give concrete technical credibility to the performance narrative, after years in which optimization promises arrived without sufficient measurable evidence. Putting an OS Programs VP — not just a product engineer — to speak about fundamentals suggests that iOS 27's optimizations carry significant organizational weight within the company, not merely a keynote sideshow.",
+      "sources": [
+        {
+          "title": "CNBC – WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Apple Event Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234641+02:00"
+    },
+    {
+      "slug": "ios-27-foldable-iphone-riferimenti-beta-foldstate-angledegrees",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "Nel beta di iOS 27 compaiono riferimenti all'iPhone pieghevole: foldState e angleDegrees",
+      "titleEn": "iOS 27 beta contains foldable iPhone references: foldState and angleDegrees",
+      "excerptIt": "Apple non ha annunciato nulla di ufficiale sul pieghevole al WWDC, ma il beta di iOS 27 pubblicato agli sviluppatori contiene già riferimenti espliciti a 'foldState' e 'angleDegrees', confermando che il lavoro di sistema per l'iPhone Fold è in corso.",
+      "excerptEn": "Apple made no official foldable announcement at WWDC, but the iOS 27 developer beta already contains explicit references to 'foldState' and 'angleDegrees', confirming that system-level work for the iPhone Fold is underway.",
+      "bodyIt": "## Cosa ha trovato il ricercatore @M1Astra\n\nPoche ore dopo la pubblicazione del beta per sviluppatori di iOS 27, il ricercatore @M1Astra ha trovato nel codice riferimenti inequivocabili a un dispositivo pieghevole: stringhe come \"foldState\" e \"angleDegrees\" e altri identificatori che descrivono gli stati fisici di un dispositivo con una cerniera. TechCrunch ha riportato la scoperta precisando che \"Apple didn't make such a big reveal during WWDC,\" ma che il codice nel beta contiene «references to things like 'foldState,' 'angleDegrees,' and other things that allude to the states a foldable device can be put into.\"\n\n## La distinzione con gli slug già pubblicati\n\nIl sito ha già coperto le API pubbliche per gli sviluppatori (ios-27-foldable-iphone-layout-api-hinge-state-swiftui), che riguardano le interfacce ufficiali documentate da Apple. Questi riferimenti nel beta sono diversi: si tratta di codice interno non documentato, probabilmente relativo ai test di sistema per l'hardware fisico del pieghevole, non alle sole API di layout per sviluppatori terzi.\n\n## Settembre si avvicina\n\nL'insieme degli indizi — API pubbliche per il layout, ottimizzazioni di stato della cerniera in SwiftUI, e ora questi riferimenti a livello di sistema — delinea un quadro coerente: iOS 27 è costruito sapendo che a settembre arriverà un hardware con fattore di forma radicalmente diverso. Apple non lo ha detto sul palco, ma lo ha scritto nel codice.",
+      "bodyEn": "## What researcher @M1Astra found\n\nHours after the iOS 27 developer beta was published, researcher @M1Astra found unambiguous references to a foldable device in the code: strings like \"foldState\" and \"angleDegrees\" and other identifiers describing the physical states of a device with a hinge. TechCrunch reported the finding, noting that \"Apple didn't make such a big reveal during WWDC,\" but that the beta code contains \"references to things like 'foldState,' 'angleDegrees,' and other things that allude to the states a foldable device can be put into.\"\n\n## The distinction from already-published slugs\n\nThe site has already covered the public developer APIs (ios-27-foldable-iphone-layout-api-hinge-state-swiftui), which concern officially documented interfaces from Apple. These beta references are different: they are undocumented internal code, likely related to system-level testing for the physical foldable hardware, not just layout APIs for third-party developers.\n\n## September is approaching\n\nThe combination of evidence — public layout APIs, hinge-state optimizations in SwiftUI, and now these system-level references — forms a coherent picture: iOS 27 is built knowing that September will bring hardware with a radically different form factor. Apple didn't say it on stage, but it wrote it in the code.",
+      "sources": [
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234649+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-liquid-glass-trasparenza-opacita-regolabile",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design",
+        "accessibilita"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "macOS Golden Gate: la trasparenza Liquid Glass diventa regolabile dal tenue al pieno",
+      "titleEn": "macOS Golden Gate: Liquid Glass transparency becomes adjustable from subtle to full",
+      "excerptIt": "Apple porta su macOS Golden Gate il controllo granulare della trasparenza Liquid Glass: un cursore permette di passare dall'aspetto completamente opaco a quello completamente traslucido, risposta diretta alle critiche sulla leggibilità dell'interfaccia.",
+      "excerptEn": "Apple brings granular Liquid Glass transparency control to macOS Golden Gate: a slider lets users move from fully opaque to fully translucent, a direct response to readability criticism of the interface.",
+      "bodyIt": "## Il problema che tutti vedevano\n\nDa quando Liquid Glass è stato introdotto, le critiche sulla leggibilità dell'interfaccia Mac sono state tra le piú frequenti nei forum sviluppatori e nei feedback pubblici. Sfondi molto chiari o molto scuri interferivano con la lettura del testo nelle barre degli strumenti e nelle finestre, rendendo l'interfaccia visivamente instabile in certi contesti.\n\n## La soluzione: un cursore di trasparenza\n\nAl WWDC 2026, Apple ha risposto con un meccanismo diretto. Secondo quanto riportato dal MacRumors live blog, il sistema ora include \"a new slider to set the transparency from opaque to completely clear.\" Il CNBC ha confermato che Apple ha effettuato \"significant improvements and optimizations to the design language to allow users to adjust transparency from fully clear to tinted, and improved text labels and toolbars so they are more adjustable.\"\n\n## Sidebar al bordo e refrazione continua\n\nInsieme al cursore di trasparenza, Apple ha modificato il comportamento delle sidebar su macOS: ora si espandono fino al bordo della finestra, la refrazione del vetro liquido continua sotto la sidebar, e le icone della sidebar mantengono il loro colore. Il risultato è un'interfaccia piú coerente visivamente, dove il materiale Liquid Glass non interrompe il suo comportamento ottico ai confini dei pannelli laterali.\n\n## Perché è rilevante\n\nLa distinzione rispetto allo slug ios-27-liquid-glass-slider-shortcut-linguaggio-naturale già pubblicato è che qui il focus è sull'implementazione specifica su macOS — con la sidebar edge-to-edge e le ottimizzazioni delle toolbar — non sulla scorciatoia linguistica o sull'accessibilità su iPhone. Su Mac, dove gli schermi sono piú grandi e i contesti d'uso piú variegati, il controllo granulare della trasparenza ha un impatto pratico diverso.",
+      "bodyEn": "## The problem everyone saw\n\nSince Liquid Glass was introduced, readability criticism of the Mac interface has been among the most frequent in developer forums and public feedback. Very light or very dark backgrounds interfered with text readability in toolbars and windows, making the interface visually unstable in certain contexts.\n\n## The solution: a transparency slider\n\nAt WWDC 2026, Apple responded with a direct mechanism. According to the MacRumors live blog, the system now includes \"a new slider to set the transparency from opaque to completely clear.\" CNBC confirmed that Apple made \"significant improvements and optimizations to the design language to allow users to adjust transparency from fully clear to tinted, and improved text labels and toolbars so they are more adjustable.\"\n\n## Edge-to-edge sidebar and continuous refraction\n\nAlongside the transparency slider, Apple modified sidebar behavior on macOS: sidebars now expand to the edge of the window, liquid glass refraction continues beneath the sidebar, and sidebar icons retain their color. The result is a more visually coherent interface where the Liquid Glass material does not interrupt its optical behavior at panel borders.\n\n## Why it's relevant\n\nThe distinction from the already-published slug ios-27-liquid-glass-slider-shortcut-linguaggio-naturale is that here the focus is on the macOS-specific implementation — with edge-to-edge sidebar and toolbar optimizations — not on language shortcuts or iPhone accessibility. On Mac, where screens are larger and usage contexts more varied, granular transparency control has a different practical impact.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Apple Event Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "CNBC – WWDC 2026: Apple makes its big Siri AI reveal, changes Liquid Glass and more",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "MacRumors – Apple Announces Liquid Glass Improvements and Transparency Slider",
+          "url": "https://www.macrumors.com/2026/06/08/apple-announces-liquid-glass-improvements/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234656+02:00"
+    },
+    {
+      "slug": "apple-developer-app-v11-liquid-glass-sticker-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Apple Developer app versione 11.0: Liquid Glass e sticker WWDC in Messages",
+      "titleEn": "Apple Developer app version 11.0: Liquid Glass design and WWDC stickers in Messages",
+      "excerptIt": "Apple ha rilasciato in concomitanza col WWDC la versione 11.0 dell'app Apple Developer, con una completa ridisegno Liquid Glass e sticker a tema WWDC 2026 utilizzabili direttamente in Messages.",
+      "excerptEn": "Apple released version 11.0 of the Apple Developer app alongside WWDC, featuring a complete Liquid Glass redesign and WWDC 2026-themed stickers usable directly in Messages.",
+      "bodyIt": "## Un'app che predica con l'esempio\n\nIn occasione del WWDC 2026, Apple ha aggiornato la propria app Apple Developer alla versione 11.0, scegliendo di farne una dimostrazione pratica del nuovo linguaggio visivo. Il MacRumors ha riportato che l'app \"introducing a Liquid Glass redesign\" e che l'icona è stata completamente ridisegnata: \"The Apple Developer app has a revamped Liquid Glass icon that reintroduces some older design elements while adopting the translucent Liquid Glass aesthetic.\"\n\n## L'icona con la matita, il pennello e il righello\n\nIl dettaglio interessante è nel design dell'icona: matita, pennello e righello formano la lettera \"A\", riportando all'interno dell'estetica Liquid Glass elementi iconografici che erano stati presenti nelle versioni precedenti dell'app. È un modo per Apple di mostrare che il nuovo design non cancella la storia visiva degli strumenti, ma la reinterpreta.\n\n## Sticker per Messages\n\nInsieme al redesign, la versione 11.0 include sticker a tema WWDC 2026 utilizzabili nell'app Messages. È un dettaglio minore sul piano funzionale, ma coerente con la strategia Apple di rendere ogni evento un momento di engagement per la community degli sviluppatori. L'app è disponibile su tutte le piattaforme Apple e permette di accedere ai video delle sessioni, alle note di rilascio e al programma dei Group Lab.",
+      "bodyEn": "## An app that practices what it preaches\n\nFor WWDC 2026, Apple updated its Apple Developer app to version 11.0, choosing to make it a practical demonstration of the new visual language. MacRumors reported that the app features \"a Liquid Glass redesign\" and that the icon has been completely redesigned: \"The Apple Developer app has a revamped Liquid Glass icon that reintroduces some older design elements while adopting the translucent Liquid Glass aesthetic.\"\n\n## The icon with pencil, brush, and ruler\n\nThe interesting detail is in the icon design: a pencil, paintbrush, and ruler form the letter \"A,\" bringing iconographic elements that were present in previous versions of the app back into the Liquid Glass aesthetic. It's a way for Apple to show that the new design doesn't erase the visual history of its tools, but reinterprets it.\n\n## Stickers for Messages\n\nAlongside the redesign, version 11.0 includes WWDC 2026-themed stickers usable in the Messages app. It's a minor detail functionally, but consistent with Apple's strategy of making every event a moment of engagement for the developer community. The app is available across all Apple platforms and provides access to session videos, release notes, and the Group Lab schedule.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Apple Event Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "9to5Mac – WWDC Archives",
+          "url": "https://9to5mac.com/guides/wwdc/"
+        },
+        {
+          "title": "Apple Newsroom – Apple kicks off Worldwide Developers Conference on June 8",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        }
+      ],
+      "publishedAt": "2026-06-09T22:03:57.234663+02:00"
+    },
     {
       "slug": "wwdc26-platforms-state-of-union-foundation-models-open-source-core-ai",
       "macroArea": "sviluppatori",
