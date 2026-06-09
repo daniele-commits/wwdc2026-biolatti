@@ -1,9 +1,188 @@
 {
-  "lastUpdate": "2026-06-09T23:03:50.573861+02:00",
+  "lastUpdate": "2026-06-10T00:03:20.923554+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "mike-rockwell-vp-siri-ai-presentazione-wwdc-2026",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "siri",
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Mike Rockwell, il VP che ha portato Siri AI sul palco del WWDC",
+      "titleEn": "Mike Rockwell, the VP who brought Siri AI to the WWDC stage",
+      "excerptIt": "Vice President Mike Rockwell ha condotto la demo di Siri AI durante il keynote WWDC 2026, mostrando tra le altre cose come chiedere indicazioni stradali a partire da un post Instagram. Un volto nuovo per un prodotto che Apple ha presentato come la svolta piu attesa degli ultimi anni.",
+      "excerptEn": "Vice President Mike Rockwell led the Siri AI demo during the WWDC 2026 keynote, showing among other things how to ask for directions based on an Instagram post. A new face for a product Apple positioned as its most anticipated overhaul in years.",
+      "bodyIt": "## Il presentatore dietro la svolta di Siri\n\nSul palco del WWDC 2026 per la sezione dedicata a Siri AI e' comparso Mike Rockwell, Vice President di Apple, che ha guidato la dimostrazione pubblica del nuovo assistente. Rockwell ha mostrato come l'integrazione tra Visual Intelligence e Siri AI permetta, ad esempio, di chiedere indicazioni verso un luogo visto in un post su Instagram, illustrando la capacita del sistema di ragionare sul contesto visivo in tempo reale.\n\nLa scelta di Rockwell come presentatore non e' casuale: e' la figura interna che piu di altre incarna la fusione tra hardware, software e intelligenza artificiale applicata all'ecosistema Apple. Come riportato da CNBC nella sua copertura live, Rockwell ha dichiarato che \"Siri is now a profoundly more capable assistant that helps you find what you need and gets more done\", inquadrando il lancio come l'adempimento di promesse fatte fin dal 2024.\n\n## Un volto, una responsabilita\n\nLa visibilita di Rockwell al WWDC segnala un cambiamento nella comunicazione interna: Apple sta associando sempre piu i suoi Vice President a prodotti specifici, aumentando la responsabilita pubblica dei singoli dirigenti. In un momento in cui le aspettative su Siri erano al massimo storico, mettere un nome e una faccia precisa sulla presentazione e' una scelta strategica oltre che comunicativa. Se Siri AI si rivelera all'altezza, Rockwell sara il volto del successo; se deludera, anche del fallimento.",
+      "bodyEn": "## The presenter behind Siri's overhaul\n\nApple VP Mike Rockwell took the WWDC 2026 stage to lead the Siri AI demonstration, showing how the integration of Visual Intelligence and Siri AI allows users to, for instance, ask for directions to a location seen in an Instagram post. The demo illustrated the system's ability to reason over real-time visual context.\n\nRockwell's choice as presenter is deliberate: he is the internal figure who most embodies the convergence of hardware, software, and applied AI within the Apple ecosystem. As reported by CNBC in its live coverage, Rockwell stated that Siri is \"a profoundly more capable assistant,\" framing the launch as the fulfillment of promises made since 2024.\n\n## A face, a responsibility\n\nRockwell's visibility at WWDC signals a shift in Apple's internal communication style: the company is increasingly associating specific VPs with specific products, raising individual public accountability. In a moment when expectations for Siri were at an all-time high, putting a precise name and face on the presentation is as much a strategic choice as a communicative one.",
+      "sources": [
+        {
+          "title": "CNBC — WWDC 2026 Live Updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923473+02:00"
+    },
+    {
+      "slug": "wwdc-2026-federighi-sul-palco-prima-del-keynote-formato-insolito",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "Federighi scalda la platea: un keynote che inizia fuori copione",
+      "titleEn": "Federighi warms up the crowd: a keynote that starts off-script",
+      "excerptIt": "Craig Federighi e' apparso sul palco fisico di Apple Park per riscaldare il pubblico prima dell'avvio del video pre-registrato del keynote WWDC 2026, rompendo con la consuetudine che vuole Tim Cook come primo volto. Un dettaglio che riflette una transizione interna gia in corso.",
+      "excerptEn": "Craig Federighi appeared on the physical Apple Park stage to warm up the audience before the pre-recorded WWDC 2026 keynote video began, breaking with the convention that has Tim Cook as the first face. A detail that reflects an internal transition already underway.",
+      "bodyIt": "## Fuori scaletta, ma non per caso\n\nSecondo la copertura live di MacRumors, alle 9:56 ora del Pacifico e' stato Craig Federighi — e non Tim Cook — a salire sul palco di Apple Park per introdurre la giornata davanti ai developer e ai giornalisti presenti in persona. Solo dopo il suo intervento informale e' partito il video pre-registrato del keynote vero e proprio.\n\nE' un dettaglio apparentemente minore, ma che racconta qualcosa di preciso sul momento che Apple sta attraversando. Con Tim Cook che ha annunciato il proprio ritiro da CEO il prossimo 1 settembre, e con John Ternus designato come successore, l'azienda sta ridistribuendo la presenza pubblica dei suoi dirigenti con discrezione ma con metodo. Federighi — il volto tecnico per antonomasia — si prende spazio anche sul piano della regia dell'evento.\n\n## Tre aree, una struttura\n\nNel keynote pre-registrato, Federighi ha poi articolato l'intera presentazione attorno a tre assi: miglioramenti di piattaforma, fiducia e sicurezza, e il \"grande salto in avanti\" per Apple Intelligence e Siri. Questa scansione non era casuale: Apple ha scelto deliberatamente di presentare prima le fix e i miglioramenti prestazionali, poi le funzioni di AI, segnalando implicitamente che la solidita della piattaforma viene prima della novita spettacolare.",
+      "bodyEn": "## Off-script, but not by accident\n\nAccording to MacRumors' live blog, at 9:56 a.m. Pacific Time it was Craig Federighi — not Tim Cook — who took the Apple Park stage to introduce the day to the developers and journalists present in person. Only after his informal remarks did the pre-recorded keynote video begin.\n\nIt is an apparently minor detail, but one that says something precise about the moment Apple is navigating. With Tim Cook having announced his retirement as CEO effective September 1, and John Ternus designated as successor, the company is quietly redistributing the public presence of its executives. Federighi — the quintessential technical face of Apple — is claiming more space in the event's stage management.\n\n## Three areas, one structure\n\nIn the pre-recorded keynote, Federighi then articulated the entire presentation around three axes: platform improvements, trust and safety, and the 'big leap forward' for Apple Intelligence and Siri. This structure was not accidental: Apple deliberately chose to lead with fixes and performance improvements before AI features, implicitly signaling that platform solidity comes before spectacle.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Macworld — WWDC 2026 Live Blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923510+02:00"
+    },
+    {
+      "slug": "ios-27-siri-instagram-visual-intelligence-navigazione-live-demo",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI e Visual Intelligence: navigazione da un post Instagram in tempo reale",
+      "titleEn": "Siri AI and Visual Intelligence: real-time navigation from an Instagram post",
+      "excerptIt": "Durante il keynote WWDC 2026, la demo di Siri AI ha mostrato come sia possibile chiedere indicazioni stradali verso un luogo fotografato in un post Instagram, combinando Visual Intelligence e comprensione contestuale. Una funzione che Google offre da tempo, ora integrata nell'ecosistema Apple.",
+      "excerptEn": "During the WWDC 2026 keynote, the Siri AI demo showed how users can ask for directions to a location seen in an Instagram post, combining Visual Intelligence and contextual understanding. A capability Google has offered for some time, now integrated into Apple's ecosystem.",
+      "bodyIt": "## La demo sul palco\n\nNella dimostrazione condotta da Mike Rockwell durante il keynote, Siri AI ha ricevuto una richiesta basata su un'immagine vista in un post di Instagram: l'utente ha chiesto indicazioni verso il luogo raffigurato, e Siri ha elaborato sia il contenuto visivo sia il contesto geografico per restituire una risposta navigabile. Secondo la copertura di CNBC e Engadget, la capacita di \"chiedere a Siri domande su cio che la fotocamera dell'iPhone sta inquadrando\" e' parte integrante del nuovo layer di Visual Intelligence distribuito in iOS 27.\n\n## Cosa cambia concretamente\n\nFino a iOS 26, Visual Intelligence era una funzione laterale, accessibile tramite Camera Control su iPhone 16 Pro, ma separata dal flusso naturale dell'interazione con Siri. In iOS 27, l'integrazione e' diretta: Siri AI puo interrogare in tempo reale cio che il sistema visivo del dispositivo sta analizzando, sia attraverso la fotocamera sia attraverso screenshot, come gia documentato per macOS Golden Gate. Il risultato pratico e' un assistente che risponde al contesto percettivo dell'utente, non solo ai comandi testuali o vocali.\n\n## Il confronto con Google\n\nLa stessa copertura di Engadget sottolinea che queste funzionalita ricordano le capacita di ricerca visiva che Google offre da diversi anni tramite Google Lens. Apple arriva dopo, ma con un vantaggio strutturale: l'integrazione profonda con l'ecosistema di app native e la gestione locale dei dati tramite Private Cloud Compute. Il valore differenziale non e' nella novita della funzione in se, ma nella capacita di eseguirla con un livello di privacy by design che Google, per definizione, non puo offrire.",
+      "bodyEn": "## The on-stage demo\n\nIn the demonstration led by Mike Rockwell during the keynote, Siri AI received a request based on an image seen in an Instagram post: the user asked for directions to the pictured location, and Siri processed both the visual content and geographic context to return a navigable response. According to coverage from CNBC and Engadget, the ability to 'ask Siri questions about what the iPhone camera is seeing' is an integral part of the new Visual Intelligence layer distributed in iOS 27.\n\n## What concretely changes\n\nUntil iOS 26, Visual Intelligence was a peripheral feature, accessible via Camera Control on iPhone 16 Pro but separate from the natural Siri interaction flow. In iOS 27, the integration is direct: Siri AI can query in real time what the device's visual system is analyzing, whether through the camera or via screenshots, as already documented for macOS Golden Gate. The practical result is an assistant that responds to the user's perceptual context, not just text or voice commands.\n\n## The Google comparison\n\nEngadget's coverage notes that these features are reminiscent of visual search capabilities Google has offered for years via Google Lens. Apple arrives late, but with a structural advantage: deep integration with the native app ecosystem and local data handling via Private Cloud Compute. The differential value is not in the novelty of the feature itself, but in the ability to execute it with a level of privacy by design that Google, by definition, cannot match.",
+      "sources": [
+        {
+          "title": "CNBC — WWDC 2026 Live Updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923521+02:00"
+    },
+    {
+      "slug": "wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "WWDC 2026: tre assi, un messaggio preciso — piattaforma, fiducia, intelligenza",
+      "titleEn": "WWDC 2026: three axes, one precise message — platform, trust, intelligence",
+      "excerptIt": "Federighi ha strutturato il keynote WWDC 2026 intorno a tre aree esplicite: miglioramenti di piattaforma, fiducia e sicurezza, e Apple Intelligence con Siri. Un ordine deliberato che dice piu delle parole: Apple mette prima la solidita, poi la spettacolarita.",
+      "excerptEn": "Federighi structured the WWDC 2026 keynote around three explicit areas: platform improvements, trust and safety, and Apple Intelligence with Siri. A deliberate order that speaks louder than words: Apple puts solidity first, spectacle second.",
+      "bodyIt": "## La struttura come messaggio\n\nNelle prime battute del keynote WWDC 2026, Craig Federighi ha annunciato tre aree di focus per l'anno: miglioramenti di piattaforma, fiducia e sicurezza, e \"un grande salto in avanti\" per Apple Intelligence e Siri. La sequenza non era casuale. Come riportato dal live blog di MacRumors, questa scansione ha governato l'intera durata della presentazione, con performance e stabilita presentate prima di qualsiasi funzione di intelligenza artificiale.\n\n## Perche conta l'ordine\n\nDopo anni in cui Apple Intelligence aveva occupato il centro della scena promettendo piu di quanto consegnasse, la scelta di partire dai miglioramenti concreti — velocita di avvio delle app fino al 30% piu rapida, trasferimenti AirDrop dell'80% piu veloci, scheduler CPU migliorato per il multitasking, come riportato da TechCrunch — segnala una consapevolezza interna del debito accumulato con gli utenti. L'AI e' il capitolo finale, non l'apertura.\n\n## Trust and safety come priorita esplicita\n\nLa seconda area, dedicata a fiducia e sicurezza, ha coperto i nuovi controlli parentali, i child account obbligatori sotto i 13 anni e le funzioni di comunicazione sicura. Metterla tra piattaforma e AI non e' un caso: e' una risposta diretta alle pressioni regolamentari globali su sicurezza dei minori e privacy, temi su cui Apple vuole posizionarsi come attore responsabile prima ancora che innovativo.",
+      "bodyEn": "## Structure as message\n\nIn the opening moments of the WWDC 2026 keynote, Craig Federighi announced three areas of focus for the year: platform improvements, trust and safety, and 'a big leap forward' for Apple Intelligence and Siri. The sequence was not accidental. As reported by MacRumors' live blog, this framework governed the entire presentation, with performance and stability presented before any artificial intelligence features.\n\n## Why the order matters\n\nAfter years in which Apple Intelligence had taken center stage promising more than it delivered, the choice to lead with concrete improvements — app launch speeds up to 30% faster, AirDrop transfers 80% faster, improved CPU scheduler for multitasking, as reported by TechCrunch — signals an internal awareness of the debt accumulated with users. AI is the final chapter, not the opening act.\n\n## Trust and safety as an explicit priority\n\nThe second area, dedicated to trust and safety, covered new parental controls, mandatory child accounts for under-13s, and secure communication features. Placing it between platform and AI is not coincidental: it is a direct response to global regulatory pressure on child safety and privacy, topics on which Apple wants to position itself as a responsible actor before an innovative one.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "MacRumors — Apple Touts Faster Core Software Features",
+          "url": "https://www.macrumors.com/2026/06/08/apple-software-speed-improvements/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923529+02:00"
+    },
+    {
+      "slug": "ios-27-child-accounts-obbligatori-under-13-sistema-eta",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "accessibilita"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Child account obbligatori per i minori di 13 anni: Apple ridisegna la famiglia digitale",
+      "titleEn": "Mandatory child accounts for under-13s: Apple redesigns the digital family",
+      "excerptIt": "iOS 27 introduce i child account come sistema obbligatorio per i minori di 13 anni, con protezioni calibrate sull'eta attive a livello di sistema. I genitori controllano contatti, app, siti web e limiti di tempo; i bambini possono richiedere eccezioni. Una risposta diretta alle pressioni legislative globali.",
+      "excerptEn": "iOS 27 introduces child accounts as a mandatory system for under-13s, with age-calibrated protections active at the system level. Parents control contacts, apps, websites and time limits; children can request exceptions. A direct response to global legislative pressure.",
+      "bodyIt": "## Un sistema, non una funzione\n\nCon iOS 27, Apple introduce i child account come infrastruttura obbligatoria per i minori di 13 anni, e opzionale fino ai 18. Non si tratta di un'app aggiuntiva o di un'impostazione nascosta nei menu, ma di un layer di identita che attiva protezioni calibrate sull'eta a livello di sistema operativo. Come riportato da Engadget, Apple descrive il child account come uno strumento che \"enables safeguards across the system, tailored to the child's age\".\n\n## Cosa possono fare genitori e figli\n\nI genitori possono decidere chi il figlio puo contattare tramite Telefono, FaceTime e Messaggi, e quali app e siti web sono accessibili. I minori, a loro volta, possono inviare richieste di accesso a siti bloccati o app non disponibili per impostazione predefinita — una logica di delega controllata che riduce i conflitti e aumenta la trasparenza. I limiti di tempo per le singole app sono piu granulari rispetto a Screen Time attuale, e la dashboard genitoriale e' stata ridisegnata per offrire una visione piu chiara dei pattern di utilizzo.\n\n## Il contesto regolamentare\n\nL'annuncio arriva in un momento in cui governi in Europa, negli Stati Uniti e in Australia stanno approvando o discutendo leggi che impongono verifiche dell'eta e limiti d'uso per i minori sulle piattaforme digitali. Apple non cita esplicitamente queste pressioni, ma la tempistica e l'obbligatorieta del sistema per gli under 13 riflettono una strategia proattiva: arrivare prima che la regolamentazione imponga soluzioni esterne, mantenendo il controllo architetturale sulla propria piattaforma.",
+      "bodyEn": "## A system, not a feature\n\nWith iOS 27, Apple introduces child accounts as mandatory infrastructure for under-13s, and optional up to age 18. This is not an additional app or a hidden setting, but an identity layer that activates age-calibrated protections at the operating system level. As reported by Engadget, Apple describes the child account as enabling 'safeguards across the system, tailored to the child's age.'\n\n## What parents and children can do\n\nParents can decide who their child can contact via Phone, FaceTime and Messages, and which apps and websites are accessible. Children, in turn, can send access requests for blocked sites or apps not available by default — a controlled delegation logic that reduces conflicts and increases transparency. Time limits for individual apps are more granular than the current Screen Time, and the parental dashboard has been redesigned to offer a clearer view of usage patterns.\n\n## The regulatory context\n\nThe announcement comes as governments in Europe, the United States and Australia are passing or debating laws requiring age verification and usage limits for minors on digital platforms. Apple does not explicitly cite these pressures, but the timing and the mandatory nature of the system for under-13s reflect a proactive strategy: arrive before regulation imposes external solutions, while maintaining architectural control over the platform.",
+      "sources": [
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "CNBC — WWDC 2026 Live Updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923538+02:00"
+    },
+    {
+      "slug": "wwdc-2026-100-sessioni-video-developer-group-labs-annuncio",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "WWDC 2026: piu di 100 sessioni video e Group Labs aperti a tutti i developer",
+      "titleEn": "WWDC 2026: over 100 video sessions and Group Labs open to all developers",
+      "excerptIt": "Apple ha reso disponibile oltre un centinaio di nuove sessioni video su strumenti, tecnologie e design, affiancate da Group Labs live con sessioni di Q&A condotte da ingegneri Apple. Il tutto accessibile gratuitamente su Apple Developer app, sito e YouTube.",
+      "excerptEn": "Apple has made over a hundred new video sessions available on tools, technologies and design, alongside live Group Labs with Q&A sessions led by Apple engineers. All freely accessible on the Apple Developer app, website and YouTube.",
+      "bodyIt": "## La settimana oltre il keynote\n\nIl keynote dell'8 giugno e' solo l'apertura di una settimana densa di contenuti tecnici. Come confermato dal sito Apple Developer e dalla Apple Newsroom, WWDC 2026 include piu di 100 nuove sessioni video su strumenti, tecnologie e design, accessibili gratuitamente sull'Apple Developer app, sul sito ufficiale e sul canale YouTube. Sono affiancate da guide curate per navigare gli annunci per piattaforma e argomento.\n\n## I Group Labs: il formato preferito dai developer\n\nI Group Labs — sessioni live con presentazioni e Q&A condotti da ingegneri e designer Apple — si svolgono dal martedi al venerdi, con una durata fino a 60 minuti ciascuno. I temi coprono Apple Intelligence, strumenti di sviluppo, design, grafica e giochi, machine learning. Come documentato in una copertura precedente, alcune sessioni sui Foundation Models hanno registrato code di attesa considerevoli, segno di un interesse molto alto da parte della community di sviluppatori.\n\n## Forum e consulenze App Store\n\nOltre ai video e ai lab, gli esperti Apple sono presenti sui Developer Forum per rispondere a domande tecniche, mentre i team di distribuzione e marketing dell'App Store sono disponibili per consulenze individuali su come massimizzare la presenza nello store. E' un ecosistema di supporto che Apple ha costruito negli anni e che, con la complessita degli annunci di quest'anno — Foundation Models, nuovi App Intents obbligatori, Xcode 27 con coding agentivo — diventa piu necessario che mai.",
+      "bodyEn": "## The week beyond the keynote\n\nThe June 8 keynote is only the opening of a week packed with technical content. As confirmed by the Apple Developer website and Apple Newsroom, WWDC 2026 includes over 100 new video sessions on tools, technologies and design, freely accessible on the Apple Developer app, official website and YouTube channel. They are accompanied by curated guides to navigate announcements by platform and topic.\n\n## Group Labs: developers' preferred format\n\nGroup Labs — live sessions with presentations and Q&A led by Apple engineers and designers — run Tuesday through Friday, up to 60 minutes each. Topics cover Apple Intelligence, developer tools, design, graphics and games, machine learning. As documented in earlier coverage, some Foundation Models sessions saw considerable queues, a sign of very high interest from the developer community.\n\n## Forums and App Store consultations\n\nBeyond videos and labs, Apple experts are present on the Developer Forums to answer technical questions, while App Store distribution and marketing teams are available for individual consultations on maximizing store presence. It is a support ecosystem Apple has built over the years and which, with the complexity of this year's announcements — Foundation Models, new mandatory App Intents, Xcode 27 with agentic coding — becomes more necessary than ever.",
+      "sources": [
+        {
+          "title": "Apple Newsroom — Apple kicks off WWDC on June 8",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        },
+        {
+          "title": "Apple Developer — WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Everything to Expect",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:03:20.923546+02:00"
+    },
     {
       "slug": "watchos-27-find-my-unificato-mappa-centrale",
       "macroArea": "sistemi-operativi",
