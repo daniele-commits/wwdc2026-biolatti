@@ -1,9 +1,163 @@
 {
-  "lastUpdate": "2026-06-10T00:23:34.788928+02:00",
+  "lastUpdate": "2026-06-10T01:03:07.099466+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "airpods-beta-firmware-ios-27-siri-ai-nuova-interfaccia",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "siri",
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "AirPods: primo firmware beta iOS 27 porta Siri AI e nuova interfaccia",
+      "titleEn": "AirPods: first iOS 27 beta firmware brings Siri AI and new interface",
+      "excerptIt": "Apple ha rilasciato il primo firmware beta per AirPods 4, AirPods Pro 2 e AirPods Pro 3, limitato agli sviluppatori, che introduce la nuova interfaccia AirPods e il supporto a Siri AI annunciati al keynote.",
+      "excerptEn": "Apple has released the first developer-only beta firmware for AirPods 4, AirPods Pro 2, and AirPods Pro 3, enabling the new AirPods interface and Siri AI support announced at the keynote.",
+      "bodyIt": "## Firmware beta disponibile dal 9 giugno\n\nA poche ore dalla chiusura del keynote WWDC 2026, Apple ha distribuito agli sviluppatori il primo firmware beta per tre modelli di AirPods: AirPods 4, AirPods Pro 2 e AirPods Pro 3. Il build number e 9A5292e, lo stesso schema adottato per le prime beta degli OS, e l'accesso richiede di attivare l'opzione beta nella sezione impostazioni AirPods quando le cuffie sono collegate a iPhone, iPad o Mac.\n\n## Cosa cambia sul piano funzionale\n\nIn iOS 27, iPadOS 27 e macOS Golden Gate, Apple introduce una nuova interfaccia dedicata agli AirPods e aggiunge il supporto al custom EQ gia annunciato al keynote. Sul fronte AI, gli AirPods diventano compatibili con Siri AI: il nuovo assistente puo essere invocato in modalita conversazionale anche attraverso le cuffie, senza passare per l'interfaccia visiva dello schermo.\n\n## Il meccanismo beta\n\nDal precedente ciclo iOS 26 Apple consente l'installazione di firmware beta direttamente dall'interfaccia delle impostazioni, eliminando la necessita di procedure manuali. Il firmware di produzione arrivera in autunno insieme all'uscita pubblica di iOS 27. Per chi non e sviluppatore, e utile sapere che il firmware si aggiorna in background e non richiede intervento attivo: la versione finale includera tutto cio che ora viene testato in beta.",
+      "bodyEn": "## Beta firmware available from June 9\n\nShortly after the WWDC 2026 keynote, Apple distributed the first beta firmware to developers for three AirPods models: AirPods 4, AirPods Pro 2, and AirPods Pro 3. The build number is 9A5292e, following the same scheme used for OS developer betas, and access requires enabling the beta option in AirPods settings when earbuds are connected to an iPhone, iPad, or Mac.\n\n## What changes functionally\n\nIn iOS 27, iPadOS 27, and macOS Golden Gate, Apple introduces a new dedicated AirPods interface and adds support for the custom EQ announced at the keynote. On the AI front, AirPods become compatible with Siri AI: the new assistant can be invoked in conversational mode through the earbuds, without relying on the on-screen interface.\n\n## The beta mechanism\n\nSince iOS 26, Apple allows beta firmware installation directly from the settings interface, removing the need for manual procedures. The production firmware will arrive in autumn alongside the public release of iOS 27. For non-developers, it is worth noting that firmware updates in the background and requires no active intervention: the final version will include everything currently being tested in beta.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Releases New AirPods Beta Firmware With iOS 27 Features",
+          "url": "https://www.macrumors.com/2026/06/09/airpods-ios-27-beta-firmware/"
+        },
+        {
+          "title": "Thurrott – Apple WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099414+02:00"
+    },
+    {
+      "slug": "icloud-storage-perks-ios-27-due-vantaggi-abbonati",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27: due nuovi vantaggi esclusivi per chi paga iCloud+",
+      "titleEn": "iOS 27: two new exclusive perks for iCloud+ subscribers",
+      "excerptIt": "Con iOS 27, Apple introduce due benefici aggiuntivi riservati agli abbonati iCloud+, rafforzando la proposta di valore del servizio in abbinamento alle nuove funzioni di intelligenza artificiale.",
+      "excerptEn": "With iOS 27, Apple introduces two additional benefits reserved for iCloud+ subscribers, strengthening the service's value proposition alongside new artificial intelligence features.",
+      "bodyIt": "## Abbonamento come leva strategica\n\nMacRumors ha segnalato nelle prime ore del 9 giugno che iOS 27 porta con se due nuovi vantaggi dedicati agli abbonati iCloud+. Il dettaglio completo delle funzionalita e in fase di approfondimento nelle sessioni tecniche della settimana, ma il pattern e chiaro: Apple continua a usare il livello a pagamento di iCloud come vettore per distribuire funzioni avanzate che non sono disponibili al piano gratuito.\n\n## Il precedente di Image Playground\n\nNon e la prima volta che Apple lega capacita AI o fotografiche avanzate all'abbonamento: Image Playground 2 ha gia un limite giornaliero per gli utenti free, rimosso per chi paga iCloud+. Lo stesso schema si ripete qui, segnalando una tendenza strutturale: le funzioni piu costose da eseguire in cloud vengono monetizzate attraverso il subscription tier esistente, senza creare un piano AI separato come ha fatto Microsoft con Copilot+.\n\n## Perche conta per l'utente italiano\n\nIn Italia iCloud+ parte da 99 centesimi al mese per 50 GB. Con ogni ciclo OS, Apple aggiunge incentivi concreti all'abbonamento. Chi finora ha evitato il pagamento per ragioni di storage potrebbe trovarsi a rivalutare la scelta se i nuovi vantaggi toccano funzioni di uso quotidiano. I dettagli definitivi saranno chiari con la beta pubblica di luglio.",
+      "bodyEn": "## Subscription as strategic lever\n\nMacRumors reported in the early hours of June 9 that iOS 27 brings two new benefits for iCloud+ subscribers. The full details of the features are being clarified in the week's technical sessions, but the pattern is clear: Apple continues to use iCloud's paid tier as a vehicle to distribute advanced features unavailable on the free plan.\n\n## The Image Playground precedent\n\nThis is not the first time Apple has tied advanced AI or photography capabilities to a subscription: Image Playground 2 already has a daily limit for free users, removed for iCloud+ subscribers. The same pattern repeats here, signaling a structural trend: the most cloud-expensive features are monetized through the existing subscription tier, without creating a separate AI plan as Microsoft did with Copilot+.\n\n## Why it matters for users\n\nIn many markets, iCloud+ starts at under a dollar a month for 50 GB. With each OS cycle, Apple adds concrete incentives to subscribe. Those who have so far avoided paying purely for storage reasons may reconsider if the new perks touch everyday features. Full details will be clear with the public beta in July.",
+      "sources": [
+        {
+          "title": "MacRumors – iPhone Users Who Pay for iCloud Storage Get Two New Perks on iOS 27",
+          "url": "https://www.macrumors.com/2026/06/09/icloud-storage-perks-ios-27/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099438+02:00"
+    },
+    {
+      "slug": "ios-27-shortcuts-upgrade-massiccio-automazioni-ai",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 porta un aggiornamento massiccio all'app Comandi",
+      "titleEn": "iOS 27 brings a massive upgrade to the Shortcuts app",
+      "excerptIt": "L'app Comandi di iOS 27 riceve un aggiornamento profondo che va ben oltre l'integrazione del linguaggio naturale gia annunciata: nuove funzionalita ampliano in modo significativo le possibilita di automazione per utenti e sviluppatori.",
+      "excerptEn": "The Shortcuts app in iOS 27 receives a deep upgrade that goes well beyond the natural language integration already announced: new features significantly expand automation possibilities for users and developers.",
+      "bodyIt": "## Piu di un semplice restyling\n\nMacRumors ha pubblicato nelle prime ore del 9 giugno un approfondimento dedicato all'app Comandi in iOS 27, definendolo un aggiornamento di portata considerevole. L'app, nata come Workflow e acquisita da Apple nel 2017, riceve capacita che la avvicinano ulteriormente all'automazione avanzata, tradizionalmente appannaggio di script e strumenti di terze parti su Mac.\n\n## Il contesto: Comandi come collante del sistema\n\nCon iOS 27, Siri AI puo creare Comandi a partire da descrizioni in linguaggio naturale: l'utente descrive cosa vuole automatizzare e il sistema genera il flusso corrispondente. Ma l'upgrade dell'app va oltre questo aspetto: coinvolge la struttura interna dell'automazione, la capacita di interagire con piu app in sequenza e l'integrazione con App Intents, il framework che sostituisce SiriKit come punto di aggancio tra le app di terze parti e il sistema.\n\n## Implicazioni per sviluppatori\n\nCon SiriKit deprecato a partire da Xcode 27, App Intents diventa il canale obbligatorio per esporre funzioni app a Siri e Comandi. L'upgrade massiccio dell'app Comandi e quindi anche un segnale indiretto ai team di sviluppo: chi non ha ancora migrato a App Intents trovera le nuove funzionalita di automazione di iOS 27 inaccessibili per la propria app. MacRumors descrive i dettagli completi nell'articolo dedicato.",
+      "bodyEn": "## More than a simple redesign\n\nMacRumors published in the early hours of June 9 a dedicated deep dive on the Shortcuts app in iOS 27, describing it as a considerably significant upgrade. The app, born as Workflow and acquired by Apple in 2017, gains capabilities that bring it closer to advanced automation, traditionally the domain of scripts and third-party tools on Mac.\n\n## Context: Shortcuts as system glue\n\nWith iOS 27, Siri AI can create Shortcuts from natural language descriptions: the user describes what they want to automate and the system generates the corresponding flow. But the app upgrade goes beyond this: it involves the internal structure of automation, the ability to interact with multiple apps in sequence, and integration with App Intents, the framework that replaces SiriKit as the connection point between third-party apps and the system.\n\n## Implications for developers\n\nWith SiriKit deprecated starting from Xcode 27, App Intents becomes the mandatory channel for exposing app functions to Siri and Shortcuts. The massive Shortcuts upgrade is therefore also an indirect signal to development teams: those who have not yet migrated to App Intents will find iOS 27's new automation features inaccessible for their app. MacRumors describes the full details in its dedicated article.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Upgrades Apple's Shortcuts App in a Huge Way",
+          "url": "https://www.macrumors.com/2026/06/09/ios-27-shortcuts-upgrade/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099443+02:00"
+    },
+    {
+      "slug": "tvos-27-airplay-veloce-homepod-control-center-reattivo",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design",
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "tvOS 27: AirPlay piu veloce verso HomePod e Control Center rifatto",
+      "titleEn": "tvOS 27: faster AirPlay to HomePod and redesigned Control Center",
+      "excerptIt": "tvOS 27 porta connessioni AirPlay piu veloci verso HomePod, un Control Center piu reattivo e un'app Podcast ridisegnata: annunci minori nel keynote, ma rilevanti per chi usa Apple TV come hub audio-video quotidiano.",
+      "excerptEn": "tvOS 27 brings faster AirPlay connections to HomePod, a more responsive Control Center, and a redesigned Podcasts app: minor keynote announcements but relevant for those using Apple TV as a daily audio-video hub.",
+      "bodyIt": "## tvOS: la piattaforma silenziosa\n\nApple ha dedicato al tvOS 27 poco spazio nel keynote, come accade ormai da anni. Eppure le novita concrete sono tre e si rivolgono esattamente a chi usa Apple TV come centro della propria configurazione audio-video domestica. Thurrott e altri siti di copertura le hanno raccolte nell'analisi post-keynote degli annunci minori.\n\n## Le tre novita operative\n\nPrima: le connessioni AirPlay verso HomePod diventano piu veloci. Non e un aggiornamento spettacolare, ma chiunque abbia vissuto il ritardo tra la selezione dell'altoparlante e l'effettivo avvio dell'audio sapra che e un miglioramento di qualita percepita. Seconda: il Control Center di tvOS 27 e piu reattivo, con una latenza ridotta che rende l'accesso ai controlli audio, alla modalita picture-in-picture e alle impostazioni meno frustrante. Terza: l'app Podcast riceve un redesign, probabilmente allineato all'estetica Liquid Glass degli altri OS, con nuove funzioni di navigazione.\n\n## Compatibilita: taglio netto\n\nCome gia riportato, tvOS 27 non e disponibile su Apple TV HD (2015) e Apple TV 4K di prima generazione (2017). Chi ha ancora uno di questi dispositivi non ricevera alcun aggiornamento futuro. Il messaggio e chiaro: e il momento di passare alla generazione attuale se si vuole stare al passo con le novita software.",
+      "bodyEn": "## tvOS: the quiet platform\n\nApple dedicated little time to tvOS 27 in the keynote, as has been the case for years. Yet the concrete additions are three and target exactly those who use Apple TV as the center of their daily home audio-video setup. Thurrott and other post-keynote coverage sites collected them in their analysis of minor announcements.\n\n## The three operational additions\n\nFirst: AirPlay connections to HomePod become faster. Not a spectacular update, but anyone who has experienced the lag between selecting the speaker and actual audio starting will know it is a quality-of-life improvement. Second: the Control Center in tvOS 27 is more responsive, with reduced latency making access to audio controls, picture-in-picture mode, and settings less frustrating. Third: the Podcasts app receives a redesign, likely aligned to the Liquid Glass aesthetic of the other OSes, with new navigation features.\n\n## Compatibility: a clean cut\n\nAs previously reported, tvOS 27 is not available on Apple TV HD (2015) and the first-generation Apple TV 4K (2017). Those who still have one of these devices will not receive any future updates. The message is clear: it is time to move to the current generation if you want to keep up with software updates.",
+      "sources": [
+        {
+          "title": "Thurrott – Apple WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099448+02:00"
+    },
+    {
+      "slug": "carplay-ios-27-video-parcheggio-sessione-sviluppatori-dettaglio",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "design",
+        "continuity"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "CarPlay iOS 27: i video nelle app funzioneranno solo a veicolo fermo",
+      "titleEn": "CarPlay iOS 27: video in apps will only work with vehicle parked",
+      "excerptIt": "Una sessione tecnica WWDC chiarisce il vincolo operativo fondamentale delle nuove app video su CarPlay: la riproduzione e consentita esclusivamente quando il veicolo e in sosta, in linea con le normative sulla distrazione alla guida.",
+      "excerptEn": "A WWDC technical session clarifies the fundamental operational constraint for new CarPlay video apps: playback is only permitted when the vehicle is parked, in line with distracted driving regulations.",
+      "bodyIt": "## Il dettaglio che il keynote non ha detto\n\nDurante il keynote WWDC 2026 Apple ha annunciato che iOS 27 porta le app video su CarPlay. L'annuncio era atteso e si allinea a quanto Google ha introdotto con Android Auto per YouTube. Cio che il keynote non ha esplicitato e emerso pero in un video tecnico per sviluppatori, segnalato da MacRumors: la riproduzione video e consentita soltanto quando il veicolo e parcheggiato.\n\n## Un vincolo atteso, non una sorpresa\n\nIl limite non stupisce. Le normative sulla distrazione alla guida sono severe in molti mercati e Apple ha sempre tenuto un profilo conservativo su questo punto. Il sistema ricevera dal veicolo il segnale di stato del parcheggio attraverso le API CarPlay esistenti, che includono gia informazioni sulla velocita e sulla posizione del cambio. Quando il veicolo si muove, le app video vengono automaticamente sospese.\n\n## Cosa significa per gli sviluppatori\n\nPer i team che vogliono portare app di streaming, video on demand o contenuti audiovisivi su CarPlay, il vincolo e chiaro fin dall'inizio del ciclo di sviluppo: niente video in movimento, senza eccezioni. Apple segue la stessa strada di Google su Android Auto, che ha introdotto lo stesso vincolo per YouTube. La prossimita delle due piattaforme su questo punto segnala meno un'imitazione e piu un adeguamento a uno standard di fatto del settore automotive.",
+      "bodyEn": "## The detail the keynote left out\n\nDuring the WWDC 2026 keynote, Apple announced that iOS 27 brings video apps to CarPlay. The announcement was anticipated and aligns with what Google introduced on Android Auto for YouTube. What the keynote did not explicitly state emerged in a developer technical video, flagged by MacRumors: video playback is only permitted when the vehicle is parked.\n\n## An expected constraint, not a surprise\n\nThe limitation is unsurprising. Distracted driving regulations are strict in many markets and Apple has always taken a conservative stance on this point. The system will receive the parking status signal from the vehicle through existing CarPlay APIs, which already include information about speed and gear position. When the vehicle moves, video apps are automatically suspended.\n\n## What this means for developers\n\nFor teams wanting to bring streaming, video-on-demand, or audiovisual content apps to CarPlay, the constraint is clear from the start of the development cycle: no video while moving, without exceptions. Apple follows the same path as Google on Android Auto, which introduced the same constraint for YouTube. The convergence of both platforms on this point signals less imitation and more alignment with a de facto automotive industry standard.",
+      "sources": [
+        {
+          "title": "Thurrott – Apple WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099452+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-fine-era-intel-impatto-concreto-utenti",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "macOS Golden Gate segna la fine definitiva dell'era Intel per il Mac",
+      "titleEn": "macOS Golden Gate marks the definitive end of the Intel era for Mac",
+      "excerptIt": "Con macOS Golden Gate, Apple chiude il capitolo Intel: nessun Mac con processore Intel ricevera piu aggiornamenti di sistema, e Rosetta 2, il traduttore di compatibilita binaria, viene dismesso. MacRumors ha dedicato un articolo specifico a cosa significa concretamente per gli utenti.",
+      "excerptEn": "With macOS Golden Gate, Apple closes the Intel chapter: no Intel Mac will receive system updates any longer, and Rosetta 2, the binary compatibility translator, is retired. MacRumors dedicated a specific article to what this concretely means for users.",
+      "bodyIt": "## Cinque anni dopo la transizione\n\nNel giugno 2020, al WWDC di quell'anno, Apple annuncio la transizione da Intel ad Apple Silicon. Prometteva di completarla entro due anni; l'ha completata in meno. Con macOS Golden Gate, WWDC 2026 chiude formalmente quel ciclo: nessun Mac con CPU Intel ricevera piu versioni di macOS dopo Tahoe (macOS 26), attualmente l'ultimo OS compatibile con queste macchine.\n\n## Rosetta 2: addio al traduttore silenzioso\n\nRosetta 2 e lo strato software che ha permesso alle app scritte per Intel di girare su Apple Silicon senza che gli sviluppatori dovessero riscrivere nulla, o quasi. Con macOS Golden Gate, questo strato viene rimosso. Il che significa che le app che non sono mai state aggiornate per Apple Silicon — e ne esistono ancora alcune, soprattutto nel mondo professionale e accademico — smetteranno semplicemente di funzionare su macOS 27 in poi.\n\n## Chi e davvero a rischio\n\nMacRumors sottolinea che la transizione riguarda principalmente chi usa software di nicchia non piu aggiornato dagli sviluppatori originali: certi plugin audio, applicazioni scientifiche, software legacy aziendale. Chi usa app dello scaffale principale — Adobe, Microsoft, software Apple — e gia su Apple Silicon nativo da anni. Ma e bene fare un inventario prima di aggiornare a Golden Gate: basta aprire l'app System Information e controllare la sezione Applicazioni per vedere quante ancora girano in emulazione Rosetta.",
+      "bodyEn": "## Five years after the transition\n\nIn June 2020, at that year's WWDC, Apple announced the transition from Intel to Apple Silicon. It promised to complete it within two years; it did so in less. With macOS Golden Gate, WWDC 2026 formally closes that cycle: no Mac with an Intel CPU will receive macOS versions after Tahoe (macOS 26), currently the last OS compatible with these machines.\n\n## Rosetta 2: farewell to the silent translator\n\nRosetta 2 is the software layer that allowed apps written for Intel to run on Apple Silicon without developers having to rewrite anything, or nearly anything. With macOS Golden Gate, this layer is removed. This means that apps that were never updated for Apple Silicon — and some still exist, especially in professional and academic circles — will simply stop working on macOS 27 onwards.\n\n## Who is truly at risk\n\nMacRumors emphasizes that the transition mainly affects those using niche software no longer updated by its original developers: certain audio plugins, scientific applications, legacy enterprise software. Those using mainstream apps — Adobe, Microsoft, Apple software — have been on native Apple Silicon for years. But it is worth taking stock before upgrading to Golden Gate: simply open the System Information app and check the Applications section to see how many are still running under Rosetta emulation.",
+      "sources": [
+        {
+          "title": "MacRumors – macOS Golden Gate Marks the End of an Era",
+          "url": "https://www.macrumors.com/2026/06/09/macos-golden-gate-end-of-era/"
+        },
+        {
+          "title": "MacRumors – What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        }
+      ],
+      "publishedAt": "2026-06-10T01:03:07.099455+02:00"
+    },
     {
       "slug": "macos-golden-gate-iphone-mirroring-resize-ipad-layout",
       "macroArea": "sistemi-operativi",
