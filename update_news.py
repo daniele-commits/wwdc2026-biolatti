@@ -21,6 +21,7 @@ Variabili d'ambiente:
   ANTHROPIC_API_KEY  (obbligatoria)
   WWDC_MODEL         (opzionale, default claude-sonnet-4-6)
   WWDC_MAX_NEW       (opzionale, default 8 — cap di item per run)
+  WWDC_MAX_SEARCHES  (opzionale, default 3 — max ricerche web per run)
   WWDC_FORCE         (opzionale, "1" per ignorare il controllo finestra)
 """
 
@@ -41,6 +42,7 @@ API_URL = "https://api.anthropic.com/v1/messages"
 API_VERSION = "2023-06-01"
 MODEL = os.environ.get("WWDC_MODEL") or "claude-sonnet-4-6"
 MAX_NEW = int(os.environ.get("WWDC_MAX_NEW") or "8")
+MAX_SEARCHES = int(os.environ.get("WWDC_MAX_SEARCHES") or "3")
 SITE_URL = "https://wwdc2026.biolatti.it"
 NOTIFY_FILE = os.path.join(BASE_DIR, "notify_items.json")
 TZ = timezone(timedelta(hours=2))  # Europe/Rome estate (CEST)
@@ -133,7 +135,7 @@ def call_anthropic(prompt, api_key):
     payload = {
         "model": MODEL,
         "max_tokens": 16000,
-        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": 6}],
+        "tools": [{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_SEARCHES}],
         "messages": [{"role": "user", "content": prompt}],
     }
     req = urllib.request.Request(
