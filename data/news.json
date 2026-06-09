@@ -1,9 +1,246 @@
 {
-  "lastUpdate": "2026-06-09T22:57:32.934177+02:00",
+  "lastUpdate": "2026-06-09T23:03:50.573861+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "watchos-27-find-my-unificato-mappa-centrale",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "watchOS 27",
+      "titleIt": "watchOS 27 unifica Find My: un'unica app, tutto sulla mappa",
+      "titleEn": "watchOS 27 unifies Find My into a single map-centric app",
+      "excerptIt": "Le tre app separate Find Devices, Find People e Find Items scompaiono in watchOS 27 e cedono il posto a un'unica interfaccia centrata sulla mappa. La condivisione di posizione e tracking diventa più flessibile.",
+      "excerptEn": "watchOS 27 consolidates Find Devices, Find People, and Find Items into a single map-centric app, with more flexible sharing options for location and item tracking.",
+      "bodyIt": "## Da tre app a una sola\n\nIn watchOS 27 Apple elimina la frammentazione che da anni accompagnava il tracciamento su Apple Watch. Le app Find Devices, Find People e Find Items, ciascuna con la propria logica e il proprio punto di ingresso, confluiscono in un'unica applicazione Find My con una mappa come schermata principale e come paradigma di navigazione centrale. È un cambiamento che semplificherà l'esperienza quotidiana di chi usa l'orologio come punto di accesso rapido per sapere dove si trovano persone, dispositivi e oggetti smarriti.\n\nLa mappa unificata mostra in un colpo solo tutti gli elementi tracciati, senza dover passare da un'app all'altra. Apple ha anche ampliato le opzioni di condivisione, dando agli utenti maggiore controllo su come e con chi condividono la propria posizione o il tracking di un oggetto specifico. MacRumors riporta che la novità è stata inclusa nel pacchetto di annunci successivi al keynote, disponibile nella developer beta di watchOS 27 rilasciata l'8 giugno.\n\n## Perché conta\n\nSu uno schermo da meno di due pollici, la proliferazione di app simili era un problema reale. La consolidazione non è solo un esercizio di pulizia: riduce il numero di tap necessari e rende il dispositivo più utile come strumento autonomo — in linea con la spinta di Apple verso un Apple Watch sempre meno dipendente dall'iPhone, emersa già con la funzione Workout Buddy senza iPhone annunciata al keynote.",
+      "bodyEn": "## From three apps to one\n\nIn watchOS 27, Apple removes the fragmentation that has long accompanied tracking on Apple Watch. Find Devices, Find People, and Find Items — each with its own logic and entry point — merge into a single Find My application with a map as the main screen and central navigation paradigm. This simplifies the everyday experience for anyone using the watch as a quick way to locate people, devices, or lost items.\n\nThe unified map shows all tracked elements at a glance, without switching between apps. Apple has also expanded sharing options, giving users greater control over how and with whom they share their location or a specific item's tracking. MacRumors reports the change was included in the post-keynote announcements, available in the watchOS 27 developer beta released June 8.\n\n## Why it matters\n\nOn a screen smaller than two inches, a proliferation of similar apps was a genuine usability problem. Consolidation is not just a tidying exercise: it reduces the number of taps required and makes the device more useful as a standalone tool — in line with Apple's push toward an Apple Watch that is less dependent on iPhone, already visible in the standalone Workout Buddy feature announced at the keynote.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 coverage hub",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        },
+        {
+          "title": "MacRumors – Apple Releases watchOS 27 Beta",
+          "url": "https://www.macrumors.com/2026/06/08/apple-releases-ios-27-beta-1/"
+        },
+        {
+          "title": "TechRepublic – 10 Biggest Apple WWDC 2026 Announcements",
+          "url": "https://www.techrepublic.com/article/news-11-biggest-announcements-apple-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573738+02:00"
+    },
+    {
+      "slug": "foundation-models-free-tier-sviluppatori-piccoli-private-cloud-compute",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Foundation Models gratis per gli sviluppatori più piccoli: Apple abbassa la barriera all'ingresso",
+      "titleEn": "Foundation Models free tier for smaller developers: Apple lowers the AI entry barrier",
+      "excerptIt": "Alla Platforms State of the Union Apple ha annunciato l'accesso gratuito ad Apple Foundation Models su Private Cloud Compute per gli sviluppatori con meno di due milioni di download App Store. Il costo infrastrutturale cessa di essere un ostacolo.",
+      "excerptEn": "At the Platforms State of the Union, Apple announced free access to Apple Foundation Models on Private Cloud Compute for developers with fewer than two million App Store downloads, removing infrastructure costs as a barrier.",
+      "bodyIt": "## Il nodo del costo rimosso\n\nNella giornata del 9 giugno, durante la Platforms State of the Union, Apple ha chiarito uno degli aspetti pratici più critici per chi sviluppa app AI: chi ha meno di due milioni di download App Store può usare Apple Foundation Models su Private Cloud Compute senza pagare costi infrastrutturali. La soglia è tarata per tutelare la fascia più ampia degli sviluppatori indipendenti, che in passato dovevano sostenere costi di API cloud prima ancora di sapere se la funzione AI avrebbe trovato utenti. MacRumors descrive l'annuncio come \"the main announcement\" della sessione.\n\nL'accesso gratuito si affianca a due altre novità del framework: il supporto all'input di immagini (già coperto come articolo separato) e i Dynamic Profiles, un sistema per costruire workflow multi-agente in cui più istanze del modello cooperano su compiti complessi. Quest'ultimo meccanismo apre scenari concreti per app che devono orchestrare sequenze di ragionamento — per esempio pianificare, verificare, riformulare — senza uscire dall'ecosistema Apple.\n\n## Open source in arrivo\n\nApple ha inoltre confermato che il core del Foundation Models framework diventerà open source entro l'estate. È un segnale di apertura insolito per una piattaforma notoriamente chiusa, e il tempismo — pochi mesi prima del lancio di iOS 27 — suggerisce che l'azienda vuole attrarre contributi esterni prima che il framework raggiunga il grande pubblico. MacRumors e TechTimes hanno entrambi riportato il dettaglio dalla sessione della State of the Union.",
+      "bodyEn": "## The cost barrier removed\n\nDuring the Platforms State of the Union on June 9, Apple clarified one of the most critical practical aspects for AI app developers: those with fewer than two million App Store downloads can use Apple Foundation Models on Private Cloud Compute at no infrastructure cost. The threshold is set to protect the broadest range of independent developers, who previously had to bear cloud API costs before even knowing whether an AI feature would find users. MacRumors describes the announcement as \"the main announcement\" of the session.\n\nThe free tier is paired with two other framework additions: image input support (covered separately) and Dynamic Profiles, a system for building multi-agent workflows in which multiple model instances cooperate on complex tasks. This mechanism opens concrete scenarios for apps that need to orchestrate reasoning sequences — plan, verify, reformulate — without leaving Apple's ecosystem.\n\n## Open source incoming\n\nApple also confirmed the Foundation Models framework core will go open source later this summer. This is an unusual openness signal for a notoriously closed platform, and the timing — months before the iOS 27 public launch — suggests Apple wants external contributions before the framework reaches the general public.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms State of the Union",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "TechTimes – WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 coverage hub",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573800+02:00"
+    },
+    {
+      "slug": "foundation-models-dynamic-profiles-multi-agent-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Foundation Models Dynamic Profiles: workflow multi-agente pronti per le app iOS 27",
+      "titleEn": "Foundation Models Dynamic Profiles: multi-agent workflows ready for iOS 27 apps",
+      "excerptIt": "Alla Platforms State of the Union Apple ha presentato i Dynamic Profiles, un sistema del framework Foundation Models che consente di costruire pipeline multi-agente dove istanze diverse del modello cooperano su compiti articolati.",
+      "excerptEn": "At the Platforms State of the Union, Apple introduced Dynamic Profiles, a Foundation Models feature enabling multi-agent pipelines where different model instances collaborate on complex tasks.",
+      "bodyIt": "## Agenti che si coordinano\n\nFino a oggi, usare Foundation Models in un'app significava invocare un singolo modello per un singolo compito. I Dynamic Profiles, annunciati alla Platforms State of the Union del 9 giugno, cambiano l'architettura di base: uno sviluppatore può ora definire profili con istruzioni e contesti differenti e fare cooperare più istanze del modello su una stessa pipeline. Un esempio tipico è un flusso che prima genera una bozza di testo, poi la valuta criticamente, infine la riformula secondo vincoli specifici — tre agenti distinti, coordinati dall'app senza uscire dall'ecosistema on-device.\n\nIl framework, come riportato da TechTimes, supporta già oggi il routing dinamico tra modello on-device, Private Cloud Compute e provider server-side come Claude e Gemini. I Dynamic Profiles si integrano con questo sistema di routing: il profilo attivo determina quale livello di capacità viene invocato a seconda della complessità del compito. La documentazione Apple descrive tre aree principali del framework aggiornato: server-side intelligence con Private Cloud Compute, dynamic sessions con istruzioni e profili, e prompting multimodale per l'analisi di immagini.\n\n## Implicazioni per gli sviluppatori\n\nI Group Labs dedicati a Foundation Models durante la WWDC 2026 risultano tra i più affollati dell'intera settimana, segnale che gli sviluppatori — in particolare quelli che lavorano su app di salute, produttività e app creative — considerano i workflow multi-agente un'opportunità concreta per questa ciclo di sviluppo. La combinazione con il tier gratuito per sviluppatori piccoli abbassa ulteriormente la soglia per sperimentare architetture agent-based senza costi iniziali.",
+      "bodyEn": "## Coordinating agents\n\nUntil now, using Foundation Models in an app meant invoking a single model for a single task. Dynamic Profiles, announced at the June 9 Platforms State of the Union, change the base architecture: a developer can now define profiles with different instructions and contexts, and have multiple model instances cooperate on the same pipeline. A typical example is a flow that first drafts text, then evaluates it critically, then reformulates it according to specific constraints — three distinct agents, coordinated by the app without leaving the on-device ecosystem.\n\nAs reported by TechTimes, the framework already supports dynamic routing between on-device model, Private Cloud Compute, and server-side providers like Claude and Gemini. Dynamic Profiles integrate with this routing system: the active profile determines which capability level is invoked based on task complexity. Apple's documentation describes three main areas of the updated framework: server-side intelligence with Private Cloud Compute, dynamic sessions with instructions and profiles, and multimodal prompting for image analysis.\n\n## Developer implications\n\nGroup Labs dedicated to Foundation Models during WWDC 2026 are among the most attended of the entire week, a signal that developers — particularly those working on health, productivity, and creative apps — see multi-agent workflows as a concrete opportunity for this development cycle.",
+      "sources": [
+        {
+          "title": "TechTimes – WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "MacRumors – Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms State of the Union",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "Implicator AI – Apple expands Xcode and Foundation Models for WWDC AI developers",
+          "url": "https://www.implicator.ai/apple-expands-xcode-and-foundation-models-for-wwdc-ai-developers/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573812+02:00"
+    },
+    {
+      "slug": "app-store-creative-assets-asset-library-product-page-wwdc-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "App Store",
+      "titleIt": "App Store rinnovato: Creative Assets, Asset Library unificata e anteprime multi-lingua",
+      "titleEn": "App Store updated: Creative Assets, unified Asset Library, and multi-language previews",
+      "excerptIt": "Apple ha annunciato al WWDC 2026 nuove funzioni per le pagine prodotto dell'App Store: immagini e video ricchi nell'header, una Asset Library centralizzata e anteprime su dispositivi, lingue e modalità differenti.",
+      "excerptEn": "Apple announced new App Store product page features at WWDC 2026: rich images and videos in headers, a centralized Asset Library, and previews across devices, languages, and display modes.",
+      "bodyIt": "## Pagine prodotto più espressive\n\nFino ad oggi, la personalizzazione visiva di una pagina App Store era limitata agli screenshot e a brevi clip video con formati rigidi. Con i Creative Assets annunciati al WWDC 2026, gli sviluppatori possono ora caricare immagini e video di alta qualità che appaiono nell'intestazione delle pagine prodotto e nei risultati di ricerca. L'obiettivo dichiarato è consentire una comunicazione visiva più vicina a quella di un sito web, senza però uscire dall'ambiente curato dell'App Store. MacSources e TechRepublic riportano la novità tra gli aggiornamenti dello store al keynote.\n\nLa gestione di questi materiali avviene tramite una Asset Library riprogettata in App Store Connect, che centralizza immagini, video e screenshot in un unico punto di accesso, facilitando la manutenzione per app disponibili in molte lingue e mercati. Un'altra funzione correlata consente di visualizzare in anteprima la pagina prodotto combinando device, lingua e modalità cromatica (chiara/scura) prima della pubblicazione: un controllo pratico che riduce il rischio di artefatti visivi o testi tagliati che emergono solo dopo il lancio.\n\n## Scoperta e nomination per giochi\n\nParallelo alle novità visive, Apple ha anche aggiornato i meccanismi di discovery dell'App Store. Le Personalized Collections raggruppano le app per interessi dell'utente, mentre le App Notes allegano una breve spiegazione al motivo per cui un'app specifica viene raccomandata. Sul versante gaming, Apple ha introdotto un sistema di nomination che consente agli sviluppatori di proporre offerte in-app in evidenza, ampliando i canali di visibilità oltre alle categorie redazionali.",
+      "bodyEn": "## More expressive product pages\n\nUntil now, visual customization of an App Store product page was limited to screenshots and short video clips with rigid formats. With Creative Assets announced at WWDC 2026, developers can now upload high-quality images and videos appearing in product page headers and search results. The stated goal is to allow visual communication closer to a website, without leaving the curated App Store environment. MacSources and TechRepublic report the change among keynote store updates.\n\nManaging these materials happens through a redesigned Asset Library in App Store Connect, centralizing images, videos, and screenshots in a single access point — simplifying maintenance for apps available in many languages and markets. A related feature allows previewing the product page by combining device, language, and color mode (light/dark) before publishing: a practical check that reduces the risk of visual artifacts or cut-off text that only surface after launch.\n\n## Discovery and game nominations\n\nAlongside the visual changes, Apple also updated App Store discovery mechanisms. Personalized Collections group apps by user interests, while App Notes attach a brief explanation of why a specific app is recommended. On the gaming side, Apple introduced a nomination system allowing developers to propose featured in-app offers, broadening visibility channels beyond editorial categories.",
+      "sources": [
+        {
+          "title": "MacSources – WWDC 2026: Apple Introduces Siri AI, Expands Apple Intelligence",
+          "url": "https://macsources.com/wwdc-2026-apple-news/"
+        },
+        {
+          "title": "TechRepublic – 10 Biggest Apple WWDC 2026 Announcements",
+          "url": "https://www.techrepublic.com/article/news-11-biggest-announcements-apple-wwdc-2026/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573820+02:00"
+    },
+    {
+      "slug": "apple-watch-series-9-watchos-27-compatibilita-correzione-post-keynote",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "watchOS 27",
+      "titleIt": "Apple Watch Series 9 e watchOS 27: il modello era compatibile, la pagina ufficiale no",
+      "titleEn": "Apple Watch Series 9 and watchOS 27: the device was compatible, the official page wasn't",
+      "excerptIt": "A poche ore dal keynote Apple ha dovuto correggere la propria pagina di compatibilità di watchOS 27: Apple Watch Series 9 era stato omesso per errore, ma supporta il nuovo sistema operativo.",
+      "excerptEn": "Hours after the keynote, Apple had to correct its watchOS 27 compatibility page: Apple Watch Series 9 had been mistakenly omitted but does support the new operating system.",
+      "bodyIt": "## Un errore raro per Apple\n\nIl 9 giugno, a meno di ventiquattr'ore dal keynote, Apple ha aggiornato in silenzio la pagina di compatibilità ufficiale di watchOS 27 per reinserire Apple Watch Series 9 tra i modelli supportati. Il dispositivo era stato omesso nella versione iniziale della pagina, creando confusione tra i possessori del modello — che avevano già sentito parlare del taglio dei modelli Series 6, 7, 8, Ultra 1 e SE 2. MacRumors ha riportato la correzione, citando la conferma da parte di Apple che il Series 9 è pienamente compatibile con watchOS 27.\n\n## Il contesto del taglio reale\n\nL'errore va letto nel contesto di un keynote in cui Apple ha effettivamente operato uno dei tagli di compatibilità più netti degli ultimi anni per Apple Watch. watchOS 27 richiede Series 9, Series 10, Series 11, Ultra 2, Ultra 3 o SE 3 per funzionare, escludendo sei modelli ancora in circolazione. L'omissione del Series 9 dalla pagina — un modello lanciato appena nel 2023 — aveva amplificato la percezione di un taglio ancora più drastico di quello reale. La correzione rapida suggerisce che si trattava di un errore editoriale nella preparazione dei materiali di lancio, non di un cambiamento tecnico: il Series 9 condivide l'architettura S9 con prestazioni sufficienti per tutte le funzioni di watchOS 27, inclusa l'integrazione con Siri AI tramite iPhone.",
+      "bodyEn": "## A rare Apple slip\n\nOn June 9, less than twenty-four hours after the keynote, Apple quietly updated the official watchOS 27 compatibility page to reinstate Apple Watch Series 9 among supported models. The device had been omitted from the initial version of the page, causing confusion among owners — who had already heard about the cut affecting Series 6, 7, 8, Ultra 1, and SE 2 models. MacRumors reported the correction, citing Apple's confirmation that Series 9 is fully compatible with watchOS 27.\n\n## Context of the real cut\n\nThe error should be read against the backdrop of a keynote in which Apple made one of the sharpest Apple Watch compatibility cuts in years. watchOS 27 requires Series 9, Series 10, Series 11, Ultra 2, Ultra 3, or SE 3. Omitting the Series 9 — a model launched only in 2023 — had amplified the perception of a cut even more drastic than the real one. The quick correction suggests an editorial error in launch material preparation, not a technical change: the Series 9 shares the S9 architecture with sufficient performance for all watchOS 27 features, including Siri AI integration via iPhone.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 coverage hub",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        },
+        {
+          "title": "TechRepublic – 10 Biggest Apple WWDC 2026 Announcements",
+          "url": "https://www.techrepublic.com/article/news-11-biggest-announcements-apple-wwdc-2026/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573828+02:00"
+    },
+    {
+      "slug": "app-store-personalized-collections-app-notes-discovery-wwdc-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "App Store",
+      "titleIt": "App Store, scoperta personalizzata: Personalized Collections e App Notes spiegano il perché",
+      "titleEn": "App Store personalized discovery: Personalized Collections and App Notes explain the why",
+      "excerptIt": "iOS 27 introduce nelle schede App Store le Personalized Collections — raggruppamenti per interessi — e le App Notes, brevi annotazioni che spiegano perché un'app viene consigliata a quel preciso utente.",
+      "excerptEn": "iOS 27 introduces Personalized Collections grouping apps by user interests and App Notes explaining why a specific app is recommended to a given user.",
+      "bodyIt": "## Raccomandazioni con motivazione\n\nLa discovery dell'App Store ha storicamente sofferto di un problema di opacità: un'app veniva raccomandata o messa in evidenza senza che l'utente capisse il motivo. Con le App Notes, annunciate al WWDC 2026, Apple introduce una risposta diretta a questa critica: ogni raccomandazione è accompagnata da una nota breve che esplicita il collegamento tra gli interessi o le abitudini dell'utente e l'app suggerita. TechRepublic riporta la funzione tra i principali aggiornamenti dell'App Store presentati al keynote.\n\nLe Personalized Collections raggruppano app in categorie costruite dinamicamente attorno agli interessi rilevati, offrendo una navigazione per affinità tematica alternativa alla struttura editoriale tradizionale. È un approccio che avvicina l'App Store ai sistemi di raccomandazione già presenti su Apple Music e Apple Podcasts, estendendo la logica della personalizzazione anche allo store applicazioni.\n\n## Privacy e personalizzazione\n\nApple non ha dettagliato pubblicamente al keynote i meccanismi di inferenza degli interessi, ma la coerenza con la strategia di Apple Intelligence suggerisce che il profilo utente venga costruito on-device e non condiviso con terze parti. È un punto che conta: se la personalizzazione della discovery passa per il cloud, introduce aspettative di privacy che l'azienda ha abituato gli utenti a non avere. Le sessioni tecniche della WWDC in corso questa settimana dovrebbero chiarire l'architettura sottostante.",
+      "bodyEn": "## Recommendations with reasoning\n\nApp Store discovery has historically suffered from an opacity problem: an app was recommended or featured without the user understanding why. With App Notes, announced at WWDC 2026, Apple introduces a direct answer to this criticism: each recommendation is accompanied by a brief note explaining the connection between the user's interests or habits and the suggested app. TechRepublic reports the feature among the main App Store updates presented at the keynote.\n\nPersonalized Collections group apps into categories dynamically built around detected interests, offering thematic affinity browsing as an alternative to the traditional editorial structure. This approach brings the App Store closer to the recommendation systems already present in Apple Music and Apple Podcasts, extending personalization logic to the app store itself.\n\n## Privacy and personalization\n\nApple did not publicly detail interest inference mechanisms at the keynote, but consistency with the Apple Intelligence strategy suggests the user profile is built on-device and not shared with third parties. This matters: if discovery personalization goes through the cloud, it introduces privacy expectations that the company has accustomed users not to have. Technical sessions running this week at WWDC should clarify the underlying architecture.",
+      "sources": [
+        {
+          "title": "TechRepublic – 10 Biggest Apple WWDC 2026 Announcements",
+          "url": "https://www.techrepublic.com/article/news-11-biggest-announcements-apple-wwdc-2026/"
+        },
+        {
+          "title": "MacSources – WWDC 2026: Apple Introduces Siri AI, Expands Apple Intelligence",
+          "url": "https://macsources.com/wwdc-2026-apple-news/"
+        },
+        {
+          "title": "Memeburn – Apple WWDC 2026: Siri AI, iOS 27 & Every Big Announcement",
+          "url": "https://memeburn.com/apple-wwdc-2026-siri-ai-ios-27-every-big-announcement/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573837+02:00"
+    },
+    {
+      "slug": "foundation-models-open-source-estate-2026-apple-annuncio",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode",
+        "privacy"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Foundation Models diventa open source: Apple conferma il rilascio entro l'estate",
+      "titleEn": "Foundation Models goes open source: Apple confirms release before end of summer",
+      "excerptIt": "Alla Platforms State of the Union Apple ha confermato che il core del framework Foundation Models sarà reso open source entro l'estate 2026, prima del lancio pubblico di iOS 27 in autunno.",
+      "excerptEn": "At the Platforms State of the Union, Apple confirmed the Foundation Models framework core will go open source before the end of summer 2026, ahead of the public iOS 27 launch in fall.",
+      "bodyIt": "## Un'apertura insolita\n\nApple non è un'azienda nota per aprire il codice dei propri framework strategici. L'annuncio alla Platforms State of the Union del 9 giugno — confermato da MacRumors — che il core di Foundation Models diventerà open source entro l'estate è quindi un segnale che merita attenzione, indipendentemente dai dettagli tecnici. Il tempismo è intenzionale: il rilascio avverrebbe mesi prima del lancio di iOS 27 al grande pubblico, lasciando alla comunità il tempo di esaminare l'architettura e — almeno in teoria — contribuire con fix o miglioramenti.\n\n## Perché Apple fa questo passo ora\n\nLe motivazioni plausibili sono almeno due. La prima è competitiva: Google e Meta hanno già open-sourcato parti significative delle proprie infrastrutture AI, e la chiusura totale di Apple su questi temi iniziava a sembrare un limite nella competizione per attrarre sviluppatori AI. La seconda è di credibilità sulla privacy: rendere ispezionabile il codice che gira on-device è un modo concreto per supportare le dichiarazioni di Craig Federighi sull'assenza di esfiltrazione dei dati. Se il codice è pubblico, la verifica è possibile.\n\nIl framework verrà comunque distribuito principalmente tramite le API Swift standard e App Store Connect — l'open source riguarderà il core, non necessariamente l'intera catena di inferenza. I dettagli esatti del perimetro del rilascio dovrebbero emergere dalle sessioni tecniche in corso questa settimana, secondo quanto riporta MacRumors.",
+      "bodyEn": "## An unusual openness\n\nApple is not known for open-sourcing its strategic frameworks. The announcement at the June 9 Platforms State of the Union — confirmed by MacRumors — that the Foundation Models core will go open source before end of summer is therefore a signal worth attention, regardless of technical details. The timing is intentional: the release would happen months before the iOS 27 public launch, giving the community time to examine the architecture and — at least in theory — contribute fixes or improvements.\n\n## Why Apple is taking this step now\n\nThere are at least two plausible motivations. The first is competitive: Google and Meta have already open-sourced significant parts of their AI infrastructure, and Apple's total closure on these topics was starting to look like a liability in the competition to attract AI developers. The second is privacy credibility: making the on-device code inspectable is a concrete way to back Craig Federighi's statements about the absence of data exfiltration. If the code is public, verification is possible.\n\nThe framework will still be distributed primarily through standard Swift APIs and App Store Connect — open source will cover the core, not necessarily the entire inference chain. Exact details of the release scope should emerge from technical sessions running this week, according to MacRumors.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms State of the Union",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "TechTimes – WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "Implicator AI – Apple expands Xcode and Foundation Models for WWDC AI developers",
+          "url": "https://www.implicator.ai/apple-expands-xcode-and-foundation-models-for-wwdc-ai-developers/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573845+02:00"
+    },
+    {
+      "slug": "app-store-in-app-purchase-espansione-game-developer-nomination-wwdc-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "App Store",
+      "titleIt": "App Store: In-App Purchase espanso e nomination per offerte in evidenza nei giochi",
+      "titleEn": "App Store: expanded In-App Purchase and nomination system for featured game offers",
+      "excerptIt": "Al WWDC 2026 Apple ha ampliato le funzionalità di In-App Purchase e ha introdotto un sistema di nomination che consente agli sviluppatori di giochi di proporre le proprie offerte in-app per la visibilità editoriale nell'App Store.",
+      "excerptEn": "At WWDC 2026 Apple expanded In-App Purchase capabilities and introduced a nomination system allowing game developers to propose their in-app offers for editorial visibility on the App Store.",
+      "bodyIt": "## Sviluppatori con più voce\n\nFino a WWDC 2026, le offerte in evidenza sull'App Store nella categoria giochi erano una prerogativa esclusivamente editoriale di Apple. Con il nuovo sistema di nomination, gli sviluppatori possono candidare autonomamente le proprie offerte in-app — sconti, bundle, contenuti speciali — per una potenziale esposizione nelle sezioni in evidenza dello store. MacSources e Engadget citano la novità tra gli aggiornamenti dell'App Store annunciati al keynote, insieme all'espansione delle capacità generali di In-App Purchase.\n\nL'espansione delle IAP tocca anche le tipologie di acquisto supportate e le modalità di presentazione all'interno delle schede prodotto, sebbene Apple non abbia dettagliato tutte le nuove categorie durante il keynote. I dettagli tecnici completi sono attesi nelle sessioni sviluppatori in corso questa settimana.\n\n## Il contesto della pressione regolamentare\n\nÈ difficile non leggere questi aggiornamenti nel contesto delle pressioni regolamentari che Apple affronta in Europa e negli Stati Uniti sull'apertura dell'App Store. Dare più strumenti di visibilità agli sviluppatori — anche solo attraverso nomination — riduce la percezione che Apple sia l'unico arbitro della scoperta delle app. Non è un cambiamento strutturale alle commissioni o alle regole di distribuzione, ma segnala una volontà di ammorbidire almeno l'aspetto della curation editoriale.",
+      "bodyEn": "## Developers with more voice\n\nBefore WWDC 2026, featured offers on the App Store in the games category were exclusively an Apple editorial prerogative. With the new nomination system, developers can independently propose their own in-app offers — discounts, bundles, special content — for potential exposure in featured store sections. MacSources and Engadget cite the update among keynote App Store announcements, alongside the expansion of general In-App Purchase capabilities.\n\nThe IAP expansion also touches supported purchase types and presentation modes within product pages, though Apple did not detail all new categories during the keynote. Full technical details are expected in developer sessions running this week.\n\n## The regulatory pressure context\n\nIt is hard not to read these updates in the context of regulatory pressure Apple faces in Europe and the United States over App Store openness. Giving developers more visibility tools — even just through nominations — reduces the perception that Apple is the sole arbiter of app discovery. This is not a structural change to commissions or distribution rules, but signals a willingness to soften at least the editorial curation aspect.",
+      "sources": [
+        {
+          "title": "MacSources – WWDC 2026: Apple Introduces Siri AI, Expands Apple Intelligence",
+          "url": "https://macsources.com/wwdc-2026-apple-news/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRepublic – 10 Biggest Apple WWDC 2026 Announcements",
+          "url": "https://www.techrepublic.com/article/news-11-biggest-announcements-apple-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-09T23:03:50.573853+02:00"
+    },
     {
       "slug": "ios-27-camera-app-widget-personalizzabili-redesign",
       "macroArea": "sistemi-operativi",
