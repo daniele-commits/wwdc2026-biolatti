@@ -1,9 +1,136 @@
 {
-  "lastUpdate": "2026-06-10T00:03:20.923554+02:00",
+  "lastUpdate": "2026-06-10T00:23:34.788928+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "macos-golden-gate-iphone-mirroring-resize-ipad-layout",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "continuity"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iPhone Mirroring su macOS Golden Gate: app ridimensionabili con layout iPad",
+      "titleEn": "iPhone Mirroring on macOS Golden Gate: resizable apps with iPad layout",
+      "excerptIt": "Con macOS Golden Gate, le app iPhone in mirroring sul Mac possono essere ridimensionate e, in molti casi, passano automaticamente all'interfaccia iPad. Una funzione discreta ma concreta per chi lavora su schermo grande.",
+      "excerptEn": "With macOS Golden Gate, iPhone apps mirrored to Mac can be resized and, in most cases, automatically switch to the iPad interface. A quiet but practical addition for large-screen users.",
+      "bodyIt": "## Mirroring che cresce\n\nIl miglioramento di iPhone Mirroring in macOS 27 Golden Gate non riguarda solo la stabilità della connessione wireless già citata al keynote: nelle prime analisi delle developer beta, emerge che le finestre delle app iPhone possono essere ridimensionate liberamente sul desktop Mac. Quando l'utente allarga la finestra oltre una certa soglia, molte app abbandonano il layout compatto da iPhone e adottano automaticamente l'interfaccia iPad — con sidebar, pannelli a doppia colonna e controlli adattivi.\n\nCome segnala Thurrott citando test diretti degli sviluppatori, il comportamento funziona correttamente sulla maggior parte delle app aggiornate per iOS 27 — incluse app di terze parti ricompilate senza modifiche. Non tutte le app lo supportano ancora in questa prima beta, ma la direzione è chiara.\n\n## Perché conta\n\nFinora iPhone Mirroring era utile principalmente per rispondere a notifiche o usare app assenti su Mac. Con il ridimensionamento e il layout iPad, diventa un vero secondo schermo per app mobili, avvicinando macOS a un ecosistema dove iPhone, iPad e Mac condividono superficie visiva in modo fluido. È anche un segnale indiretto di come Apple stia unificando le API di layout multipiattaforma — un lavoro che torna utile anche per il futuro iPhone pieghevole.",
+      "bodyEn": "## Mirroring that scales\n\nmacOS 27 Golden Gate's iPhone Mirroring improvements go beyond the wireless reliability fix highlighted at the keynote: early analysis of the developer betas reveals that iPhone app windows can be freely resized on the Mac desktop. When the user expands a window past a certain threshold, many apps automatically abandon the compact iPhone layout and adopt the iPad interface — with sidebars, dual-column panels, and adaptive controls.\n\nAs Thurrott reports citing direct developer tests, the behavior works correctly on most apps updated for iOS 27 — including third-party apps recompiled without code changes. Not all apps support it in this first beta, but the direction is clear.\n\n## Why it matters\n\nUntil now, iPhone Mirroring was mainly useful for checking notifications or using apps absent on Mac. With resizing and the iPad layout, it becomes a genuine second screen for mobile apps, bringing macOS closer to an ecosystem where iPhone, iPad, and Mac share visual space fluidly. It's also an indirect signal of Apple unifying multiplatform layout APIs — work that will prove equally useful for the upcoming foldable iPhone.",
+      "sources": [
+        {
+          "title": "Thurrott — 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:23:34.788871+02:00"
+    },
+    {
+      "slug": "afm-avanzato-requisiti-hardware-a19-pro-m4-m3-12gb",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Il modello on-device piu avanzato di Apple richiede A19 Pro, M4 o M3 con 12 GB di RAM",
+      "titleEn": "Apple's most advanced on-device model requires A19 Pro, M4 or M3 with 12GB RAM",
+      "excerptIt": "Il secondo Apple Foundation Model — quello multimodale di nuova generazione — non gira su tutti i dispositivi compatibili con Apple Intelligence. Servono almeno 12 GB di RAM e un chip A19 Pro su iPhone, M4 su iPad, M3 su Mac.",
+      "excerptEn": "The second Apple Foundation Model — the next-generation multimodal one — doesn't run on all Apple Intelligence-compatible devices. It requires at least 12GB of RAM and an A19 Pro on iPhone, M4 on iPad, M3 on Mac.",
+      "bodyIt": "## Una gerarchia silenziosa\n\nApple ha presentato al keynote il nuovo Apple Foundation Model 2 (AFM-2) come modello multimodale on-device in grado di comprendere voce, testo e immagini. Quello che non è stato sottolineato esplicitamente sul palco emerge però dalle note tecniche delle prime beta: non tutti i dispositivi che supportano Apple Intelligence possono eseguire AFM-2 localmente.\n\nCome riporta Thurrott sulla base delle specifiche ufficiali, i requisiti minimi per il modello avanzato sono 12 GB di RAM abbinati a chip A19 Pro su iPhone, M4 su iPad, M3 su Mac. Questo esclude di fatto l'iPhone 17 base (che ha 8 GB), gli iPad con M2 o inferiore e i Mac con chip M1 o M2 con configurazioni da 8 GB.\n\n## Chi ottiene cosa\n\nIn pratica, solo iPhone 17 Pro e iPhone 17 Air, gli iPad M4 con 12 GB o più e i Mac M3 (o successivi) con almeno 12 GB di memoria unificata accedono alla versione più capace del modello on-device. I dispositivi con hardware inferiore continuano a usare la prima generazione di AFM o si affidano a Private Cloud Compute. Non è un taglio netto al supporto, ma è una stratificazione che dividerà l'esperienza utente in modo concreto: due iPhone 17 nella stessa famiglia potrebbero avere funzionalità AI sensibilmente diverse.",
+      "bodyEn": "## A quiet hierarchy\n\nApple presented the new Apple Foundation Model 2 (AFM-2) at the keynote as an on-device multimodal model capable of understanding voice, text, and images. What wasn't explicitly highlighted on stage emerges from the technical notes in the first betas: not all Apple Intelligence-compatible devices can run AFM-2 locally.\n\nAs Thurrott reports based on official specifications, the minimum requirements for the advanced model are 12GB of RAM paired with an A19 Pro chip on iPhone, M4 on iPad, M3 on Mac. This effectively excludes the base iPhone 17 (which has 8GB), iPads with M2 or earlier, and Macs with M1 or M2 chips in 8GB configurations.\n\n## Who gets what\n\nIn practice, only the iPhone 17 Pro and iPhone 17 Air, M4 iPads with 12GB or more, and M3 (or later) Macs with at least 12GB of unified memory gain access to the most capable version of the on-device model. Devices with older hardware continue using first-generation AFM or rely on Private Cloud Compute. It's not a hard compatibility cut, but it's a stratification that will meaningfully split the user experience: two iPhone 17s in the same household could have noticeably different AI capabilities.",
+      "sources": [
+        {
+          "title": "Thurrott — 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "MacRumors — WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:23:34.788897+02:00"
+    },
+    {
+      "slug": "ios-27-widget-full-page-meteo-musica-foldable-display",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27: widget a pagina intera per Meteo, Musica e News, con occhio al foldable",
+      "titleEn": "iOS 27: full-page widgets for Weather, Music and News, with an eye on the foldable",
+      "excerptIt": "Nella beta di iOS 27 compaiono nuovi widget full-page per app come Meteo, Musica e News, pensati per display espansi. Sono già funzionanti su iPhone standard, ma la logica di progettazione punta chiaramente allo schermo interno del futuro iPhone pieghevole.",
+      "excerptEn": "The iOS 27 beta introduces new full-page widgets for apps like Weather, Music, and News, designed for expanded displays. They already work on standard iPhones, but the design logic clearly targets the inner screen of the upcoming foldable iPhone.",
+      "bodyIt": "## Piu spazio per i widget\n\nNella beta di iOS 27 distribuita agli sviluppatori dopo il keynote, è emersa una categoria di widget inedita: il formato a pagina intera, che occupa l'intero schermo e visualizza informazioni in modo molto più ricco rispetto ai widget tradizionali. Meteo, Musica e News sono tra le prime app a supportarlo, con layout che ricordano le app native su iPad.\n\nThurrott segnala che questi widget sono pienamente funzionanti anche su iPhone correnti, ma la loro comparsa è direttamente collegata ai riferimenti al futuro iPhone pieghevole trovati nella stessa beta — dove Apple ha introdotto API specifiche per lo stato della cerniera e l'angolo di apertura del display.\n\n## Anticipo di un'esperienza doppio-schermo\n\nIl widget full-page rappresenta un modo per sfruttare la metà interna del dispositivo pieghevole quando è aperto a piatto, riempiendo lo spazio con contenuto utile senza richiedere un'app separata. Il fatto che la funzione sia già disponibile su iPhone normali suggerisce che Apple voglia abituare il proprio ecosistema di sviluppatori — e di utenti — al paradigma prima ancora che il hardware arrivi. Una mossa pragmatica: quando il foldable uscirà, troverà un parco di widget già pronti.",
+      "bodyEn": "## More room for widgets\n\nIn the iOS 27 beta distributed to developers after the keynote, a new widget category has emerged: the full-page format, which occupies the entire screen and displays information far more richly than traditional widgets. Weather, Music, and News are among the first apps to support it, with layouts reminiscent of native iPad apps.\n\nThurrott notes these widgets are fully functional on current iPhones too, but their appearance is directly tied to foldable iPhone references found in the same beta — where Apple introduced specific APIs for hinge state and display opening angle.\n\n## Preview of a dual-screen experience\n\nThe full-page widget represents a way to use the inner half of a foldable device when fully open, filling space with useful content without requiring a separate app. The fact that the feature already works on standard iPhones suggests Apple wants to prepare its developer — and user — ecosystem for the paradigm before the hardware even arrives. A pragmatic move: when the foldable ships, it will find a pool of ready-made widgets waiting.",
+      "sources": [
+        {
+          "title": "Thurrott — 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "9to5Mac — WWDC 2026",
+          "url": "https://9to5mac.com/guides/wwdc/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:23:34.788906+02:00"
+    },
+    {
+      "slug": "tvos-27-compatibilita-apple-tv-hd-4k-gen1-escluse",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "tvOS 27 taglia Apple TV HD e 4K di prima generazione: restano fuori dal 2017",
+      "titleEn": "tvOS 27 drops Apple TV HD and first-gen 4K: devices from 2017 left behind",
+      "excerptIt": "tvOS 27 non sarà disponibile sull'Apple TV HD (2015) né sull'Apple TV 4K di prima generazione (2017). Due dispositivi ancora venduti o in uso rimangono senza aggiornamenti futuri, senza un annuncio esplicito durante il keynote.",
+      "excerptEn": "tvOS 27 won't be available on the Apple TV HD (2015) or the first-generation Apple TV 4K (2017). Two devices still in active use are left without future updates, with no explicit announcement during the keynote.",
+      "bodyIt": "## tvOS 27, il taglio silenzioso\n\nIl keynote WWDC 2026 ha dedicato pochissimo spazio a tvOS 27, ma le note di rilascio della developer beta rivelano un taglio di compatibilità significativo: tvOS 27 non sarà disponibile né sull'Apple TV HD — il modello del 2015 basato su A8 — né sull'Apple TV 4K di prima generazione del 2017, che monta un chip A10X Fusion.\n\nCome documenta Thurrott, tra le novità confermate di tvOS 27 per i modelli supportati (Apple TV 4K di seconda generazione e successive) figurano AirPlay più veloce verso HomePod, un Control Center più reattivo e la nuova app Podcast ridisegnata — già citata in copertura precedente.\n\n## La comunicazione che manca\n\nIl fatto che il taglio non sia stato comunicato sul palco è coerente con la strategia Apple degli ultimi anni: compatibilità minima annunciata nelle note tecniche, non durante il momento di maggiore attenzione mediatica. Per gli utenti con Apple TV HD o 4K gen 1, il messaggio è che l'hardware è fermo su tvOS 26 per sempre. Non è una sorpresa tecnica — quei chip non reggerebbero il nuovo stack AI — ma la mancanza di un percorso di aggiornamento hardware a prezzo accessibile rende il taglio difficile da giustificare senza un nuovo modello entry-level in arrivo.",
+      "bodyEn": "## tvOS 27, the quiet cut\n\nThe WWDC 2026 keynote spent very little time on tvOS 27, but the developer beta release notes reveal a significant compatibility cut: tvOS 27 won't be available on either the Apple TV HD — the 2015 model based on the A8 chip — or the first-generation Apple TV 4K from 2017, which uses the A10X Fusion chip.\n\nAs Thurrott documents, confirmed tvOS 27 features for supported models (Apple TV 4K second generation and later) include faster AirPlay to HomePod, a more responsive Control Center, and a redesigned Podcasts app — already covered in earlier reporting.\n\n## The communication that's missing\n\nThe fact that the cut wasn't communicated on stage is consistent with Apple's strategy in recent years: minimum compatibility announced in technical notes, not during peak media attention. For users with Apple TV HD or 4K gen 1, the message is that their hardware is stuck on tvOS 26 forever. It's not a technical surprise — those chips wouldn't handle the new AI stack — but the absence of an affordable upgrade path makes the cut hard to justify without a new entry-level model on the way.",
+      "sources": [
+        {
+          "title": "Thurrott — 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:23:34.788914+02:00"
+    },
+    {
+      "slug": "ios-27-pride-luminance-wallpaper-nuovo",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "iOS 27 introduce il wallpaper Pride Luminance: luce dinamica, accenti personalizzati",
+      "titleEn": "iOS 27 introduces Pride Luminance wallpaper: dynamic light, personalized accents",
+      "excerptIt": "iOS 27 porta un nuovo sfondo Pride Luminance che reagisce dinamicamente alla luce ambientale e si integra con il sistema di accenti cromatici di Liquid Glass. Un aggiornamento annuale che quest'anno si inserisce in un design system piu sofisticato.",
+      "excerptEn": "iOS 27 brings a new Pride Luminance wallpaper that dynamically reacts to ambient light and integrates with the Liquid Glass color accent system. An annual update that this year fits into a more sophisticated design system.",
+      "bodyIt": "## Un wallpaper che si adatta\n\nTra i contenuti confermati nelle note alle developer beta di iOS 27 figura un nuovo wallpaper Pride Luminance — variante del tradizionale sfondo Pride annuale che Apple pubblica in concomitanza con il Pride Month di giugno. A differenza dei predecessori, Pride Luminance è progettato per interagire con il nuovo design system Liquid Glass: i colori dell'arcobaleno si modulano in base alle condizioni di luce ambientale e si riflettono negli strati traslucidi dell'interfaccia.\n\nCome segnala MacRumors nella sua copertura delle novità minori di iOS 27, il wallpaper fa parte di un pacchetto di aggiunte discreto ma coerente con la filosofia di personalizzazione che iOS 27 porta a tutto il sistema.\n\n## Piccolo, ma parte di un quadro piu ampio\n\nIn sé, un nuovo sfondo Pride è una novità annuale di routine. Quello che cambia con iOS 27 è il contesto: per la prima volta, uno sfondo animato può dialogare con gli elementi di sistema attraverso Liquid Glass, rendendo l'intera schermata — icone, tab bar, notifiche — cromaticamente coerente con lo sfondo scelto. È un dettaglio che mostra la profondità del redesign, non solo la sua superficie.",
+      "bodyEn": "## A wallpaper that adapts\n\nAmong the content confirmed in the iOS 27 developer beta notes is a new Pride Luminance wallpaper — a variant of Apple's traditional annual Pride wallpaper published in June. Unlike its predecessors, Pride Luminance is designed to interact with the new Liquid Glass design system: the rainbow colors modulate based on ambient light conditions and reflect in the translucent layers of the interface.\n\nAs MacRumors notes in its coverage of iOS 27 minor additions, the wallpaper is part of a subtle but consistent package of personalisation changes that iOS 27 brings across the system.\n\n## Small, but part of a bigger picture\n\nOn its own, a new Pride wallpaper is a routine annual addition. What changes with iOS 27 is the context: for the first time, an animated wallpaper can communicate with system elements through Liquid Glass, making the entire screen — icons, tab bar, notifications — chromatically consistent with the chosen background. It's a detail that reveals the depth of the redesign, not just its surface.",
+      "sources": [
+        {
+          "title": "MacRumors — iOS 27 Tidbits",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 What to Expect",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        }
+      ],
+      "publishedAt": "2026-06-10T00:23:34.788920+02:00"
+    },
     {
       "slug": "mike-rockwell-vp-siri-ai-presentazione-wwdc-2026",
       "macroArea": "apple-intelligence",
