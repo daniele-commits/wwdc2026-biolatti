@@ -1,9 +1,92 @@
 {
-  "lastUpdate": "2026-06-09T17:03:45.642264+02:00",
+  "lastUpdate": "2026-06-09T19:02:30.857892+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "foundation-models-languagemodel-protocol-gemini-claude-swift",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Il protocollo LanguageModel rende intercambiabili Gemini, Claude e i modelli on-device",
+      "titleEn": "The LanguageModel protocol makes Gemini, Claude and on-device models interchangeable",
+      "excerptIt": "Apple ha introdotto in iOS 27 un'interfaccia Swift pubblica che consente di sostituire il provider AI — da on-device a Gemini o Claude — aggiornando una sola dipendenza Swift Package Manager, senza toccare il codice applicativo.",
+      "excerptEn": "Apple has introduced a public Swift interface in iOS 27 that lets developers swap AI providers — from on-device to Gemini or Claude — by updating a single Swift Package Manager dependency, with no changes to application code.",
+      "bodyIt": "## Un'API unica per provider diversi\n\nLa novità piú rilevante sul fronte degli strumenti per sviluppatori emersa durante le sessioni del giorno 2 di WWDC 2026 non era nel keynote in senso stretto: é il protocollo `LanguageModel`, un'interfaccia Swift pubblica integrata nel framework Foundation Models e disponibile su iOS 27, macOS 27 Golden Gate, iPadOS 27, watchOS 27 e visionOS 27.\n\nIl meccanismo é semplice nella sua eleganza: il protocollo definisce una superficie di inferenza comune che qualunque provider — Apple inclusa — puó implementare. Uno sviluppatore che costruisce la propria app sul modello on-device di Apple puó decidere in un secondo momento di instradare le richieste piú complesse verso Google Gemini o Anthropic Claude semplicemente aggiornando la dipendenza SPM. La logica di sessione, la gestione del contesto, le chiamate agli strumenti: nulla cambia nel codice applicativo, come riporta TechTimes.\n\n## Google e Anthropic già pronti\n\nGoogle ha confermato che i modelli Gemini ospitati su cloud si collegano al protocollo attraverso il Firebase Apple SDK, offrendo una superficie API condivisa tra inferenza on-device e cloud. Anthropic ha pubblicato un proprio pacchetto Swift che implementa la stessa interfaccia.\n\nIl risultato pratico é che Apple non impone piú una scelta definitiva tra privacy assoluta (on-device) e potenza computazionale (cloud): i due mondi diventano opzioni intercambiabili alla stessa API. Per le applicazioni che trattano dati sensibili — salute, finanze, messaggistica — la possibilitá di restare on-device per le query ordinarie e salire su cloud solo per le richieste straordinarie é concretamente utile, non un dettaglio architetturale astratto.",
+      "bodyEn": "## One API, multiple providers\n\nThe most significant developer-tooling announcement to emerge from WWDC 2026's day-two sessions was not in the keynote itself: it is the `LanguageModel` protocol, a public Swift interface built into the Foundation Models framework and available across iOS 27, macOS 27 Golden Gate, iPadOS 27, watchOS 27, and visionOS 27.\n\nThe mechanism is straightforward: the protocol defines a common inference surface that any provider — including Apple — can implement. A developer who builds their app on Apple's on-device model can later route complex queries to Google Gemini or Anthropic Claude simply by updating a Swift Package Manager dependency. Session logic, context management, tool calls: none of the application code needs to change, as TechTimes reports.\n\n## Google and Anthropic already on board\n\nGoogle has confirmed that cloud-hosted Gemini models plug into the protocol through the Firebase Apple SDK, providing a shared API surface for both on-device and cloud inference. Anthropic has published a Swift package implementing the same protocol.\n\nThe practical result is that Apple no longer forces a permanent choice between absolute privacy (on-device) and computational power (cloud): the two become interchangeable options behind the same API. For applications handling sensitive data — health, finance, messaging — the ability to stay on-device for routine queries and scale to cloud only for exceptional ones is genuinely useful, not merely an abstract architectural detail.",
+      "sources": [
+        {
+          "title": "TechTimes — WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacObserver — Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macobserver.com/tips/round-ups/everything-apple-announced-at-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-09T19:02:30.857846+02:00"
+    },
+    {
+      "slug": "siri-ai-eu-sviluppatori-blocco-test-development",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "privacy"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Siri AI: nell'UE il blocco colpisce anche gli sviluppatori, che non possono testare le funzioni nelle proprie app",
+      "titleEn": "Siri AI: in the EU the block also hits developers, who cannot test the features in their own apps",
+      "excerptIt": "Non solo gli utenti finali europei non ricevono Siri AI su iOS 27 e iPadOS 27: gli sviluppatori residenti nell'UE non possono nemmeno integrare o testare le nuove funzioni di Siri AI durante lo sviluppo delle proprie applicazioni.",
+      "excerptEn": "Not only do European end users not receive Siri AI on iOS 27 and iPadOS 27: developers based in the EU cannot integrate or test the new Siri AI features during development of their own apps.",
+      "bodyIt": "## Piú del previsto\n\nIl blocco di Siri AI nell'Unione Europea era noto fin dal keynote dell'8 giugno: Apple ha citato il Digital Markets Act e il rifiuto dei regolatori europei alle soluzioni di conformitá proposte come motivo dell'esclusione per gli utenti finali su iOS 27 e iPadOS 27. Quello che emergeva meno chiaramente era la portata operativa del blocco lato sviluppatori.\n\nSecondo quanto riportato da TechTimes sulla base delle sessioni tecniche di WWDC, gli sviluppatori con account nell'UE non sono in grado di testare le nuove funzionalitá di Siri AI all'interno delle proprie applicazioni durante la fase di sviluppo. Significa che chi costruisce app dipendenti da App Intents avanzati o dall'integrazione profonda con Siri AI non puó verificare il comportamento del codice direttamente sulle proprie macchine e dispositivi di test europei.\n\n## Un problema concreto per i team europei\n\nLe implicazioni pratiche sono tangibili: i team di sviluppo con sede in Europa dovranno organizzare ambienti di test fuori dall'UE, o attendere che Apple risolva la situazione regolatoria, per poter lavorare sulle funzioni AI piú avanzate destinate agli utenti globali. Non é uno scenario privo di precedenti — il blocco dell'UE su alcune funzioni di Apple Intelligence in iOS 18 aveva giá creato frizione — ma il fatto che ora riguardi anche l'ambiente di sviluppo, e non solo il prodotto finito, alza il livello di complicazione per l'ecosistema europeo.",
+      "bodyEn": "## More than expected\n\nThe block on Siri AI in the European Union was known from the June 8 keynote: Apple cited the Digital Markets Act and EU regulators' rejection of its proposed compliance solutions as the reason for the exclusion affecting end users on iOS 27 and iPadOS 27. What was less clear was the operational scope of the block on the developer side.\n\nAccording to TechTimes reporting based on WWDC technical sessions, developers with accounts in the EU are unable to test the new Siri AI features within their own applications during the development phase. This means that anyone building apps that rely on advanced App Intents or deep Siri AI integration cannot verify code behaviour directly on their European test machines and devices.\n\n## A concrete problem for European teams\n\nThe practical implications are tangible: development teams based in Europe will need to set up test environments outside the EU, or wait for Apple to resolve the regulatory situation, to work on the advanced AI features intended for global users. This is not unprecedented — the EU block on certain Apple Intelligence features in iOS 18 had already created friction — but the fact that it now also affects the development environment, and not just the finished product, raises the level of complication for the European ecosystem.",
+      "sources": [
+        {
+          "title": "TechTimes — WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T19:02:30.857876+02:00"
+    },
+    {
+      "slug": "wwdc-2026-group-labs-foundation-models-affollati-salute-produttivita",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Ai Group Labs di WWDC 2026, i posti per Foundation Models e App Intents sono andati esauriti per primi",
+      "titleEn": "At WWDC 2026 Group Labs, Foundation Models and App Intents sessions sold out first",
+      "excerptIt": "Le sessioni in piccolo gruppo con ingegneri Apple dedicate a Foundation Models, App Intents e Apple Intelligence sono quelle che si sono riempite piú rapidamente, con una concentrazione marcata di sviluppatori che lavorano su app per la salute, la produttivitá e la creativitá.",
+      "excerptEn": "Small-group sessions with Apple engineers on Foundation Models, App Intents, and Apple Intelligence filled fastest, with a notable concentration of developers working on health, productivity, and creative apps.",
+      "bodyIt": "## Segnale di mercato dai lab\n\nI Group Labs di WWDC 2026 — sessioni prenotabili in piccoli gruppi con ingegneri Apple — offrono ogni anno un'istantanea informale delle prioritá reali degli sviluppatori, spesso piú rivelatrice di qualsiasi slide di keynote. Quest'anno, secondo TechTimes, i posti esauriti piú rapidamente riguardano tre aree: Foundation Models (con focus sul nuovo protocollo LanguageModel), Xcode 27 e le API agentic, e la migrazione da SiriKit ad App Intents.\n\n## Salute, produttivitá e creativitá al centro\n\nGli ingegneri che lavorano su applicazioni per la salute, la produttivitá e le app creative sono stati particolarmente attivi nei lab dedicati a Foundation Models. La ragione é diretta: il framework consente di eseguire l'inferenza su dispositivo senza inviare dati al cloud, una caratteristica decisiva per chi gestisce informazioni mediche o personali sensibili e non puó permettersi i rischi reputazionali o legali di un modello cloud-first.\n\nIl catalogo completo delle sessioni WWDC 2026 — disponibile gratuitamente attraverso l'app Apple Developer e sul sito developer.apple.com/wwdc26 — include piú di 100 video che continueranno ad aggiungersi fino a venerdí 12 giugno. La struttura dell'evento riflette una WWDC che non si esaurisce nel keynote: le settimane successive porteranno documentazione tecnica, note di rilascio dei beta e approfondimenti che modificheranno la comprensione di quanto annunciato lunedí sera.",
+      "bodyEn": "## Market signal from the labs\n\nWWDC 2026's Group Labs — bookable small-group sessions with Apple engineers — provide an informal snapshot of developers' real priorities every year, often more revealing than any keynote slide. This year, according to TechTimes, the fastest-filling slots cover three areas: Foundation Models (with focus on the new LanguageModel protocol), Xcode 27 and agentic APIs, and the migration from SiriKit to App Intents.\n\n## Health, productivity and creativity at the centre\n\nEngineers working on health, productivity, and creative apps have been especially active in the Foundation Models labs. The reason is direct: the framework allows on-device inference without sending data to the cloud, a decisive characteristic for anyone managing medical or sensitive personal information who cannot afford the reputational or legal risks of a cloud-first model.\n\nThe full WWDC 2026 session catalogue — available free through the Apple Developer app and at developer.apple.com/wwdc26 — includes more than 100 videos that will continue to be added through Friday, June 12. The structure of the event reflects a WWDC that does not end with the keynote: the coming days will bring technical documentation, beta release notes, and deeper dives that will refine understanding of what was announced on Monday evening.",
+      "sources": [
+        {
+          "title": "TechTimes — WWDC 2026 Developer Tools: Foundation Models Now Swaps AI Providers Without Code Changes",
+          "url": "https://www.techtimes.com/articles/318039/20260609/wwdc-2026-developer-tools-foundation-models-now-swaps-ai-providers-without-code-changes.htm"
+        },
+        {
+          "title": "Apple Developer — WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-09T19:02:30.857885+02:00"
+    },
     {
       "slug": "apple-home-secure-video-4k-natural-language-icloud-plus",
       "macroArea": "servizi-ecosistema",
