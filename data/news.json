@@ -1,9 +1,248 @@
 {
-  "lastUpdate": "2026-06-09T01:13:36.725497+02:00",
+  "lastUpdate": "2026-06-09T02:04:09.444131+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI: il modello on-device piú potente é esclusivo di iPhone 17 Pro e iPhone Air",
+      "titleEn": "Siri AI: most powerful on-device model exclusive to iPhone 17 Pro and iPhone Air",
+      "excerptIt": "Apple ha tracciato una linea netta dentro la sua stessa gamma: le funzioni Siri AI piú avanzate — voci espressive e dettatura potenziata — richiedono iPhone 17 Pro, 17 Pro Max o iPhone Air. Gli altri dispositivi compatibili ottengono una versione ridotta.",
+      "excerptEn": "Apple drew a line within its own lineup: the most advanced Siri AI features — expressive voices and enhanced dictation — require iPhone 17 Pro, 17 Pro Max, or iPhone Air. Other compatible devices get a reduced version.",
+      "bodyIt": "## Una gerarchia interna alla compatibilitá\n\nNon basta avere un iPhone compatibile con Siri AI: Apple ha introdotto una stratificazione ulteriore. Per accedere alle funzioni piú avanzate — in particolare le voci personalizzabili con slider di espressivitá e passo, e la dettatura di sistema potenziata — occorre possedere iPhone 17 Pro, iPhone 17 Pro Max o iPhone Air. Lo confermano sia TechRadar sia Tom's Guide nelle loro coperture post-keynote.\n\nLa soglia base per Apple Intelligence rimane iPhone 15 Pro o iPhone 16 standard in poi. Ma la fascia intermedia — iPhone 15 Pro, 16, 16 Plus, 16 Pro — ottiene Siri AI in una versione che Tom's Guide definisce semplicemente \"meno potente on-device\". Non é chiaro da Apple quali funzioni specifiche vengano escluse oltre alle voci espressive e alla dettatura avanzata; la documentazione completa arriverá con le sessioni per sviluppatori.\n\n## Perché conta\n\nQuesta scelta trasforma di fatto iPhone 17 Pro e iPhone Air in un prerequisito pratico per l'esperienza Siri AI completa, aumentando la pressione a rinnovare il dispositivo. La frammentazione non é nuova nell'ecosistema Apple — accade giá con la Neural Engine — ma comunicarla in modo poco esplicito durante il keynote (la distinzione era sepolta nella pagina specifiche, non nel discorso di apertura) é una scelta editoriale precisa. Chi ha acquistato iPhone 16 Pro meno di un anno fa potrebbe ritrovarsi con funzioni Siri parziali senza averlo saputo in anticipo.",
+      "bodyEn": "## A hierarchy within the compatible lineup\n\nOwning a Siri AI-compatible iPhone is not enough: Apple has introduced an additional layer. To access the most advanced features — specifically customizable expressive voices and enhanced system-wide dictation — you need an iPhone 17 Pro, 17 Pro Max, or iPhone Air. Both TechRadar and Tom's Guide confirmed this in their post-keynote coverage.\n\nThe base threshold for Apple Intelligence remains iPhone 15 Pro or iPhone 16 and later. But the middle tier — iPhone 15 Pro, 16, 16 Plus, 16 Pro — gets Siri AI in a version Tom's Guide describes simply as having a less powerful on-device model. Apple has not clearly specified which additional features are excluded beyond expressive voices and advanced dictation; full documentation will arrive through developer sessions.\n\n## Why it matters\n\nThis effectively makes iPhone 17 Pro and iPhone Air a practical requirement for the complete Siri AI experience, increasing upgrade pressure. Fragmentation is not new in the Apple ecosystem, but communicating it quietly — buried in spec pages rather than the keynote script — is a deliberate editorial choice. Anyone who bought an iPhone 16 Pro less than a year ago may find themselves with partial Siri features without prior warning.",
+      "sources": [
+        {
+          "title": "TechRadar — iOS 27 and Siri AI compatibility explained",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444042+02:00"
+    },
+    {
+      "slug": "siri-ai-macos-in-app-edit-with-siri-pages-dark-ui",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "Su Mac, Siri AI entra dentro le app: \"Edit with Siri\" in Pages e interfaccia sempre scura",
+      "titleEn": "On Mac, Siri AI works inside apps: 'Edit with Siri' panel in Pages and always-dark UI",
+      "excerptIt": "Su macOS Golden Gate Siri non apre piú una finestra separata: compare come pannello contestuale dentro l'app che si sta usando. In Pages, il pannello \"Edit with Siri\" permette di comporre e modificare testo senza uscire dal documento. L'interfaccia Siri AI é esclusivamente scura, senza modalitá chiara.",
+      "excerptEn": "On macOS Golden Gate, Siri no longer opens a separate window: it appears as a contextual panel inside the active app. In Pages, an 'Edit with Siri' panel lets you compose and edit text without leaving the document. The Siri AI interface is exclusively dark, with no light mode.",
+      "bodyIt": "## Finalmente dentro le app, non accanto\n\nUno dei limiti storici di Siri su Mac era la discontinuitá: l'assistente appariva come orb fluttuante o finestra separata, interrompendo il flusso di lavoro. Con macOS Golden Gate, Apple cambia l'architettura di presentazione. Come mostrato durante il keynote e documentato da wi-fiplanet.com nel suo live blog, Siri AI si manifesta come pannello in-context direttamente dentro le applicazioni. La demo mostrata sul palco riguardava Pages, dove il pannello \"Edit with Siri\" consentiva di dettare, riformulare e modificare un documento senza abbandonare l'app.\n\n## Dark UI senza eccezioni\n\nUn dettaglio emerso dalla documentazione delle beta e confermato da MacRumors: la nuova interfaccia Siri AI usa sfondi scuri con accenti cromatici e non prevede una variante in light mode. Non é una dimenticanza — Apple ha scelto di mantenere un'identitá visiva distinta per l'assistente, separata dal tema di sistema scelto dall'utente. Resta da vedere se questa scelta sopravviverá al feedback della community, che negli anni ha chiesto sempre piú consistenza tra interfacce di sistema e temi scelti.\n\n## Perché conta\n\nL'integrazione in-app é il cambiamento piú concreto per chi usa il Mac per lavoro: riduce il numero di interruzioni contestuali e avvicina l'esperienza a quella dei plugin di scrittura AI giá diffusi tra i professionisti. Il limite — segnalato da Engadget nella sua copertura — é che molte delle funzioni mostrate sul palco erano ancora a livello dimostrativo; la profonditá reale dell'integrazione in app di terze parti attraverso le API per sviluppatori é ancora da verificare nelle settimane di beta.",
+      "bodyEn": "## Finally inside the apps, not beside them\n\nOne of Siri's longstanding limitations on Mac was discontinuity: the assistant appeared as a floating orb or separate window, interrupting the workflow. With macOS Golden Gate, Apple changes the presentation architecture. As shown during the keynote and documented by wi-fiplanet.com in its live blog, Siri AI appears as an in-context panel directly inside applications. The demo shown on stage involved Pages, where an 'Edit with Siri' panel allowed users to dictate, rephrase, and edit a document without leaving the app.\n\n## Dark UI with no exceptions\n\nA detail that emerged from beta documentation and confirmed by MacRumors: the new Siri AI interface uses dark backgrounds with color accents and offers no light mode variant. This is not an oversight — Apple chose to maintain a distinct visual identity for the assistant, separate from the system theme chosen by the user. Whether this survives community feedback remains to be seen.\n\n## Why it matters\n\nIn-app integration is the most concrete change for Mac power users: it reduces contextual interruptions and brings the experience closer to AI writing plugins already widespread among professionals. The caveat — noted by Engadget — is that many functions shown on stage were still at a demonstrative level; the real depth of integration in third-party apps via developer APIs remains to be verified during beta.",
+      "sources": [
+        {
+          "title": "wi-fiplanet.com — Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "MacRumors — What to Expect From WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026-what-to-expect/"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444069+02:00"
+    },
+    {
+      "slug": "watchos-27-sei-apple-watch-tagliati-ultra1-series9-compatibilita-silenziosa",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "watchOS 27: sei Apple Watch tagliati in silenzio, anche Ultra 1 e Series 9",
+      "titleEn": "watchOS 27: six Apple Watches quietly dropped, including Ultra 1 and Series 9",
+      "excerptIt": "Apple non ha menzionato i tagli di compatibilitá watchOS durante il keynote, lasciando agli utenti il compito di scoprire sul sito ufficiale che sei modelli — tra cui Apple Watch Ultra (prima generazione) e Series 9, uscito solo tre anni fa — non riceveranno watchOS 27.",
+      "excerptEn": "Apple did not mention watchOS compatibility cuts during the keynote, leaving users to discover on the official website that six models — including the first-generation Apple Watch Ultra and Series 9, released just three years ago — will not receive watchOS 27.",
+      "bodyIt": "## Il silenzio piú costoso del keynote\n\nDurante il keynote WWDC 2026 non é stata spesa una parola sui requisiti di compatibilitá di watchOS 27. La notizia é emersa solo dalla pagina specifiche del sito Apple, come documentato in esclusiva da TechRadar: sei modelli attualmente compatibili con watchOS 26 non potranno aggiornarsi a watchOS 27. L'elenco comprende Apple Watch Series 6, 7, 8, 9 — quest'ultimo lanciato solo nel 2023 — Apple Watch SE (seconda generazione) e, soprattutto, Apple Watch Ultra di prima generazione.\n\n## Ultra 1: quattro anni di supporto a $799\n\nIl taglio di Apple Watch Ultra 1 é quello che brucia di piú. Chi ha acquistato il modello al prezzo di lancio di 799 dollari nel 2022 si ritrova con un dispositivo fuori supporto per il nuovo sistema operativo dopo appena quattro anni. TechRadar giudica questa mossa \"very predatory\" e ipotizza che possa spingere utenti verso Garmin. Il confine minimo di compatibilitá é ora Apple Watch Series 10, Apple Watch Ultra 2 e Apple Watch SE 3.\n\n## La ragione tecnica probabile\n\nTom's Guide sottolinea che i nuovi requisiti stringenti di watchOS 27 sono legati alle funzioni di Apple Intelligence, che richiedono hardware piú recente e, per l'uso completo, devono essere abbinati a un iPhone 15 Pro o successivo nelle vicinanze. I modelli tagliati \"presumably\" — come scrive TechRadar — non dispongono della potenza di calcolo necessaria per gestire il nuovo Siri AI anche in versione ridotta. Le funzioni base dei modelli non supportati continueranno a funzionare, ma la progressiva incompatibilitá con app aggiornate per watchOS 27 diventerá un problema nel medio periodo.",
+      "bodyEn": "## The most expensive silence of the keynote\n\nNot a word was spent on watchOS 27 compatibility requirements during the WWDC keynote. The news emerged only from Apple's spec pages, as exclusively documented by TechRadar: six models currently compatible with watchOS 26 will not be able to upgrade to watchOS 27. The list includes Apple Watch Series 6, 7, 8, 9 — the latter launched only in 2023 — Apple Watch SE (second generation) and, most notably, first-generation Apple Watch Ultra.\n\n## Ultra 1: four years of support at $799\n\nThe Ultra 1 cut is the most painful. Anyone who bought the model at its $799 launch price in 2022 is left with a device dropped from the new operating system after just four years. TechRadar calls this move 'very predatory' and suggests it may drive users toward Garmin. The minimum compatibility threshold is now Apple Watch Series 10, Apple Watch Ultra 2, and Apple Watch SE 3.\n\n## The likely technical reason\n\nTom's Guide notes that watchOS 27's strict requirements are tied to Apple Intelligence features, which need newer hardware and, for full use, must be paired with a nearby iPhone 15 Pro or later. Dropped models 'presumably' — as TechRadar writes — lack the compute power to handle even a reduced version of Siri AI. Core features on unsupported models will continue to work, but progressive incompatibility with apps built for watchOS 27 will become a problem in the medium term.",
+      "sources": [
+        {
+          "title": "TechRadar — Will your Apple Watch run watchOS 27?",
+          "url": "https://www.techradar.com/health-fitness/smartwatches/will-your-apple-watch-run-watchos-27-apple-just-quietly-made-six-current-gen-watches-obsolete-including-ultra-and-se-models-here-is-the-full-list"
+        },
+        {
+          "title": "Tom's Guide — watchOS 27: All the new features",
+          "url": "https://www.tomsguide.com/wellness/smartwatches/watchos-27-all-the-new-features-coming-to-apple-watch-later-this-year"
+        },
+        {
+          "title": "TechRadar — WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444079+02:00"
+    },
+    {
+      "slug": "apple-intelligence-proattivita-cross-app-messaggi-foto-calendario-suggerimenti",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "continuity"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple Intelligence proattiva: suggerisce azioni da messaggi, email e foto senza che tu lo chieda",
+      "titleEn": "Proactive Apple Intelligence: suggests actions from messages, emails and photos unprompted",
+      "excerptIt": "Con iOS 27 Apple Intelligence non aspetta piú una richiesta esplicita: legge conversazioni, email e libreria foto per suggerire automaticamente la creazione di eventi, promemoria o la condivisione di immagini pertinenti. Un cambio di paradigma da assistente reattivo ad agente contestuale.",
+      "excerptEn": "With iOS 27, Apple Intelligence no longer waits for an explicit request: it reads conversations, emails, and the photo library to automatically suggest creating events, reminders, or sharing relevant images. A shift from reactive assistant to contextual agent.",
+      "bodyIt": "## Da reattivo a proattivo\n\nFinora Apple Intelligence rispondeva a comandi. Con iOS 27, il sistema acquisisce una dimensione proattiva: Tom's Guide e Digit.in documentano che l'intelligenza puó ora leggere il contenuto di messaggi, email e altri elementi sullo schermo per proporre azioni pertinenti prima che l'utente le richieda. Se qualcuno ti scrive di un appuntamento imminente, Apple Intelligence puó suggerire di creare automaticamente un evento nel calendario. Se un amico ti chiede foto di un viaggio recente, il sistema puó individuare le immagini pertinenti e facilitarne la condivisione.\n\n## Integrazione con Messages, Mail e Calendar\n\nDigit.in descrive in dettaglio il funzionamento: Messages puó proporre azioni basate sul contesto della conversazione, inclusi promemoria o ricerche nella libreria foto; Mail adotta uno Smart Reply che si adatta allo stile di scrittura dell'utente; Calendar puó creare o modificare eventi semplicemente interpretando una descrizione in linguaggio naturale. Tom's Guide sottolinea che il sistema é in grado di individuare foto usando dettagli menzionati nelle conversazioni — persone, luoghi, parole chiave — e di far emergere informazioni rilevanti da messaggi ed email nel momento in cui diventano utili.\n\n## Il nodo della fiducia\n\nQuesto tipo di integrazione solleva domande legittime sulla privacy: un sistema che legge costantemente conversazioni e posta per suggerire azioni é potente, ma richiede un livello di fiducia elevato. Apple ha ribadito durante il keynote che l'elaborazione avviene on-device o tramite Private Cloud Compute senza memorizzare dati personali. La dichiarazione é consistente con le posizioni passate dell'azienda, ma la verifica pratica — soprattutto per le funzioni che richiedono il cloud — rimane affidata alle beta e all'analisi indipendente.",
+      "bodyEn": "## From reactive to proactive\n\nUntil now, Apple Intelligence responded to commands. With iOS 27, the system acquires a proactive dimension: Tom's Guide and Digit.in document that the intelligence can now read the content of messages, emails, and other on-screen elements to suggest relevant actions before the user requests them. If someone texts you about an upcoming appointment, Apple Intelligence can suggest automatically creating a calendar event. If a friend asks for photos from a recent trip, the system can surface relevant images and facilitate sharing.\n\n## Integration with Messages, Mail, and Calendar\n\nDigit.in describes the mechanics in detail: Messages can propose actions based on conversation context, including reminders or searches in the photo library; Mail adopts a Smart Reply that adapts to the user's writing style; Calendar can create or edit events simply by interpreting a natural language description. Tom's Guide notes that the system can locate photos using details mentioned in conversations — people, places, keywords — and surface relevant information from messages and emails when it becomes useful.\n\n## The trust question\n\nThis type of integration raises legitimate privacy questions: a system that constantly reads conversations and mail to suggest actions is powerful, but requires a high level of trust. Apple reiterated during the keynote that processing happens on-device or through Private Cloud Compute without storing personal data. The statement is consistent with the company's past positions, but practical verification — especially for cloud-dependent features — remains to be tested during beta.",
+      "sources": [
+        {
+          "title": "Tom's Guide — Apple Intelligence biggest upgrade WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        },
+        {
+          "title": "Digit.in — Biggest Apple Intelligence features unveiled at WWDC 2026",
+          "url": "https://www.digit.in/features/general/not-only-siri-ai-here-are-the-biggest-apple-intelligence-features-unveiled-at-wwdc-2026.html"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444085+02:00"
+    },
+    {
+      "slug": "accessibilita-ios-27-voiceover-image-explorer-live-recognition-magnifier-ai",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "accessibilita",
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Accessibilitá e AI in iOS 27: VoiceOver piú ricco, Live Recognition e Magnifier parlante",
+      "titleEn": "Accessibility and AI in iOS 27: richer VoiceOver, Live Recognition, and talking Magnifier",
+      "excerptIt": "Apple integra Apple Intelligence nelle funzioni di accessibilitá: VoiceOver ottiene descrizioni piú dettagliate via Image Explorer, il tasto Azione diventa trigger per domande dal vivo su cosa inquadra la fotocamera, e Magnifier risponde a comandi vocali in linguaggio naturale.",
+      "excerptEn": "Apple integrates Apple Intelligence into accessibility features: VoiceOver gets richer descriptions via Image Explorer, the Action Button becomes a trigger for live questions about what the camera sees, and Magnifier responds to natural language voice commands.",
+      "bodyIt": "## VoiceOver Image Explorer\n\nLa funzione piú significativa per gli utenti con disabilitá visive é VoiceOver Image Explorer, annunciata durante il keynote e confermata da Engadget e BGR: Apple Intelligence genera descrizioni piú ricche e dettagliate di immagini, documenti, bollette scansionate e altri contenuti visivi in tutto il sistema. Non si tratta solo di foto nella libreria — il riconoscimento opera sistemicamente su qualsiasi contenuto visivo visualizzato sullo schermo.\n\n## Live Recognition e il tasto Azione\n\nUna novitá pratica per chi usa VoiceOver sul campo: premendo il tasto Azione dell'iPhone si attiva Live Recognition, che permette di porre domande su cosa inquadra la fotocamera e ricevere risposte dettagliate. BGR documenta che sono supportate le domande di approfondimento in linguaggio naturale, rendendo la funzione piú vicina a una conversazione reale che a un semplice riconoscimento d'immagine. La stessa logica si applica all'app Magnifier, ora in grado di interpretare comandi vocali come \"zoom in\" o \"accendi il flash\" senza interazione tattile.\n\n## Voice Control e Accessibility Reader\n\nEngadget segnala due aggiornamenti complementari: Voice Control acquista supporto al linguaggio naturale, cosicché gli utenti possano descrivere pulsanti e controlli senza memorizzare etichette precise; Accessibility Reader ottiene funzioni di riepilogo e traduzione. Quest'ultima é rilevante per chi usa il Reader su documenti accademici o tecnici — testi con colonne multiple, tabelle e immagini che l'attuale Reader gestisce con difficoltá.\n\nQueste funzioni non riguardano solo utenti con disabilitá: Live Recognition, in particolare, é uno strumento contestuale potenzialmente utile in moltissimi scenari quotidiani e potrebbe diventare un punto d'ingresso pratico all'AI per utenti che ancora non usano Siri abitualmente.",
+      "bodyEn": "## VoiceOver Image Explorer\n\nThe most significant feature for visually impaired users is VoiceOver Image Explorer, announced during the keynote and confirmed by Engadget and BGR: Apple Intelligence generates richer, more detailed descriptions of images, documents, scanned bills, and other visual content throughout the system. This is not limited to photos in the library — recognition operates systemically on any visual content displayed on screen.\n\n## Live Recognition and the Action Button\n\nA practical addition for VoiceOver users in the field: pressing the iPhone's Action Button activates Live Recognition, which allows users to ask questions about what the camera is seeing and receive detailed responses. BGR documents that follow-up questions in natural language are supported, making the feature closer to a real conversation than simple image recognition. The same logic applies to the Magnifier app, now capable of interpreting voice commands like 'zoom in' or 'turn on the flashlight' without touch interaction.\n\n## Voice Control and Accessibility Reader\n\nEngadget notes two complementary updates: Voice Control gains natural language support, so users can describe buttons and controls without memorizing exact labels; Accessibility Reader gains summarization and translation capabilities. The latter is relevant for those using Reader on academic or technical documents — texts with multiple columns, tables, and images that the current Reader handles poorly.\n\nThese features are not limited to users with disabilities: Live Recognition in particular is a contextually useful tool in many everyday scenarios and could become a practical entry point to AI for users who don't habitually use Siri.",
+      "sources": [
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "BGR — 8 Cool New iOS 27 Accessibility Features",
+          "url": "https://www.bgr.com/2177707/cool-new-ios-27-accessibility-features-look-forward-to-fall/"
+        },
+        {
+          "title": "wi-fiplanet.com — Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444089+02:00"
+    },
+    {
+      "slug": "visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "accessibilita"
+      ],
+      "category": "Spatial & visionOS",
+      "titleIt": "visionOS 27: Wheelchair Control usa l'eye tracking per pilotare una sedia a rotelle motorizzata",
+      "titleEn": "visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair",
+      "excerptIt": "Apple ha annunciato Wheelchair Control per visionOS 27: la funzione sfrutta l'eye tracking del Vision Pro per consentire agli utenti di controllare una sedia a rotelle motorizzata semplicemente guardando nella direzione desiderata.",
+      "excerptEn": "Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking in the desired direction.",
+      "bodyIt": "## Eye tracking come interfaccia fisica\n\nWheelchair Control é probabilmente la funzione piú ambiziosa annunciata per visionOS 27 sul fronte accessibilitá. AppleInsider la descrive come parte degli annunci di accessibilitá confermati in anticipo rispetto al keynote: il Vision Pro, che giá usa il tracciamento oculare come modalitá primaria di interazione con il sistema operativo, estende quella stessa infrastruttura al controllo di una sedia a rotelle motorizzata. L'utente guarda nella direzione in cui vuole muoversi e il sistema traduce il movimento oculare in comandi per il veicolo.\n\n## La logica tecnica\n\nIl Vision Pro dispone di un sistema di eye tracking ad alta precisione, sviluppato per la navigazione del cursore e la selezione di elementi nell'interfaccia spaziale. Wheelchair Control ricicla questa infrastruttura per un caso d'uso radicalmente diverso — e piú impattante sulla vita reale. La funzione si rivolge a persone con mobilitá limitata agli arti superiori che non possono usare joystick o controlli manuali tradizionali.\n\n## Un argomento in piú per il Vision Pro\n\nIl Vision Pro fatica ancora a trovare una base di utenti mainstream, in parte per il prezzo elevato. Funzioni come Wheelchair Control costruiscono un caso d'uso medico-assistivo che potrebbe giustificare il costo in contesti istituzionali — ospedali, strutture riabilitative — dove il dispositivo potrebbe essere acquistato come strumento terapeutico piuttosto che come gadget consumer. É un percorso lento, ma é la direzione piú credibile per l'adozione professionale del Vision Pro nel breve termine.",
+      "bodyEn": "## Eye tracking as a physical interface\n\nWheelchair Control is likely the most ambitious feature announced for visionOS 27 on the accessibility front. AppleInsider describes it as part of the accessibility announcements confirmed ahead of the keynote: the Vision Pro, which already uses eye tracking as the primary mode of interaction with the operating system, extends that same infrastructure to the control of a motorized wheelchair. The user looks in the direction they want to move, and the system translates the eye movement into commands for the vehicle.\n\n## The technical logic\n\nThe Vision Pro has a high-precision eye tracking system, developed for cursor navigation and element selection in the spatial interface. Wheelchair Control repurposes this infrastructure for a radically different — and more real-world impactful — use case. The feature targets people with limited upper limb mobility who cannot use joysticks or traditional manual controls.\n\n## One more argument for Vision Pro\n\nThe Vision Pro still struggles to find a mainstream user base, partly due to its high price. Features like Wheelchair Control build a medical-assistive use case that could justify the cost in institutional contexts — hospitals, rehabilitation facilities — where the device might be purchased as a therapeutic tool rather than a consumer gadget. It is a slow path, but it is the most credible direction for professional Vision Pro adoption in the short term.",
+      "sources": [
+        {
+          "title": "AppleInsider — iOS 27, macOS 27, Siri: What to expect at WWDC 2026",
+          "url": "https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026"
+        },
+        {
+          "title": "wi-fiplanet.com — Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444101+02:00"
+    },
+    {
+      "slug": "apple-intelligence-ricerca-unificata-photos-spotlight-mail-indice-istantaneo",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Ricerca unificata AI in iOS 27: nuovo indice istantaneo per Photos, Spotlight e Mail",
+      "titleEn": "Unified AI search in iOS 27: new instant index across Photos, Spotlight and Mail",
+      "excerptIt": "Apple ha rifondato il motore di ricerca di Photos, Spotlight e Mail con un nuovo indice che elabora i contenuti quasi in tempo reale. La ricerca unificata non é piú separata per app: diventa un punto di accesso comune a tutto il contenuto del dispositivo.",
+      "excerptEn": "Apple rebuilt the search engine in Photos, Spotlight and Mail with a new index that processes content nearly in real time. Unified search is no longer siloed by app: it becomes a common access point to all device content.",
+      "bodyIt": "## Un indice che non aspetta\n\nUno degli annunci meno appariscenti ma potenzialmente tra i piú utili di WWDC 2026 riguarda il motore di ricerca sottostante a Photos, Spotlight e Mail. Digit.in documenta che Apple ha costruito un nuovo indice che elabora i nuovi contenuti quasi istantaneamente, a differenza del sistema precedente che indicizzava in batch e con ritardi. Il risultato pratico: cercare una foto scattata trenta secondi fa dovrebbe restituire risultati immediati invece di richiedere minuti o ore.\n\n## Unified Search: una sola barra per tutto\n\nLa ricerca unificata é ora il punto di accesso comune a tutto il contenuto del dispositivo. Spotlight, giá rifondato con funzioni AI in iOS 27, incorpora la stessa infrastruttura di Photos e Mail, cosicché una singola query possa restituire risultati da tutte le fonti contemporaneamente. Wiplane documenta che Apple Intelligence puó ricercare foto usando dettagli emersi nelle conversazioni — nomi di persone, luoghi citati in un messaggio — creando un collegamento diretto tra contenuto testuale e contenuto visivo.\n\n## Perché é importante adesso\n\nLa ricerca su iPhone é sempre stata tecnicamente inferiore a quella dei sistemi concorrenti. La capacitá di Google Photos o di Google Search di recuperare immagini per contesto semantico é stata a lungo uno dei pochi motivi concreti per preferire l'ecosistema Android in termini di produttivitá. Un indice istantaneo e una ricerca unificata semanticamente consapevole potrebbero colmare parte di questo divario — ma la verifica pratica sulle velocitá reali e sulla qualitá dei risultati arriverá solo con le beta pubbliche di luglio.",
+      "bodyEn": "## An index that doesn't wait\n\nOne of the least flashy but potentially most useful announcements at WWDC 2026 concerns the search engine underlying Photos, Spotlight, and Mail. Digit.in documents that Apple built a new index that processes new content almost instantly, unlike the previous system that indexed in batches with delays. The practical result: searching for a photo taken thirty seconds ago should return immediate results instead of requiring minutes or hours.\n\n## Unified Search: one bar for everything\n\nUnified search is now the common access point for all device content. Spotlight, already rebuilt with AI features in iOS 27, incorporates the same infrastructure as Photos and Mail, so a single query can return results from all sources simultaneously. Wi-fiplanet documents that Apple Intelligence can search for photos using details that emerged in conversations — people's names, places mentioned in a message — creating a direct link between textual and visual content.\n\n## Why it matters now\n\nSearch on iPhone has always been technically inferior to competing systems. Google Photos' or Google Search's ability to retrieve images by semantic context has long been one of the few concrete reasons to prefer the Android ecosystem in terms of productivity. An instant index and semantically aware unified search could close part of this gap — but practical verification of real speeds and result quality will only come with the public betas in July.",
+      "sources": [
+        {
+          "title": "Digit.in — WWDC 2026 recap",
+          "url": "https://www.digit.in/news/general/wwdc-2026-recap-ios-27-macos-golden-gate-siri-ai-and-everything-apple-announced.html"
+        },
+        {
+          "title": "wi-fiplanet.com — Everything Apple Announced at WWDC 2026",
+          "url": "https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/"
+        },
+        {
+          "title": "Tom's Guide — Apple Intelligence biggest upgrade WWDC 2026",
+          "url": "https://www.tomsguide.com/ai/apple-intelligence-all-the-major-announcements-made-at-wwdc-2026"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444116+02:00"
+    },
+    {
+      "slug": "siri-ai-niente-handoff-chatgpt-gemini-sostituisce-openai-ecosistema",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Con Siri AI, ChatGPT perde il ruolo esclusivo: Gemini risponde dentro Siri senza handoff",
+      "titleEn": "With Siri AI, ChatGPT loses its exclusive role: Gemini answers inside Siri without handoff",
+      "excerptIt": "iOS 27 ridisegna il rapporto tra Siri e i modelli di terze parti. Dove prima Siri passava la query a ChatGPT con un handoff esplicito, ora Gemini alimenta le risposte direttamente dentro Siri AI. OpenAI mantiene presenza nell'ecosistema, ma perde la posizione privilegiata costruita con iOS 26.",
+      "excerptEn": "iOS 27 redraws the relationship between Siri and third-party models. Where Siri previously handed off queries to ChatGPT with an explicit transfer, Gemini now powers responses directly inside Siri AI. OpenAI retains a presence in the ecosystem but loses the privileged position built with iOS 26.",
+      "bodyIt": "## La sostituzione silenziosa di OpenAI\n\nIn iOS 26 Siri poteva trasferire una query a ChatGPT con un handoff visibile — l'utente vedeva esplicitamente di passare a un servizio esterno. Con iOS 27, il meccanismo cambia in modo sostanziale. TechRadar lo sintetizza con precisione: Siri AI non invia piú le richieste a fornitori AI di terze parti come ChatGPT — almeno non nel senso del vecchio handoff — perché Siri AI é ora alimentata dai modelli Gemini di Google. La risposta arriva direttamente dall'interno dell'assistente Apple, senza interruzione dell'interfaccia.\n\n## Cosa rimane di ChatGPT e Claude\n\nIl pannello \"Search or Ask\" di iOS 27, accessibile con swipe dal centro dello schermo, mantiene la possibilitá di indirizzare query complesse a chatbot di terze parti — Claude, Gemini come app separata, potenzialmente ChatGPT. Ma si tratta di una scelta esplicita dell'utente, non del comportamento predefinito. La posizione predefinita é ora Siri AI con Gemini sotto. Tom's Guide sottolinea che questa architettura, frutto dell'accordo Apple-Google annunciato a inizio 2026, ridisegna la mappa dei rapporti di forza nell'AI su iPhone.\n\n## Le implicazioni per gli utenti europei\n\nIl cambio ha un sapore particolarmente amaro per gli utenti nell'Unione Europea: Siri AI non sará disponibile su iOS 27 e iPadOS 27 in Europa al lancio, a causa del Digital Markets Act. Questo significa che gli utenti EU continueranno a usare il vecchio Siri — con eventuale handoff a ChatGPT — mentre gli utenti negli altri mercati accedono alla nuova architettura integrata. Una biforcazione nell'esperienza utente difficile da spiegare a chi ha acquistato lo stesso hardware.",
+      "bodyEn": "## The quiet displacement of OpenAI\n\nIn iOS 26, Siri could transfer a query to ChatGPT with a visible handoff — the user explicitly saw they were passing to an external service. With iOS 27, the mechanism changes substantially. TechRadar summarizes it precisely: Siri AI no longer hands queries off to third-party AI providers like ChatGPT — at least not in the old handoff sense — because Siri AI is now powered by Google's Gemini models. The response comes directly from within Apple's assistant, without interface interruption.\n\n## What remains of ChatGPT and Claude\n\nThe iOS 27 'Search or Ask' panel, accessible with a swipe from the center of the screen, retains the ability to direct complex queries to third-party chatbots — Claude, Gemini as a separate app, potentially ChatGPT. But this is an explicit user choice, not the default behavior. The default position is now Siri AI with Gemini underneath. Tom's Guide notes that this architecture, the result of the Apple-Google deal announced in early 2026, redraws the map of power relationships in iPhone AI.\n\n## Implications for European users\n\nThe change has a particularly bitter flavor for EU users: Siri AI will not be available on iOS 27 and iPadOS 27 in Europe at launch, due to the Digital Markets Act. This means EU users will continue using the old Siri — with possible handoff to ChatGPT — while users in other markets access the new integrated architecture. A bifurcation in user experience that is hard to explain to someone who bought the same hardware.",
+      "sources": [
+        {
+          "title": "TechRadar — WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 live updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T02:04:09.444124+02:00"
+    },
     {
       "slug": "shortcuts-describe-a-shortcut-ai-linguaggio-naturale",
       "macroArea": "apple-intelligence",

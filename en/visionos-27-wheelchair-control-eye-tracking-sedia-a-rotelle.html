@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair | Apple WWDC 2026</title>
+  <meta name="description" content="Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/en/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">
+  <meta property="og:title" content="visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair | Apple WWDC 2026">
+  <meta property="og:description" content="Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/en/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair | Apple WWDC 2026">
+  <meta name="twitter:description" content="Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking…">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+  <link rel="stylesheet" href="../assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Areas</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-areas/operating-systems.html">Operating systems</a>
+            <a href="./macro-areas/apple-intelligence.html">Apple Intelligence and Siri</a>
+            <a href="./macro-areas/developers.html">Developers</a>
+            <a href="./macro-areas/design-interfaces.html">Design and interfaces</a>
+            <a href="./macro-areas/spatial-visionos.html">Spatial computing and visionOS</a>
+            <a href="./macro-areas/health-wellbeing.html">Health and wellbeing</a>
+            <a href="./macro-areas/services-ecosystem.html">Services and ecosystem</a>
+            <a href="./macro-areas/privacy-security.html">Privacy and security</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Topics</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/artificial-intelligence.html">Artificial intelligence</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift and Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/health.html">Health</a>
+            <a href="./tag/continuity.html">Continuity and ecosystem</a>
+            <a href="./tag/accessibility.html">Accessibility</a>
+          </div>
+        </details>
+        <a href="./analysis.html" >Analysis</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archive</a>
+        <div class="lang-switch">
+          <a href="../visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html">IT</a>
+          <span class="sep">/</span>
+          <a href="#" class="active">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-areas/spatial-visionos.html">Spatial computing and visionOS</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair</h1>
+        <p class="article__lede">Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking in the desired direction.</p>
+        <div class="article__meta">
+          <span>Published: <span data-ts="2026-06-09T02:04:09.444101+02:00">2026-06-09T02:04:09.444101+02:00</span></span>
+          <span>Topic area: Spatial computing and visionOS</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Eye tracking as a physical interface</h2>
+<p>Wheelchair Control is likely the most ambitious feature announced for visionOS 27 on the accessibility front. AppleInsider describes it as part of the accessibility announcements confirmed ahead of the keynote: the Vision Pro, which already uses eye tracking as the primary mode of interaction with the operating system, extends that same infrastructure to the control of a motorized wheelchair. The user looks in the direction they want to move, and the system translates the eye movement into commands for the vehicle.</p>
+<h2>The technical logic</h2>
+<p>The Vision Pro has a high-precision eye tracking system, developed for cursor navigation and element selection in the spatial interface. Wheelchair Control repurposes this infrastructure for a radically different — and more real-world impactful — use case. The feature targets people with limited upper limb mobility who cannot use joysticks or traditional manual controls.</p>
+<h2>One more argument for Vision Pro</h2>
+<p>The Vision Pro still struggles to find a mainstream user base, partly due to its high price. Features like Wheelchair Control build a medical-assistive use case that could justify the cost in institutional contexts — hospitals, rehabilitation facilities — where the device might be purchased as a therapeutic tool rather than a consumer gadget. It is a slow path, but it is the most credible direction for professional Vision Pro adoption in the short term.</p>
+        
+        <div class="sources">
+          <h3>Sources</h3>
+          <ul><li><a href="https://appleinsider.com/articles/26/06/05/ios-27-macos-27-siri-what-to-expect-to-launch-at-wwdc-2026" target="_blank" rel="noopener">AppleInsider — iOS 27, macOS 27, Siri: What to expect at WWDC 2026</a></li><li><a href="https://wi-fiplanet.com/everything-apple-announced-wwdc-2026/" target="_blank" rel="noopener">wi-fiplanet.com — Everything Apple Announced at WWDC 2026</a></li><li><a href="https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/" target="_blank" rel="noopener">Engadget — Everything announced at Apple's WWDC 2026 keynote</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tags</h4>
+          <div class="tag-pills"><a href="./tag/accessibility.html" class="tag-pill">Accessibility</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Back to home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Independent coverage of Apple WWDC 2026, in Italian. Curated by Daniele Biolatti with the support of Kairos.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analysis.html">Analysis</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archive</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://biolatti.it/en">Main site</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Official Apple WWDC site</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. All news remains the property of its respective sources.</span>
+      <span>Information updated as of June 12, 2026. No affiliation with Apple. Original sources are linked in every article.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "visionOS 27: Wheelchair Control uses eye tracking to operate a motorized wheelchair", "description": "Apple announced Wheelchair Control for visionOS 27: the feature uses Vision Pro's eye tracking to let users control a motorized wheelchair simply by looking in the desired direction.", "datePublished": "2026-06-09T02:04:09.444101+02:00", "dateModified": "2026-06-09T02:04:09.444101+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "en", "mainEntityOfPage": "https://wwdc2026.biolatti.it/en/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html", "url": "https://wwdc2026.biolatti.it/en/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html", "articleSection": "Spatial computing and visionOS", "keywords": "accessibilita"}</script><script src="../assets/js/main.js"></script>
+</body>
+</html>
