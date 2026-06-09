@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS | Apple WWDC 2026</title>
+  <meta name="description" content="SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">
+  <meta property="og:title" content="SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS | Apple WWDC 2026">
+  <meta property="og:description" content="SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS | Apple WWDC 2026">
+  <meta name="twitter:description" content="SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per…">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Aree tematiche</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a>
+            <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a>
+            <a href="./macro-aree/sviluppatori.html">Sviluppatori</a>
+            <a href="./macro-aree/design-interfacce.html">Design e interfacce</a>
+            <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a>
+            <a href="./macro-aree/salute-benessere.html">Salute e benessere</a>
+            <a href="./macro-aree/servizi-ecosistema.html">Servizi ed ecosistema</a>
+            <a href="./macro-aree/privacy-sicurezza.html">Privacy e sicurezza</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Argomenti</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/intelligenza-artificiale.html">Intelligenza artificiale</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift e Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/salute.html">Salute</a>
+            <a href="./tag/continuity.html">Continuity ed ecosistema</a>
+            <a href="./tag/accessibilita.html">Accessibilita</a>
+          </div>
+        </details>
+        <a href="./analisi.html" >Analisi</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archivio</a>
+        <div class="lang-switch">
+          <a href="#" class="active">IT</a>
+          <span class="sep">/</span>
+          <a href="en/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-aree/sviluppatori.html">Sviluppatori</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS</h1>
+        <p class="article__lede">SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per trasmettere modelli 3D in spazio fisico.</p>
+        <div class="article__meta">
+          <span>Pubblicato: <span data-ts="2026-06-09T21:03:51.057735+02:00">2026-06-09T21:03:51.057735+02:00</span></span>
+          <span>Area tematica: Sviluppatori</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Miglioramenti di performance e interattività</h2>
+<p>La Platforms State of the Union ha dedicato spazio a SwiftUI, confermando una serie di miglioramenti che riguardano direttamente la velocità di rendering e la flessibilità dei container. Secondo MacRumors, i layout annidati ridimensionano ora fino a due volte più velocemente rispetto alla versione precedente — un guadagno concreto per le app con gerarchie di viste complesse. Sono stati aggiunti anche drag-to-reorder e swipe actions nativi in qualsiasi container, funzionalità che in passato richiedevano soluzioni personalizzate.</p>
+<h2>Caching automatico delle immagini e toolbar più flessibile</h2>
+<p>Due aggiunte di utilità pratica completano il quadro: il caching automatico delle immagini asincrone (non più da implementare manualmente in ogni app) e un controllo più fine sulla visibilità della toolbar quando lo spazio si riduce. Sono dettagli che riducono il codice boilerplate senza modificare le API di superficie.</p>
+<h2>Spatial Preview Framework per visionOS</h2>
+<p>La novità più inattesa riguarda visionOS: MacRumors riporta che un nuovo Spatial Preview Framework permette agli sviluppatori di trasmettere modelli 3D da un Mac direttamente nello spazio fisico dell'Apple Vision Pro. Il flusso di lavoro diventa così più fluido per chi sviluppa esperienze spaziali, eliminando la necessità di trasferire e ricompilare ogni modifica sul visore.</p>
+        
+        <div class="sources">
+          <h3>Fonti</h3>
+          <ul><li><a href="https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/" target="_blank" rel="noopener">MacRumors – Apple Shares WWDC Platforms State of the Union Recap Video</a></li><li><a href="https://developer.apple.com/news/?id=lvart8mq" target="_blank" rel="noopener">Apple Developer – 5 takeaways from the Platforms State of the Union</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tag</h4>
+          <div class="tag-pills"><a href="./tag/swift-xcode.html" class="tag-pill">Swift e Xcode</a><a href="./tag/design.html" class="tag-pill">Design</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Torna alla home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Copertura indipendente, in italiano, dell'Apple WWDC 2026. A cura di Daniele Biolatti con il supporto di Kairos.</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analisi.html">Analisi</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archivio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Risorse</h4>
+        <ul>
+          <li><a href="https://biolatti.it">Sito principale</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Sito ufficiale Apple WWDC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. Tutte le notizie restano di proprieta delle rispettive fonti.</span>
+      <span>Informazioni aggiornate al 12 giugno 2026. Nessuna affiliazione con Apple. Le fonti originali sono linkate in ogni articolo.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS", "description": "SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per trasmettere modelli 3D in spazio fisico.", "datePublished": "2026-06-09T21:03:51.057735+02:00", "dateModified": "2026-06-09T21:03:51.057735+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "it", "mainEntityOfPage": "https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html", "url": "https://wwdc2026.biolatti.it/swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos.html", "articleSection": "Sviluppatori", "keywords": "swift-xcode, design"}</script><script src="assets/js/main.js"></script>
+</body>
+</html>

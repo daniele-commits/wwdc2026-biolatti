@@ -1,9 +1,221 @@
 {
-  "lastUpdate": "2026-06-09T20:03:03.481324+02:00",
+  "lastUpdate": "2026-06-09T21:03:51.057773+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "wwdc26-platforms-state-of-union-foundation-models-open-source-core-ai",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Platforms State of the Union: Foundation Models open source e Core AI in arrivo",
+      "titleEn": "Platforms State of the Union: Foundation Models going open source, Core AI framework debuts",
+      "excerptIt": "Alla State of the Union Apple ha annunciato che il framework Foundation Models diventerà open source entro l'estate, e ha introdotto Core AI, un nuovo framework on-device ottimizzato per Apple Silicon.",
+      "excerptEn": "At the State of the Union, Apple announced Foundation Models will go open source later this summer, and introduced Core AI, a new on-device framework built specifically for Apple Silicon.",
+      "bodyIt": "## La State of the Union parla agli sviluppatori\n\nMentre il keynote del giorno precedente si rivolgeva al grande pubblico, la Platforms State of the Union del 9 giugno ha chiarito le intenzioni di Apple verso la community tecnica. L'annuncio di maggiore impatto strutturale è la decisione di rendere il framework Foundation Models open source entro l'estate 2026, secondo quanto riportato da MacRumors. Si tratta di un cambio di direzione significativo per un'azienda storicamente gelosa dei propri modelli.\n\n## Core AI: un nuovo framework, non un aggiornamento\n\nParallelo all'apertura del codice, Apple ha presentato Core AI, un framework interamente nuovo integrato nel sistema operativo e progettato per sfruttare l'architettura Apple Silicon senza dipendenze esterne. Come chiarito dal portale Apple Developer, Core AI è distinto dal framework Foundation Models esistente e punta a diventare il percorso principale per eseguire modelli on-device nelle app di terze parti. La differenza rispetto alle API precedenti sta nell'integrazione profonda con il chip: latenze più basse, gestione energetica ottimizzata, nessun round-trip verso il cloud per le inferenze locali.\n\n## Accesso gratuito a Private Cloud Compute\n\nUlteriore novità emersa dalla SOTU: i developer con meno di due milioni di download iniziali sull'App Store potranno utilizzare gratuitamente Apple Foundation Models su Private Cloud Compute. MacRumors Forum riporta che questo abbatte la barriera infrastrutturale per i team piccoli, che fino ad oggi dovevano farsi carico dei costi di cloud inference. Il framework guadagna anche il supporto all'input di immagini e l'integrazione con modelli server-side come Claude e Gemini tramite la stessa API Swift.",
+      "bodyEn": "## State of the Union addresses developers directly\n\nWhile the June 8 keynote spoke to general audiences, the WWDC26 Platforms State of the Union on June 9 clarified Apple's direction for its technical community. The most structurally significant announcement is that the Foundation Models framework will go open source later this summer, as reported by MacRumors. That represents a meaningful shift for a company historically protective of its model stack.\n\n## Core AI: a new framework, not an update\n\nAlongside the open-source commitment, Apple introduced Core AI, a brand-new framework built into the OS and designed to take full advantage of Apple Silicon without external dependencies. According to the Apple Developer portal, Core AI is distinct from the existing Foundation Models framework and is positioned as the primary path for running on-device models in third-party apps — lower latency, better energy management, no cloud round-trips for local inference.\n\n## Free Private Cloud Compute for smaller developers\n\nAnother detail from the SOTU: developers with fewer than two million first-time App Store downloads will get free access to Apple Foundation Models on Private Cloud Compute. As noted by the MacRumors Forums recap, this removes infrastructure costs as a real barrier for small teams. The framework also gains image input support and server-side model integration, including Claude and Gemini, through the same Swift API.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Shares WWDC Platforms State of the Union Recap Video",
+          "url": "https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/"
+        },
+        {
+          "title": "MacRumors Forums – Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms State of the Union",
+          "url": "https://forums.macrumors.com/threads/apple-outlines-major-ai-and-developer-tool-updates-at-2026-platforms-state-of-the-union.2483618/"
+        },
+        {
+          "title": "Apple Developer – 5 takeaways from the Platforms State of the Union",
+          "url": "https://developer.apple.com/news/?id=lvart8mq"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057693+02:00"
+    },
+    {
+      "slug": "xcode-27-device-hub-temi-apple-silicon-only-xcode-cloud-veloce",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Xcode 27: Device Hub, temi cromatici e addio al supporto Intel",
+      "titleEn": "Xcode 27: Device Hub, color themes, and Intel support dropped",
+      "excerptIt": "Xcode 27 abbandona Intel, diventa il 30% più leggero e introduce Device Hub per unire simulatori e dispositivi fisici in un unico pannello. Xcode Cloud raddoppia la velocità di build.",
+      "excerptEn": "Xcode 27 drops Intel support, is 30% smaller, and introduces Device Hub to unify simulators and physical devices in one panel. Xcode Cloud build speeds double.",
+      "bodyIt": "## Un IDE che si ridisegna partendo dall'hardware\n\nXcode 27, annunciato alla Platforms State of the Union, taglia definitivamente il supporto Intel e diventa Apple Silicon-only. Il risultato pratico, secondo MacRumors, è che l'app è il 30% più piccola e i progetti si caricano più velocemente. Non si tratta di una scelta simbolica: eliminare il codice per l'architettura x86 permette ottimizzazioni che sarebbero state impossibili mantenendo la compatibilità universale.\n\n## Device Hub sostituisce il Simulatore\n\nLa novità più concreta per il workflow quotidiano è Device Hub, che rimpiazza la finestra Simulatore con un ambiente unificato in cui dispositivi fisici e simulatori virtuali coesistono. MacRumors descrive la funzione come dotata di live resizing e controllo hardware completo direttamente dal Mac — utile per testare layout su schermi diversi senza dover riconfigurare ogni volta l'ambiente di test.\n\n## Temi, impostazioni sincronizzate e Xcode Cloud più rapido\n\nLato personalizzazione, Xcode 27 introduce tre nuovi temi cromatici (Emerald, Neon Noir e Coral Reef) e sincronizza le impostazioni via iCloud. Xcode Cloud migliora in modo sostanziale: le build sono fino a due volte più rapide e la configurazione iniziale dei workflow è stata semplificata. Apple ha inoltre confermato di star lavorando con Anthropic, OpenAI e Google per portare i loro agenti all'interno di Xcode, un dettaglio emerso dalla SOTU che arricchisce quanto già annunciato al keynote sul coding agentivo.",
+      "bodyEn": "## An IDE redesigned from the hardware up\n\nXcode 27, announced at the Platforms State of the Union, drops Intel support entirely and becomes Apple Silicon-only. According to MacRumors, the app is 30% smaller and projects load faster — a practical outcome of removing the x86 code path that would have been impossible while maintaining universal compatibility.\n\n## Device Hub replaces Simulator\n\nThe most concrete workflow change is Device Hub, which replaces the Simulator window with a unified environment where physical and virtual devices coexist. MacRumors describes the feature as supporting live resizing and full hardware control directly from the Mac, making it easier to test layouts across different screen sizes without reconfiguring the test environment each time.\n\n## Themes, synced settings, and a faster Xcode Cloud\n\nOn the customization front, Xcode 27 adds three new color themes (Emerald, Neon Noir, and Coral Reef) and syncs settings via iCloud. Xcode Cloud sees a meaningful improvement: builds are up to twice as fast and initial workflow setup has been simplified. Apple also confirmed it is working with Anthropic, OpenAI, and Google to bring their agents into Xcode — a detail from the SOTU that adds context to the agentic coding capabilities announced at the keynote.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Shares WWDC Platforms State of the Union Recap Video",
+          "url": "https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/"
+        },
+        {
+          "title": "Apple Developer – 5 takeaways from the Platforms State of the Union",
+          "url": "https://developer.apple.com/news/?id=lvart8mq"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057728+02:00"
+    },
+    {
+      "slug": "swiftui-wwdc-2026-drag-reorder-nested-layouts-spatial-preview-visionos",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "SwiftUI a WWDC 2026: layout annidati doppiamente veloci e Spatial Preview per visionOS",
+      "titleEn": "SwiftUI at WWDC 2026: nested layouts twice as fast, Spatial Preview for visionOS",
+      "excerptIt": "SwiftUI guadagna drag-to-reorder nativo, layout annidati che ridimensionano fino al doppio della velocità precedente e un nuovo Spatial Preview Framework per trasmettere modelli 3D in spazio fisico.",
+      "excerptEn": "SwiftUI gains native drag-to-reorder, nested layouts that resize up to twice as fast, and a new Spatial Preview Framework for streaming 3D models from Mac into physical space.",
+      "bodyIt": "## Miglioramenti di performance e interattività\n\nLa Platforms State of the Union ha dedicato spazio a SwiftUI, confermando una serie di miglioramenti che riguardano direttamente la velocità di rendering e la flessibilità dei container. Secondo MacRumors, i layout annidati ridimensionano ora fino a due volte più velocemente rispetto alla versione precedente — un guadagno concreto per le app con gerarchie di viste complesse. Sono stati aggiunti anche drag-to-reorder e swipe actions nativi in qualsiasi container, funzionalità che in passato richiedevano soluzioni personalizzate.\n\n## Caching automatico delle immagini e toolbar più flessibile\n\nDue aggiunte di utilità pratica completano il quadro: il caching automatico delle immagini asincrone (non più da implementare manualmente in ogni app) e un controllo più fine sulla visibilità della toolbar quando lo spazio si riduce. Sono dettagli che riducono il codice boilerplate senza modificare le API di superficie.\n\n## Spatial Preview Framework per visionOS\n\nLa novità più inattesa riguarda visionOS: MacRumors riporta che un nuovo Spatial Preview Framework permette agli sviluppatori di trasmettere modelli 3D da un Mac direttamente nello spazio fisico dell'Apple Vision Pro. Il flusso di lavoro diventa così più fluido per chi sviluppa esperienze spaziali, eliminando la necessità di trasferire e ricompilare ogni modifica sul visore.",
+      "bodyEn": "## Performance and interactivity improvements\n\nThe Platforms State of the Union devoted time to SwiftUI, confirming a set of improvements that directly affect rendering speed and container flexibility. According to MacRumors, nested layouts now resize up to twice as fast as in the previous version — a concrete gain for apps with complex view hierarchies. Native drag-to-reorder and swipe actions in any container have also been added, capabilities that previously required custom implementations.\n\n## Automatic image caching and finer toolbar control\n\nTwo practical utility additions complete the picture: automatic async image caching (no longer requiring manual implementation per app) and finer control over toolbar visibility as space shrinks. These are details that reduce boilerplate code without changing surface-level APIs.\n\n## Spatial Preview Framework for visionOS\n\nThe most unexpected addition involves visionOS: MacRumors reports that a new Spatial Preview Framework allows developers to stream 3D models from a Mac directly into the physical space of Apple Vision Pro. This makes the development workflow smoother for those building spatial experiences, eliminating the need to transfer and recompile every change on the headset.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Shares WWDC Platforms State of the Union Recap Video",
+          "url": "https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/"
+        },
+        {
+          "title": "Apple Developer – 5 takeaways from the Platforms State of the Union",
+          "url": "https://developer.apple.com/news/?id=lvart8mq"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057735+02:00"
+    },
+    {
+      "slug": "apple-developer-center-berlino-quinto-centro-wwdc-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Apple apre il quinto Developer Center: sara' a Berlino, in autunno",
+      "titleEn": "Apple's fifth Developer Center will open in Berlin this fall",
+      "excerptIt": "Apple ha annunciato alla State of the Union l'apertura di un Developer Center a Berlino in autunno 2026, il primo in Europa e il quinto nel mondo dopo Cupertino, Shanghai, Singapore e Bengaluru.",
+      "excerptEn": "Apple announced at the State of the Union that a Developer Center will open in Berlin in fall 2026, the first in Europe and the fifth worldwide after Cupertino, Shanghai, Singapore, and Bengaluru.",
+      "bodyIt": "## L'Europa ottiene il suo Developer Center\n\nDurante la Platforms State of the Union del WWDC 2026, Apple ha confermato che il suo quinto Apple Developer Center aprirà a Berlino nell'autunno 2026. Lo riporta il thread di MacRumors Forums dedicato alla SOTU. Si tratterà del primo centro fisico in Europa, in una città che negli ultimi anni è diventata uno degli hub tecnologici più attivi del continente, con una comunità di sviluppatori di dimensioni considerevoli.\n\n## Cosa fanno i Developer Center\n\nI Developer Center sono spazi fisici in cui gli sviluppatori possono incontrare esperti Apple, testare le proprie app su hardware reale, assistere a sessioni tecniche e ricevere supporto diretto dai team di piattaforma. I centri esistenti a Cupertino, Shanghai, Singapore e Bengaluru hanno dimostrato l'utilità del modello per le community locali. Berlino, con la sua scena startup e la presenza di numerose aziende software europee, è una scelta geograficamente logica.\n\n## Segnale verso il mercato europeo\n\nL'annuncio arriva in un momento in cui Apple si trova sotto pressione normativa nell'Unione Europea — dal Digital Markets Act alle restrizioni su Siri AI in iOS e iPadOS. Aprire un Developer Center in Germania non risolve le tensioni regolamentari, ma segnala un investimento concreto nel rapporto con gli sviluppatori europei in un periodo in cui quel rapporto ha bisogno di essere coltivato con più attenzione del solito.",
+      "bodyEn": "## Europe gets its Developer Center\n\nDuring the WWDC 2026 Platforms State of the Union, Apple confirmed that its fifth Apple Developer Center will open in Berlin in fall 2026, as noted by the MacRumors Forums recap of the session. It will be the first physical center in Europe, in a city that has become one of the continent's most active technology hubs with a sizeable developer community.\n\n## What Developer Centers do\n\nDeveloper Centers are physical spaces where developers can meet Apple experts, test their apps on real hardware, attend technical sessions, and receive direct support from platform teams. The existing centers in Cupertino, Shanghai, Singapore, and Bengaluru have demonstrated the value of the model for local communities. Berlin, with its startup scene and the presence of many European software companies, is a geographically logical choice.\n\n## A signal toward the European market\n\nThe announcement comes at a time when Apple faces significant regulatory pressure in the European Union — from the Digital Markets Act to restrictions on Siri AI in iOS and iPadOS. Opening a Developer Center in Germany does not resolve regulatory tensions, but signals a concrete investment in the relationship with European developers at a moment when that relationship needs more careful cultivation than usual.",
+      "sources": [
+        {
+          "title": "MacRumors Forums – Apple Outlines Major AI and Developer Tool Updates at 2026 Platforms State of the Union",
+          "url": "https://forums.macrumors.com/threads/apple-outlines-major-ai-and-developer-tool-updates-at-2026-platforms-state-of-the-union.2483618/"
+        },
+        {
+          "title": "MacRumors – Apple Shares WWDC Platforms State of the Union Recap Video",
+          "url": "https://www.macrumors.com/2026/06/09/apple-shares-state-of-the-union-recap-video/"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057742+02:00"
+    },
+    {
+      "slug": "ios-27-parental-controls-api-terze-parti-ask-to-browse-messages",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Privacy e sicurezza",
+      "titleIt": "iOS 27: i controlli parentali si aprono alle app di terze parti",
+      "titleEn": "iOS 27: parental controls open up to third-party apps",
+      "excerptIt": "Apple ha aperto le API dei controlli parentali agli sviluppatori, consentendo alle app di terze parti di applicare le stesse limitazioni d'eta' del sistema. \"Ask to Browse\" ora arriva direttamente in Messages.",
+      "excerptEn": "Apple has opened parental control APIs to developers, letting third-party apps enforce the same age-based restrictions as the system. \"Ask to Browse\" requests now arrive directly in Messages.",
+      "bodyIt": "## Oltre le app Apple\n\nDurante il keynote del WWDC 2026, Apple ha dedicato spazio ai controlli parentali in iOS 27, iPadOS 27 e macOS 27. L'annuncio che ha più peso per il settore non riguarda le funzioni rivolte ai genitori in sé — già coperte in parte — ma l'apertura delle API agli sviluppatori, come riportato da Tom's Guide. Le app di terze parti potranno ora implementare le stesse barriere basate sull'età che il sistema applica nativamente: significa che uno sviluppatore di un'app educativa o di gaming potrà agganciarsi alle impostazioni di Screen Time e Child Account senza reinventare la propria soluzione di controllo.\n\n## Ask to Browse via Messages\n\nUna delle modifiche operative più dirette è il nuovo flusso di \"Ask to Browse\": quando un bambino cerca di accedere a un sito non autorizzato in Safari, la richiesta di approvazione arriva direttamente come messaggio al genitore nell'app Messages, secondo quanto riporta Tom's Guide. Non è necessario aprire Screen Time, controllare notifiche separate o usare un'app di terze parti. La riduzione dell'attrito nel processo di approvazione è l'obiettivo dichiarato.\n\n## Un ecosistema di sicurezza condiviso\n\nL'apertura delle API segnala un cambio di approccio: Apple non vuole essere l'unico gatekeeper del controllo familiare, ma vuole che le proprie politiche diventino uno standard condiviso sull'intera piattaforma. Per i genitori che usano app di streaming, giochi o social specifici per bambini, questo significa che quelle app potranno rispettare automaticamente i limiti già impostati nel sistema, senza configurazioni doppie.",
+      "bodyEn": "## Beyond Apple apps\n\nDuring the WWDC 2026 keynote, Apple spent time on parental controls in iOS 27, iPadOS 27, and macOS 27. The announcement with the most industry impact is not the parent-facing features themselves — already partly covered — but the opening of APIs to developers, as reported by Tom's Guide. Third-party apps will now be able to implement the same age-based restrictions the system applies natively: an educational or gaming app developer can hook into Screen Time and Child Account settings without building their own control solution from scratch.\n\n## Ask to Browse via Messages\n\nOne of the most direct operational changes is the new \"Ask to Browse\" flow: when a child tries to access an unauthorized site in Safari, the approval request arrives directly as a message to the parent in the Messages app, according to Tom's Guide. There is no need to open Screen Time, check separate notifications, or use a third-party app. Reducing friction in the approval process is the stated goal.\n\n## A shared safety ecosystem\n\nOpening the APIs signals a change in approach: Apple does not want to be the only gatekeeper of family controls, but wants its policies to become a shared standard across the entire platform. For parents using children's streaming, gaming, or social apps, this means those apps can automatically respect limits already set in the system, without double configuration.",
+      "sources": [
+        {
+          "title": "Tom's Guide – Apple WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057749+02:00"
+    },
+    {
+      "slug": "siri-ai-beta-waitlist-iPadOS-27-siri-in-attesa",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI in beta: disponibile nei download, ma con lista d'attesa per l'accesso effettivo",
+      "titleEn": "Siri AI in beta: downloadable, but with a waitlist for actual access",
+      "excerptIt": "Le beta developer di iOS 27 e iPadOS 27 sono disponibili dal giorno del keynote, ma Siri AI risulta protetta da una lista d'attesa: il sistema si scarica, ma la funzione principale del rilascio non e' ancora accessibile a tutti.",
+      "excerptEn": "Developer betas of iOS 27 and iPadOS 27 are available since keynote day, but Siri AI is behind a waitlist: the OS downloads fine, but the headline feature is not yet accessible to everyone.",
+      "bodyIt": "## Beta scaricabile, Siri AI non immediata\n\nIl giorno stesso del keynote Apple ha rilasciato le prime beta developer di iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27 e visionOS 27. I developer registrati hanno potuto scaricare il software tramite Impostazioni, ma Tom's Guide segnala un dettaglio che merita attenzione: Siri AI risulta protetta da una lista d'attesa all'interno della beta di iPadOS 27. La funzione centrale del rilascio — quella attorno a cui Apple ha costruito l'intera narrazione del keynote — non è immediatamente attivabile dopo l'installazione.\n\n## Non è insolito, ma è rivelatore\n\nApple ha già usato la lista d'attesa per Apple Intelligence nella fase iniziale di lancio nell'autunno 2024. Applicarla di nuovo in fase di beta developer suggerisce che l'infrastruttura lato server non è ancora dimensionata per gestire l'intera base di tester simultaneamente, oppure che il team vuole un rollout graduale per raccogliere feedback prima di aprire completamente. In entrambi i casi, chi vuole testare la nuova esperienza Siri nelle sue funzioni più avanzate dovrà aspettare di ricevere l'abilitazione.\n\n## Cosa funziona subito\n\nLe altre novità di iOS 27 e iPadOS 27 — il design Liquid Glass aggiornato, i miglioramenti di performance, le funzioni di Camera, le modifiche alle notifiche — sono accessibili normalmente dalla prima installazione beta. La lista d'attesa riguarda specificamente le capacità conversazionali avanzate di Siri AI, non l'intero pacchetto Apple Intelligence.",
+      "bodyEn": "## Beta downloadable, Siri AI not immediate\n\nOn keynote day Apple released the first developer betas of iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27, and visionOS 27. Registered developers could download the software via Settings, but Tom's Guide flags a detail worth noting: Siri AI is behind a waitlist within the iPadOS 27 beta. The headline feature of the release — the one around which Apple built the entire keynote narrative — is not immediately activatable after installation.\n\n## Not unusual, but revealing\n\nApple already used a waitlist for Apple Intelligence during the initial launch phase in fall 2024. Applying it again during the developer beta phase suggests that server-side infrastructure is not yet scaled to handle the entire tester base simultaneously, or that the team wants a gradual rollout to gather feedback before fully opening access. Either way, developers wanting to test the new Siri experience in its most advanced capabilities will need to wait for enablement.\n\n## What works immediately\n\nOther iOS 27 and iPadOS 27 features — the updated Liquid Glass design, performance improvements, Camera features, notification changes — are accessible normally from the first beta install. The waitlist applies specifically to Siri AI's advanced conversational capabilities, not the entire Apple Intelligence package.",
+      "sources": [
+        {
+          "title": "Tom's Guide – Apple WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "MacRumors – Apple Releases First iOS 27, iPadOS 27, and macOS 27 Betas to Developers",
+          "url": "https://www.macrumors.com/2026/06/08/apple-releases-ios-27-beta-1/"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057755+02:00"
+    },
+    {
+      "slug": "apple-intelligence-image-playground-no-training-dati-esclusione-privacy",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Image Playground 2: le immagini generate non vengono usate per addestrare i modelli",
+      "titleEn": "Image Playground 2: generated images are excluded from model training",
+      "excerptIt": "Contestualmente al rilancio di Image Playground con nuovi stili e immagini realistiche, Apple ha confermato che le immagini prodotte dall'app sono escluse da qualsiasi utilizzo per l'addestramento dei propri modelli.",
+      "excerptEn": "Alongside the relaunch of Image Playground with new styles and realistic images, Apple confirmed that images generated by the app are excluded from any use in training its models.",
+      "bodyIt": "## Il rilancio di un'app che non aveva convinto\n\nImage Playground non ha entusiasmato nella sua versione iniziale, e Apple lo sa. Al WWDC 2026, il team ha presentato una versione rinnovata con stili aggiuntivi e la tanto attesa modalità realistica — un cambio di registro rispetto ai soli stili illustrativi che avevano caratterizzato il lancio. TechCrunch descrive il rilancio come un tentativo di portare l'app fuori dalla categoria \"deludente\" agli occhi di chi l'aveva già giudicata.\n\n## L'impegno esplicito sui dati\n\nIl dettaglio che distingue questo annuncio dagli altri riguarda la privacy dei contenuti generati. Come riporta TechCrunch, Apple ha esplicitamente escluso le immagini create con Image Playground da qualsiasi utilizzo per l'addestramento dei propri modelli. In un momento in cui la questione dei dati usati per il training dell'AI è al centro del dibattito pubblico e normativo, la dichiarazione esplicita di Apple assume un peso politico oltre che tecnico.\n\n## Perché conta per l'utente\n\nPer chi usa Image Playground a scopo creativo o lavorativo, significa che i contenuti generati restano definitivamente fuori dal ciclo di feedback dei modelli. Non si tratta di una misura tecnica nuova in sé — Apple ha sempre sostenuto di non usare i dati degli utenti per l'addestramento — ma è la prima volta che viene applicata in modo specifico e dichiarato a una funzione di generazione di immagini, in risposta alle preoccupazioni emerse con strumenti simili di altri produttori.",
+      "bodyEn": "## The relaunch of an app that had not impressed\n\nImage Playground did not win over users in its initial version, and Apple knows it. At WWDC 2026, the team presented a renewed version with additional styles and the long-awaited realistic mode — a departure from the illustration-only styles that characterized the original launch. TechCrunch describes the relaunch as an attempt to move the app out of the \"disappointing\" category for those who had already dismissed it.\n\n## An explicit data commitment\n\nThe detail that distinguishes this announcement from others concerns the privacy of generated content. As reported by TechCrunch, Apple explicitly excluded images created with Image Playground from any use in training its models. At a time when the question of data used for AI training is at the center of public and regulatory debate, Apple's explicit declaration carries political as well as technical weight.\n\n## Why it matters for users\n\nFor those using Image Playground for creative or professional purposes, it means generated content is permanently outside the model feedback loop. This is not a technically new measure in itself — Apple has always claimed not to use user data for training — but it is the first time it has been applied in a specific and declared way to an image generation feature, in response to concerns that have emerged with similar tools from other vendors.",
+      "sources": [
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057761+02:00"
+    },
+    {
+      "slug": "wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Tim Cook chiude il suo ultimo keynote: \"Il meglio deve ancora venire\"",
+      "titleEn": "Tim Cook closes his last keynote: \"The best is still ahead\"",
+      "excerptIt": "Tim Cook ha concluso il keynote WWDC 2026 con un messaggio personale sul proprio percorso come CEO, distinto dall'annuncio della successione gia' noto. Nessuna apparizione di John Ternus sul palco.",
+      "excerptEn": "Tim Cook closed the WWDC 2026 keynote with a personal message reflecting on his time as CEO, separate from the already-known succession announcement. John Ternus made no appearance on stage.",
+      "bodyIt": "## Una chiusura personale, non istituzionale\n\nL'ultimo keynote WWDC di Tim Cook si è chiuso con un momento fuori dall'ordinario per gli standard Apple. Cook ha tenuto un breve discorso personale — distinto dalla comunicazione istituzionale sulla successione a Ternus già annunciata ad aprile — nel quale ha rivolto parole dirette agli sviluppatori e agli utenti che hanno definito il suo mandato. TechCrunch riporta le parole conclusive: \"Credo davvero che il meglio sia ancora davanti ad Apple.\"\n\n## Ternus assente dal palco\n\nNonostante la transizione di CEO sia ufficializzata per il primo settembre 2026, John Ternus non è apparso sul palco del keynote. Macworld aveva anticipato questa possibilità nelle ore precedenti, notando l'assenza come un dato da interpretare. La scelta di lasciare il palco interamente a Cook — e ai VP di software come Federighi e Rockwell — è coerente con il profilo di Ternus: uomo dell'hardware, non del software, che probabilmente farà il proprio debutto pubblico nei prossimi eventi orientati ai prodotti.\n\n## Il peso simbolico del passaggio\n\nIl WWDC 2026 è il primo grande evento Apple in cui la transizione al vertice è già nota e ufficiale. Cook ha scelto di non trasformare il keynote in una celebrazione della propria uscita, tenendo la chiusura personale breve e priva di retorica eccessiva. Secondo quanto riporta Macworld, il keynote aveva nel complesso \"una strana calma\" che diversi osservatori hanno notato, come se la coscienza del passaggio di consegne stesse già cambiando il tono dell'evento.",
+      "bodyEn": "## A personal close, not an institutional one\n\nTim Cook's final WWDC keynote closed with a moment unusual by Apple standards. Cook delivered a brief personal message — separate from the institutional communication about the Ternus succession already announced in April — in which he addressed directly the developers and users who had defined his tenure. TechCrunch reports his closing words: \"I truly believe the best is still ahead at Apple.\"\n\n## Ternus absent from the stage\n\nDespite the CEO transition being officially set for September 1, 2026, John Ternus made no appearance on the keynote stage. Macworld had anticipated this possibility in the hours before the event, noting the absence as a data point worth interpreting. The choice to leave the stage entirely to Cook — and to software VPs like Federighi and Rockwell — is consistent with Ternus's profile: a hardware man, not a software one, who will likely make his public debut at upcoming product-oriented events.\n\n## The symbolic weight of the transition\n\nWWDC 2026 is the first major Apple event at which the leadership transition is already known and official. Cook chose not to turn the keynote into a celebration of his departure, keeping the personal close brief and free of excessive rhetoric. According to Macworld, the keynote had overall \"a strange calmness\" that several observers noted, as if awareness of the handover was already changing the tone of the event.",
+      "sources": [
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Macworld – Relive our WWDC live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T21:03:51.057767+02:00"
+    },
     {
       "slug": "ios-27-rcs-end-to-end-encryption-beta",
       "macroArea": "privacy-sicurezza",
