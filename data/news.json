@@ -1,9 +1,233 @@
 {
-  "lastUpdate": "2026-06-09T02:04:09.444131+02:00",
+  "lastUpdate": "2026-06-09T04:55:16.258423+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "carplay-ios-27-video-app-audio-scrubbing-wireless-reliability",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "CarPlay su iOS 27: video a bordo, scrubbing audio e connessione wireless più stabile",
+      "titleEn": "CarPlay on iOS 27: in-car video apps, audio scrubbing, and improved wireless reliability",
+      "excerptIt": "Con iOS 27 CarPlay guadagna la capacità di riprodurre video su veicoli compatibili (solo a vettura ferma) e consente agli sviluppatori di costruire app con navigazione video nativa. Arrivano anche lo scrubbing audio nel lettore, migliore affidabilità wireless e Siri AI riservata a chi ha iPhone 15 Pro o superiore.",
+      "excerptEn": "iOS 27 brings in-car video playback to compatible vehicles when parked, new developer APIs for video browsing apps in CarPlay, audio scrubbing in the Now Playing interface, improved wireless reliability, and Siri AI for CarPlay users with an iPhone 15 Pro or newer.",
+      "bodyIt": "## Video in macchina, finalmente con regole\n\nA distanza di un anno dall'annuncio iniziale a WWDC 2025, Apple ha definito i dettagli tecnici della funzione video per CarPlay. Come riportato da MacRumors, la riproduzione di video su CarPlay richiede un veicolo compatibile e funziona tramite AirPlay: l'utente seleziona lo schermo dell'auto dal menu AirPlay di iOS e avvia il contenuto dall'app iPhone. Con iOS 27 Apple apre anche agli sviluppatori la possibilità di costruire app CarPlay con navigazione video nativa — pensate a YouTube, Apple TV+ o servizi di streaming direttamente sull'infotainment, senza passare per il telefono.\n\nIl vincolo di sicurezza è netto: la riproduzione è abilitata solo quando il veicolo è parcheggiato. Apple ha citato l'attesa in aeroporto e la ricarica del veicolo elettrico come scenari d'uso tipici, il che dà un'idea precisa della nicchia coperta.\n\n## Gli altri miglioramenti\n\nAccanto ai video, nella stessa diapositiva mostrata al keynote WWDC 2026 compaiono altre quattro novità di CarPlay: scrubbing audio direttamente dall'interfaccia Now Playing, migliore accuratezza della navigazione, maggiore reattività di Siri e migliorata affidabilità della connessione wireless. Tutti i nuovi miglioramenti richiedono un iPhone con iOS 27. Siri AI su CarPlay — la versione contestuale e conversazionale annunciata durante il keynote — è disponibile solo con iPhone 15 Pro o modelli successivi, introducendo un'ulteriore frammentazione nell'ecosistema in-car.",
+      "bodyEn": "## In-car video, finally with guardrails\n\nA year after its initial teaser at WWDC 2025, Apple has fleshed out the technical details of CarPlay video support. According to MacRumors, video playback on CarPlay requires a compatible vehicle and works via AirPlay: the user selects the car's display from the AirPlay menu on iOS and plays content from an iPhone app. iOS 27 also opens a new developer API for building CarPlay apps with native video browsing, meaning services like Apple TV+ or YouTube could theoretically offer a dedicated in-car browsing interface.\n\nThe safety guardrail is firm: video playback only activates when the vehicle is parked. Apple cited waiting at the airport and charging an EV as typical use cases.\n\n## The other improvements\n\nAlongside video, the same WWDC 2026 keynote slide revealed four additional CarPlay enhancements: audio scrubbing in the Now Playing interface, improved navigation accuracy, better Siri responsiveness, and improved wireless CarPlay reliability. All new features require iOS 27. Siri AI on CarPlay — the contextual, conversational version announced at the keynote — is restricted to iPhone 15 Pro and later, adding yet another layer of hardware fragmentation to the in-car experience.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Announces New CarPlay Features on iOS 27, Including Video Apps",
+          "url": "https://www.macrumors.com/2026/06/08/new-apple-carplay-features-ios-27/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258348+02:00"
+    },
+    {
+      "slug": "ios-27-tidbits-due-iphone-stesso-numero-volume-sveglia-airplay-veloce",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27: stesso numero su due iPhone, volume sveglia indipendente, AirPlay più veloce",
+      "titleEn": "iOS 27: shared phone number on two iPhones, independent alarm volume, faster AirPlay",
+      "excerptIt": "Tra i dettagli minori di iOS 27 non mostrati al keynote emergono tre novità concrete: la possibilità di condividere un numero telefonico tra due iPhone distinti, un controllo del volume della sveglia separato dal volume generale e connessioni AirPlay verso Apple TV e HomePod nettamente più rapide.",
+      "excerptEn": "Among the under-the-hood iOS 27 details not shown on stage: the ability to share a single phone number across two iPhones, an independent alarm volume control, and significantly faster AirPlay connections to Apple TV and HomePod.",
+      "bodyIt": "## Un numero, due iPhone\n\nCome documentato da MacRumors, iOS 27 consente di associare lo stesso numero di telefono a due dispositivi iPhone distinti e di passare dall'uno all'altro secondo necessità. Il meccanismo è presumibilmente analogo a quello che già permette a un iPhone e un Apple Watch di condividere lo stesso numero. Apple non ha dettagliato il requisito di supporto da parte dell'operatore telefonico, quindi la reale disponibilità potrebbe variare. La funzione è esplicitamente utile per chi intende affiancare un iPhone tradizionale all'iPhone pieghevole atteso in autunno.\n\n## Volume sveglia e AirPlay\n\nAltri due miglioramenti emersi dalla documentazione di iOS 27: il volume della sveglia potrà essere impostato in modo indipendente dal volume generale del sistema, risolvendo un limite storico che costringeva a compromessi scomodi. Secondo 9to5Mac, le connessioni AirPlay verso Apple TV e HomePod risulteranno sensibilmente più veloci. Si tratta di ottimizzazioni che non fanno notizia nei keynote ma che migliorano la qualità d'uso quotidiana in modo misurabile.\n\nQuesti tidbits si inseriscono in un iOS 27 che Apple ha descritto come un aggiornamento orientato alla rifinitura piuttosto che all'invenzione: centinaia di piccole correzioni accumulate, con i miglioramenti di performance e affidabilità come filo conduttore.",
+      "bodyEn": "## One number, two iPhones\n\nAs documented by MacRumors, iOS 27 allows a single phone number to be shared between two separate iPhone devices, with users switching between them as needed. The mechanism is presumably similar to how an iPhone and Apple Watch can already share the same number. Carrier support may be required, so real-world availability could vary. The feature is particularly relevant for anyone planning to pair a traditional iPhone with the foldable iPhone expected this fall.\n\n## Alarm volume and AirPlay\n\nTwo other improvements surfaced in iOS 27 documentation: alarm volume will be configurable independently from the system's general volume level, resolving a long-standing limitation. According to 9to5Mac, AirPlay connections to Apple TV and HomePod will also be noticeably faster. These are the kinds of refinements that never make keynote headlines but meaningfully improve daily usability.\n\nThese tidbits fit within Apple's stated philosophy for iOS 27: a refinement-focused release rather than a reinvention, with hundreds of accumulated fixes and performance improvements as the throughline.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Tidbits: Share a Phone Number on Two iPhones, Independent Alarm Volume, Faster AirPlay and More",
+          "url": "https://www.macrumors.com/2026/06/08/ios-27-tidbits/"
+        },
+        {
+          "title": "9to5Mac – Apple officially announces iOS 27",
+          "url": "https://9to5mac.com/2026/06/08/ios-27-announcement/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258376+02:00"
+    },
+    {
+      "slug": "sviluppatori-sirikit-deprecato-app-intents-obbligatorio-xcode-27",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "siri"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Xcode 27 e WWDC 2026: SiriKit è deprecato, App Intents diventa l'unico canale per Siri",
+      "titleEn": "Xcode 27 and WWDC 2026: SiriKit deprecated, App Intents becomes the mandatory Siri channel",
+      "excerptIt": "Apple ha avviato ufficialmente la deprecazione di SiriKit: d'ora in poi l'unico modo per integrare le app con Siri è tramite App Intents, il framework moderno introdotto con iOS 16. Xcode 27 porta inoltre il completamento del codice on-device potenziato da un modello Apple Intelligence, senza round-trip cloud.",
+      "excerptEn": "Apple has officially deprecated SiriKit: App Intents is now the only supported way to integrate apps with Siri. Xcode 27 also ships on-device, multi-line code completion powered by an Apple Intelligence model running locally on Apple Silicon.",
+      "bodyIt": "## Fine di SiriKit, inizio di App Intents\n\nUno dei segnali più rilevanti per gli sviluppatori emersi da WWDC 2026 riguarda l'architettura di integrazione con Siri. Come riportato da Lushbinary nell'analisi tecnica del keynote, Apple ha posto SiriKit su un percorso di deprecazione esplicito: il framework storico, introdotto con iOS 10 e rimasto invariato per quasi un decennio, cede il posto ad App Intents come unico canale ufficiale per esporre funzionalità delle app a Siri. La transizione non è immediata — SiriKit continuerà a funzionare per ora — ma il segnale è inequivocabile: chi non migra prima del ciclo successivo rischia di restare fuori dall'ecosistema Siri AI.\n\nApp Intents, con il supporto a interazioni multi-turno e streaming, è progettato per sfruttare la nuova architettura conversazionale di Siri AI. Un'app che non espone i propri Intent non sarà accessibile attraverso il pannello di assistenza contestuale né attraverso le App Actions che Siri AI usa per agire trasversalmente alle applicazioni.\n\n## Xcode 27: completamento del codice on-device\n\nSul fronte strumenti, Xcode 27 introduce il completamento del codice predittivo e multiriga basato su un modello Apple Intelligence che gira localmente su Apple Silicon, senza invio di dati al cloud. Il modello può opzionalmente inoltrare i suggerimenti a modelli di terze parti, mantenendo la scelta in mano allo sviluppatore. Xcode 27 porta anche prestazioni migliorata del simulatore, integrazione Git più fluida e strumenti Instruments perfezionati per la profilazione di memoria ed energia.",
+      "bodyEn": "## SiriKit's end, App Intents' beginning\n\nOne of the most consequential developer signals from WWDC 2026 concerns Siri integration architecture. As reported by Lushbinary in its technical keynote analysis, Apple has placed SiriKit on an explicit deprecation track: the legacy framework, introduced with iOS 10 and largely unchanged for nearly a decade, gives way to App Intents as the only officially supported channel for exposing app functionality to Siri. The transition is not immediate — SiriKit will continue to work for now — but the signal is unambiguous: developers who don't migrate risk being left out of the Siri AI ecosystem in a future cycle.\n\nApp Intents, with its support for multi-turn interactions and streaming, is designed to leverage Siri AI's new conversational architecture. An app that does not expose App Intents will not surface in Siri AI's contextual assistance panel or be reachable through the App Actions that Siri AI uses to operate across applications.\n\n## Xcode 27: on-device code completion\n\nOn the tooling side, Xcode 27 introduces predictive, multi-line code completion powered by an Apple Intelligence model running locally on Apple Silicon, with no cloud round-trip. The model can optionally route suggestions to third-party AI models, leaving the choice to the developer. Xcode 27 also ships faster simulator performance, tighter Git workflow integration, and improved Instruments profiling for memory and energy.",
+      "sources": [
+        {
+          "title": "Lushbinary – WWDC 2026: iOS 27, New Siri & Dev Tools",
+          "url": "https://lushbinary.com/blog/wwdc-2026-announcements-ios-27-siri-developer-guide/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258385+02:00"
+    },
+    {
+      "slug": "ios-27-foldable-iphone-layout-api-hinge-state-swiftui",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "iOS 27 prepara le app al pieghevole: nuove API di layout per l'iPhone Fold",
+      "titleEn": "iOS 27 lays the groundwork for foldable iPhone: new layout APIs for hinge-state and adaptive displays",
+      "excerptIt": "Con iOS 27 Apple introduce nel SDK le API adattive per display pieghevoli: SwiftUI e UIKit guadagnano il rilevamento dello stato della cerniera (hinge-state) e la gestione di configurazioni multi-display. L'iPhone pieghevole non è stato annunciato al keynote, ma il framework arriva ora per dare agli sviluppatori il tempo di adattare le loro app prima del lancio hardware di settembre.",
+      "excerptEn": "iOS 27 ships new adaptive layout APIs in SwiftUI and UIKit for foldable displays, including hinge-state detection and multi-configuration display handling. The foldable iPhone itself wasn't announced at the keynote, but the framework arrives now to give developers a head start before the expected September hardware launch.",
+      "bodyIt": "## Il framework prima del dispositivo\n\nApple non ha annunciato l'iPhone pieghevole al keynote WWDC 2026 — come atteso, il hardware arriverà con l'evento iPhone di settembre — ma ha introdotto nel SDK di iOS 27 le fondamenta necessarie perché gli sviluppatori adattino le loro app in anticipo. Come documentato da Lushbinary nell'analisi tecnica post-keynote, SwiftUI e UIKit ricevono nuove API di layout adattive: rilevamento dello stato della cerniera (hinge-state detection) e gestione di configurazioni multi-display.\n\nIl principio dichiarato da Apple è che il comportamento atteso sull'iPhone pieghevole sia il reflow fluido del contenuto — non il letterboxing — il che implica un lavoro strutturale per molte app, soprattutto quelle con layout rigidi o con interfacce ottimizzate per proporzioni fisse. Il meccanismo è analogo a quello già visto su iPad con Stage Manager: quando il dispositivo si apre o si chiude, l'app deve ridisporsi in tempo reale.\n\n## Un segnale di roadmap\n\nLa mossa conferma indirettamente che l'iPhone pieghevole è previsto per settembre 2026. Apple non anticiperebbe la pubblicazione di framework specifici senza avere un calendario hardware definito. Per gli sviluppatori, il messaggio è pratico: chi adotta le nuove API adesso avrà app pronte al day-one del nuovo dispositivo; chi aspetta si troverà a rincorrere.",
+      "bodyEn": "## The framework before the device\n\nApple did not announce the foldable iPhone at the WWDC 2026 keynote — hardware is expected at the September iPhone event — but it shipped the foundational SDK pieces in iOS 27 to give developers a head start. As documented by Lushbinary in its post-keynote technical breakdown, SwiftUI and UIKit receive new adaptive layout APIs: hinge-state detection and multi-configuration display handling.\n\nApple's stated expectation is that apps on the foldable iPhone should reflow fluidly rather than letterbox, which requires structural work for many apps, especially those with rigid layouts or interfaces optimised for fixed aspect ratios. The mechanism mirrors what was already introduced on iPad with Stage Manager: when the device opens or closes, the app must re-layout in real time.\n\n## A roadmap signal\n\nThe move implicitly confirms a September 2026 timeline for the foldable iPhone. Apple would not publish hardware-specific frameworks without a fixed release calendar. For developers, the practical message is clear: those who adopt the new APIs now will have day-one ready apps; those who wait will be playing catch-up.",
+      "sources": [
+        {
+          "title": "Lushbinary – WWDC 2026: iOS 27, New Siri & Dev Tools",
+          "url": "https://lushbinary.com/blog/wwdc-2026-announcements-ios-27-siri-developer-guide/"
+        },
+        {
+          "title": "MacRumors – iOS 27 Tidbits: Share a Phone Number on Two iPhones, Independent Alarm Volume, Faster AirPlay and More",
+          "url": "https://www.macrumors.com/2026/06/08/ios-27-tidbits/"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258392+02:00"
+    },
+    {
+      "slug": "apple-intelligence-lingue-lancio-italiano-francese-tedesco-multilingual",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple Intelligence al lancio supporta l'italiano e oltre 15 lingue: l'AI non è solo anglofona",
+      "titleEn": "Apple Intelligence launches with Italian and 15+ languages: the AI is not English-only",
+      "excerptIt": "A differenza di Siri AI — disponibile inizialmente solo in inglese — Apple Intelligence arriva in autunno con un ventaglio di lingue già ampio: italiano, francese, tedesco, spagnolo, giapponese, portoghese, cinese semplificato e tradizionale, coreano, svedese, turco, vietnamita e altre. Una distinzione tecnica importante che cambia le aspettative per gli utenti fuori dall'area anglofona.",
+      "excerptEn": "Unlike Siri AI — which launches in English only — Apple Intelligence arrives this fall supporting a broad set of languages including Italian, French, German, Spanish, Japanese, Portuguese, Simplified and Traditional Chinese, Korean, Swedish, Turkish, Vietnamese, and more.",
+      "bodyIt": "## Due velocità: Siri AI vs. Apple Intelligence\n\nNel dibattito sulla disponibilità linguistica emerso dopo il keynote WWDC 2026, vale la pena separare due cose che Apple tende a presentare come un tutt'uno. Siri AI — il nuovo assistente conversazionale alimentato da Google Gemini — parte solo in inglese, con altre lingue annunciate genericamente come \"in arrivo\". Ma Apple Intelligence, il layer di funzioni AI integrate nel sistema operativo (editing fotografico, strumenti di scrittura, Genmoji, Image Playground, suggerimenti contestuali), ha un profilo linguistico molto più ampio fin dal giorno uno.\n\nCome riportato da Sportskeeda nel riepilogo del keynote, al lancio autunnale Apple Intelligence sarà disponibile in inglese, danese, olandese, francese, tedesco, italiano, giapponese, coreano, norvegese, portoghese, cinese semplificato, cinese tradizionale, spagnolo, svedese, turco e vietnamita. Per gli utenti italiani, questo significa che la maggior parte delle funzioni AI di sistema — dai writing tools alla ricerca intelligente in Foto — saranno accessibili nella propria lingua fin dal primo giorno, a prescindere dalle restrizioni su Siri AI.\n\n## Il nodo europeo rimane\n\nLa distinzione non risolve il problema più grave: Siri AI non sarà disponibile su iOS 27 e iPadOS 27 nell'Unione Europea a causa del Digital Markets Act. Sarà però disponibile su macOS 27, watchOS 27 e visionOS 27. Apple Intelligence in senso stretto — le funzioni non legate all'assistente Gemini — non è soggetta agli stessi vincoli regolatori, quindi dovrebbe arrivare anche su iPhone e iPad europei con il normale aggiornamento autunnale.",
+      "bodyEn": "## Two speeds: Siri AI vs. Apple Intelligence\n\nIn the post-keynote debate about language availability, it is worth separating two things Apple tends to present as one. Siri AI — the new conversational assistant powered by Google Gemini — launches in English only, with other languages described generically as 'coming soon.' But Apple Intelligence, the layer of AI features integrated into the OS (photo editing, writing tools, Genmoji, Image Playground, contextual suggestions), has a much broader language footprint from day one.\n\nAs reported by Sportskeeda in its keynote recap, Apple Intelligence will be available at the fall launch in English, Danish, Dutch, French, German, Italian, Japanese, Korean, Norwegian, Portuguese, Simplified Chinese, Traditional Chinese, Spanish, Swedish, Turkish, and Vietnamese. For Italian users, this means most system AI features — from writing tools to intelligent search in Photos — will be accessible in their own language from day one, regardless of Siri AI restrictions.\n\n## The European knot remains\n\nThe distinction does not resolve the bigger problem: Siri AI will not be available on iOS 27 and iPadOS 27 in the European Union due to the Digital Markets Act. It will, however, be available on macOS 27, watchOS 27, and visionOS 27. Apple Intelligence in the strict sense — features not tied to the Gemini-based assistant — is not subject to the same regulatory constraints, so it should arrive on European iPhones and iPads with the standard fall update.",
+      "sources": [
+        {
+          "title": "Sportskeeda – Apple WWDC 2026 recap: Everything announced",
+          "url": "https://tech.sportskeeda.com/mobiles/apple-wwdc-2026-recap-everything-announced-apple-keynote-event"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar – Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258399+02:00"
+    },
+    {
+      "slug": "messages-ios-27-facetime-dual-camera-poll-emoji-album-condivisi",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Messages e FaceTime su iOS 27: doppia fotocamera, sondaggi e reazioni emoji negli album",
+      "titleEn": "Messages and FaceTime on iOS 27: dual-camera support, polls, and emoji reactions in shared albums",
+      "excerptIt": "iOS 27 porta in Messages la possibilità di creare sondaggi nelle conversazioni e consolida le notifiche di Tapback multiple. FaceTime guadagna il supporto alla doppia fotocamera, migliora la qualità in caso di connessione scarsa e accelera l'avvio delle chiamate. Negli album condivisi arrivano le reazioni emoji.",
+      "excerptEn": "iOS 27 brings poll creation to Messages conversations and consolidates multiple Tapback notifications. FaceTime gains dual-camera support, improves quality on poor connections, and speeds up call launch. Shared Albums gain emoji reactions.",
+      "bodyIt": "## Messages: sondaggi e meno rumore\n\nNella documentazione tecnica di iOS 27 emersa dopo il keynote WWDC 2026, MacRumors ha elencato una serie di aggiornamenti alle app di comunicazione che non hanno trovato spazio nella presentazione sul palco. In Messages, la novità più utile è la possibilità di creare sondaggi all'interno delle conversazioni — una funzione presente da anni su WhatsApp e Telegram, finalmente disponibile nell'app nativa Apple. Le notifiche di Tapback multipli verranno consolidate in un'unica notifica aggregata, riducendo il rumore da reazione nelle conversazioni di gruppo. Gli album condivisi guadagnano le reazioni emoji, avvicinandosi all'esperienza già disponibile in Messaggi.\n\n## FaceTime: doppia fotocamera e connessioni difficili\n\nFaceTime riceve il supporto alla doppia fotocamera, che permette di alternare o combinare i feed delle fotocamere anteriore e posteriore durante una chiamata video. La funzione è particolarmente rilevante per dimostrazioni, presentazioni o semplicemente per mostrare l'ambiente circostante mantenendo il contatto visivo. Apple ha anche migliorato la qualità video su connessioni instabili e ridotto i tempi di avvio delle chiamate FaceTime. Le didascalie live (Live Captions) guadagnano il supporto al cinese tradizionale.",
+      "bodyEn": "## Messages: polls and less noise\n\nIn the iOS 27 technical documentation surfaced after the WWDC 2026 keynote, MacRumors catalogued a series of updates to communication apps that did not make it onto the keynote stage. In Messages, the most useful addition is poll creation inside conversations — a feature that has existed in WhatsApp and Telegram for years, finally available in Apple's native app. Multiple Tapback notifications will be consolidated into a single aggregated notification, reducing reaction noise in group conversations. Shared Albums gain emoji reactions, aligning the experience with what is already available in Messages.\n\n## FaceTime: dual-camera and poor connections\n\nFaceTime gains dual-camera support, allowing users to alternate or combine the front and rear camera feeds during a video call — useful for demonstrations, presentations, or simply showing surroundings while maintaining eye contact. Apple has also improved video quality on unstable connections and reduced FaceTime call launch times. Live Captions gain support for Traditional Chinese.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Tidbits: Share a Phone Number on Two iPhones, Independent Alarm Volume, Faster AirPlay and More",
+          "url": "https://www.macrumors.com/2026/06/08/ios-27-tidbits/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258405+02:00"
+    },
+    {
+      "slug": "maps-ios-27-routing-linguaggio-naturale-offline-migliorato",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Maps su iOS 27: ricerca itinerari in linguaggio naturale e mappe offline potenziate",
+      "titleEn": "Maps on iOS 27: natural language route search and improved offline maps",
+      "excerptIt": "Con iOS 27 Apple Maps acquisisce la ricerca di itinerari in linguaggio naturale — si chiede un percorso come si parlerebbe a una persona — e migliora sensibilmente le mappe offline con una copertura più ampia e dati più accurati sui luoghi visitati. Arrivano anche le Guide in ulteriori destinazioni e una migliore accuratezza GPS in CarPlay.",
+      "excerptEn": "iOS 27 brings natural language routing search to Apple Maps — ask for directions the way you'd speak to a person — and significantly improves offline maps with wider coverage and more accurate visited places data. Guides expand to more locations and GPS accuracy in CarPlay improves.",
+      "bodyIt": "## Chiedere la strada come si parla\n\nTra i miglioramenti a Maps in iOS 27 emersi dalla documentazione tecnica post-keynote, uno dei più pratici è la ricerca di percorsi in linguaggio naturale. Secondo MacRumors, è possibile descrivere un itinerario in modo conversazionale anziché inserire indirizzi formattati — un cambiamento che allinea Maps al modo in cui le persone realmente formulano richieste di navigazione. La funzione sfrutta l'infrastruttura di Apple Intelligence già presente nel sistema e si inserisce nella tendenza generale di iOS 27 a fare del linguaggio naturale il canale principale per le interazioni AI.\n\n## Mappe offline e GPS in CarPlay\n\nLe mappe offline ricevono un aggiornamento strutturale: copertura più ampia, dati sui luoghi visitati più accurati e integrazione migliorata con le Guide, che vengono estese a nuove destinazioni. In CarPlay, l'accuratezza GPS è migliorata, il che si traduce in indicazioni più precise specialmente in contesti urbani complessi. Le mappe dei percorsi ricevono anche un aggiornamento visivo in Fitness, per chi usa Apple Watch durante attività all'aperto. Sono miglioramenti graduali, ma Maps continua a colmare il divario con Google Maps su funzioni pratiche che contano nella navigazione quotidiana.",
+      "bodyEn": "## Asking for directions the way you'd speak\n\nAmong the Maps improvements in iOS 27 surfaced in post-keynote technical documentation, one of the most practical is natural language routing search. According to MacRumors, users can describe an itinerary conversationally rather than entering formatted addresses — a change that aligns Maps with how people actually formulate navigation requests. The feature leverages the Apple Intelligence infrastructure already present in the system and fits within iOS 27's broader trend of making natural language the primary channel for AI interactions.\n\n## Offline maps and GPS in CarPlay\n\nOffline maps receive a structural update: wider coverage, more accurate visited places data, and improved integration with Guides, which expand to new destinations. In CarPlay, GPS accuracy is improved, translating to more precise directions especially in complex urban environments. Route maps also receive a visual update in Fitness, for Apple Watch outdoor activity users. These are incremental improvements, but Maps continues to close the gap with Google Maps on the practical, everyday navigation features that matter.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Tidbits: Share a Phone Number on Two iPhones, Independent Alarm Volume, Faster AirPlay and More",
+          "url": "https://www.macrumors.com/2026/06/08/ios-27-tidbits/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026 in 10 Minutes",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258411+02:00"
+    },
+    {
+      "slug": "ios-27-nuove-lingue-tastiera-afrikaans-baybayin-guarani-espansione",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "accessibilita"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 espande la tastiera a decine di nuove lingue: Afrikaans, Baybayin, Guaranì e lingue indigene",
+      "titleEn": "iOS 27 expands keyboard support to dozens of new languages: Afrikaans, Baybayin, Guarani, and indigenous languages",
+      "excerptIt": "iOS 27 porta nuove tastiere per Afrikaans, Basco, Baybayin, inglese delle Filippine, Galiziano, Guaranì, Lussemburghese, Xhosa e Zulu. Arrivano anche le prime tastiere per lingue indigene nordamericane — Blackfoot, Comanche, Cree, Kiowa, Tsuutʼina — in quella che MacRumors descrive come una delle espansioni linguistiche più ampie degli ultimi anni.",
+      "excerptEn": "iOS 27 adds new keyboards for Afrikaans, Basque, Baybayin, English (Philippines), Galician, Guarani, Luxembourgish, Xhosa, and Zulu, plus support for indigenous North American languages including Blackfoot, Comanche, Cree, Kiowa, and Tsuut'ina — one of Apple's largest language expansions in years.",
+      "bodyIt": "## Un aggiornamento per chi non parla inglese\n\nSe le notizie del keynote WWDC 2026 hanno ruotato principalmente attorno a Siri AI e Apple Intelligence, uno degli aggiornamenti con l'impatto potenzialmente più ampio è passato quasi inosservato: iOS 27 introduce nuove tastiere per Afrikaans, Basco, Baybayin (script filippino), inglese delle Filippine, Galiziano, Guaranì, Lussemburghese, Xhosa e Zulu. Come documentato da MacRumors e 9to5Mac, si tratta di uno dei pacchetti di nuove lingue più estesi degli ultimi anni.\n\n## Lingue indigene nordamericane per la prima volta\n\nParticolarmente significativa è l'inclusione di lingue indigene nordamericane: Blackfoot, Comanche, Cree, Kiowa e Tsuutʼina. Non si tratta di lingue con milioni di parlanti, ma la loro presenza nel sistema operativo di un dispositivo globale ha un valore simbolico e pratico per le comunità che le parlano, e rappresenta un'evoluzione del concetto di accessibilità oltre la disabilità. Migliorano anche il supporto a Hindi, cinese, giapponese, cinese tradizionale, portoghese brasiliano, sloveno, estone e marathi. Apple ha anche migliorato la conversione fonetica da Pinyin e Kana durante la digitazione in cinese semplificato e giapponese.",
+      "bodyEn": "## An update for non-English speakers\n\nWhile WWDC 2026 keynote coverage largely focused on Siri AI and Apple Intelligence, one of the updates with potentially the broadest real-world impact passed almost unnoticed: iOS 27 introduces new keyboards for Afrikaans, Basque, Baybayin (Filipino script), English (Philippines), Galician, Guarani, Luxembourgish, Xhosa, and Zulu. As documented by MacRumors and 9to5Mac, this is one of the most extensive new language packages in years.\n\n## Indigenous North American languages for the first time\n\nParticularly significant is the inclusion of indigenous North American languages: Blackfoot, Comanche, Cree, Kiowa, and Tsuut'ina. These are not languages with millions of speakers, but their presence in the operating system of a global device carries both symbolic and practical value for the communities that speak them, and represents an evolution of accessibility beyond disability. Support also improves for Hindi, Chinese, Japanese, Traditional Chinese, Brazilian Portuguese, Slovenian, Estonian, and Marathi. Apple has also improved phonetic conversion from Pinyin and Kana when typing in Simplified Chinese and Japanese.",
+      "sources": [
+        {
+          "title": "MacRumors – iOS 27 Tidbits: Share a Phone Number on Two iPhones, Independent Alarm Volume, Faster AirPlay and More",
+          "url": "https://www.macrumors.com/2026/06/08/ios-27-tidbits/"
+        },
+        {
+          "title": "9to5Mac – Apple officially announces iOS 27",
+          "url": "https://9to5mac.com/2026/06/08/ios-27-announcement/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T04:55:16.258417+02:00"
+    },
     {
       "slug": "siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo",
       "macroArea": "apple-intelligence",
