@@ -1,9 +1,215 @@
 {
-  "lastUpdate": "2026-06-09T19:02:30.857892+02:00",
+  "lastUpdate": "2026-06-09T20:03:03.481324+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ios-27-rcs-end-to-end-encryption-beta",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "continuity"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "iOS 27: RCS con crittografia end-to-end, finalmente in beta",
+      "titleEn": "iOS 27: End-to-end encrypted RCS messaging, now in beta",
+      "excerptIt": "Apple porta la crittografia end-to-end anche ai messaggi RCS in iOS 27, colmando una lacuna di sicurezza strutturale rispetto a iMessage. La funzione arriva inizialmente in beta per gli sviluppatori.",
+      "excerptEn": "Apple brings end-to-end encryption to RCS messages in iOS 27, closing a long-standing security gap compared to iMessage. The feature launches initially in developer beta.",
+      "bodyIt": "## Una promessa attesa da anni\n\nDa quando Apple ha adottato lo standard RCS in iOS 17.4, la mancanza di crittografia end-to-end nelle conversazioni con utenti Android era rimasta il punto debole principale rispetto a iMessage. Con iOS 27, Apple annuncia che la crittografia E2EE arriva anche a RCS, anche se per il momento soltanto in forma di beta per gli sviluppatori.\n\n## Cosa cambia in pratica\n\nLe conversazioni RCS tra iPhone e dispositivi Android che supportano lo standard crittografato saranno protette dalla crittografia end-to-end, impedendo a operatori telefonici e intermediari di leggere i contenuti. Si tratta di un passo verso l'interoperabilità sicura richiesta anche dalle normative europee sul Digital Markets Act. MacRumors ha segnalato la funzione tra le novità minori ma significative emerse dalla prima beta di iOS 27 distribuita agli sviluppatori nella sera dell'8 giugno.\n\n## Tempistiche e limiti\n\nLa funzione è in beta: non è ancora chiaro quando e in quali condizioni sarà disponibile per l'utenza generale, né se richiederà che anche l'interlocutore Android utilizzi un'app compatibile con il profilo crittografato di RCS. Apple non ha specificato ulteriori dettagli tecnici sul palco, ma la presenza nella beta indica che l'implementazione è già abbastanza matura.",
+      "bodyEn": "## A long-awaited step\n\nSince Apple adopted RCS in iOS 17.4, the lack of end-to-end encryption in cross-platform conversations with Android users remained the key security weakness compared to iMessage. With iOS 27, Apple announces E2EE for RCS, initially in developer beta form.\n\n## What changes in practice\n\nRCS conversations between iPhone and Android devices supporting the encrypted standard will be protected end-to-end, preventing carriers and intermediaries from reading content. This also moves toward the secure interoperability mandated under the EU's Digital Markets Act. MacRumors flagged the feature among the notable minor additions surfacing from the iOS 27 developer beta released on June 8.\n\n## Timeline and caveats\n\nThe feature is in beta: it remains unclear when it will reach general users or whether it requires the Android recipient to also use an RCS-compatible app supporting the encrypted profile. Apple provided no further technical details on stage.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481235+02:00"
+    },
+    {
+      "slug": "gymkit-iphone-airpods-pro-3-ios-27",
+      "macroArea": "salute-benessere",
+      "tags": [
+        "salute",
+        "continuity"
+      ],
+      "category": "Salute e Benessere",
+      "titleIt": "GymKit arriva su iPhone e AirPods Pro 3: la palestra non richiede piu l'Apple Watch",
+      "titleEn": "GymKit expands to iPhone and AirPods Pro 3: no Apple Watch required at the gym",
+      "excerptIt": "Apple estende GymKit a iPhone e AirPods Pro 3 con iOS 27, rompendo l'esclusiva di sette anni con Apple Watch. Tapis roulant, ellittiche e bici compatibili potranno ora sincronizzarsi direttamente con lo smartphone.",
+      "excerptEn": "Apple expands GymKit to iPhone and AirPods Pro 3 with iOS 27, breaking the seven-year Apple Watch exclusivity. Compatible treadmills, ellipticals, and bikes can now sync directly with the phone.",
+      "bodyIt": "## GymKit, sette anni dopo\n\nLanciato nel 2017, GymKit ha sempre richiesto un Apple Watch: l'utente doveva avvicinare il polso all'attrezzatura compatibile per far sincronizzare i dati di allenamento in tempo reale. Con iOS 27, Apple rompe questa esclusiva e porta la connettività GymKit anche su iPhone e AirPods Pro 3. Secondo MacRumors, l'espansione permette di collegarsi ad attrezzature cardio certificate — tapis roulant, ellittiche, bici e step — senza indossare uno smartwatch.\n\n## Perché conta\n\nL'impatto pratico riguarda chi non possiede un Apple Watch o preferisce non indossarlo durante certi allenamenti. I dati di velocità, distanza e calorie misurati dall'attrezzatura fluiranno direttamente in Health e Fitness sull'iPhone, garantendo la stessa accuratezza che prima era riservata agli utenti Watch. Per AirPods Pro 3, l'integrazione suggerisce anche possibili feedback audio in tempo reale durante la sessione.\n\n## Compatibilità\n\nFunziona con le attrezzature da palestra certificate GymKit già esistenti: non è necessario aggiornare i macchinari. Il requisito lato Apple è iOS 27 su iPhone e il firmware aggiornato degli AirPods Pro 3.",
+      "bodyEn": "## GymKit, seven years later\n\nLaunched in 2017, GymKit always required an Apple Watch: users had to hold their wrist near compatible equipment to sync workout data in real time. With iOS 27, Apple breaks this exclusivity and brings GymKit connectivity to both iPhone and AirPods Pro 3. According to MacRumors, the expansion allows connection to certified cardio equipment — treadmills, ellipticals, bikes, and stair-steppers — without wearing a smartwatch.\n\n## Why it matters\n\nThe practical impact is on users who don't own an Apple Watch or prefer not to wear one during certain workouts. Speed, distance, and calorie data measured by the equipment will flow directly into Health and Fitness on iPhone, providing the same accuracy previously reserved for Watch users.\n\n## Compatibility\n\nWorks with existing GymKit-certified gym equipment; no machine updates required. The Apple-side requirement is iOS 27 on iPhone and updated firmware for AirPods Pro 3.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481269+02:00"
+    },
+    {
+      "slug": "visionos-27-environment-thorsmork-islanda",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "visionOS 27: l'ambiente immersivo Thorsmork porta le highlands islandesi su Vision Pro",
+      "titleEn": "visionOS 27: Thórsmörk immersive environment brings Icelandic highlands to Vision Pro",
+      "excerptIt": "Apple aggiunge Thorsmork alla libreria di ambienti di Vision Pro: una cresta montuosa islandese con ciclo giorno-notte, aurora boreale e audio spaziale. I colori del paesaggio si riflettono dinamicamente sullo sfondo durante la riproduzione video.",
+      "excerptEn": "Apple adds Thórsmörk to Vision Pro's Environments library: an Icelandic mountain ridge with day-night cycle, Northern Lights, and spatial audio. Landscape colors reflect dynamically in the background during video playback.",
+      "bodyIt": "## Un nuovo paesaggio per immergersi\n\nCon la prima beta di visionOS 27, Apple ha introdotto un nuovo ambiente chiamato Thórsmörk, ispirato all'omonima cresta montuosa islandese che prende il nome dal dio norreno Thor. Secondo MacRumors, l'ambiente offre un'esperienza notturna e diurna del paesaggio glaciale attorno a un lago, con effetti sonori invernali e il suono dell'acqua corrente.\n\n## L'aurora boreale come dettaglio tecnico\n\nThórsmörk include la vista delle aurore boreali, elemento che lo distingue dagli ambienti precedenti come Yosemite, Mount Hood o la Luna. La caratteristica piu interessante dal punto di vista tecnico e' la risposta dinamica al contenuto video: se si guarda un filmato mentre l'ambiente e' attivo, i colori della scena si riflettono sulla neve e sull'acqua circostanti, aumentando il senso di immersione. Una logica simile era stata introdotta con l'ambiente Jupiter in visionOS 26, basato su immagini NASA.\n\n## Contesto nella libreria degli ambienti\n\nGli ambienti di Vision Pro servono sia come sfondo durante l'uso delle app sia come spazio immersivo durante la visione di contenuti. L'aggiunta di Thórsmörk amplia la varietà geografica e climatica della libreria, finora dominata da paesaggi nordamericani.",
+      "bodyEn": "## A new landscape to immerse yourself in\n\nWith the first visionOS 27 beta, Apple introduced a new Environment called Thórsmörk, named after the Icelandic mountain ridge dedicated to the Norse god Thor. According to MacRumors, the Environment offers a day and night experience of the icy landscape surrounding a lake, complete with wintry sound effects and running water.\n\n## Northern Lights as a technical detail\n\nThórsmörk includes a view of the Northern Lights, distinguishing it from previous environments like Yosemite, Mount Hood, or the Moon. The most technically interesting detail is its dynamic response to video content: when watching a video while the environment is active, the scene's colors are reflected in the surrounding snow and water, increasing immersion — a concept first introduced with the Jupiter environment in visionOS 26.\n\n## Context in the Environments library\n\nVision Pro Environments serve both as backgrounds during app use and as immersive spaces during media viewing. Thórsmörk expands the geographic and climatic variety of the library, previously dominated by North American landscapes.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 live",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481277+02:00"
+    },
+    {
+      "slug": "siri-ai-eu-watchos-escluso-correzione-apple",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "privacy"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI nell'UE: Apple corregge il comunicato, watchOS 27 escluso al lancio",
+      "titleEn": "Siri AI in the EU: Apple corrects press release, watchOS 27 excluded at launch",
+      "excerptIt": "Apple ha aggiornato il proprio comunicato stampa il 9 giugno: Siri AI in Europa sara disponibile inizialmente solo su macOS 27 e visionOS 27, escludendo watchOS 27 a differenza di quanto dichiarato inizialmente. Un dettaglio che ridisegna la mappa dell'accesso europeo alle funzioni AI.",
+      "excerptEn": "Apple updated its press release on June 9: Siri AI in Europe will be available initially only on macOS 27 and visionOS 27, excluding watchOS 27 contrary to original statements. A detail that redraws the European map of AI feature access.",
+      "bodyIt": "## La rettifica del 9 giugno\n\nNella mattinata del 9 giugno, Apple ha silenziosamente aggiornato il proprio comunicato stampa sulle limitazioni di Siri AI nell'Unione Europea. Come riportato da Engadget, il testo originale indicava watchOS 27 tra le piattaforme su cui Siri AI sarebbe stata disponibile in Europa; la versione corretta specifica invece che al lancio sara accessibile esclusivamente su macOS 27 e visionOS 27.\n\n## La mappa aggiornata dell'accesso europeo\n\nIl quadro risultante e' il seguente: in Europa, Siri AI e' bloccata su iOS 27, iPadOS 27 e — come chiarito dalla rettifica — watchOS 27. Rimangono fruibili macOS Golden Gate e visionOS 27. La motivazione ufficiale resta quella delle sfide regolamentari legate al Digital Markets Act, senza ulteriori dettagli sui tempi di una eventuale estensione alle piattaforme escluse.\n\n## Perché il dettaglio conta\n\nLa correzione non e' banale: Apple Watch e' il dispositivo con cui molti utenti interagiscono con Siri in mobilita e durante l'attivita fisica, proprio i contesti in cui un assistente piu capace sarebbe piu utile. Ridurre l'accesso europeo alle sole piattaforme desktop e visore significa che la maggior parte degli utenti UE di Apple Watch non beneficera delle nuove capacita conversazionali di Siri nel ciclo di rilascio autunnale.",
+      "bodyEn": "## The June 9 correction\n\nOn the morning of June 9, Apple quietly updated its press release on Siri AI limitations in the European Union. As reported by Engadget, the original text listed watchOS 27 among the platforms where Siri AI would be available in Europe; the corrected version specifies that at launch it will be accessible exclusively on macOS 27 and visionOS 27.\n\n## The updated European access map\n\nThe resulting picture: in Europe, Siri AI is blocked on iOS 27, iPadOS 27, and — as clarified by the correction — watchOS 27. macOS Golden Gate and visionOS 27 remain available. The official rationale remains regulatory challenges tied to the Digital Markets Act, with no further detail on timing for a possible expansion.\n\n## Why the detail matters\n\nApple Watch is the device most people use to interact with Siri on the go and during physical activity — precisely the contexts where a more capable assistant would be most useful. Restricting European access to desktop and headset platforms means most EU Apple Watch users will not benefit from the new conversational Siri capabilities in the autumn release cycle.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481288+02:00"
+    },
+    {
+      "slug": "maps-suggested-places-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Maps: Suggested Places porta suggerimenti contestuali proattivi in iOS 27",
+      "titleEn": "Apple Maps: Suggested Places brings proactive contextual suggestions in iOS 27",
+      "excerptIt": "Apple Maps in iOS 27 introduce Suggested Places, una funzione che propone destinazioni pertinenti in base al contesto dell'utente — calendario, orario, abitudini — senza che sia necessario cercare manualmente.",
+      "excerptEn": "Apple Maps in iOS 27 introduces Suggested Places, a feature that proactively suggests relevant destinations based on user context — calendar, time, habits — without requiring manual searches.",
+      "bodyIt": "## Cosa fa Suggested Places\n\nTra le novita minori di Maps segnalate da MacRumors dopo il keynote, Suggested Places e' una funzione che sfrutta Apple Intelligence per proporre destinazioni in modo proattivo. L'app analizza il contesto disponibile — appuntamenti in calendario, ora del giorno, luogo attuale e abitudini di navigazione passate — e mostra suggerimenti pertinenti prima ancora che l'utente apra la barra di ricerca.\n\n## La logica di sistema\n\nL'approccio si inserisce nella strategia piu ampia di Apple Intelligence di ridurre la frizione tra intenzione e azione. Invece di aprire Maps, digitare una destinazione e avviare la navigazione, l'utente trova gia la proposta contestuale pronta. E' una delle manifestazioni del concetto di \"proattivita cross-app\" che Apple ha enfatizzato in tutto il keynote: il sistema conosce abbastanza del contesto da anticipare i bisogni.\n\n## Limiti e privacy\n\nCome per tutte le funzioni di Apple Intelligence che accedono a dati personali, l'elaborazione e' dichiarata on-device. Non sono stati forniti dettagli su come Suggested Places interagisca con i dati di posizione condivisi con app di terze parti o con la cronologia di Maps.",
+      "bodyEn": "## What Suggested Places does\n\nAmong the Maps additions flagged by MacRumors after the keynote, Suggested Places uses Apple Intelligence to proactively suggest destinations. The app analyzes available context — calendar appointments, time of day, current location, and past navigation habits — and displays relevant suggestions before the user even opens the search bar.\n\n## The system logic\n\nThe approach fits Apple Intelligence's broader strategy of reducing friction between intention and action. Instead of opening Maps, typing a destination, and starting navigation, the user already finds a contextual suggestion ready. It is one of the expressions of the cross-app proactivity concept Apple emphasized throughout the keynote.\n\n## Privacy considerations\n\nAs with all Apple Intelligence features that access personal data, processing is stated to be on-device. No details were provided on how Suggested Places interacts with location data shared with third-party apps or Maps history.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481295+02:00"
+    },
+    {
+      "slug": "accessibility-reader-riepiloghi-traduzioni-ai-ios27",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "accessibilita",
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Accessibility Reader in iOS 27: riepiloghi e traduzioni AI per testi complessi",
+      "titleEn": "Accessibility Reader in iOS 27: AI summaries and translations for complex text",
+      "excerptIt": "Apple Intelligence potenzia Accessibility Reader con la capacita di riepilogare testi lunghi e tradurli in altre lingue, rendendo il contenuto scritto piu accessibile a chi ha difficolta di lettura o non e' madrelingua.",
+      "excerptEn": "Apple Intelligence enhances Accessibility Reader with the ability to summarize long texts and translate them, making written content more accessible to people with reading difficulties or non-native speakers.",
+      "bodyIt": "## Accessibility Reader, una funzione che cresce\n\nIntrodotta nelle versioni precedenti come strumento per adattare la visualizzazione del testo — spaziatura, dimensione, contrasto — Accessibility Reader in iOS 27 acquisisce due capacita basate su Apple Intelligence: la sintesi dei contenuti e la traduzione. Secondo quanto riportato da Engadget nella copertura del keynote, la funzione supportera riepiloghi e traduzioni direttamente nel contesto di lettura, senza dover uscire dall'app.\n\n## A chi serve davvero\n\nIl target principale e' duplice. Da un lato, le persone con dislessia, difficolta cognitive o ipovisione che faticano a leggere testi lunghi o tecnici: il riepilogo riduce la quantita di testo da elaborare. Dall'altro, chi legge in una seconda lingua: la traduzione contestuale elimina il passaggio in un'app esterna. E' una delle applicazioni piu concrete di Apple Intelligence in ambito accessibilita, dove l'AI non e' un ornamento ma modifica strutturalmente l'esperienza.\n\n## Integrazione con Voice Control\n\nIl keynote ha anche mostrato che Voice Control in iOS 27 permettera di descrivere pulsanti e controlli di qualsiasi app senza doverne ricordare il nome esatto. Insieme ad Accessibility Reader potenziata, emerge un pattern coerente: Apple Intelligence viene sistematicamente applicata ai flussi di lavoro degli utenti con esigenze speciali, non come funzione separata ma come strato trasversale al sistema operativo.",
+      "bodyEn": "## Accessibility Reader grows up\n\nIntroduced in previous versions as a tool to adapt text display — spacing, size, contrast — Accessibility Reader in iOS 27 gains two Apple Intelligence-powered capabilities: content summarization and translation. As reported by Engadget in keynote coverage, the feature will support summaries and translations directly within the reading context, without leaving the app.\n\n## Who it really serves\n\nThe primary target is twofold. On one hand, people with dyslexia, cognitive difficulties, or low vision who struggle with long or technical texts: the summary reduces the amount of text to process. On the other, those reading in a second language: contextual translation removes the detour through an external app. This is one of the most concrete applications of Apple Intelligence in accessibility, where AI is not an ornament but structurally changes the experience.\n\n## Integration with Voice Control\n\nThe keynote also showed that Voice Control in iOS 27 will allow describing buttons and controls in any app without needing to remember their exact name — a consistent pattern of Apple Intelligence being systematically applied to workflows for users with special needs.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481303+02:00"
+    },
+    {
+      "slug": "watchos-27-apple-watch-bambini-senza-iphone",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "accessibilita",
+        "continuity"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "watchOS 27: configurare Apple Watch per i bambini senza che abbiano un iPhone",
+      "titleEn": "watchOS 27: set up Apple Watch for kids even without an iPhone",
+      "excerptIt": "Con watchOS 27 i genitori potranno configurare un Apple Watch per un bambino che non possiede un iPhone proprio, estendendo il controllo parentale e la connettivita ai piu giovani in modo autonomo e sicuro.",
+      "excerptEn": "With watchOS 27, parents can set up an Apple Watch for a child who doesn't have their own iPhone, extending parental controls and connectivity to younger users in a standalone and secure way.",
+      "bodyIt": "## Il problema che risolve\n\nFinora configurare un Apple Watch per un figlio richiedeva che il bambino avesse un proprio iPhone, oppure utilizzare la modalita Family Setup — gia esistente — che lega l'orologio all'iPhone di un genitore. Con watchOS 27, Apple semplifica ulteriormente questo percorso: secondo Engadget, i genitori avranno un modo nuovo e diretto per configurare un Apple Watch per bambini privi di iPhone, senza complessita aggiuntive.\n\n## Integrazione con il sistema Child Account\n\nLa novita si inserisce nel piu ampio sistema di Child Account annunciato con iOS 27, che centralizza i controlli parentali su tutti i dispositivi del nucleo familiare. Un orologio configurato per un bambino operera sotto le stesse regole e restrizioni definite nell'account figlio: chi puo contattarlo, quali app puo usare, con quali limiti di tempo. E' un rafforzamento del perimetro digitale familiare che Apple ha costruito pezzo per pezzo negli ultimi anni.\n\n## Indipendenza controllata\n\nDal punto di vista pratico, permettere a un bambino di avere un Apple Watch senza iPhone significa offrire connettivita di emergenza e tracciamento GPS senza esporre il minore agli stimoli e ai rischi di uno smartphone completo. Per molte famiglie e' un compromesso sensato, e Apple lo rende ora piu accessibile.",
+      "bodyEn": "## The problem it solves\n\nUntil now, setting up an Apple Watch for a child required the child to have their own iPhone, or using the existing Family Setup mode tied to a parent's iPhone. With watchOS 27, Apple further simplifies this path: according to Engadget, parents will have a new, direct way to set up an Apple Watch for kids without an iPhone, without added complexity.\n\n## Integration with the Child Account system\n\nThis fits into the broader Child Account system announced with iOS 27, which centralizes parental controls across all family devices. A watch configured for a child will operate under the same rules and restrictions defined in the child account: who can contact them, which apps they can use, and with what time limits.\n\n## Controlled independence\n\nPractically, allowing a child to have an Apple Watch without an iPhone means offering emergency connectivity and GPS tracking without exposing the minor to the stimuli and risks of a full smartphone — a sensible compromise Apple now makes more accessible.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRadar – WWDC 2026 live",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481310+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-toolbar-uniforme-design-aggiornamento",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "macOS Golden Gate: toolbar uniforme e Liquid Glass piu opaco per leggere meglio",
+      "titleEn": "macOS Golden Gate: unified toolbar and more opaque Liquid Glass for better readability",
+      "excerptIt": "macOS Golden Gate introduce una barra degli strumenti piu coerente tra le app e un cursore di opacita per Liquid Glass, rispondendo alle critiche sul design introdotto in macOS Tahoe. Un ritocco calibrato, non una revisione.",
+      "excerptEn": "macOS Golden Gate introduces a more consistent toolbar across apps and an opacity slider for Liquid Glass, responding to criticism of the design introduced in macOS Tahoe. A calibrated adjustment, not a revision.",
+      "bodyIt": "## Le due correzioni di design\n\nEngadget descrive due interventi distinti al linguaggio visivo di macOS Golden Gate. Il primo riguarda la toolbar: Apple introduce una barra degli strumenti piu uniforme tra le applicazioni, riducendo la frammentazione visiva che si e' accumulata nel corso degli anni in cui ogni app gestiva l'area superiore a modo proprio. Il secondo e' l'aggiunta di un cursore di opacita per Liquid Glass, il materiale traslucido introdotto in macOS Tahoe che ha diviso le opinioni degli utenti.\n\n## Il cursore di opacita: pragmatismo o ammissione\n\nIl cursore di opacita merita una riflessione. Apple non torna indietro sul design Liquid Glass — era impensabile che lo facesse a distanza di una sola generazione — ma riconosce implicitamente che la sua implementazione originale aveva problemi di leggibilita su certi contenuti e in certi contesti di illuminazione. Offrire all'utente il controllo del livello di trasparenza e' una soluzione pragmatica che sposta il problema dall'ingegneria alla preferenza personale.\n\n## Uniformita della toolbar\n\nLa toolbar uniforme e' un intervento meno vistoso ma potenzialmente piu impattante per chi usa Mac tutto il giorno. Un'area superiore visivamente coerente riduce il carico cognitivo nel passaggio tra applicazioni e rende l'interfaccia complessivamente piu professionale. Engadget cita questa modifica come uno degli interventi \"benvenuti\" di Golden Gate rispetto al predecessore.",
+      "bodyEn": "## Two design corrections\n\nEngadget describes two distinct interventions to macOS Golden Gate's visual language. The first concerns the toolbar: Apple introduces a more uniform toolbar across applications, reducing the visual fragmentation that has accumulated as each app managed its top area differently. The second is the addition of an opacity slider for Liquid Glass, the translucent material introduced in macOS Tahoe that divided user opinion.\n\n## The opacity slider: pragmatism or admission\n\nThe opacity slider deserves reflection. Apple is not walking back Liquid Glass design — unthinkable just one generation later — but implicitly acknowledges that its original implementation had readability issues in certain content and lighting contexts. Giving users control over transparency level is a pragmatic solution that shifts the problem from engineering to personal preference.\n\n## Toolbar uniformity\n\nThe uniform toolbar is a less flashy change but potentially more impactful for full-day Mac users. A visually consistent top bar reduces cognitive load when switching between applications and makes the overall interface feel more professional. Engadget cites this change as one of Golden Gate's most 'welcome' improvements over its predecessor.",
+      "sources": [
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "CNBC – WWDC 2026 live updates",
+          "url": "https://www.cnbc.com/2026/06/08/apple-wwdc-2026-live-updates.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T20:03:03.481316+02:00"
+    },
     {
       "slug": "foundation-models-languagemodel-protocol-gemini-claude-swift",
       "macroArea": "sviluppatori",
