@@ -1,9 +1,231 @@
 {
-  "lastUpdate": "2026-06-09T04:55:16.258423+02:00",
+  "lastUpdate": "2026-06-09T17:03:45.642264+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "apple-home-secure-video-4k-natural-language-icloud-plus",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Home Secure Video: 4K e ricerca in linguaggio naturale per le telecamere",
+      "titleEn": "Apple Home Secure Video: 4K storage and natural language search for security cameras",
+      "excerptIt": "Apple ha rinominato e potenziato HomeKit Secure Video integrando Apple Intelligence: le riprese vengono ora indicizzate in 4K e si possono cercare con frasi in linguaggio naturale. Il servizio è incluso in iCloud Plus senza sovrapprezzo.",
+      "excerptEn": "Apple has rebranded and upgraded HomeKit Secure Video with Apple Intelligence: footage is now stored in 4K and searchable via natural language queries, included with iCloud Plus at no extra cost.",
+      "bodyIt": "## Cosa cambia rispetto a HomeKit Secure Video\n\nDa anni HomeKit Secure Video consentiva di registrare i filmati delle telecamere domestiche sull'iCloud dell'utente, fuori dalla portata di Apple stessa. Con iOS 27 e macOS Golden Gate, il servizio diventa Apple Home Secure Video e riceve due upgrade sostanziali: la risoluzione massima di archiviazione sale a 4K e Apple Intelligence analizza il contenuto dei video per consentire ricerche in linguaggio naturale direttamente dall'app Casa. Secondo Tom's Guide e Analytics Insight, basta digitare — o dettare — una frase come «mostrami quando il pacco è arrivato ieri» per ottenere il clip pertinente.\n\n## Il modello economico e i limiti reali\n\nIl servizio rimane incluso nell'abbonamento iCloud Plus, il che lo rende gratuitamente accessibile a chi già paga per lo spazio di archiviazione. Il rovescio della medaglia, come nota Tom's Guide, è che i video in 4K incidono significativamente sulla quota iCloud disponibile. Resta poi il limite storico dell'ecosistema: le telecamere compatibili con HomeKit sono molto meno numerose rispetto a Ring o Nest, il che restringe la platea di chi può effettivamente sfruttare le nuove funzioni da subito.\n\n## Perché conta\n\nLa mossa di Apple ha senso in un contesto in cui i concorrenti — Google Nest, Amazon Ring — offrono già ricerca semantica e archiviazione ad alta risoluzione dietro paywall. Apple consolida l'integrazione verticale: elaborazione AI on-device o su Private Cloud Compute, filmati cifrati in iCloud, ricerca senza cedere i dati a terzi. La qualità dell'indicizzazione AI e la copertura dell'ecosistema di telecamere rimangono i veri fattori da valutare nella pratica.",
+      "bodyEn": "## What changes from HomeKit Secure Video\n\nFor years, HomeKit Secure Video let users record camera footage into their iCloud account, away from Apple's own eyes. With iOS 27 and macOS Golden Gate, the service becomes Apple Home Secure Video and gains two substantial upgrades: maximum storage resolution increases to 4K, and Apple Intelligence analyses video content to enable natural language search directly from the Home app. According to Tom's Guide and Analytics Insight, typing or dictating a phrase like 'show me when the package arrived yesterday' returns the relevant clip.\n\n## The economic model and real limitations\n\nThe service remains included in the iCloud Plus subscription, making it effectively free for those already paying for storage. The downside, as Tom's Guide notes, is that 4K video will eat significantly into available iCloud storage space. The long-standing ecosystem limitation also remains: HomeKit-compatible cameras are far fewer than those supporting Ring or Nest, which restricts the immediate audience for these features.\n\n## Why it matters\n\nApple's move makes sense in a landscape where competitors — Google Nest, Amazon Ring — already offer semantic search and high-resolution storage behind paywalls. Apple consolidates vertical integration: on-device or Private Cloud Compute AI processing, encrypted footage in iCloud, search without handing data to third parties. The actual quality of AI indexing and the breadth of camera ecosystem support remain the real factors to evaluate in practice.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Analytics Insight – WWDC 2026 Live Updates",
+          "url": "https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642186+02:00"
+    },
+    {
+      "slug": "photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa",
+      "titleEn": "Clean Up updated in iOS 27: more precise object removal with generative AI",
+      "excerptIt": "Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli generativi aggiornati. La funzione si affianca a Extend, Reframe ed Enhance come quarto pilastro dell'editing AI.",
+      "excerptEn": "Apple has upgraded the Clean Up tool in the iOS 27 Photos app, making object removal more accurate through updated generative models. The feature joins Extend, Reframe, and Enhance as the fourth pillar of AI editing.",
+      "bodyIt": "## Un anno di critiche, una risposta\n\nClean Up era stato introdotto con iOS 18 come primo strumento di editing AI in Foto, ma le valutazioni comparative — incluso un test pubblicato da Tom's Guide che confrontava Apple, Google e Samsung — avevano mostrato risultati inferiori rispetto ai rivali: soggetti rimossi male, riempimenti poco convincenti. Con iOS 27, Apple ha aggiornato il modello sottostante per produrre rimozioni più naturali, secondo quanto riportato da Analytics Insight e Apple Insider.\n\n## Come si inserisce nell'ecosistema di editing\n\nClean Up non è più l'unico strumento AI in Foto: con iOS 27 arrivano anche Extend (ampliamento dell'inquadratura), Reframe (cambio di prospettiva) ed Enhance (miglioramento generale). I quattro strumenti coprono archi d'uso diversi — composizione, pulizia, prospettiva, qualità — e si integrano con il flusso di lavoro esistente senza richiedere app di terze parti. La coerenza tra questi strumenti sarà determinante per l'adozione quotidiana.\n\n## Cosa rimane da vedere\n\nNessuna delle fonti disponibili quantifica il miglioramento di Clean Up con test sistematici sulla beta. Bisognerà attendere che i recensori possano confrontare i risultati su casi reali — scene complesse, sfondi ripetuti, soggetti con bordi irregolari — prima di stabilire se Apple ha realmente colmato il divario con Google Photos Magic Eraser o Samsung's Object Eraser.",
+      "bodyEn": "## A year of criticism, one response\n\nClean Up was introduced with iOS 18 as the first AI editing tool in Photos, but comparative evaluations — including a Tom's Guide test pitting Apple, Google, and Samsung against each other — showed results inferior to rivals: poorly removed subjects and unconvincing fills. With iOS 27, Apple has updated the underlying model to produce more natural removals, according to Analytics Insight and AppleInsider.\n\n## How it fits into the editing ecosystem\n\nClean Up is no longer the sole AI tool in Photos: iOS 27 also brings Extend (frame expansion), Reframe (perspective shift), and Enhance (overall quality improvement). The four tools cover different use cases — composition, cleanup, perspective, quality — and integrate into the existing workflow without requiring third-party apps.\n\n## What remains to be seen\n\nNone of the available sources quantify the improvement in Clean Up with systematic testing on the beta. Reviewers will need to compare results on real-world cases — complex scenes, repeating backgrounds, subjects with irregular edges — before determining whether Apple has genuinely closed the gap with Google Photos Magic Eraser or Samsung's Object Eraser.",
+      "sources": [
+        {
+          "title": "Analytics Insight – WWDC 2026 Live Updates",
+          "url": "https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect"
+        },
+        {
+          "title": "AppleInsider – WWDC 2026 coverage",
+          "url": "https://appleinsider.com/articles/26/06/05/i-only-want-one-thing-from-wwdc-2026-and-its-got-nothing-to-do-with-ai"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642216+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-supporto-ultrawide-layout-persistente",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "macOS Golden Gate: supporto nativo agli schermi ultrawide e layout persistenti",
+      "titleEn": "macOS Golden Gate: native ultrawide display support and persistent layouts",
+      "excerptIt": "macOS 27 Golden Gate introduce il supporto esplicito agli schermi ultrawide con modalita ad alta risoluzione dedicate e la capacita di ripristinare automaticamente la disposizione delle finestre quando i monitor vengono ricollegati.",
+      "excerptEn": "macOS 27 Golden Gate introduces explicit ultrawide display support with dedicated high-resolution modes and the ability to automatically restore window layouts when monitors are reconnected.",
+      "bodyIt": "## Una lacuna finalmente colmata\n\nGli schermi ultrawide — con rapporti d'aspetto 21:9 o piu larghi — erano supportati da macOS solo in modo parziale: il sistema li trattava come monitor generici senza ottimizzare le risoluzioni disponibili e senza memorizzare la disposizione delle finestre tra una disconnessione e l'altra. AppleInsider segnala che macOS Golden Gate aggiunge supporto esplicito agli schermi ultrawide, abilitando modalità ad alta risoluzione specifiche e preservando la disposizione dei monitor quando vengono ricollegati.\n\n## Perché conta per i professionisti\n\nChi usa workstation con piu monitor — video editor, sviluppatori, designer — conosce bene il problema: ogni volta che uno schermo perde alimentazione o viene disconnesso dal dock, macOS redistribuisce le finestre in modo imprevedibile. La persistenza del layout elimina uno dei punti di frizione quotidiana piu fastidiosi. L'aggiunta del supporto ultrawide nativo significa anche risoluzioni piu alte effettivamente disponibili nei menu di sistema, senza dover ricorrere a software di terze parti come BetterDisplay.\n\n## Contesto\n\nL'annuncio è passato in secondo piano rispetto all'onda lunga di Siri AI e Liquid Glass, ma rappresenta un miglioramento concreto e misurabile per una categoria di utenti che usa Mac come strumento professionale primario. Nessun dettaglio tecnico aggiuntivo è emerso sulle sessioni WWDC dedicate a questa funzione.",
+      "bodyEn": "## A long-standing gap finally addressed\n\nUltrawide displays — with 21:9 or wider aspect ratios — were only partially supported by macOS: the system treated them as generic monitors without optimizing available resolutions and without remembering window arrangements between disconnections. AppleInsider reports that macOS Golden Gate adds explicit ultrawide display support, enabling specific high-resolution modes and preserving monitor layouts when displays are reconnected.\n\n## Why it matters for professionals\n\nAnyone using a multi-monitor workstation — video editors, developers, designers — knows the problem well: every time a display loses power or is disconnected from a dock, macOS redistributes windows unpredictably. Layout persistence eliminates one of the most frustrating daily friction points. Native ultrawide support also means higher resolutions actually available in system menus, without resorting to third-party software like BetterDisplay.\n\n## Context\n\nThe announcement was overshadowed by the wave of Siri AI and Liquid Glass news, but it represents a concrete, measurable improvement for a category of users who rely on Mac as their primary professional tool.",
+      "sources": [
+        {
+          "title": "AppleInsider – WWDC 2026 coverage",
+          "url": "https://appleinsider.com/articles/26/06/05/i-only-want-one-thing-from-wwdc-2026-and-its-got-nothing-to-do-with-ai"
+        },
+        {
+          "title": "Macworld – WWDC 2026 live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642225+02:00"
+    },
+    {
+      "slug": "game-porting-toolkit-agenti-ai-mac-gaming",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Game Porting Toolkit potenziato con agenti AI: porting su Mac piu accessibile",
+      "titleEn": "Game Porting Toolkit supercharged with AI agents: Mac porting made more accessible",
+      "excerptIt": "Apple ha aggiornato il Game Porting Toolkit integrando agenti AI che automatizzano parte del processo di conversione dei giochi verso macOS, riducendo il lavoro manuale richiesto agli sviluppatori.",
+      "excerptEn": "Apple has updated the Game Porting Toolkit with AI agents that automate parts of the game conversion process to macOS, reducing the manual work required from developers.",
+      "bodyIt": "## Cosa fa il Game Porting Toolkit\n\nIl Game Porting Toolkit è lo strumento Apple che consente agli sviluppatori di portare giochi Windows su Mac con meno sforzo rispetto a una conversione nativa completa. Tradizionalmente richiede un lavoro tecnico manuale significativo: analisi del codice, adattamento delle API grafiche, test di compatibilità. Con la versione presentata a WWDC 2026, Apple integra agenti AI nel flusso di lavoro, secondo quanto riportato da AppleInsider.\n\n## Cosa cambiano gli agenti AI\n\nGli agenti AI possono analizzare il codice sorgente del gioco, identificare le chiamate a API non supportate su Mac e suggerire o applicare automaticamente le sostituzioni appropriate. L'obiettivo dichiarato è abbassare la soglia d'ingresso per gli studi di medie dimensioni che non possono permettersi un team dedicato al porting. Il risultato pratico dipenderà dalla complessità del titolo e dalla qualità delle sostituzioni generate: per giochi AAA con engine proprietari il risparmio potrebbe essere marginale, mentre per titoli con engine comuni il beneficio potrebbe essere sostanziale.\n\n## Il contesto del gaming su Mac\n\nApple Silicon ha migliorato significativamente le prestazioni grafiche dei Mac, ma la libreria di titoli disponibili rimane molto piu limitata rispetto a Windows. Ogni strumento che riduce l'attrito del porting è un tassello verso un ecosistema gaming Mac piu ricco, ma la vera leva resta la base installata e la domanda commerciale. Nessun dato quantitativo sull'efficacia degli agenti AI è stato ancora reso pubblico.",
+      "bodyEn": "## What the Game Porting Toolkit does\n\nThe Game Porting Toolkit is Apple's tool that lets developers port Windows games to Mac with less effort than a full native conversion. It traditionally requires significant manual technical work: code analysis, graphics API adaptation, compatibility testing. With the version presented at WWDC 2026, Apple integrates AI agents into the workflow, according to AppleInsider.\n\n## What AI agents change\n\nAI agents can analyse a game's source code, identify calls to APIs unsupported on Mac, and suggest or automatically apply appropriate replacements. The stated goal is to lower the barrier to entry for mid-sized studios that cannot afford a dedicated porting team. The practical result will depend on the game's complexity and the quality of generated substitutions.\n\n## Mac gaming context\n\nApple Silicon has significantly improved Mac graphics performance, but the available library of titles remains far more limited than on Windows. Every tool that reduces porting friction is a step toward a richer Mac gaming ecosystem, but the real lever remains installed base and commercial demand. No quantitative data on the effectiveness of the AI agents has been published yet.",
+      "sources": [
+        {
+          "title": "AppleInsider – WWDC 2026 coverage",
+          "url": "https://appleinsider.com/articles/26/06/05/i-only-want-one-thing-from-wwdc-2026-and-its-got-nothing-to-do-with-ai"
+        },
+        {
+          "title": "Macworld – WWDC 2026 live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642232+02:00"
+    },
+    {
+      "slug": "app-store-abbonamenti-raccomandazioni-personalizzate-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "App Store rinnovato: nuovi strumenti abbonamento e raccomandazioni personalizzate",
+      "titleEn": "App Store overhauled: new subscription tools and personalized recommendations",
+      "excerptIt": "Apple ha annunciato un aggiornamento sostanziale all'App Store con nuovi strumenti per la gestione degli abbonamenti, raccomandazioni personalizzate alimentate da AI e funzioni di marketing avanzate per aiutare gli sviluppatori ad attrarre piu utenti.",
+      "excerptEn": "Apple announced a substantial App Store update with new subscription management tools, AI-powered personalized recommendations, and advanced marketing features to help developers attract more users.",
+      "bodyIt": "## Cosa cambia per gli sviluppatori\n\nL'App Store riceve un aggiornamento sul lato degli strumenti per sviluppatori che tocca tre aree, secondo AppleInsider: gestione degli abbonamenti (nuove opzioni di configurazione e flessibilita nei modelli di prezzo), raccomandazioni personalizzate per gli utenti basate su AI, e funzioni di marketing che danno agli sviluppatori piu controllo sulla visibilita dei propri prodotti nel negozio.\n\n## Il contesto regolatorio\n\nL'aggiornamento arriva in un momento in cui Apple è sotto pressione regolatoria sia nell'UE — dove il Digital Markets Act impone l'apertura ad app store alternativi — sia negli Stati Uniti, dove procedimenti antitrust continuano a mettere sotto esame le commissioni e le politiche dell'App Store. Nuovi strumenti per gli sviluppatori servono anche come argomento nella narrativa che Apple porta ai regolatori: un marketplace che evolve e offre piu valore. Rimane da vedere se le commissioni rimarranno invariate o se verranno introdotte eccezioni per specifici modelli di business.\n\n## Cosa aspettarsi\n\nI dettagli tecnici delle nuove API per abbonamenti e delle funzioni di marketing non sono ancora stati resi pubblici completamente: le sessioni WWDC dedicate all'App Store nelle prossime giornate daranno piu chiarezza agli sviluppatori interessati.",
+      "bodyEn": "## What changes for developers\n\nThe App Store receives a developer tooling update touching three areas, according to AppleInsider: subscription management (new configuration options and pricing model flexibility), AI-powered personalised recommendations for users, and marketing features giving developers more control over their products' visibility in the store.\n\n## The regulatory context\n\nThe update arrives at a time when Apple faces regulatory pressure both in the EU — where the Digital Markets Act mandates opening to alternative app stores — and in the US, where antitrust proceedings continue to scrutinise App Store fees and policies. New developer tools also serve as an argument in Apple's narrative to regulators: a marketplace that evolves and delivers more value.\n\n## What to expect\n\nThe technical details of the new subscription APIs and marketing features have not yet been fully disclosed: WWDC sessions dedicated to the App Store in the coming days will provide more clarity to interested developers.",
+      "sources": [
+        {
+          "title": "AppleInsider – WWDC 2026 coverage",
+          "url": "https://appleinsider.com/articles/26/06/05/i-only-want-one-thing-from-wwdc-2026-and-its-got-nothing-to-do-with-ai"
+        },
+        {
+          "title": "Macworld – WWDC 2026 live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642238+02:00"
+    },
+    {
+      "slug": "messages-mail-suggestion-icons-ai-azioni-contestuali",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Messages e Mail: icone AI contestuali per aggiungere eventi e promemoria con un tocco",
+      "titleEn": "Messages and Mail: contextual AI icons to add events and reminders with a single tap",
+      "excerptIt": "iOS 27 introduce icone di suggerimento AI all'interno di Messages e Mail: il sistema riconosce informazioni azionabili nelle conversazioni — date, luoghi, compiti — e propone azioni come aggiungere un evento al Calendario o creare un Promemoria senza uscire dall'app.",
+      "excerptEn": "iOS 27 introduces AI suggestion icons inside Messages and Mail: the system recognises actionable information in conversations — dates, places, tasks — and offers actions like adding a calendar event or creating a reminder without leaving the app.",
+      "bodyIt": "## Come funzionano le suggestion icons\n\nAnalytics Insight descrive la funzione come icone di suggerimento che compaiono inline nelle conversazioni e nelle email quando Apple Intelligence identifica contenuto azionabile: un orario, un indirizzo, una scadenza. Un singolo tocco sull'icona esegue l'azione — aggiunge l'evento al Calendario, crea il Promemoria, avvia la navigazione — senza dover aprire un'altra app o copiare e incollare manualmente le informazioni.\n\n## Distinzione dal già annunciato\n\nQuesto meccanismo è concettualmente diverso dalla funzione \"App Actions\" e dal contesto cross-app di Siri AI già coperti in precedenza: qui non è Siri a ricevere un comando, ma è il sistema di Apple Intelligence a iniettare proattivamente suggerimenti contestuali direttamente nel flusso di lettura di un messaggio o di una email. L'approccio si avvicina a quello di Google Assistant con Smart Reply e delle pillole contestuali di Android, ma Apple lo integra nel tessuto visivo dell'app invece di sovrapporlo.\n\n## Implicazioni\n\nLa funzione elimina uno dei micro-attriti più comuni nello smartphone moderno: copiare un indirizzo da un messaggio, passare a Maps, incollarlo. Se l'identificazione contestuale è precisa — e non produce falsi positivi fastidiosi — l'impatto sulla produttività quotidiana potrebbe essere concreto. La qualità dell'NLP sui testi italiani e nelle altre lingue supportate sarà determinante.",
+      "bodyEn": "## How suggestion icons work\n\nAnalytics Insight describes the feature as suggestion icons appearing inline in conversations and emails when Apple Intelligence identifies actionable content: a time, an address, a deadline. A single tap on the icon executes the action — adds the event to Calendar, creates the Reminder, starts navigation — without opening another app or manually copying and pasting information.\n\n## Distinction from what's already covered\n\nThis mechanism is conceptually different from the 'App Actions' feature and Siri AI's cross-app context covered previously: here it's not Siri receiving a command, but Apple Intelligence proactively injecting contextual suggestions directly into the reading flow of a message or email.\n\n## Implications\n\nThe feature eliminates one of the most common micro-frictions in modern smartphones: copying an address from a message, switching to Maps, pasting it. If contextual identification is accurate — and doesn't produce annoying false positives — the impact on daily productivity could be substantial.",
+      "sources": [
+        {
+          "title": "Analytics Insight – WWDC 2026 Live Updates",
+          "url": "https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642244+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-touch-ottimizzazioni-macbook-touchscreen",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "macOS Golden Gate pone le basi per un MacBook con touchscreen: UI ottimizzata al tocco",
+      "titleEn": "macOS Golden Gate lays the groundwork for a touchscreen MacBook with touch-optimised UI",
+      "excerptIt": "macOS 27 introduce target di tocco piu grandi, controlli gesture ottimizzati e adattamenti UI derivati da iPadOS, preparando il terreno software per il MacBook con display touchscreen su cui si rincorrono le indiscrezioni da mesi.",
+      "excerptEn": "macOS 27 introduces larger tap targets, optimised gesture controls, and UI adaptations borrowed from iPadOS, laying the software groundwork for the touchscreen MacBook that rumours have been circling for months.",
+      "bodyIt": "## Cosa e' cambiato nel design dell'interfaccia\n\nTom's Guide e MacRumors hanno entrambi riportato che macOS Golden Gate include adattamenti UI discreti mutuati da iPadOS: aree di tocco piu ampie sugli elementi interattivi, controlli gesture ottimizzati e correzioni di layout che rendono l'interfaccia piu usabile con le dita. Apple non ha fatto un annuncio esplicito di un MacBook touchscreen, ma questi aggiornamenti hanno senso solo in prospettiva di hardware che sfrutti direttamente lo schermo.\n\n## Il MacBook touchscreen sullo sfondo\n\nMacRumors ha citato ottimizzazioni per un futuro MacBook Pro tra le novita di macOS 27. Apple ha sostenuto per oltre un decennio che un laptop touchscreen non avesse senso, citando l'ergonomia del \"gorilla arm\". Il cambiamento di rotta — almeno sul piano software — suggerisce che quella posizione si sta ammorbidendo, probabilmente in risposta alla pressione competitiva di Microsoft Surface e dei Chromebook touch.\n\n## Perche conta ora\n\nPreparare il software prima dell'hardware e' la prassi Apple: lo stesso e' avvenuto con Apple Silicon (anni di Universal Binary prima del lancio dei chip M) e con il display ProMotion (ottimizzazioni nell'OS prima dei 120Hz sugli iPhone). Se la logica si ripete, un MacBook con touchscreen potrebbe arrivare nell'arco di uno o due cicli di prodotto. Nulla e' confermato sul piano hardware, ma il segnale software e' chiaro.",
+      "bodyEn": "## What has changed in the interface design\n\nTom's Guide and MacRumors have both reported that macOS Golden Gate includes subtle UI adaptations borrowed from iPadOS: larger tap targets on interactive elements, optimised gesture controls, and layout fixes that make the interface more usable with fingers. Apple did not make an explicit announcement about a touchscreen MacBook, but these updates only make sense in prospect of hardware that directly exploits the display.\n\n## The touchscreen MacBook in the background\n\nMacRumors cited optimisations for a future MacBook Pro among macOS 27 updates. Apple has maintained for over a decade that a touchscreen laptop made no sense, citing 'gorilla arm' ergonomics. The software-level change of direction suggests that position is softening, likely in response to competitive pressure from Microsoft Surface and touch Chromebooks.\n\n## Why it matters now\n\nPreparing software before hardware is Apple's standard practice: the same happened with Apple Silicon (years of Universal Binary before M chip launch) and ProMotion display (OS optimisations before 120Hz on iPhones). If the pattern repeats, a touchscreen MacBook could arrive within one or two product cycles. Nothing is confirmed on the hardware side, but the software signal is clear.",
+      "sources": [
+        {
+          "title": "Tom's Guide – WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Macworld – WWDC 2026 live blog",
+          "url": "https://www.macworld.com/article/3154372/apple-event-wwdc-2026-live-blog.html"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642251+02:00"
+    },
+    {
+      "slug": "ios-27-messages-mail-ai-azioni-calendario-promemoria-inline",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "iOS 27: Apple Intelligence riconosce date e luoghi nelle email e propone azioni immediate",
+      "titleEn": "iOS 27: Apple Intelligence recognises dates and places in emails and suggests immediate actions",
+      "excerptIt": "Nell'app Mail di iOS 27, Apple Intelligence identifica automaticamente informazioni azionabili nel corpo delle email — date, orari, indirizzi — e le presenta come azioni rapide tap-to-execute direttamente nel messaggio, senza uscire dall'app.",
+      "excerptEn": "In the iOS 27 Mail app, Apple Intelligence automatically identifies actionable information in email bodies — dates, times, addresses — and presents them as quick tap-to-execute actions directly in the message, without leaving the app.",
+      "bodyIt": "## Il dettaglio funzionale\n\nNella panoramica WWDC 2026 pubblicata da Analytics Insight, emerge che Messages e Mail in iOS 27 ricevono icone di suggerimento AI: il modello on-device analizza il testo della conversazione o dell'email, riconosce entita azionabili (un orario di riunione, un indirizzo di consegna, una scadenza per una risposta) e le presenta inline con un'icona tap-to-action. L'utente aggiunge l'appuntamento al Calendario o crea il Promemoria con un tocco, senza passare per Siri e senza copiare manualmente il testo.\n\n## Differenza con Smart Reply\n\nLe suggestion icons non sono risposte suggerite al messaggio (gia coperte come Smart Reply), ma azioni sul contenuto del messaggio stesso. E' una distinzione sottile ma importante: Smart Reply suggerisce cosa scrivere in risposta, le suggestion icons suggeriscono cosa fare con le informazioni contenute nel messaggio. I due sistemi coesistono nella stessa app.\n\n## Limiti potenziali\n\nL'accuratezza dipende dalla capacita del modello di distinguere contesti: un'email con \"ci vediamo alle 15\" va bene, ma un thread con piu orari e destinatari potrebbe generare suggerimenti ambigui. Apple non ha comunicato dettagli su come il sistema gestisce l'ambiguita o come l'utente puo segnalare falsi positivi.",
+      "bodyEn": "## The functional detail\n\nIn the WWDC 2026 overview published by Analytics Insight, it emerges that Messages and Mail in iOS 27 receive AI suggestion icons: the on-device model analyses the text of the conversation or email, recognises actionable entities (a meeting time, a delivery address, a reply deadline), and presents them inline with a tap-to-action icon. The user adds the appointment to Calendar or creates the Reminder with one tap, without going through Siri and without manually copying text.\n\n## Difference from Smart Reply\n\nSuggestion icons are not suggested replies to the message (already covered as Smart Reply), but actions on the content of the message itself. It's a subtle but important distinction: Smart Reply suggests what to write in response; suggestion icons suggest what to do with the information in the message. Both systems coexist in the same app.\n\n## Potential limitations\n\nAccuracy depends on the model's ability to distinguish contexts: an email saying 'see you at 3pm' works well, but a thread with multiple times and recipients could generate ambiguous suggestions. Apple has not communicated details on how the system handles ambiguity or how users can flag false positives.",
+      "sources": [
+        {
+          "title": "Analytics Insight – WWDC 2026 Live Updates",
+          "url": "https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-09T17:03:45.642257+02:00"
+    },
     {
       "slug": "carplay-ios-27-video-app-audio-scrubbing-wireless-reliability",
       "macroArea": "servizi-ecosistema",

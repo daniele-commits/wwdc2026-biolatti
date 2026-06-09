@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa | Apple WWDC 2026</title>
+  <meta name="description" content="Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">
+  <meta property="og:title" content="Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa | Apple WWDC 2026">
+  <meta property="og:description" content="Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa | Apple WWDC 2026">
+  <meta name="twitter:description" content="Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli…">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Aree tematiche</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a>
+            <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a>
+            <a href="./macro-aree/sviluppatori.html">Sviluppatori</a>
+            <a href="./macro-aree/design-interfacce.html">Design e interfacce</a>
+            <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a>
+            <a href="./macro-aree/salute-benessere.html">Salute e benessere</a>
+            <a href="./macro-aree/servizi-ecosistema.html">Servizi ed ecosistema</a>
+            <a href="./macro-aree/privacy-sicurezza.html">Privacy e sicurezza</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Argomenti</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/intelligenza-artificiale.html">Intelligenza artificiale</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift e Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/salute.html">Salute</a>
+            <a href="./tag/continuity.html">Continuity ed ecosistema</a>
+            <a href="./tag/accessibilita.html">Accessibilita</a>
+          </div>
+        </details>
+        <a href="./analisi.html" >Analisi</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archivio</a>
+        <div class="lang-switch">
+          <a href="#" class="active">IT</a>
+          <span class="sep">/</span>
+          <a href="en/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa</h1>
+        <p class="article__lede">Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli generativi aggiornati. La funzione si affianca a Extend, Reframe ed Enhance come quarto pilastro dell'editing AI.</p>
+        <div class="article__meta">
+          <span>Pubblicato: <span data-ts="2026-06-09T17:03:45.642216+02:00">2026-06-09T17:03:45.642216+02:00</span></span>
+          <span>Area tematica: Apple Intelligence e Siri</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Un anno di critiche, una risposta</h2>
+<p>Clean Up era stato introdotto con iOS 18 come primo strumento di editing AI in Foto, ma le valutazioni comparative — incluso un test pubblicato da Tom's Guide che confrontava Apple, Google e Samsung — avevano mostrato risultati inferiori rispetto ai rivali: soggetti rimossi male, riempimenti poco convincenti. Con iOS 27, Apple ha aggiornato il modello sottostante per produrre rimozioni più naturali, secondo quanto riportato da Analytics Insight e Apple Insider.</p>
+<h2>Come si inserisce nell'ecosistema di editing</h2>
+<p>Clean Up non è più l'unico strumento AI in Foto: con iOS 27 arrivano anche Extend (ampliamento dell'inquadratura), Reframe (cambio di prospettiva) ed Enhance (miglioramento generale). I quattro strumenti coprono archi d'uso diversi — composizione, pulizia, prospettiva, qualità — e si integrano con il flusso di lavoro esistente senza richiedere app di terze parti. La coerenza tra questi strumenti sarà determinante per l'adozione quotidiana.</p>
+<h2>Cosa rimane da vedere</h2>
+<p>Nessuna delle fonti disponibili quantifica il miglioramento di Clean Up con test sistematici sulla beta. Bisognerà attendere che i recensori possano confrontare i risultati su casi reali — scene complesse, sfondi ripetuti, soggetti con bordi irregolari — prima di stabilire se Apple ha realmente colmato il divario con Google Photos Magic Eraser o Samsung's Object Eraser.</p>
+        
+        <div class="sources">
+          <h3>Fonti</h3>
+          <ul><li><a href="https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect" target="_blank" rel="noopener">Analytics Insight – WWDC 2026 Live Updates</a></li><li><a href="https://appleinsider.com/articles/26/06/05/i-only-want-one-thing-from-wwdc-2026-and-its-got-nothing-to-do-with-ai" target="_blank" rel="noopener">AppleInsider – WWDC 2026 coverage</a></li><li><a href="https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates" target="_blank" rel="noopener">Tom's Guide – WWDC 2026 recap</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tag</h4>
+          <div class="tag-pills"><a href="./tag/intelligenza-artificiale.html" class="tag-pill">Intelligenza artificiale</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Torna alla home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Copertura indipendente, in italiano, dell'Apple WWDC 2026. A cura di Daniele Biolatti con il supporto di Kairos.</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analisi.html">Analisi</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archivio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Risorse</h4>
+        <ul>
+          <li><a href="https://biolatti.it">Sito principale</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Sito ufficiale Apple WWDC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. Tutte le notizie restano di proprieta delle rispettive fonti.</span>
+      <span>Informazioni aggiornate al 12 giugno 2026. Nessuna affiliazione con Apple. Le fonti originali sono linkate in ogni articolo.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "Clean Up aggiornato in iOS 27: rimozione oggetti piu precisa con AI generativa", "description": "Apple ha migliorato lo strumento Clean Up nell'app Foto di iOS 27, rendendolo piu accurato nella rimozione di elementi indesiderati grazie a modelli generativi aggiornati. La funzione si affianca a Extend, Reframe ed Enhance come quarto pilastro dell'editing AI.", "datePublished": "2026-06-09T17:03:45.642216+02:00", "dateModified": "2026-06-09T17:03:45.642216+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "it", "mainEntityOfPage": "https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html", "url": "https://wwdc2026.biolatti.it/photos-clean-up-migliorato-rimozione-oggetti-ai-ios-27.html", "articleSection": "Apple Intelligence e Siri", "keywords": "intelligenza-artificiale"}</script><script src="assets/js/main.js"></script>
+</body>
+</html>
