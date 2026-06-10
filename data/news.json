@@ -1,9 +1,223 @@
 {
-  "lastUpdate": "2026-06-10T20:02:43.923092+02:00",
+  "lastUpdate": "2026-06-10T20:31:06.803252+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "tesla-apple-carplay-supporto-finalmente",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Tesla aggiunge CarPlay: finisce uno dei blocchi piu lunghi dell'ecosistema Apple",
+      "titleEn": "Tesla adds CarPlay support, ending one of Apple's longest ecosystem holdouts",
+      "excerptIt": "Tesla ha annunciato il supporto a Apple CarPlay, ponendo fine a uno stallo durato anni tra i due marchi piu iconici della tecnologia consumer. L'integrazione arriva in concomitanza con le novita CarPlay di iOS 27.",
+      "excerptEn": "Tesla has announced Apple CarPlay support, ending years of friction between two of consumer tech's most iconic brands, timed alongside iOS 27 CarPlay improvements.",
+      "bodyIt": "## La fine di un'attesa\n\nPer anni Tesla ha rappresentato l'eccezione piu vistosa nell'ecosistema CarPlay: milioni di proprietari di iPhone costretti a rinunciare all'integrazione nativa che davano per scontata su qualsiasi altra auto. Ora, come riportato da Stuff.tv nel corso della settimana WWDC, Tesla ha comunicato l'aggiunta del supporto a Apple CarPlay, chiudendo quella che veniva descritta come \"uno degli standoff tecnologici piu lunghi e frustranti del mondo dell'auto\".\n\n## Tempistica non casuale\n\nL'annuncio arriva mentre Apple ha presentato a WWDC 2026 un CarPlay rinnovato con iOS 27, che include riproduzione video nelle auto parcheggiate, migliorata affidabilita wireless e un nuovo Audio MiniPlayer. Avere Tesla nell'ecosistema proprio mentre CarPlay guadagna funzionalita di questo peso non e una coincidenza: allarga sensibilmente la base utenti che potra sfruttare le novita da subito.\n\n## Cosa cambia per gli utenti\n\nI possessori di Tesla con iPhone potranno finalmente usare Maps, Messages, telefonate e musica attraverso l'interfaccia CarPlay nativa, invece di affidarsi esclusivamente al sistema proprietario del veicolo. I dettagli tecnici sull'integrazione specifica — quali modelli e quale versione del software Tesla — non sono ancora stati precisati, ma la direzione e stabilita.",
+      "bodyEn": "## The end of a long standoff\n\nFor years, Tesla stood as the most glaring holdout in the CarPlay ecosystem, forcing millions of iPhone owners to do without the native integration they took for granted in virtually every other car. Now, as reported by Stuff.tv during WWDC week, Tesla has announced Apple CarPlay support, ending what was described as \"one of the car world's longest and most frustrating tech standoffs.\"\n\n## Strategic timing\n\nThe announcement lands as Apple has introduced a significantly improved CarPlay in iOS 27, with parked-vehicle video playback, better wireless reliability, and a new Audio MiniPlayer. Having Tesla enter the ecosystem at this precise moment widens the addressable base for these new features considerably.\n\n## What changes for users\n\nTesla owners with iPhones will finally be able to use Maps, Messages, calls, and music through the native CarPlay interface instead of relying solely on Tesla's proprietary system. Specific technical details — which models, which Tesla software version — have not yet been confirmed, but the direction is set.",
+      "sources": [
+        {
+          "title": "Stuff.tv — WWDC 2026 event recap",
+          "url": "https://www.stuff.tv/news/apples-wwdc-2026-event-recap-heres-what-was-announced/"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803167+02:00"
+    },
+    {
+      "slug": "ios-27-live-activities-dynamic-island-landscape",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "Live Activities nel Dynamic Island anche in landscape: una lacuna colmata in iOS 27",
+      "titleEn": "Live Activities in Dynamic Island now work in landscape mode with iOS 27",
+      "excerptIt": "iOS 27 porta le Live Activities nel Dynamic Island anche in orientamento orizzontale, eliminando una limitazione che costringeva gli sviluppatori a soluzioni di ripiego su iPhone ruotati.",
+      "excerptEn": "iOS 27 brings Live Activities to the Dynamic Island in landscape orientation, fixing a longstanding limitation that forced developers into workarounds on rotated iPhones.",
+      "bodyIt": "## Una lacuna silenziosa\n\nDal lancio del Dynamic Island con iPhone 14 Pro, le Live Activities apparivano nell'isola solo in modalita verticale. Ruotando l'iPhone, l'indicatore scompariva o si comportava in modo incoerente, lasciando gli sviluppatori di app sportive, di navigazione e di monitoraggio senza una soluzione elegante. Come documentato nella slide con 263 migliorie mostrata durante il keynote WWDC 2026 e analizzata da iClarified, iOS 27 risolve esplicitamente questo caso con il supporto nativo alle Live Activities nel Dynamic Island in landscape.\n\n## Impatto pratico\n\nPer chi usa iPhone in orizzontale mentre guarda video o usa app di navigazione sul cruscotto dell'auto, avere le Live Activities visibili nel Dynamic Island significa non perdere il contesto di un'attivita in corso — un timer, un ordine in consegna, un match di calcio — senza dover tornare alla schermata verticale. E uno di quei miglioramenti che non finisce nei comunicati stampa ma che si sente ogni giorno.",
+      "bodyEn": "## A quiet gap\n\nSince the Dynamic Island launched with iPhone 14 Pro, Live Activities only appeared in the island in portrait orientation. Rotating the iPhone caused the indicator to disappear or behave inconsistently, leaving developers of sports, navigation, and tracking apps without an elegant solution. As documented in the 263-feature slide shown during the WWDC 2026 keynote and catalogued by iClarified, iOS 27 explicitly addresses this with native Live Activities support in the Dynamic Island in landscape.\n\n## Practical impact\n\nFor users who hold their iPhone horizontally while watching video or using navigation apps on a car dashboard, having Live Activities visible in the Dynamic Island means not losing context on an ongoing activity — a timer, a delivery, a sports score — without having to flip back to portrait. It is one of those improvements that never makes the press release but that registers every single day.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803195+02:00"
+    },
+    {
+      "slug": "fitness-plus-workout-perimenopause-menopausa-wwdc-2026",
+      "macroArea": "salute-benessere",
+      "tags": [
+        "salute"
+      ],
+      "category": "Salute e Benessere",
+      "titleIt": "Fitness+ aggiunge allenamenti dedicati a perimenopausa e menopausa",
+      "titleEn": "Fitness+ adds dedicated workouts for perimenopause and menopause",
+      "excerptIt": "Apple espande Fitness+ con categorie di allenamento specifiche per la perimenopausa e la menopausa, affiancando il tracking clinico gia annunciato per Health. L'iniziativa conferma un approccio sistematico alla salute femminile.",
+      "excerptEn": "Apple expands Fitness+ with workout categories specifically designed for perimenopause and menopause, complementing the clinical tracking already announced for Health. The move confirms a systematic approach to women's health.",
+      "bodyIt": "## Oltre il tracking\n\nA WWDC 2026 Apple ha annunciato per Health.app nuove funzioni di monitoraggio per perimenopausa e menopausa. Ma la slide con 263 migliorie mostrata durante il keynote rivela una dimensione aggiuntiva: Fitness+ riceve workout dedicati a queste fasi della vita. I due annunci sono distinti e si completano — uno riguarda il monitoraggio dei dati fisiologici, l'altro fornisce contenuti di allenamento pensati per i cambiamenti che queste fasi comportano, come le variazioni ormonali che influenzano resistenza, recupero e gestione del calore corporeo.\n\n## Un approccio coerente\n\nApple ha progressivamente costruito una copertura della salute femminile che ora va dal ciclo mestruale al ciclo di vita completo. L'aggiunta di workout specifici per perimenopausa e menopausa su Fitness+ segue la stessa logica con cui erano stati introdotti gli allenamenti per la gravidanza: riconoscere che le esigenze fisiche cambiano e che un servizio generalista non basta. Come segnalato da iClarified nell'analisi della slide WWDC, si tratta di un'espansione concreta del catalogo, non di una semplice rebrand di contenuti esistenti.",
+      "bodyEn": "## Beyond tracking\n\nAt WWDC 2026, Apple announced new perimenopause and menopause monitoring features for Health.app. But the 263-feature slide shown during the keynote reveals an additional dimension: Fitness+ receives dedicated workouts for these life stages. The two announcements are distinct and complementary — one covers physiological data tracking, the other delivers workout content designed around the changes these phases bring, such as hormonal shifts affecting endurance, recovery, and thermoregulation.\n\n## A coherent approach\n\nApple has progressively built out women's health coverage spanning the full lifecycle. Adding perimenopause and menopause-specific workouts to Fitness+ follows the same logic behind previously introduced pregnancy workouts: acknowledging that physical needs change and that a generalist service falls short. As noted by iClarified in its WWDC slide analysis, this is a concrete catalogue expansion, not a simple content rebrand.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803206+02:00"
+    },
+    {
+      "slug": "apple-music-pagine-artisti-redesign-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Music rinnova le pagine degli artisti in iOS 27",
+      "titleEn": "Apple Music refreshes artist pages in iOS 27",
+      "excerptIt": "iOS 27 porta una revisione grafica alle pagine degli artisti su Apple Music, aggiornando un layout rimasto sostanzialmente invariato per anni. Il cambiamento emerge dalla slide di 263 migliorie mostrata nel keynote WWDC 2026.",
+      "excerptEn": "iOS 27 brings a visual refresh to Apple Music artist pages, updating a layout that had remained largely unchanged for years. The change surfaces from the 263-feature slide shown at WWDC 2026.",
+      "bodyIt": "## Un aggiornamento atteso\n\nLe pagine degli artisti su Apple Music erano tra le sezioni dell'app meno toccate dagli aggiornamenti recenti. Con iOS 27, come segnalato nella slide con 263 migliorie presentata durante il keynote WWDC 2026 e documentata da iClarified, Apple porta un redesign grafico che si allinea all'estetica generale di Liquid Glass e alle nuove gerarchie visive introdotte su tutto il sistema.\n\n## Contesto\n\nLa mossa arriva in un momento in cui Spotify ha investito pesantemente nelle sue pagine artista, aggiungendo contenuti editoriali, canvas animati e sezioni merchandise. Apple Music non ha comunicato nel dettaglio quali elementi specifici vengano rinnovati, ma l'intervento e esplicito nell'elenco ufficiale di novita di piattaforma. Nell'ecosistema Liquid Glass, in cui l'uniformita visiva e diventata un principio fondante, lasciare le pagine artista con il vecchio aspetto sarebbe diventato progressivamente piu stridente.",
+      "bodyEn": "## A long-overdue update\n\nArtist pages in Apple Music had been among the least-touched sections of the app in recent updates. With iOS 27, as noted in the 263-feature slide presented during the WWDC 2026 keynote and documented by iClarified, Apple delivers a visual refresh that aligns with the overall Liquid Glass aesthetic and the new visual hierarchies introduced system-wide.\n\n## Context\n\nThe move comes as Spotify has invested heavily in its artist pages, adding editorial content, animated Canvas, and merchandise sections. Apple Music has not detailed exactly which elements are being refreshed, but the update is explicit in the official platform features list. In the Liquid Glass ecosystem, where visual consistency has become a founding principle, leaving artist pages with the old look would have become progressively more jarring.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803213+02:00"
+    },
+    {
+      "slug": "icloud-shared-albums-expire-filter-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Album condivisi iCloud: scadenza programmabile e filtri per foto e video in iOS 27",
+      "titleEn": "iCloud Shared Albums get expiration dates and photo/video filters in iOS 27",
+      "excerptIt": "iOS 27 aggiunge due funzionalita pratiche agli album condivisi iCloud: la possibilita di impostare una data di scadenza e quella di filtrare il contenuto per foto o video. Dettagli emersi dalla slide con 263 novita del keynote WWDC 2026.",
+      "excerptEn": "iOS 27 adds two practical capabilities to iCloud Shared Albums: the ability to set an expiration date and the option to filter content by photo or video type. Details surfaced from the WWDC 2026 keynote's 263-feature slide.",
+      "bodyIt": "## Controllo e ordine\n\nGli album condivisi iCloud hanno sempre sofferto di un limite strutturale: una volta creati, vivono indefinitamente salvo cancellazione manuale, e non offrono strumenti di navigazione granulare. Con iOS 27, come documentato nella lista di 263 migliorie mostrata nel keynote WWDC 2026 e analizzata da iClarified, Apple introduce due aggiunte distinte ma complementari: la possibilita di impostare una scadenza all'album condiviso e quella di filtrare il contenuto per tipologia — foto separati dai video.\n\n## Perche conta\n\nLa scadenza programmabile e particolarmente utile per album di eventi temporanei — matrimoni, vacanze, conferenze — dove mantenere un album condiviso attivo a tempo indeterminato non ha senso e puo generare confusione tra i partecipanti. Il filtro per tipo di contenuto risponde invece a un problema pratico: album con centinaia di elementi diventano difficili da sfogliare quando foto e video si alternano senza ordine. Questi non sono cambiamenti spettacolari, ma sono il tipo di rifinitura che distingue un servizio usato da uno sopportato.",
+      "bodyEn": "## Control and order\n\niCloud Shared Albums have always had a structural limitation: once created, they live indefinitely unless manually deleted, and offer no granular navigation tools. With iOS 27, as documented in the 263-feature list shown at the WWDC 2026 keynote and analysed by iClarified, Apple introduces two distinct but complementary additions: the ability to set an expiration date on a shared album and the option to filter content by type — photos separated from videos.\n\n## Why it matters\n\nProgrammable expiration is particularly useful for event-specific albums — weddings, holidays, conferences — where keeping a shared album active indefinitely makes no sense and can cause confusion among participants. The content-type filter addresses a practical problem: albums with hundreds of items become hard to browse when photos and videos alternate without order. These are not spectacular changes, but they are the kind of polish that distinguishes a service people use from one they merely tolerate.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Thurrott — Apple WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803220+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-mac-mirroring-5k-sidecar-touch-espanso",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "macOS Golden Gate: mirroring Mac in 5K e supporto touch espanso in Sidecar",
+      "titleEn": "macOS Golden Gate: Mac mirroring in 5K and expanded touch support in Sidecar",
+      "excerptIt": "macOS 27 Golden Gate porta il mirroring Mac a risoluzioni fino a 5K e aggiunge un supporto touch piu ampio in Sidecar, rafforzando l'integrazione tra Mac e iPad nella pipeline di lavoro quotidiana.",
+      "excerptEn": "macOS 27 Golden Gate brings Mac mirroring up to 5K resolution and adds expanded touch support in Sidecar, strengthening Mac-iPad integration in everyday workflows.",
+      "bodyIt": "## Piu pixel, piu tocco\n\nTra le novita meno pubblicizzate di macOS 27 Golden Gate emergono due aggiornamenti che riguardano la continuita tra dispositivi Apple. Come documentato nella lista di 263 migliorie del keynote WWDC 2026 analizzata da iClarified, il mirroring Mac — la funzione introdotta per estendere o replicare lo schermo del Mac su altri dispositivi — raggiunge il supporto per risoluzioni fino a 5K. Parallelamente, Sidecar riceve un supporto touch espanso, ampliando le interazioni tattili disponibili quando un iPad viene usato come secondo schermo del Mac.\n\n## Il contesto di continuita\n\nApple ha costruito negli anni un sistema di continuita tra Mac e iPad che include Universal Control, Sidecar e iPhone Mirroring. La risoluzione 5K nel mirroring e rilevante soprattutto per chi usa display esterni ad alta risoluzione e vuole mantenere la qualita visiva integra durante le sessioni remote o di presentazione. Il supporto touch espanso in Sidecar, invece, avvicina l'esperienza iPad-come-secondo-schermo a qualcosa di piu fluido, in linea con l'ottimizzazione touch che macOS Golden Gate porta anche al MacBook con potenziale touchscreen.",
+      "bodyEn": "## More pixels, more touch\n\nAmong the less-publicised additions in macOS 27 Golden Gate, two updates concern continuity between Apple devices. As documented in the WWDC 2026 keynote's 263-feature list analysed by iClarified, Mac mirroring — the feature for extending or replicating a Mac's screen to other devices — gains support for resolutions up to 5K. In parallel, Sidecar receives expanded touch support, broadening the tactile interactions available when an iPad is used as a Mac's secondary display.\n\n## Continuity context\n\nApple has built over the years a continuity system spanning Mac and iPad that includes Universal Control, Sidecar, and iPhone Mirroring. The 5K resolution in mirroring is relevant especially for users with high-resolution external displays who want to preserve visual fidelity during remote or presentation sessions. The expanded touch support in Sidecar, meanwhile, moves the iPad-as-second-screen experience closer to something genuinely fluid, in line with the touch optimisations macOS Golden Gate also brings to the potentially touchscreen-equipped MacBook.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechRadar — macOS 27 Golden Gate announced at WWDC 2026",
+          "url": "https://www.techradar.com/computing/mac-os/macos-27-golden-gate-announced-at-wwdc-2026-heres-everything-you-need-to-know"
+        },
+        {
+          "title": "9to5Mac — Apple announces macOS Golden Gate 27",
+          "url": "https://9to5mac.com/2026/06/08/apple-announces-macos-golden-gate-27/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803228+02:00"
+    },
+    {
+      "slug": "ios-27-weather-viste-oraria-10-giorni-aggiornate",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "Meteo iOS 27: viste oraria e a 10 giorni completamente aggiornate",
+      "titleEn": "Weather iOS 27: updated hourly and 10-day views",
+      "excerptIt": "L'app Meteo di iOS 27 riceve un aggiornamento alle viste oraria e a 10 giorni, due delle schermate piu consultate dell'applicazione, rimaste sostanzialmente invariate dal lancio dell'app nativa su iPhone.",
+      "excerptEn": "The iOS 27 Weather app receives an update to its hourly and 10-day views, two of the most consulted screens in the application, which had remained largely unchanged since the native app launched on iPhone.",
+      "bodyIt": "## Meteo, finalmente aggiornato\n\nL'app Meteo di Apple ha subito la sua trasformazione piu significativa con iOS 16, quando Apple acquisi Dark Sky e ne integro i grafici e le visualizzazioni ipertestuali. Da allora, pero, le viste oraria e a 10 giorni erano rimaste sostanzialmente invariate. Con iOS 27, come segnalato nella lista di 263 migliorie del keynote WWDC 2026 documentata da iClarified, entrambe le viste vengono aggiornate — un intervento che, per quanto non spettacolare, riguarda le schermate piu consultate dell'app nella pianificazione quotidiana.\n\n## Dettagli non ancora divulgati\n\nApple non ha mostrato nel keynote il design preciso delle nuove viste, ma la loro inclusione esplicita nella lista di novita di piattaforma indica un aggiornamento concreto, non cosmetic. I developer beta disponibili dal giorno del keynote consentiranno alla community di sviluppatori e giornalisti di documentare i cambiamenti nei prossimi giorni. In attesa di screenshot definitivi, la notizia e che uno degli angoli piu trascurati dell'app nativa riceve finalmente attenzione.",
+      "bodyEn": "## Weather, finally updated\n\nApple's Weather app underwent its most significant transformation with iOS 16, when Apple acquired Dark Sky and integrated its charts and hypertext visualisations. Since then, however, the hourly and 10-day views had remained largely unchanged. With iOS 27, as noted in the WWDC 2026 keynote's 263-feature list documented by iClarified, both views receive an update — an intervention that, while not spectacular, concerns the most-consulted screens of the app in daily planning.\n\n## Details not yet disclosed\n\nApple did not show the precise design of the new views in the keynote, but their explicit inclusion in the platform features list indicates a concrete, not merely cosmetic, update. Developer betas available since keynote day will allow the developer and journalist community to document the changes over the coming days. Pending definitive screenshots, the news is that one of the native app's most neglected corners is finally receiving attention.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803235+02:00"
+    },
+    {
+      "slug": "shortcuts-else-if-ios-27-logica-condizionale-avanzata",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Shortcuts iOS 27: arriva il supporto a Else If per logica condizionale avanzata",
+      "titleEn": "Shortcuts iOS 27: Else If support arrives for advanced conditional logic",
+      "excerptIt": "iOS 27 porta il supporto al blocco 'Else If' in Shortcuts, colmando una lacuna segnalata da anni dagli utenti avanzati che dovevano simulare la logica ramificata con strutture annidate verbose.",
+      "excerptEn": "iOS 27 adds 'Else If' block support to Shortcuts, filling a long-requested gap that forced power users to simulate branching logic with verbose nested structures.",
+      "bodyIt": "## Un blocco mancante da anni\n\nChiunque abbia costruito automazioni complesse con Shortcuts sa bene quanto fosse frustrante l'assenza del blocco 'Else If'. Per simulare una logica del tipo 'se condizione A, allora X; se condizione B, allora Y; altrimenti Z', era necessario annidare blocchi If all'interno di blocchi Else, producendo strutture profonde, difficili da leggere e da manutenere. Con iOS 27, come notato da Dan Moren su Six Colors tra le novita emerse dalla slide dei 263 miglioramenti del keynote WWDC 2026, Apple aggiunge finalmente il supporto nativo a Else If.\n\n## Impatto pratico\n\nIl blocco Else If non e un concetto astratto per sviluppatori: e la struttura di base di qualsiasi automazione che debba distinguere tra piu casi. Ora chi costruisce shortcut per gestire contesti diversi — giorno lavorativo vs. weekend, connessione Wi-Fi vs. cellulare, posizione A vs. posizione B — puo farlo con una struttura piatta e leggibile invece che con alberi di condizioni annidate. E il tipo di miglioramento che non finisce nei comunicati ufficiali ma che trasforma la qualita dell'esperienza per chi usa Shortcuts seriamente.",
+      "bodyEn": "## A long-missing block\n\nAnyone who has built complex Shortcuts automations knows how frustrating the absence of an 'Else If' block was. To simulate logic of the form 'if condition A, then X; if condition B, then Y; otherwise Z', you had to nest If blocks inside Else blocks, producing deep structures that were hard to read and maintain. With iOS 27, as noted by Dan Moren at Six Colors among the details surfaced from the WWDC 2026 keynote's 263-improvement slide, Apple finally adds native Else If support.\n\n## Practical impact\n\nThe Else If block is not an abstract developer concept: it is the basic structure of any automation that needs to distinguish between multiple cases. Users building shortcuts to handle different contexts — workday vs. weekend, Wi-Fi vs. cellular, location A vs. location B — can now do so with a flat, readable structure rather than nested condition trees. It is the kind of improvement that never makes the official press release but transforms the quality of experience for anyone using Shortcuts seriously.",
+      "sources": [
+        {
+          "title": "Six Colors — WWDC 2026 small-text features",
+          "url": "https://sixcolors.com/"
+        },
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T20:31:06.803243+02:00"
+    },
     {
       "slug": "ios-27-ask-to-buy-default-under-13-app-store-iap",
       "macroArea": "servizi-ecosistema",
