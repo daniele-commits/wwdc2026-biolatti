@@ -1,9 +1,213 @@
 {
-  "lastUpdate": "2026-06-10T18:02:41.219842+02:00",
+  "lastUpdate": "2026-06-10T19:03:37.289817+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "macos-golden-gate-quit-app-background-enforcement",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "privacy"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "macOS Golden Gate chiude sul serio le app: stop ai processi fantasma in background",
+      "titleEn": "macOS Golden Gate enforces true app quitting: no more background ghost processes",
+      "excerptIt": "Con macOS 27, le applicazioni che continuano a girare silenziosamente dopo che l'utente le ha chiuse vengono finalmente bloccate. Un cambiamento che colpisce app come Google Gemini for Mac, nota per sopravvivere al quit.",
+      "excerptEn": "macOS 27 Golden Gate cracks down on apps that keep running silently after being quit by the user, a change that directly targets behavior exhibited by apps like Google Gemini for Mac.",
+      "bodyIt": "## Un comportamento tollerato per anni, ora sanzionato\n\nChi usa un Mac sa bene quanto certi programmi si comportino come ospiti indesiderati: li chiudi, ma continuano a occupare RAM e cicli CPU in modo invisibile. macOS 27 Golden Gate mette fine a questa pratica in modo esplicito. Secondo 9to5Mac, il nuovo sistema operativo sembra fare un esempio concreto delle app che aggirano il ciclo di vita standard degli applicativi macOS restando attive in background dopo che l'utente ha selezionato Quit.\n\n## Google Gemini nel mirino\n\nL'app Google Gemini per macOS era già stata segnalata in precedenza come cattiva cittadina del sistema Mac. Con Golden Gate, questo tipo di comportamento viene attivamente contrastato dal sistema operativo. Non si tratta di una nuova policy pubblica formalmente annunciata nel keynote, ma di un cambiamento comportamentale evidenziato dai test sui developer beta, riportato da 9to5Mac come una delle novità pratiche più rilevanti per chi gestisce risorse di sistema.\n\n## Perché conta\n\nÈ una mossa coerente con la filosofia di Apple sulla trasparenza dei consumi energetici e sull'integrità del ciclo di vita delle app. Sul lungo periodo, se il comportamento diventa uno standard applicato anche alle app di terze parti, potrebbe tradursi in una maggiore autonomia della batteria e un sistema più prevedibile per l'utente.",
+      "bodyEn": "## A long-tolerated behavior, now addressed\n\nAnyone who uses a Mac knows how some apps behave like unwanted guests: you quit them, but they keep consuming RAM and CPU cycles invisibly. macOS 27 Golden Gate explicitly addresses this. According to 9to5Mac, the new operating system appears to make an example of apps that circumvent the standard macOS app lifecycle by remaining active in the background after the user has selected Quit.\n\n## Google Gemini in the crosshairs\n\nThe Google Gemini app for macOS had previously been flagged as a poor Mac citizen. With Golden Gate, this type of behavior is actively countered by the operating system itself. This is not a formally keynote-announced policy, but a behavioral change surfaced by developer beta testing and reported by 9to5Mac as one of the most practically significant additions for users who care about system resources.\n\n## Why it matters\n\nThe move is consistent with Apple's philosophy on energy transparency and app lifecycle integrity. Over time, if this behavior is enforced consistently across third-party apps, it could translate into improved battery life and a more predictable system experience for users.",
+      "sources": [
+        {
+          "title": "9to5Mac — WWDC 2026 coverage",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 keynote live coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289763+02:00"
+    },
+    {
+      "slug": "federighi-tech-talk-apple-park-siri-app-chatbot-scelta",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Federighi spiega ad Apple Park perché Siri AI è diventata una chatbot standalone",
+      "titleEn": "Federighi explains at Apple Park why Siri AI became a standalone chatbot",
+      "excerptIt": "In un tech talk post-keynote ad Apple Park, Craig Federighi ha chiarito la logica dietro la scelta di lanciare Siri AI come app dedicata in stile chatbot, dopo anni in cui Apple aveva escluso quel formato dalla sua visione di Siri.",
+      "excerptEn": "In a post-keynote tech talk at Apple Park, Craig Federighi explained the reasoning behind launching Siri AI as a dedicated chatbot-style app, after years of Apple publicly distancing itself from that format.",
+      "bodyIt": "## La virata che nessuno aveva previsto (ufficialmente)\n\nFino a poco tempo fa, Apple aveva posizionato Siri come assistente contestuale integrato nel sistema operativo, distinguendosi esplicitamente dai chatbot a schermo pieno come ChatGPT. Poi, con iOS 27, è arrivata Siri AI: un'app dedicata, un'interfaccia a bolle di conversazione, un paperclip per allegare file. Il formato chatbot, insomma.\n\n## Federighi al Steve Jobs Theater\n\nDurante un tech talk tenuto ad Apple Park nella settimana del WWDC, Craig Federighi ha affrontato direttamente la questione, spiegando perché Apple ha deciso di abbracciare un'interfaccia chatbot-style per Siri AI. Secondo 9to5Mac, Federighi ha riconosciuto la contraddizione con le dichiarazioni precedenti e ha motivato la scelta con la necessità di offrire un contesto conversazionale persistente che l'interfaccia tradizionale di Siri — concepita per comandi brevi — non riusciva a supportare adeguatamente.\n\n## Il cambio di strategia nel dettaglio\n\nL'app Siri AI in iOS 27 conserva l'integrazione di sistema (il vecchio Siri continua ad esistere come punto di accesso rapido), ma aggiunge una modalità estesa in cui l'utente può condurre conversazioni lunghe, allegare documenti e immagini, e ricevere risposte elaborate. È un'ammissione indiretta che il modello conversazionale dei competitor aveva indicato la direzione giusta, e che Apple ha impiegato più tempo del previsto ad arrivarci.",
+      "bodyEn": "## The pivot nobody (officially) predicted\n\nUntil recently, Apple had positioned Siri as a contextual system-integrated assistant, explicitly differentiating it from full-screen chatbots like ChatGPT. Then iOS 27 arrived with Siri AI: a dedicated app, a conversation-bubble interface, a paperclip for file attachments. The chatbot format, in other words.\n\n## Federighi at Apple Park\n\nDuring a tech talk held at Apple Park during WWDC week, Craig Federighi addressed the question directly, explaining why Apple decided to embrace a chatbot-style interface for Siri AI. According to 9to5Mac, Federighi acknowledged the contradiction with previous statements and justified the choice by pointing to the need for a persistent conversational context that the traditional Siri interface — designed for short commands — could not adequately support.\n\n## The strategic shift in detail\n\nThe Siri AI app in iOS 27 preserves system integration (the old Siri still exists as a quick-access entry point), but adds an extended mode where users can hold long conversations, attach documents and images, and receive detailed responses. It is an indirect admission that competitors' conversational models had pointed in the right direction, and that Apple simply took longer than expected to get there.",
+      "sources": [
+        {
+          "title": "9to5Mac — WWDC 2026 sessions coverage",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289783+02:00"
+    },
+    {
+      "slug": "ios-27-rcs-e2ee-assente-beta-1-in-arrivo",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27 beta 1: la crittografia end-to-end per RCS è annunciata ma ancora assente",
+      "titleEn": "iOS 27 beta 1: end-to-end RCS encryption announced but missing from first build",
+      "excerptIt": "Chi installa la prima beta sviluppatori di iOS 27 non trova l'opzione per la crittografia end-to-end dei messaggi RCS. Apple conferma che la funzione non è stata rimossa: è semplicemente in arrivo in una build successiva.",
+      "excerptEn": "Developers installing the first iOS 27 beta find no option for end-to-end RCS encryption. Apple confirms the feature has not been removed — it simply has not landed in the first build yet.",
+      "bodyIt": "## Annunciato, non ancora disponibile\n\nAl keynote del WWDC 2026, Apple ha incluso la crittografia end-to-end per l'RCS tra le novità di iOS 27. È una delle funzionalità più attese da chi usa messaggi cross-platform con utenti Android, e rappresenta un progresso significativo verso uno standard di messaggistica sicura universale. Tuttavia, i developer che hanno installato iOS 27 beta 1 nelle ore successive al keynote non trovano l'opzione nelle impostazioni di Messaggi.\n\n## Nessun allarme, ma un segnale di roadmap parziale\n\nSecondo 9to5Mac, Apple ha confermato che la funzione non è stata eliminata: semplicemente non è ancora presente nella prima build di test. È una situazione comune nelle versioni beta iniziali, dove alcune funzionalità annunciate vengono abilitate progressivamente nelle build successive. L'E2EE per RCS rimane quindi nell'elenco delle novità di iOS 27, ma con un asterisco pratico per chi sperava di testarlo subito.\n\n## Il contesto più ampio\n\nL'RCS end-to-end encryption è atteso da anni dagli utenti Android e iPhone che si scambiano messaggi. Con iOS 26 Apple aveva già introdotto il supporto RCS di base; iOS 27 dovrebbe completare il quadro con la crittografia. Il fatto che la funzione arrivi in beta successiva suggerisce che si tratta di un'implementazione tecnicamente più delicata, che richiede coordinamento con i carrier e i produttori Android che supportano il profilo RCS avanzato.",
+      "bodyEn": "## Announced, not yet available\n\nAt the WWDC 2026 keynote, Apple included end-to-end encryption for RCS among iOS 27's new features. It is one of the most anticipated capabilities for users who exchange messages cross-platform with Android contacts, and represents a meaningful step toward a universal secure messaging standard. However, developers who installed iOS 27 beta 1 in the hours after the keynote found no such option in the Messages settings.\n\n## No cause for alarm, but a partial roadmap signal\n\nAccording to 9to5Mac, Apple confirmed the feature has not been cut: it simply has not landed in the first test build. This is a common situation in early betas, where announced features are enabled progressively across subsequent builds. RCS E2EE remains in the iOS 27 feature list, but with a practical asterisk for those hoping to test it immediately.\n\n## The broader context\n\nRCS end-to-end encryption has been anticipated for years by Android and iPhone users exchanging messages. iOS 26 introduced basic RCS support; iOS 27 is meant to complete the picture with encryption. The fact that the feature arrives in a later beta suggests a technically more complex implementation that requires coordination with carriers and Android manufacturers supporting the advanced RCS profile.",
+      "sources": [
+        {
+          "title": "9to5Mac — iOS 27 RCS E2EE beta coverage",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 guide",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289790+02:00"
+    },
+    {
+      "slug": "airpods-impostazioni-redesign-ios-27-beta",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design",
+        "accessibilita"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "iOS 27 ridisegna le impostazioni AirPods nell'app Impostazioni: primo sguardo dalla beta",
+      "titleEn": "iOS 27 redesigns AirPods settings in the Settings app: first look from beta",
+      "excerptIt": "La beta sviluppatori 1 di iOS 27 rivela un redesign completo della sezione dedicata agli AirPods all'interno dell'app Impostazioni, con una struttura rinnovata che riorganizza le opzioni audio, l'accessibilità e i controlli gestuali.",
+      "excerptEn": "iOS 27 developer beta 1 reveals a complete redesign of the AirPods section inside the Settings app, with a renewed structure reorganizing audio options, accessibility controls, and gesture settings.",
+      "bodyIt": "## Più di un restyling\n\nCon iOS 27, Apple non si è limitata a sovrapporre il design Liquid Glass alle schermate esistenti: la prima beta sviluppatori mostra un'intera sezione Impostazioni AirPods rifatta dalla struttura. Secondo 9to5Mac, che ha analizzato la build immediatamente dopo il rilascio, il nuovo layout riorganizza le opzioni in categorie più chiare e rende più accessibili le impostazioni avanzate come il controllo del suono spaziale, la personalizzazione dell'equalizzatore (annunciata nel keynote) e i gesti delle custodie.\n\n## Il contesto del keynote\n\nAl WWDC 2026, Apple aveva annunciato ufficialmente il Custom EQ per AirPods — la possibilità di creare profili audio personalizzati oltre i preset esistenti. Il redesign della sezione Impostazioni è il contenitore visivo in cui queste nuove opzioni trovano posto: senza una struttura rinnovata, l'aggiunta di ulteriori controlli avrebbe reso la schermata confusa e poco navigabile.\n\n## Cosa cambia per l'utente\n\nChiunque abbia mai cercato una specifica impostazione AirPods in iOS sa quanto la navigazione precedente fosse frammentata tra Bluetooth, Accessibilità e la voce dedicata del dispositivo nelle Impostazioni. Il nuovo layout centralizza tutto in un pannello unico, strutturato per sezioni tematiche. È un miglioramento di usabilità che non fa notizia nel keynote ma ha impatto diretto sull'esperienza quotidiana.",
+      "bodyEn": "## More than a reskin\n\nWith iOS 27, Apple did not simply overlay the Liquid Glass design on existing screens: the first developer beta shows an entirely rebuilt AirPods section inside Settings. According to 9to5Mac, which analyzed the build immediately after release, the new layout reorganizes options into clearer categories and makes advanced settings — such as spatial audio control, the newly announced custom EQ, and case gesture settings — more accessible.\n\n## The keynote context\n\nAt WWDC 2026, Apple officially announced Custom EQ for AirPods, the ability to create personalized audio profiles beyond the existing presets. The Settings section redesign is the visual container where these new options now live: without a refreshed structure, adding further controls would have made the screen cluttered and difficult to navigate.\n\n## What changes for users\n\nAnyone who has ever searched for a specific AirPods setting in iOS knows how fragmented the previous navigation was, split across Bluetooth, Accessibility, and the device's dedicated entry in Settings. The new layout centralizes everything into a single panel organized by thematic sections. It is a usability improvement that earns no keynote headline but has a direct impact on daily experience.",
+      "sources": [
+        {
+          "title": "9to5Mac — iOS 27 AirPods settings beta",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "MacRumors — MacRumors homepage WWDC coverage",
+          "url": "https://www.macrumors.com/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289795+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-wallpaper-light-dark-scaricabili",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "macOS Golden Gate: i wallpaper ufficiali light e dark sono già scaricabili",
+      "titleEn": "macOS Golden Gate: official light and dark wallpapers available to download now",
+      "excerptIt": "Con il rilascio della beta sviluppatori di macOS 27 Golden Gate, le nuove sfondi predefiniti in versione chiara e scura sono già disponibili per il download, con un'estetica ispirata alle tinte dorate del Golden Gate Bridge.",
+      "excerptEn": "With the release of the macOS 27 Golden Gate developer beta, the new default wallpapers in light and dark variants are already available for download, featuring visuals inspired by the golden hues of the Golden Gate Bridge.",
+      "bodyIt": "## La tradizione degli sfondi WWDC\n\nOgni anno, uno dei momenti più attesi dai designer e dagli appassionati del Mac è la scoperta dei nuovi wallpaper predefiniti. macOS 27 Golden Gate non fa eccezione: con il rilascio della prima beta sviluppatori, i nuovi sfondi ufficiali — disponibili in variante chiara e scura — sono già accessibili e distribuiti da 9to5Mac.\n\n## Estetica del Golden Gate\n\nLe immagini si ispirano al Golden Gate Bridge e alle sue tinte dorate e brumate, declinando l'identità visiva dell'aggiornamento macOS in modo coerente con il sistema Liquid Glass. I wallpaper mostrano come Apple coniughi un riferimento geografico-culturale californiano con l'estetica translucente che caratterizza tutta la piattaforma 2026.\n\n## Perché interessano anche chi non ha un Mac aggiornato\n\nI wallpaper WWDC vengono scaricati e utilizzati ben prima che il sistema operativo finale sia disponibile al pubblico. Sono un indicatore visivo immediato della direzione estetica di Apple per l'anno, e spesso influenzano il modo in cui designer e sviluppatori impostano le proprie interfacce. Chiunque voglia anticipare l'atmosfera di macOS Golden Gate può già farlo.",
+      "bodyEn": "## The WWDC wallpaper tradition\n\nEvery year, one of the most anticipated moments for Mac designers and enthusiasts is the discovery of the new default wallpapers. macOS 27 Golden Gate is no exception: with the release of the first developer beta, the new official wallpapers — available in both light and dark variants — are already accessible and have been made available for download by 9to5Mac.\n\n## Golden Gate aesthetics\n\nThe images draw inspiration from the Golden Gate Bridge and its golden, fog-tinged tones, expressing the visual identity of the macOS update in a way that is consistent with the Liquid Glass system. The wallpapers show how Apple marries a Californian cultural-geographic reference with the translucent aesthetic characterizing the entire 2026 platform.\n\n## Why they matter even before the OS ships\n\nWWDC wallpapers are downloaded and used well before the final operating system becomes publicly available. They serve as an immediate visual indicator of Apple's aesthetic direction for the year, and often influence how designers and developers approach their own interfaces. Anyone wanting to get a feel for macOS Golden Gate's atmosphere can do so right now.",
+      "sources": [
+        {
+          "title": "9to5Mac — macOS Golden Gate wallpapers",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 keynote coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289799+02:00"
+    },
+    {
+      "slug": "visionos-27-thorsmork-islanda-environment-dettaglio",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design"
+      ],
+      "category": "Spatial computing e visionOS",
+      "titleIt": "visionOS 27: l'environment Thórsmörk porta l'Islanda e le aurore boreali in Vision Pro",
+      "titleEn": "visionOS 27: the Thórsmörk environment brings Iceland and the Northern Lights to Vision Pro",
+      "excerptIt": "La beta sviluppatori di visionOS 27 include un nuovo Environment ispirato alle highlands islandesi: Thórsmörk offre una cresta montana con esperienza diurna e notturna, luci nordiche e audio ambientale immersivo.",
+      "excerptEn": "The visionOS 27 developer beta includes a new Environment inspired by the Icelandic highlands: Thórsmörk offers a mountain ridge with day and night experiences, Northern Lights, and immersive ambient audio.",
+      "bodyIt": "## Thórsmörk: da un promontorio islandese a Vision Pro\n\nIl nome è ispirato al dio norreno Thor: Thórsmörk è una cresta montuosa nell'entroterra islandese, un luogo remoto raggiungibile solo a piedi o con veicoli fuoristrada. Con visionOS 27, diventa un Environment disponibile in Vision Pro, rilevato nella prima beta sviluppatori da MacRumors e 9to5Mac.\n\n## Ciò che l'utente vede\n\nL'Environment propone due varianti temporali — giorno e notte — entrambe ambientate attorno a un lago circondato da paesaggi ghiacciati. La versione notturna include le aurore boreali. L'audio ambientale comprende effetti invernali e il suono dell'acqua corrente. Come gli altri Environment di visionOS, Thórsmörk può essere usato mentre si è all'interno di app oppure come sfondo durante la visione di video: in quest'ultimo caso, i colori della scena si riflettono sulla neve e sull'acqua per rafforzare l'immersione.\n\n## Il confronto con l'anno scorso\n\nL'anno precedente, visionOS 26 aveva introdotto un Environment interattivo di Giove basato su immagini NASA. Thórsmörk continua la tradizione di scegliere scenari di forte impatto visivo e sonoro, con un focus quest'anno sulla Terra anziché sullo spazio. È una scelta che parla a un pubblico più ampio, meno legato all'esplorazione astronomica e più attratto da paesaggi naturali terrestri.",
+      "bodyEn": "## Thórsmörk: from an Icelandic ridge to Vision Pro\n\nThe name draws from the Norse god Thor: Thórsmörk is a mountain ridge in Iceland's interior, a remote location reachable only on foot or with off-road vehicles. With visionOS 27, it becomes an Environment available in Vision Pro, surfaced in the first developer beta by both MacRumors and 9to5Mac.\n\n## What users see\n\nThe Environment offers two time-of-day variants — day and night — both set around a lake surrounded by frozen landscapes. The nighttime version includes the Northern Lights. Ambient audio features wintry sound effects and running water. Like other visionOS Environments, Thórsmörk can be used while inside apps or as a backdrop when watching videos; in the latter case, the scene's colors are reflected in the snow and water to deepen immersion.\n\n## Compared to last year\n\nThe previous year, visionOS 26 introduced an interactive Jupiter Environment using NASA imagery. Thórsmörk continues the tradition of choosing visually and sonically striking settings, with a focus this year on Earth rather than space. It is a choice that speaks to a broader audience, less tied to astronomical exploration and more drawn to natural terrestrial landscapes.",
+      "sources": [
+        {
+          "title": "MacRumors — visionOS 27 Thórsmörk environment",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "9to5Mac — visionOS 27 beta coverage",
+          "url": "https://9to5mac.com/page/2/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289803+02:00"
+    },
+    {
+      "slug": "ios-27-now-playing-lock-screen-swipe-dismiss-dettaglio",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: il widget Now Playing sulla schermata di blocco si può finalmente ignorare con uno swipe",
+      "titleEn": "iOS 27: the Now Playing widget on the lock screen can finally be dismissed with a swipe",
+      "excerptIt": "In iOS 27, uno swipe verso sinistra sul widget di riproduzione in corso fa comparire un pulsante Cancella, rimuovendo i controlli sia dalla schermata di blocco sia dalla Dynamic Island. Una piccola ma longeva frustrazione finalmente risolta.",
+      "excerptEn": "In iOS 27, a leftward swipe on the Now Playing playback controls reveals a Clear button, removing the widget from both the lock screen and Dynamic Island. A small but persistent frustration finally resolved.",
+      "bodyIt": "## Il problema\n\nChi usa un iPhone con la riproduzione audio in corso sa bene com'era: una volta attivato, il widget Now Playing occupava la schermata di blocco senza possibilità di rimozione. L'unico modo per farlo sparire era fermare la riproduzione, aspettare, e sperare. Nessuna opzione di dismiss esplicito, nessuna interazione che portasse alla rimozione.\n\n## La soluzione in iOS 27\n\nCon iOS 27, scoperto nella prima beta sviluppatori e riportato da MacRumors, uno swipe verso sinistra sul widget di controllo riproduzione fa scorrere da destra un pulsante Chiudi. Premendolo, i controlli vengono rimossi sia dalla schermata di blocco sia dall'indicatore ridotto nella Dynamic Island. Il comportamento è coerente con il modo in cui iOS gestisce già le notifiche — gesto a sinistra, pulsante di azione — rendendo la curva di apprendimento praticamente nulla.\n\n## La limitazione attuale\n\nC'è un caveat: riportare il widget richiede ancora di fermare la riproduzione, attendere qualche minuto, e poi riavviarla. Non esiste ancora un gesto o un'azione per ripristinarlo immediatamente. È una soluzione parziale, ma risolve il caso d'uso più comune — quello di chi vuole vedere la propria schermata di blocco pulita senza interrompere l'audio.",
+      "bodyEn": "## The problem\n\nAnyone who uses an iPhone with audio playing knows how it was: once active, the Now Playing widget occupied the lock screen with no way to remove it. The only option was to stop playback, wait, and hope. No explicit dismiss option, no interaction that led to removal.\n\n## The fix in iOS 27\n\nWith iOS 27, discovered in the first developer beta and reported by MacRumors, a leftward swipe on the playback control widget slides in a Clear button from the right. Tapping it removes the controls from both the lock screen and the compact Dynamic Island indicator. The behavior is consistent with how iOS already handles notifications — swipe left, action button — making the learning curve essentially nonexistent.\n\n## The current limitation\n\nThere is one caveat: bringing the widget back still requires stopping playback, waiting a few minutes, and resuming. There is not yet a gesture or action to restore it immediately. It is a partial solution, but it addresses the most common use case — wanting a clean lock screen without interrupting audio.",
+      "sources": [
+        {
+          "title": "MacRumors — iOS 27 Now Playing lock screen",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "9to5Mac — iOS 27 lock screen coverage",
+          "url": "https://9to5mac.com/page/2/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289807+02:00"
+    },
+    {
+      "slug": "wwdc-2026-react-community-keynote-critiche-sviluppatori",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "WWDC 2026: gli sviluppatori promuovono i tool ma bocciano il formato del keynote",
+      "titleEn": "WWDC 2026: developers praise the tools but criticize the keynote format",
+      "excerptIt": "Il live blog MacRumors documenta una reazione divisa tra la comunità degli sviluppatori: entusiasmo per Foundation Models e Xcode 27, ma critiche nette al formato del keynote 2026, definito da diversi commenti come il peggiore degli ultimi anni.",
+      "excerptEn": "The MacRumors live blog documents a split reaction from the developer community: enthusiasm for Foundation Models and Xcode 27, but sharp criticism of the WWDC 2026 keynote format, described by several comments as the worst in recent memory.",
+      "bodyIt": "## Due keynote in uno\n\nIl WWDC 2026 ha avuto due anime distinte: da un lato, una settimana di sessioni tecniche dense di contenuti — Foundation Models open source, Xcode 27 con coding agentale, SiriKit deprecato in favore di App Intents — che ha ricevuto apprezzamenti diffusi tra chi lavora su piattaforme Apple. Dall'altro, il keynote di lunedì 8 giugno ha suscitato reazioni molto più tiepide, registrate nel live blog di MacRumors.\n\n## Cosa non ha convinto\n\nIl commento più ricorrente tra gli sviluppatori presenti e da remoto riguarda il tono e il ritmo del keynote: percepito come prolisso in alcune sezioni e affrettato in altre, con un finale — una canzone rap che ha concluso la presentazione — definito fuori contesto da molti. Il formato senza suddivisione per piattaforme, scelto quest'anno da Apple in modo insolito, ha reso più difficile seguire i thread narrativi per chi segue specificamente iOS, macOS o watchOS.\n\n## La sostanza resta\n\nLe critiche al formato non riguardano i contenuti: la copertura post-keynote conferma che gli annunci concreti — da Siri AI al taglio di Intel su macOS, dalle child accounts alle nuove API Foundation Models — sono numerosi e significativi. Il problema è la confezione, non il contenuto. Apple ha un track record solido nel fare keynote capaci di entusiasmare; quest'anno, secondo una parte rilevante della sua stessa audience tecnica, ha mancato il bersaglio sulla forma.",
+      "bodyEn": "## Two keynotes in one\n\nWWDC 2026 had two distinct faces: on one side, a week of technically dense sessions — Foundation Models going open source, Xcode 27 with agentic coding, SiriKit deprecated in favor of App Intents — that drew widespread appreciation from those working on Apple platforms. On the other side, the Monday June 8 keynote generated much more lukewarm reactions, recorded in the MacRumors live blog.\n\n## What didn't land\n\nThe most recurring comment among on-site and remote developers concerns the keynote's tone and pacing: perceived as long-winded in some sections and rushed in others, with a finale — a rap song closing the presentation — described as out of place by many. The unusual platform-agnostic format Apple chose this year made it harder to follow specific narrative threads for those tracking iOS, macOS, or watchOS specifically.\n\n## The substance remains\n\nCriticism of the format does not touch the content: post-keynote coverage confirms that the concrete announcements — from Siri AI to the Intel cutoff on macOS, from child accounts to the new Foundation Models APIs — are numerous and meaningful. The issue is the packaging, not the substance. Apple has a strong track record of producing energizing keynotes; this year, according to a relevant segment of its own technical audience, it missed the mark on form.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 keynote live coverage reactions",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "9to5Mac — WWDC 2026 keynote analysis",
+          "url": "https://9to5mac.com/page/2/"
+        }
+      ],
+      "publishedAt": "2026-06-10T19:03:37.289811+02:00"
+    },
     {
       "slug": "ios-27-s3-files-finder-shortcuts-bucket-nativi",
       "macroArea": "servizi-ecosistema",
