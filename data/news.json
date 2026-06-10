@@ -1,9 +1,232 @@
 {
-  "lastUpdate": "2026-06-10T01:03:07.099466+02:00",
+  "lastUpdate": "2026-06-10T02:03:12.333368+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "siri-ai-rich-text-cards-multi-comando-risposta-visiva",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI risponde con schede rich text e gestisce piu comandi in simultanea",
+      "titleEn": "Siri AI responds with rich text cards and handles multiple commands at once",
+      "excerptIt": "Con iOS 27, Siri AI non si limita a rispondere a voce: mostra schede visive ricche di informazioni contestuali e puo elaborare piu richieste in un unico turno conversazionale.",
+      "excerptEn": "With iOS 27, Siri AI displays rich information cards on screen and can handle multiple simultaneous requests in a single conversational turn.",
+      "bodyIt": "## Piu di una risposta vocale\n\nIl nuovo Siri AI cambia il modo in cui le risposte vengono presentate all'utente. Quando si pone una domanda, l'assistente ora visualizza schede rich text sullo schermo dell'iPhone, con informazioni estratte da piu app contemporaneamente — note, messaggi, calendario, web. Secondo Yahoo Tech, Siri e ora abbastanza intelligente da gestire piu comandi in un unico scambio: e possibile chiedere il meteo, controllare il calendario e inviare un messaggio tutto insieme, senza dover ripetere piu volte.\n\n## Un'interfaccia costruita per la densita informativa\n\nQuesta capacita di composizione multi-task e strettamente legata alla nuova architettura di Siri AI, che integra Google Gemini come modello esterno e il nuovo AFM-2 come motore on-device. L'unione produce risposte piu articolate e visivamente strutturate rispetto alla semplice risposta a testo singolo della generazione precedente. Il salto e rilevante: Siri smette di essere uno strumento da una-domanda-una-risposta e comincia ad avvicinarsi ai pattern di interazione dei chatbot moderni, senza pero abbandonare l'integrazione profonda con il sistema operativo che lo distingue da Claude o ChatGPT.",
+      "bodyEn": "## Beyond a single voice response\n\nThe new Siri AI changes how answers are presented. When a question is asked, the assistant now displays rich text cards on the iPhone screen, pulling information from multiple apps simultaneously — notes, messages, calendar, the web. According to Yahoo Tech, Siri is now smart enough to handle multiple commands in a single exchange: asking for the weather, checking a calendar, and sending a text all at once, without needing to issue separate requests.\n\n## An interface built for information density\n\nThis multi-task composition capability is tightly coupled with Siri AI's new architecture, which integrates Google Gemini as an external model and the new AFM-2 as the on-device engine. The result is more articulated, visually structured responses compared to the previous generation's plain single-text replies. The shift is meaningful: Siri stops being a one-question-one-answer tool and starts approaching the interaction patterns of modern chatbots, while retaining the deep system integration that distinguishes it from Claude or ChatGPT.",
+      "sources": [
+        {
+          "title": "Yahoo Tech — WWDC 2026 recap: All-new Siri AI",
+          "url": "https://tech.yahoo.com/general/article/wwdc-2026-recap-all-new-siri-ai-ios-27-apple-intelligence-and-everything-else-apple-announced-173752306.html"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 live recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333289+02:00"
+    },
+    {
+      "slug": "watchos-27-modular-standard-nuova-watch-face-orario-grande",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "watchOS 27",
+      "titleIt": "watchOS 27: nuova watch face Modular Standard con orario grande e tre complicazioni",
+      "titleEn": "watchOS 27: new Modular Standard watch face with large time and three complications",
+      "excerptIt": "Apple introduce una variante del quadrante Modular Ultra pensata per i modelli non-Ultra: orario in grande evidenza e tre complicazioni in basso, un design piu leggibile per l'uso quotidiano.",
+      "excerptEn": "Apple introduces a Modular Ultra-inspired watch face for non-Ultra models: large time display with three complications below, designed for everyday legibility.",
+      "bodyIt": "## Il quadrante che mancava\n\nwatchOS 27 porta una nuova watch face chiamata Modular Standard — o Modular Ultra Standard — che riprende la struttura visiva del Modular Ultra ma la adatta ai modelli Series 9, Series 10 e SE 3. Il design prevede un orario in grande evidenza nella parte superiore e tre complicazioni disposte in riga nella parte inferiore, secondo quanto riportato da MacRumors nella copertura post-keynote.\n\n## Perche conta\n\nIl Modular Ultra e sempre stato esclusivo dell'Apple Watch Ultra, un modello da 799 dollari rivolto a un pubblico di nicchia. Portare una variante di questo quadrante agli Apple Watch mainstream significa dare a piu utenti un layout ad alta densita informativa senza richiedere l'acquisto del modello top di gamma. E un aggiornamento di puro valore pratico: meno orpelli estetici, piu dati visibili a colpo d'occhio.",
+      "bodyEn": "## The watch face that was missing\n\nwatchOS 27 brings a new watch face called Modular Standard — or Modular Ultra Standard — that mirrors the visual structure of Modular Ultra but adapts it for Series 9, Series 10, and SE 3 models. The design features a large time display at the top and three complications in a row at the bottom, as reported by MacRumors in post-keynote coverage.\n\n## Why it matters\n\nModular Ultra has always been exclusive to the Apple Watch Ultra, a $799 device targeting a niche audience. Bringing a variant of this face to mainstream Apple Watches gives more users a high-density information layout without requiring the top-tier model. It's a straightforwardly practical update: fewer aesthetic flourishes, more data visible at a glance.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 roundup",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        },
+        {
+          "title": "Thurrott — WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333318+02:00"
+    },
+    {
+      "slug": "xcode-27-coding-assistant-localizzazione-custom-skills-server",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Xcode 27: il coding assistant localizza le app e si estende con custom skills su server",
+      "titleEn": "Xcode 27: coding assistant localizes apps and extends with custom server-side skills",
+      "excerptIt": "L'assistente di codice di Xcode 27 guadagna due nuove capacita concrete: localizzazione automatica dell'app e integrazione con custom skills eseguibili su server, ampliando le possibilita agentic oltre i limiti del dispositivo.",
+      "excerptEn": "Xcode 27's coding assistant gains two new concrete capabilities: automatic app localization and integration with custom server-side skills, extending agentic possibilities beyond on-device limits.",
+      "bodyIt": "## Oltre la generazione di codice\n\nDurante il keynote WWDC 2026, Craig Federighi ha elencato le nuove capacita del coding assistant di Xcode 27. Oltre alla simulazione di intere app gia annunciata, l'assistente puo ora localizzare automaticamente un'applicazione — gestire stringhe, traduzioni e adattamenti regionali — e interagire con dispositivi simulati per testare scenari in modo autonomo. Queste funzioni portano il modello di sviluppo agentic in aree fino ad oggi esclusivamente manuali.\n\n## Custom skills: portare l'AI oltre il dispositivo\n\nLa seconda novita rilevante riguarda le custom skills: gli sviluppatori potranno estendere le capacita del coding assistant con competenze specializzate in esecuzione su server. Come ha descritto Federighi nel live blog di MacRumors, l'ecosistema si apre a logiche ibride dove parte del ragionamento avviene on-device e parte in cloud, tramite i Foundation Models framework. Questo schema anticipa un pattern che probabilmente diverra dominante nel ciclo di sviluppo 2026-2027.",
+      "bodyEn": "## Beyond code generation\n\nDuring the WWDC 2026 keynote, Craig Federighi outlined new capabilities of Xcode 27's coding assistant. Beyond full app simulation already announced, the assistant can now automatically localize an application — handling strings, translations, and regional adaptations — and interact with simulated devices to test scenarios autonomously. These features bring agentic development into areas that were previously entirely manual.\n\n## Custom skills: taking AI beyond the device\n\nThe second relevant addition concerns custom skills: developers can extend the coding assistant's capabilities with specialized skills running on servers. As Federighi described in the MacRumors live blog, the ecosystem opens up to hybrid logic where part of the reasoning happens on-device and part in the cloud via the Foundation Models framework. This pattern likely previews a development cycle that will become dominant through 2026-2027.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 Keynote Live Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333327+02:00"
+    },
+    {
+      "slug": "ios-27-siri-ai-spotlight-macos-integrazione-conversazione-cross-device",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "continuity"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Siri AI entra in Spotlight su macOS e continua le conversazioni tra dispositivi",
+      "titleEn": "Siri AI integrates into macOS Spotlight and continues conversations across devices",
+      "excerptIt": "Su macOS Golden Gate, Siri AI e integrato direttamente in Spotlight. Le conversazioni con l'assistente possono poi essere riprese su un altro dispositivo, iPhone o Mac, senza perdere il filo.",
+      "excerptEn": "On macOS Golden Gate, Siri AI is integrated directly into Spotlight. Conversations can then be resumed on another device — iPhone or Mac — without losing context.",
+      "bodyIt": "## Spotlight come portale AI su Mac\n\nCon macOS Golden Gate, Apple porta Siri AI direttamente all'interno di Spotlight: non si apre piu una finestra separata, l'assistente e accessibile dalla stessa barra di ricerca che gli utenti Mac usano da anni. Secondo Yahoo Tech, la maggior parte delle integrazioni Siri disponibili su iOS sara disponibile anche su macOS, rendendo il Mac un client di prima classe per l'intelligenza artificiale di Apple, non un'appendice dell'iPhone.\n\n## Continuita delle conversazioni\n\nLa funzione forse piu sottovalutata e quella della continuita tra dispositivi. Siri AI e accompagnato da un'app dedicata disponibile su tutte le piattaforme Apple: iniziare una conversazione sull'iPhone e riprenderla sul Mac diventa possibile senza dover riformulare il contesto. Yahoo Tech lo riporta come una conseguenza diretta della nuova architettura, che mantiene lo storico delle chat sincronizzato tra i dispositivi. E un passo verso un modello di AI veramente personale, ma la sua utilita dipende interamente da quanto Siri AI risultera affidabile nella pratica quotidiana.",
+      "bodyEn": "## Spotlight as the AI portal on Mac\n\nWith macOS Golden Gate, Apple brings Siri AI directly inside Spotlight: no separate window opens; the assistant is accessible from the same search bar Mac users have relied on for years. According to Yahoo Tech, most Siri integrations available on iOS will also be available on macOS, making the Mac a first-class client for Apple's AI — not just an iPhone appendage.\n\n## Conversation continuity\n\nPerhaps the most underappreciated feature is cross-device conversation continuity. Siri AI is accompanied by a dedicated app available across all Apple platforms: starting a conversation on iPhone and resuming it on Mac becomes possible without reformulating context. Yahoo Tech reports this as a direct consequence of the new architecture, which keeps chat history synchronized across devices. It's a step toward truly personal AI — but its usefulness depends entirely on how reliable Siri AI proves to be in everyday practice.",
+      "sources": [
+        {
+          "title": "Yahoo Tech — WWDC 2026 recap: All-new Siri AI",
+          "url": "https://tech.yahoo.com/general/article/wwdc-2026-recap-all-new-siri-ai-ios-27-apple-intelligence-and-everything-else-apple-announced-173752306.html"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333334+02:00"
+    },
+    {
+      "slug": "siri-ai-eu-correzione-watchos-macos-visionos-unico-ios-ipados-esclusi",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri",
+        "privacy"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Siri AI in UE: Apple corregge il comunicato, watchOS escluso come iOS e iPadOS",
+      "titleEn": "Siri AI in EU: Apple corrects press release, watchOS excluded like iOS and iPadOS",
+      "excerptIt": "Dopo il keynote, Apple ha aggiornato il suo comunicato stampa chiarendo che Siri AI non sara disponibile nell'Unione Europea su iOS 27, iPadOS 27 e watchOS 27. Solo macOS Golden Gate e visionOS 27 sono esentati dal blocco.",
+      "excerptEn": "After the keynote, Apple updated its press release clarifying that Siri AI will not be available in the EU on iOS 27, iPadOS 27, or watchOS 27. Only macOS Golden Gate and visionOS 27 are exempt from the block.",
+      "bodyIt": "## La correzione del 9 giugno\n\nLa sera del keynote, il comunicato stampa di Apple descriveva la situazione UE in modo ambiguo. Il 9 giugno, Engadget ha riportato che Apple ha aggiornato il documento chiarendo la portata reale del blocco: Siri AI non sara disponibile al lancio su iOS 27, iPadOS 27 — e neppure su watchOS 27, dato che l'implementazione di Siri AI su Apple Watch richiede un iPhone con Siri AI attivo. In assenza di quest'ultimo, anche l'orologio rimane privo della funzione.\n\n## Un blocco piu ampio del previsto\n\nL'esclusione di watchOS 27 dalla lista dei sistemi con Siri AI in UE non era chiara all'uscita del keynote, e la correzione successiva segnala come Apple stia ancora definendo i confini precisi della propria strategia regolatoria europea. macOS Golden Gate e visionOS 27 sono esentati, probabilmente per il diverso profilo d'uso e la base installata limitata. Il nodo resta: Apple sceglie di non offrire la funzione piuttosto che adeguarsi ai requisiti di interoperabilita del Digital Markets Act. Questa posizione ha gia generato tensioni con le autorita europee e potrebbe evolvere prima del lancio autunnale.",
+      "bodyEn": "## The June 9 correction\n\nThe evening of the keynote, Apple's press release described the EU situation ambiguously. On June 9, Engadget reported that Apple updated the document to clarify the actual scope of the block: Siri AI will not be available at launch on iOS 27, iPadOS 27 — or watchOS 27, since watchOS 27's Siri AI implementation requires an iPhone running Siri AI. Without that, the watch is also left without the feature.\n\n## A broader block than anticipated\n\nwatchOS 27's exclusion from the list of systems with Siri AI in the EU was not clear at the end of the keynote, and the subsequent correction signals that Apple is still defining the precise contours of its European regulatory strategy. macOS Golden Gate and visionOS 27 are exempted, likely because of their different usage profiles and limited installed base. The core issue remains: Apple chooses to withhold the feature rather than comply with Digital Markets Act interoperability requirements. This stance has already generated regulatory tension and may evolve before the fall launch.",
+      "sources": [
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote (update June 9)",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 live recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333341+02:00"
+    },
+    {
+      "slug": "wwdc-2026-thurrott-10-annunci-minori-nascosti-keynote",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "I dieci annunci WWDC 2026 che il keynote non ha messo in evidenza",
+      "titleEn": "The ten WWDC 2026 announcements the keynote didn't spotlight",
+      "excerptIt": "Oltre ai grandi titoli, il keynote WWDC 2026 conteneva annunci minori che sono emersi solo dalle note stampa e dai primi beta: dal modello AFM-2 a requisiti hardware precisi, fino alle esclusioni silenziose di dispositivi meno recenti.",
+      "excerptEn": "Beyond the headline features, the WWDC 2026 keynote contained smaller announcements that only surfaced through press notes and early betas: from AFM-2 requirements to quiet device exclusions.",
+      "bodyIt": "## Cio che il palco non ha detto esplicitamente\n\nIl keynote di WWDC 2026, settantasei minuti compatti senza la tradizionale struttura per piattaforma, ha privilegiato i grandi messaggi — Siri AI, Liquid Glass, Apple Intelligence — tralasciando dettagli tecnici che sono emersi solo successivamente tramite comunicati e prime beta. Thurrott ha compilato una lista di dieci di questi annunci trascurati.\n\nTra i piu rilevanti: il modello AFM-2 piu potente on-device richiede 12 GB di RAM piu un chip A19 Pro su iPhone (solo iPhone 17 Pro e Air), M4 su iPad o M3 su Mac, escludendo di fatto l'iPhone 17 base con i suoi 8 GB. tvOS 27 non sara disponibile sull'Apple TV HD (2015) e sulla Apple TV 4K di prima generazione (2017). watchOS 27 elimina il supporto a sei Apple Watch — tra cui Apple Watch Ultra originale e SE 2022 — con un taglio netto che non ha ricevuto spazio nel keynote.\n\n## La normalita degli annunci nascosti\n\nE una pratica consolidata: Apple concentra il palco sui messaggi positivi e affida ai comunicati stampa e alle note di compatibilita i dettagli meno edificanti. Questa volta pero la distanza tra cio che e stato presentato e cio che e emerso dopo e particolarmente marcata, segno che il formato compresso del keynote ha sacrificato trasparenza in cambio di ritmo narrativo.",
+      "bodyEn": "## What the stage didn't say explicitly\n\nThe WWDC 2026 keynote, a compact seventy-six minutes without the traditional per-platform structure, prioritized big messages — Siri AI, Liquid Glass, Apple Intelligence — while omitting technical details that only emerged afterward through press releases and early betas. Thurrott compiled a list of ten such overlooked announcements.\n\nAmong the most relevant: the more powerful AFM-2 on-device model requires 12GB of RAM plus an A19 Pro chip on iPhone (only iPhone 17 Pro and Air qualify), M4 on iPad, or M3 on Mac, effectively excluding the base iPhone 17 with its 8GB. tvOS 27 will not be available on the Apple TV HD (2015) or first-generation Apple TV 4K (2017). watchOS 27 drops support for six Apple Watches — including the original Apple Watch Ultra and SE 2022 — with a sharp cut that received no stage time.\n\n## The normalcy of hidden announcements\n\nThis is established practice: Apple focuses the stage on positive messaging and delegates compatibility notes and less flattering details to press releases. This time, however, the gap between what was presented and what emerged afterward is particularly pronounced — a sign that the compressed keynote format sacrificed transparency in exchange for narrative pace.",
+      "sources": [
+        {
+          "title": "Thurrott — WWDC 2026: 10 Announcements You May Have Missed",
+          "url": "https://www.thurrott.com/apple/337148/apple-wwdc-2026-10-announcements-you-may-have-missed"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 live recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333348+02:00"
+    },
+    {
+      "slug": "ios-27-safari-tab-organizer-ai-raggruppamento-automatico-argomenti",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "design"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Safari su iOS 27 e macOS: l'AI raggruppa automaticamente i tab per argomento",
+      "titleEn": "Safari on iOS 27 and macOS: AI automatically groups tabs by topic",
+      "excerptIt": "La nuova funzione Organize Tabs di Safari usa Apple Intelligence per analizzare i contenuti dei tab aperti e raggrupparli per argomento — ricerca, shopping, lavoro — senza intervento manuale.",
+      "excerptEn": "Safari's new Organize Tabs feature uses Apple Intelligence to analyze open tab content and group them by topic — research, shopping, work — without manual intervention.",
+      "bodyIt": "## Il problema dei tab infiniti, affrontato con l'AI\n\nChiunque utilizzi Safari intensamente conosce il problema: decine di tab aperte che si accumulano senza logica apparente. Con iOS 27 e macOS Golden Gate, Apple introduce Organize Tabs, una funzione che usa Apple Intelligence per analizzare il contenuto di ciascun tab aperto e raggrupparli automaticamente per categoria tematica. Yahoo Tech cita esempi come shopping, travel e work come possibili raggruppamenti.\n\n## Implementazione e disponibilita\n\nLa funzione e disponibile su iOS 27, iPadOS 27 e macOS Golden Gate, secondo quanto riportato da Yahoo Tech e da Engadget nella copertura del keynote. Non richiede configurazione: l'analisi avviene in background tramite Apple Intelligence. Il confronto naturale e con le funzioni analoghe di altri browser — Edge di Microsoft ha qualcosa di simile da anni — ma l'integrazione nativa con il sistema operativo Apple potrebbe renderla piu coerente. Il valore reale dipende da quanto accurata risultera la classificazione su contenuti ambigui o multitematici.",
+      "bodyEn": "## The endless tab problem, addressed with AI\n\nAnyone who uses Safari heavily knows the problem: dozens of open tabs accumulating without apparent logic. With iOS 27 and macOS Golden Gate, Apple introduces Organize Tabs, a feature that uses Apple Intelligence to analyze the content of each open tab and group them automatically by thematic category. Yahoo Tech cites examples like shopping, travel, and work as possible groupings.\n\n## Implementation and availability\n\nThe feature is available on iOS 27, iPadOS 27, and macOS Golden Gate, as reported by Yahoo Tech and Engadget in keynote coverage. No configuration is required: analysis happens in the background via Apple Intelligence. The natural comparison is with similar features in other browsers — Microsoft's Edge has had something comparable for years — but native integration with the Apple operating system may make it more coherent. Real value depends on how accurately it classifies ambiguous or multi-topic content.",
+      "sources": [
+        {
+          "title": "Yahoo Tech — WWDC 2026 recap: All-new Siri AI",
+          "url": "https://tech.yahoo.com/general/article/wwdc-2026-recap-all-new-siri-ai-ios-27-apple-intelligence-and-everything-else-apple-announced-173752306.html"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Analytics Insight — WWDC 2026 live updates",
+          "url": "https://www.analyticsinsight.net/tech-news/wwdc-2026-live-updates-where-to-watch-live-key-timings-and-what-to-expect"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333354+02:00"
+    },
+    {
+      "slug": "ipados-27-liquid-glass-beta-siri-ai-waitlist-sviluppatori",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "iPadOS 27",
+      "titleIt": "iPadOS 27 beta 1: Liquid Glass raffinato ma Siri AI solo su lista d'attesa",
+      "titleEn": "iPadOS 27 beta 1: refined Liquid Glass but Siri AI only via waitlist",
+      "excerptIt": "La prima beta di iPadOS 27 e disponibile per gli sviluppatori dal giorno del keynote. Il redesign Liquid Glass e gia visibile, ma Siri AI non e accessibile direttamente: gli sviluppatori trovano una schermata di attesa.",
+      "excerptEn": "The first iPadOS 27 beta has been available to developers since keynote day. The Liquid Glass redesign is already visible, but Siri AI is not directly accessible: developers encounter a waitlist screen.",
+      "bodyIt": "## Disponibile da subito, ma non tutto\n\nApple ha rilasciato la prima beta di iPadOS 27 agli sviluppatori nella stessa giornata del keynote, l'8 giugno. Tom's Guide riporta che le modifiche visive legate a Liquid Glass sono gia presenti e visibili, con un'interfaccia raffinata rispetto a iPadOS 26. Tuttavia, la funzione piu attesa — Siri AI — non e immediatamente accessibile: gli sviluppatori che la cercano trovano una schermata di lista d'attesa, senza tempi precisi indicati.\n\n## Una beta a due velocita\n\nQuesto schema e insolito per Apple, che di norma include almeno una versione funzionante delle funzioni principali nella beta 1. L'assenza di Siri AI dalle beta iniziali di iPadOS 27 suggerisce che il lavoro di integrazione e ancora in corso, oppure che Apple intende controllare l'accesso alla funzione per ragioni di capacita infrastrutturale legate a Private Cloud Compute. In entrambi i casi, il lancio autunnale rimane l'orizzonte previsto per la disponibilita generale.",
+      "bodyEn": "## Available immediately, but not everything\n\nApple released the first iPadOS 27 beta to developers on the same day as the keynote, June 8. Tom's Guide reports that Liquid Glass visual changes are already present and visible, with an interface that feels refined compared to iPadOS 26. However, the most anticipated feature — Siri AI — is not immediately accessible: developers who look for it encounter a waitlist screen, with no specific timeline indicated.\n\n## A two-speed beta\n\nThis pattern is unusual for Apple, which typically includes at least a working version of primary features in beta 1. The absence of Siri AI from iPadOS 27's initial betas suggests that integration work is still ongoing, or that Apple intends to control access to the feature for infrastructure capacity reasons tied to Private Cloud Compute. Either way, the fall launch remains the expected horizon for general availability.",
+      "sources": [
+        {
+          "title": "Tom's Guide — WWDC 2026 live recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "MacRumors — Apple Releases First iOS 27, iPadOS 27, and macOS 27 Betas",
+          "url": "https://www.macrumors.com/2026/06/08/apple-releases-ios-27-beta-1/"
+        }
+      ],
+      "publishedAt": "2026-06-10T02:03:12.333360+02:00"
+    },
     {
       "slug": "airpods-beta-firmware-ios-27-siri-ai-nuova-interfaccia",
       "macroArea": "servizi-ecosistema",
