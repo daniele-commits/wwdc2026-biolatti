@@ -1,9 +1,216 @@
 {
-  "lastUpdate": "2026-06-10T21:03:39.265431+02:00",
+  "lastUpdate": "2026-06-11T01:26:06.232426+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "apple-vision-pro-travel-case-discontinuato-internazionale",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Apple Vision Pro Travel Case rimosso dai negozi internazionali",
+      "titleEn": "Apple Vision Pro Travel Case discontinued in international markets",
+      "excerptIt": "La custodia da viaggio per Vision Pro, venduta a 199 dollari, è sparita dagli store online di UK, Germania, Francia, Giappone e altri mercati. MacRumors non la trova più nemmeno come pagina prodotto.",
+      "excerptEn": "The $199 Vision Pro Travel Case has vanished from Apple's online storefronts across much of the world, with product pages fully removed — suggesting discontinuation.",
+      "bodyIt": "## Un accessorio che scompare in silenzio\n\nMentre il WWDC 2026 concentra l'attenzione su software e intelligenza artificiale, MacRumors segnala una mossa silenziosa sul fronte hardware: la Apple Vision Pro Travel Case, il pratico ma costoso contenitore rigido da 199 dollari pensato per trasportare il visore, è stata rimossa dagli store online di numerosi paesi.\n\nSecondo MacRumors, il prodotto non è più listato sui siti Apple di Regno Unito, Giappone, Germania, Francia, Irlanda e Hong Kong. Non si tratta di una semplice indisponibilità temporanea: le pagine prodotto sono state eliminate del tutto, il che punta a una discontinuazione senza intenzione di riportare l'articolo in vendita, almeno fuori dagli Stati Uniti.\n\n## Cosa significa per gli utenti Vision Pro\n\nIl Travel Case era l'unica soluzione ufficiale Apple per trasportare Vision Pro in sicurezza. La sua rimozione dai mercati internazionali arriva in un momento in cui il visore non ha ancora ricevuto un successore annunciato, e visionOS 27 ha ottenuto aggiornamenti relativamente limitati al WWDC. Il segnale è ambiguo: potrebbe essere una semplice razionalizzazione della logistica, oppure anticipare una revisione del prodotto in vista di un secondo modello. Per ora chi cerca protezione per il visore dovrà affidarsi a soluzioni di terze parti.",
+      "bodyEn": "## A quiet product removal\n\nWhile WWDC 2026 is focused on software and AI, MacRumors has spotted a quiet hardware move: the Apple Vision Pro Travel Case, the $199 rigid carrier designed for the headset, has been removed from Apple's online storefronts in multiple countries.\n\nAccording to MacRumors, the product is no longer listed on Apple's websites in the UK, Japan, Germany, France, Ireland, and Hong Kong. The product pages have been fully removed — not simply marked out of stock — indicating discontinuation with no plans to revive it in those markets.\n\n## What this means for Vision Pro owners\n\nThe Travel Case was Apple's only official transport solution for the Vision Pro. Its removal from international markets comes as the headset has not yet received an announced successor, and visionOS 27 received relatively limited updates at WWDC. The move could reflect simple logistics rationalization, or it could hint at a product revision ahead of a second-generation model.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "9to5Mac",
+          "url": "https://9to5mac.com/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232342+02:00"
+    },
+    {
+      "slug": "ios-27-apple-tv-remote-home-screen-ritorno",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity",
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27 riporta il telecomando Apple TV sulla Home Screen",
+      "titleEn": "iOS 27 brings back the Apple TV remote to the Home Screen",
+      "excerptIt": "Con iOS 27, il telecomando virtuale per Apple TV torna aggiungibile direttamente alla Home Screen dell'iPhone, non soltanto al Control Center. Una comodità tolta anni fa e ora restituita.",
+      "excerptEn": "iOS 27 lets users add the virtual Apple TV remote back to the iPhone Home Screen, not just Control Center — a convenience that had been removed in previous years.",
+      "bodyIt": "## Piccola ma apprezzata inversione di rotta\n\nTra le oltre 250 novità catalogate da Apple per iOS 27, 9to5Mac evidenzia un ritorno che in molti aspettavano: il telecomando virtuale per Apple TV può di nuovo essere aggiunto alla Home Screen dell'iPhone, e non soltanto al pannello del Control Center.\n\nLa funzione era stata progressivamente marginalizzata nelle versioni precedenti di iOS, relegando il controllo del televisore a un gesto extra nel Control Center. Con iOS 27 il widget-telecomando torna a essere un'app di prima classe, collocabile liberamente tra le icone della schermata principale.\n\n## Perché conta\n\nNon è un annuncio da keynote, ma rappresenta esattamente il tipo di piccola razionalizzazione che gli utenti quotidiani apprezzano. Chi usa Apple TV come centro del salotto sa quanto possa essere fastidioso aprire il Control Center ogni volta che si vuole mettere in pausa o cambiare contenuto. Rimettere il telecomando in primo piano rispecchia la filosofia che Apple ha dichiarato per iOS 27: risolvere gli attriti accumulati nel tempo, non solo aggiungere funzioni nuove.",
+      "bodyEn": "## A small but welcome reversal\n\nAmong the 250+ changes catalogued for iOS 27, 9to5Mac highlights a return many users had been waiting for: the virtual Apple TV remote can once again be added to the iPhone Home Screen, not just the Control Center panel.\n\nThe feature had been progressively sidelined in previous iOS versions, requiring an extra swipe into Control Center every time users wanted to control their TV. With iOS 27, the remote widget returns as a first-class icon that can be placed freely on the Home Screen.\n\n## Why it matters\n\nIt's not a keynote announcement, but it's exactly the kind of small friction-reduction that everyday users appreciate. Putting the remote front and center again reflects iOS 27's stated philosophy: fix accumulated annoyances, not just pile on new features.",
+      "sources": [
+        {
+          "title": "9to5Mac",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232367+02:00"
+    },
+    {
+      "slug": "apple-lista-250-cambiamenti-ios27-macos-golden-gate-categorizzata",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "Apple pubblica la lista ufficiale: oltre 250 cambiamenti in iOS 27 e Golden Gate",
+      "titleEn": "Apple releases official categorized list of 250+ changes in iOS 27 and macOS Golden Gate",
+      "excerptIt": "MacRumors ha catalogato l'intera slide mostrata fugacemente al keynote: piu di 250 modifiche distribuite tra iOS 27, macOS Golden Gate, watchOS 27, tvOS 27 e visionOS 27, ora organizzate per categoria.",
+      "excerptEn": "MacRumors has catalogued the full slide briefly shown at the keynote: over 250 changes across iOS 27, macOS Golden Gate, watchOS 27, tvOS 27, and visionOS 27, now organized by category.",
+      "bodyIt": "## La slide dei 250 annunci, finalmente leggibile\n\nDurante il keynote del WWDC 2026 Apple ha mostrato per pochi secondi una slide affollata di funzioni minori distribuite su tutti gli OS della nuova generazione. MacRumors ha ora pubblicato una lista categorizzata completa di oltre 250 voci, rendendo accessibile un materiale che in diretta era praticamente illeggibile.\n\nTra le voci degne di nota emergono, sul fronte iOS 27 e iPadOS 27: la possibilità di usare due iPhone con lo stesso numero di telefono, transizioni piu fluide tra Wi-Fi e rete cellulare, e nuove tastiere per lingue indigene nordamericane come Blackfoot, Comanche, Cree, Kiowa e Tsuu'tina, oltre alle già note aggiunte come Afrikaans, Baybayin e Guaraní.\n\n## Un documento di lavoro per sviluppatori e utenti\n\nLa lista categorizzata pubblicata il 10 giugno da MacRumors è già diventata un riferimento per sviluppatori e giornalisti che vogliono approfondire singole funzioni. Tutti i sistemi operativi sono disponibili come developer beta a partire dall'8 giugno; il rilascio pubblico è atteso per settembre. Il fatto che Apple mostri questa quantità di modifiche — pur brevemente — segnala una volontà di comunicare solidità e completezza, oltre ai titoli principali sull'AI.",
+      "bodyEn": "## The 250+ slide, finally readable\n\nDuring the WWDC 2026 keynote, Apple briefly displayed a dense slide of minor features across all new OS generations. MacRumors has now published a full categorized list of over 250 entries, making accessible material that was practically unreadable during the live event.\n\nNotable iOS 27 and iPadOS 27 entries include: using two iPhones with the same phone number, smoother Wi-Fi to cellular transitions, and new keyboards for Indigenous North American languages including Blackfoot, Comanche, Cree, Kiowa, and Tsuu'tina, alongside already-noted additions like Afrikaans, Baybayin, and Guaraní.\n\n## A working document for developers and users\n\nThe categorized list published on June 10 by MacRumors is already a reference for developers and journalists wanting to dig into individual features. All operating systems are available as developer betas since June 8, with public release expected in September.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2026/06/10/apple-lists-250-changes-ios-27-and-more/"
+        },
+        {
+          "title": "MacRumors Forums",
+          "url": "https://forums.macrumors.com/threads/apple-shares-massive-list-of-over-250-changes-across-ios-27-macos-golden-gate-and-more.2483766/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232378+02:00"
+    },
+    {
+      "slug": "liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "Liquid Glass rifondato tecnicamente: diffusione, bordi scuri e highlight speculari",
+      "titleEn": "Liquid Glass rebuilt under the hood: diffusion tuning, dark edges, and specular highlights",
+      "excerptIt": "Apple non si e' limitata a un cursore di opacita: ha rivisto le fondamenta di come il materiale Liquid Glass diffonde i contenuti dietro di se, aggiungendo bordi scuri e riflessi brillanti per una leggibilita concretamente migliorata.",
+      "excerptEn": "Apple went beyond an opacity slider: it rebuilt how Liquid Glass diffuses background content, adding a darkened edge and brighter specular highlights to deliver measurably better readability.",
+      "bodyIt": "## Piu di una patch estetica\n\nQuando Apple ha annunciato un cursore di trasparenza per Liquid Glass, molti osservatori hanno letto la mossa come una concessione cosmetic agli utenti insoddisfatti. MacRumors rivela che le modifiche vanno ben piu in profondo: Apple ha riscritto le fondamenta di come il materiale gestisce i contenuti visibili attraverso lo strato traslucido.\n\nIl nuovo Liquid Glass diffonde in modo piu efficace i contenuti complessi che si trovano dietro gli elementi dell'interfaccia, riducendo la confusione visiva che aveva caratterizzato la prima versione. Apple ha anche introdotto un bordo scurito attorno agli elementi in Liquid Glass e riflessi speculari piu luminosi, due aggiunte che aumentano la separazione visiva e rendono i controlli piu leggibili in condizioni di luce forte o sfondo complicato.\n\n## Risposta al feedback, non resa\n\nAnnounciati al keynote WWDC 2026 e approfonditi alla Platforms State of the Union, i cambiamenti sono stati presentati esplicitamente come risposta al feedback raccolto dopo il lancio dell'anno scorso. MacRumors sottolinea che si tratta di interventi alle fondamenta del sistema, non di aggiustamenti superficiali: significa che ogni app che usa Liquid Glass — incluse quelle di terze parti — beneficia automaticamente dei miglioramenti senza richiedere aggiornamenti specifici.",
+      "bodyEn": "## More than a cosmetic patch\n\nWhen Apple announced a transparency slider for Liquid Glass, many observers read the move as a cosmetic concession to unhappy users. MacRumors reveals the changes go much deeper: Apple has rewritten how the material handles content visible through the translucent layer.\n\nThe new Liquid Glass more effectively diffuses complex background content, reducing the visual confusion that had characterized the first version. Apple also introduced a darkened edge around Liquid Glass elements and brighter specular highlights — two additions that increase visual separation and make controls more readable in bright light or against complex backgrounds.\n\n## Response to feedback, not surrender\n\nAnnounced at the WWDC 2026 keynote and elaborated at the Platforms State of the Union, the changes were explicitly framed as a response to feedback gathered after last year's launch. Since the changes are at the system level, every app using Liquid Glass — including third-party ones — benefits automatically.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "TechRadar",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232386+02:00"
+    },
+    {
+      "slug": "genai-apple-sottodominio-ai-generativa-preparazione",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Apple prepara genai.apple.com: un sottodominio dedicato all'AI generativa",
+      "titleEn": "Apple is readying genai.apple.com: a dedicated subdomain for generative AI",
+      "excerptIt": "MacRumors ha individuato che Apple sta preparando il sottodominio genai.apple.com, ancora non attivo ma indicativo di una strategia di comunicazione separata per i prodotti AI generativi.",
+      "excerptEn": "MacRumors spotted Apple readying the genai.apple.com subdomain — not yet live, but signaling a separate communications strategy for its generative AI products.",
+      "bodyIt": "## Un indirizzo che dice molto\n\nIn margine al WWDC 2026, MacRumors ha segnalato che Apple sta preparando il sottodominio genai.apple.com. La pagina non e' ancora attiva pubblicamente, ma la sua esistenza — rilevata dal collaboratore Aaron Perris — indica che Apple sta costruendo una destinazione dedicata per i suoi prodotti di intelligenza artificiale generativa.\n\nIl dominio e' significativo per diverse ragioni. Apple ha sempre tenuto separato il marketing delle singole funzioni AI (Apple Intelligence, Siri AI, Image Playground, Genmoji) senza un punto di accesso unificato paragonabile a quello che OpenAI offre con chatgpt.com o Google con gemini.google.com. Un sottodominio genai suggerisce che questa frammentazione potrebbe terminare, almeno sul fronte web.\n\n## Posizionamento e concorrenza\n\nL'iniziativa si inserisce nel contesto di un WWDC in cui Apple ha lanciato Siri AI come alternativa integrata ai chatbot concorrenti. Avere una URL dedicata facilita la comunicazione verso utenti non tecnici, giornalisti e sviluppatori che vogliono un punto di riferimento unico per capire cosa Apple intende per AI generativa. E' un segnale di maturazione della strategia di prodotto, non un annuncio tecnico — ma spesso sono questi dettagli a rivelare dove un'azienda vuole andare.",
+      "bodyEn": "## An address that says a lot\n\nOn the sidelines of WWDC 2026, MacRumors noted that Apple is readying the genai.apple.com subdomain. The page is not yet publicly live, but its existence — spotted by contributor Aaron Perris — indicates Apple is building a dedicated destination for its generative AI products.\n\nThe domain is significant for several reasons. Apple has always kept its AI feature marketing fragmented (Apple Intelligence, Siri AI, Image Playground, Genmoji) without a unified access point comparable to what OpenAI offers with chatgpt.com or Google with gemini.google.com. A genai subdomain suggests this fragmentation may end, at least on the web front.\n\n## Positioning and competition\n\nThe move fits a WWDC where Apple launched Siri AI as an integrated alternative to competing chatbots. A dedicated URL simplifies communication toward non-technical users, journalists, and developers who want a single reference point for Apple's generative AI vision.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "9to5Mac",
+          "url": "https://9to5mac.com/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232393+02:00"
+    },
+    {
+      "slug": "siri-ai-private-cloud-google-infrastruttura-dati-inaccessibili-dettaglio",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Privacy e sicurezza",
+      "titleIt": "Siri AI: il cloud gira su Google ma i dati restano inaccessibili anche ad Apple",
+      "titleEn": "Siri AI: cloud runs on Google infrastructure but data remains inaccessible even to Apple",
+      "excerptIt": "Apple ha chiarito che l'elaborazione cloud di Siri AI avviene sui propri server ospitati dall'infrastruttura di Google, ma con un'architettura che rende i dati illeggibili sia ad Apple sia a terze parti.",
+      "excerptEn": "Apple clarified that Siri AI cloud processing runs on its own servers hosted on Google's infrastructure, but with an architecture that keeps data inaccessible to both Apple and third parties.",
+      "bodyIt": "## La distinzione che Apple vuole fare passare\n\nLa partnership tra Apple e Google per Siri AI non e' soltanto quella relativa al modello Gemini che alimenta le risposte: MacRumors ha chiarito un dettaglio tecnico che Apple tiene a precisare. L'elaborazione cloud di Siri AI avviene su server Apple fisicamente ospitati dall'infrastruttura di Google, ma l'architettura di Private Cloud Compute e' progettata in modo che i dati rimangano inaccessibili sia ad Apple sia a Google sia a qualsiasi altra terza parte.\n\nLa distinzione e' importante: Apple non sta semplicemente inviando query a Google Cloud e ricevendo risposte. Sta usando l'hardware e la rete di Google come substrato, ma mantenendo il controllo completo dello stack software e dell'isolamento dei dati. E' lo stesso principio del Private Cloud Compute gia descritto con le versioni precedenti di Apple Intelligence, esteso ora a scala maggiore grazie all'accordo con Google.\n\n## Il problema della fiducia\n\nMacRumors riporta che Apple ha dichiarato esplicitamente che il cloud processing \"e' gestito in modo tale che i dati rimangano inaccessibili ad Apple o a terze parti\". Questa formulazione e' intenzionalmente tecnica e lascia aperta la domanda: quali garanzie crittografiche o legali esistono per verificare questa promessa? In attesa di audit indipendenti — che Apple non ha ancora annunciato — l'affermazione rimane, per ora, una dichiarazione fiduciaria.",
+      "bodyEn": "## The distinction Apple wants to establish\n\nApple's Google partnership for Siri AI goes beyond the Gemini model powering responses: MacRumors clarified a technical detail Apple is keen to emphasize. Siri AI cloud processing runs on Apple's own servers physically hosted on Google's infrastructure, but the Private Cloud Compute architecture is designed so that data remains inaccessible to Apple, Google, or any third party.\n\nThe distinction matters: Apple is not simply sending queries to Google Cloud and receiving answers. It is using Google's hardware and network as a substrate while retaining full control of the software stack and data isolation. This is the same Private Cloud Compute principle described with earlier Apple Intelligence versions, now scaled up through the Google agreement.\n\n## The trust problem\n\nApple stated explicitly that cloud processing is 'handled such that data remains inaccessible to Apple or third parties.' This phrasing is intentionally technical and leaves open the question: what cryptographic or legal guarantees exist to verify this promise? Pending independent audits — which Apple has not yet announced — the statement remains, for now, a fiduciary declaration.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2026/06/10/the-macrumors-show-siri-ai-wwdc-2026/"
+        },
+        {
+          "title": "Engadget",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232402+02:00"
+    },
+    {
+      "slug": "ios-27-transizioni-wifi-cellulare-due-iphone-stesso-numero",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: due iPhone con lo stesso numero e transizioni Wi-Fi/cellulare piu fluide",
+      "titleEn": "iOS 27: two iPhones sharing the same phone number, smoother Wi-Fi/cellular handoff",
+      "excerptIt": "Dalla lista ufficiale dei 250 cambiamenti emergono due funzioni di connettivita concrete: la condivisione di un numero di telefono tra due iPhone e una gestione migliorata del passaggio tra Wi-Fi e rete cellulare.",
+      "excerptEn": "From Apple's official list of 250+ changes, two concrete connectivity features stand out: sharing a phone number across two iPhones and improved Wi-Fi to cellular handoff.",
+      "bodyIt": "## Connettivita, finalmente affrontata\n\nTra le voci della lista categorizzata pubblicata da MacRumors il 10 giugno, due funzioni di connettivita di iOS 27 meritano attenzione separata perche risolvono problemi reali e documentati.\n\nLa prima e' la possibilita di usare lo stesso numero di telefono su due iPhone distinti. Apple non ha ancora chiarito i dettagli tecnici completi — probabilmente si basa su eSIM e sull'architettura iCloud Phone Number — ma la funzione risponde a un caso d'uso comune: chi porta con se un iPhone di lavoro e uno personale, o chi vuole tenere un dispositivo di riserva attivo con la stessa identita telefonica.\n\nLa seconda e' una gestione piu fluida delle transizioni tra Wi-Fi e rete cellulare. La disconnessione momentanea che si avverte quando ci si allontana da un access point e l'iPhone deve agganciarsi alla rete mobile e' uno dei fastidi piu comuni e piu difficili da risolvere senza toccare la radio hardware. Apple non ha descritto la tecnica specifica, ma la feature e' elencata tra i miglioramenti confermati.\n\n## Dettagli che costruiscono la fiducia\n\nNessuna delle due funzioni campeggia in un keynote, ma sono esattamente le voci che distinguono un sistema operativo maturo da uno che accumula features senza curare le fondamenta. La loro presenza nella lista ufficiale conferma che iOS 27 non e' soltanto un aggiornamento AI.",
+      "bodyEn": "## Connectivity, finally addressed\n\nAmong the entries in MacRumors' categorized list published June 10, two iOS 27 connectivity features deserve separate attention because they solve real, documented problems.\n\nThe first is the ability to use the same phone number on two separate iPhones. Apple has not yet clarified full technical details — it likely relies on eSIM and iCloud Phone Number architecture — but the feature addresses a common use case: users carrying both a work and personal iPhone, or those wanting a backup device active with the same phone identity.\n\nThe second is smoother transitions between Wi-Fi and cellular networks. The momentary disconnection felt when moving away from an access point and switching to mobile data is one of the most common and hardest-to-fix annoyances without touching radio hardware. Apple has not described the specific technique, but the feature is listed among confirmed improvements.\n\n## Details that build trust\n\nNeither feature belongs in a keynote, but they are exactly what distinguishes a mature operating system from one that piles on features without tending to foundations.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2026/06/10/apple-lists-250-changes-ios-27-and-more/"
+        },
+        {
+          "title": "Tom's Guide",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232409+02:00"
+    },
+    {
+      "slug": "wwdc-2026-keynote-struttura-nuova-child-safety-10-minuti-parental-controls",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Privacy e sicurezza",
+      "titleIt": "WWDC 2026: oltre 10 minuti sul parental control, il keynote cambia formato e priorita",
+      "titleEn": "WWDC 2026: more than 10 minutes on parental controls, the keynote changes format and priorities",
+      "excerptIt": "9to5Mac osserva che il keynote 2026 ha dedicato piu di dieci minuti a child safety e Screen Time, una quantita di tempo insolita per temi di policy che in passato ricevevano menzione marginale. Il formato e' cambiato in modo strutturale.",
+      "excerptEn": "9to5Mac notes the 2026 keynote devoted more than ten minutes to child safety and Screen Time — an unusual amount of time for policy topics that previously received marginal mention. The format has changed structurally.",
+      "bodyIt": "## Un keynote che legge il momento politico\n\n9to5Mac ha osservato che il keynote WWDC 2026 e' stato \"una bestia completamente diversa\" rispetto ai predecessori, e non soltanto per le tecnologie mostrate. In modo insolito, Apple ha dedicato oltre dieci minuti consecutivi ai temi di child safety, parental control e Screen Time — una quantita di spazio scenico normalmente riservata ai prodotti di punta.\n\nLa scelta non e' casuale: governi di tutto il mondo stanno aumentando la pressione sulle piattaforme tecnologiche in materia di protezione dei minori. Il nuovo sistema di account obbligatori per under 13, i controlli granulari sull'accesso ad app e siti, e il redesign di Screen Time sono stati presentati con un tono che somigliava quasi a una risposta formale ai legislatori piu che a un annuncio di prodotto.\n\n## La struttura del keynote come atto politico\n\nIl tempo dedicato alla sicurezza dei bambini e' piu del tempo impiegato per presentare singoli OS come tvOS o visionOS. 9to5Mac suggerisce che questo nuovo equilibrio potrebbe diventare la norma: Apple che usa il keynote non solo per mostrare funzioni, ma per posizionarsi esplicitamente su temi regolativi prima che i regolatori lo facciano al posto suo. E' una lettura del contesto politico che puo' spiegare anche perche Federighi abbia aperto la presentazione con il tema della fiducia (\"Trust and Safety\") come secondo dei tre pilastri del keynote.",
+      "bodyEn": "## A keynote that reads the political moment\n\n9to5Mac observed that the WWDC 2026 keynote was 'a very different beast' from its predecessors — and not just for the technologies shown. Unusually, Apple devoted more than ten consecutive minutes to child safety, parental controls, and Screen Time — an amount of stage time normally reserved for flagship products.\n\nThe choice is not accidental: governments worldwide are intensifying pressure on tech platforms regarding child protection. The new mandatory account system for under-13s, granular app and website access controls, and the Screen Time redesign were presented with a tone that resembled a formal response to lawmakers more than a product announcement.\n\n## The keynote structure as political act\n\nThe time devoted to child safety exceeds the time spent presenting individual OSes like tvOS or visionOS. 9to5Mac suggests this new balance may become the norm: Apple using the keynote not just to show features, but to position itself explicitly on regulatory topics before regulators do it for them.",
+      "sources": [
+        {
+          "title": "9to5Mac",
+          "url": "https://9to5mac.com/page/2/"
+        },
+        {
+          "title": "Engadget",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-apple-wwdc-26-live-blog/"
+        }
+      ],
+      "publishedAt": "2026-06-11T01:26:06.232416+02:00"
+    },
     {
       "slug": "apple-core-ai-framework-sostituisce-core-ml-wwdc-2026",
       "macroArea": "sviluppatori",
