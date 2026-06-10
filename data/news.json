@@ -1,9 +1,215 @@
 {
-  "lastUpdate": "2026-06-10T05:31:09.809595+02:00",
+  "lastUpdate": "2026-06-10T17:03:54.008743+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "commissione-europea-risposta-blocco-siri-ai-ue",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy",
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "La Commissione Europea risponde: il blocco di Siri AI nell'UE è scelta di Apple",
+      "titleEn": "European Commission responds: Siri AI EU block is Apple's own choice",
+      "excerptIt": "Bruxelles prende le distanze dalla decisione di Apple di non lanciare Siri AI su iOS e iPadOS nell'Unione Europea, precisando che l'azienda aveva cercato un'esenzione dagli obblighi legali anziché sviluppare soluzioni conformi.",
+      "excerptEn": "Brussels distances itself from Apple's decision not to launch Siri AI on iOS and iPadOS in the EU, clarifying that the company sought an exemption from legal obligations rather than developing compliant solutions.",
+      "bodyIt": "## Bruxelles non ha bloccato nulla\n\nMentre Apple ha annunciato al WWDC 2026 che Siri AI non sarà disponibile su iOS 27 e iPadOS 27 nell'Unione Europea, la Commissione Europea ha tenuto a precisare che la responsabilità è interamente di Cupertino. Il portavoce Thomas Regnier, citato da Reuters e ripreso da MacRumors, ha dichiarato che Apple aveva richiesto un'esenzione dagli obblighi di interoperabilità previsti dal Digital Markets Act, senza però sviluppare soluzioni che rispettassero la privacy secondo i criteri dell'UE.\n\n## Una partita aperta\n\nLa posizione della Commissione è rilevante per due ragioni. Prima, scarica formalmente il peso politico su Apple, che non potrà presentarsi come vittima di un quadro normativo ostile. Seconda, lascia aperta la porta a una soluzione futura: se Apple riuscisse a strutturare Siri AI in modo conforme al DMA, il lancio nell'UE sarebbe tecnicamente possibile anche prima della scadenza naturale dell'autunno. Secondo quanto riportato da MacRumors, la situazione attuale vede Siri AI disponibile su macOS Golden Gate e visionOS 27 nell'UE, ma non su iOS 27 e iPadOS 27, che rappresentano la stragrande maggioranza della base utenti europea di Apple.",
+      "bodyEn": "## Brussels did not block anything\n\nWhile Apple announced at WWDC 2026 that Siri AI would not be available on iOS 27 and iPadOS 27 in the European Union, the European Commission was quick to clarify that the responsibility lies entirely with Cupertino. Spokesperson Thomas Regnier, quoted by Reuters and reported by MacRumors, stated that Apple had sought an exemption from the interoperability obligations under the Digital Markets Act, without developing privacy-compliant solutions.\n\n## An open situation\n\nThe Commission's position is significant for two reasons. First, it formally places the political burden on Apple, which cannot position itself as a victim of a hostile regulatory framework. Second, it leaves the door open for a future solution: if Apple were to structure Siri AI in a DMA-compliant way, a European launch could technically happen before the natural autumn deadline. As reported by MacRumors, Siri AI is currently available on macOS Golden Gate and visionOS 27 in the EU, but not on iOS 27 and iPadOS 27, which represent the vast majority of Apple's European user base.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2/"
+        },
+        {
+          "title": "Engadget – Everything announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008666+02:00"
+    },
+    {
+      "slug": "wwdc-2026-slide-263-funzioni-minori-keynote",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "La slide da 263 funzioni: tutto quello che Apple ha mostrato in un lampo al keynote",
+      "titleEn": "The 263-feature slide: everything Apple flashed in one screen at the keynote",
+      "excerptIt": "Durante il keynote del WWDC 2026 Apple ha proiettato brevemente una singola diapositiva contenente 263 miglioramenti distribuiti su tutte le piattaforme. iClarified ha estratto ogni voce, rivelando cambiamenti che spaziano dal supporto DRM in iPhone Mirroring al mirroring Mac in 5K.",
+      "excerptEn": "During the WWDC 2026 keynote Apple briefly displayed a single slide containing 263 improvements across all platforms. iClarified extracted every item, revealing changes ranging from DRM support in iPhone Mirroring to 5K Mac mirroring.",
+      "bodyIt": "## Un'abitudine diventata tradizione\n\nAnche quest'anno Apple ha inserito nel keynote la classica diapositiva a densità altissima, proiettata per pochi secondi prima di passare oltre. Il sito iClarified ha però estratto tutte le 263 voci, offrendo una mappa completa delle novità minori distribuite su iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27 e visionOS 27.\n\n## Cosa emerge dall'elenco completo\n\nTra le voci degne di nota: il supporto a video DRM in iPhone Mirroring (voce 214), che sblocca la riproduzione di contenuti protetti da diritti d'autore direttamente dal Mac durante il mirroring dell'iPhone; il supporto al mirroring Mac in risoluzione 5K (voce 127); la possibilità di filtrare foto e video negli Album condivisi (voce 9); widget extra-large in iOS (voce 110); l'accesso al Control Center durante l'iPhone Mirroring; e la modalità di disegno in Notes su macOS (voce 11). Molte di queste funzioni non hanno ricevuto spazio nel keynote principale ma saranno comunque disponibili al lancio autunnale.\n\n## Il metodo Apple\n\nLa slide-lampo è uno strumento comunicativo preciso: crea l'impressione di abbondanza senza richiedere tempo di presentazione. Il rovescio della medaglia è che funzioni anche rilevanti — come il supporto DRM nel mirroring o i widget XL — passano inosservate al pubblico generalista. La copertura dettagliata di iClarified permette di recuperare il catalogo completo.",
+      "bodyEn": "## A tradition by now\n\nOnce again this year, Apple included in the keynote the classic high-density slide, projected for a few seconds before moving on. The site iClarified extracted all 263 items, providing a complete map of minor features distributed across iOS 27, iPadOS 27, macOS Golden Gate, watchOS 27, tvOS 27, and visionOS 27.\n\n## What stands out from the full list\n\nNotable items include: DRM video support in iPhone Mirroring (item 214), which unlocks playback of copyright-protected content directly from the Mac during iPhone mirroring; Mac mirroring support at 5K resolution (item 127); the ability to filter photos and videos in Shared Albums (item 9); extra-large widgets in iOS (item 110); Control Center access during iPhone Mirroring; and a drawing mode in Notes on macOS (item 11). Many of these features received no time in the main keynote but will nonetheless be available at the autumn launch.\n\n## Apple's method\n\nThe flash slide is a precise communication tool: it creates an impression of abundance without requiring presentation time. The downside is that even relevant features — such as DRM support in mirroring or XL widgets — go unnoticed by the general public. iClarified's detailed coverage allows the full catalog to be recovered.",
+      "sources": [
+        {
+          "title": "iClarified – 263 New Features WWDC 2026",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008691+02:00"
+    },
+    {
+      "slug": "ios-27-find-my-nascondi-posizione-contatti-specifici",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "iOS 27: Find My permette di nascondere temporaneamente la posizione a singoli contatti",
+      "titleEn": "iOS 27: Find My lets you temporarily hide your location from specific contacts",
+      "excerptIt": "La prima beta di iOS 27 introduce la possibilità di sospendere temporaneamente la condivisione della propria posizione con persone selezionate in Find My, senza disattivarla globalmente.",
+      "excerptEn": "The first iOS 27 developer beta introduces the ability to temporarily pause location sharing with selected people in Find My, without disabling it globally.",
+      "bodyIt": "## Una lacuna colmata\n\nFino a iOS 26, chi voleva smettere di condividere la propria posizione con una persona specifica in Find My aveva due opzioni: disattivare la condivisione globale o interromperla definitivamente con quel contatto. La prima beta di iOS 27, disponibile dallo scorso 8 giugno, aggiunge una terza via: la possibilità di nascondere temporaneamente la propria posizione a singoli contatti, senza toccare le impostazioni degli altri.\n\n## Perché conta\n\nIl caso d'uso è immediato: voler fare una sorpresa a qualcuno che condivide la posizione, o semplicemente avere un momento di riservatezza senza dover spiegare o interrompere una condivisione consolidata. La granularità per-contatto trasforma Find My da strumento binario a sistema più sfumato. MacRumors ha individuato la funzione scavando nella prima developer beta di iOS 27, rilasciata il giorno del keynote.",
+      "bodyEn": "## A gap filled\n\nUntil iOS 26, anyone wanting to stop sharing their location with a specific person in Find My had two options: disable global sharing or permanently stop sharing with that contact. The first iOS 27 developer beta, available since June 8, adds a third way: the ability to temporarily hide your location from individual contacts, without affecting the settings for others.\n\n## Why it matters\n\nThe use case is immediate: wanting to surprise someone who shares your location, or simply having a moment of privacy without having to explain or break an established sharing arrangement. Per-contact granularity transforms Find My from a binary tool into a more nuanced system. MacRumors identified the feature by digging into the first iOS 27 developer beta, released on the day of the keynote.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/2/"
+        },
+        {
+          "title": "iClarified – 263 New Features WWDC 2026",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008700+02:00"
+    },
+    {
+      "slug": "ios-27-lock-screen-now-playing-dismissibile",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "iOS 27: il widget Now Playing sulla schermata di blocco si può finalmente eliminare",
+      "titleEn": "iOS 27: the Now Playing widget on the Lock Screen can finally be dismissed",
+      "excerptIt": "Una piccola ma apprezzata novità nella prima beta di iOS 27: è possibile fare swipe per rimuovere i controlli di riproduzione dalla Lock Screen, liberando spazio senza dover mettere in pausa la musica.",
+      "excerptEn": "A small but welcome addition in the first iOS 27 beta: users can swipe away the playback controls from the Lock Screen without having to pause whatever is playing.",
+      "bodyIt": "## La fastidiosa permanenza del widget\n\nDa anni il widget Now Playing occupa la Lock Screen ogni volta che si riproduce qualcosa — musica, podcast, audiolibri — senza alcuna possibilità di farlo sparire mantenendo la riproduzione attiva. iOS 27 cambia questa dinamica: nella prima developer beta è possibile fare swipe per rimuovere i controlli di riproduzione dalla schermata di blocco, come rilevato dall'utente Aaron (aaronp613) e riportato da MacRumors.\n\n## Limitazioni note\n\nPer ora la funzione presenta un comportamento non completamente prevedibile: il widget non riappare immediatamente e il metodo più sicuro per riportarlo è mettere in pausa la riproduzione, attendere qualche minuto e riprendere. Il comportamento varia anche in base all'app usata — passare da un podcast a un video, ad esempio, fa ricomparire il widget. Si tratta di comportamenti tipici delle prime beta, verosimilmente destinati ad affinarsi prima del lancio autunnale.",
+      "bodyEn": "## The persistent widget\n\nFor years the Now Playing widget has occupied the Lock Screen whenever something is playing — music, podcasts, audiobooks — with no way to make it disappear while keeping playback active. iOS 27 changes this: in the first developer beta it is possible to swipe away the playback controls from the lock screen, as spotted by user Aaron (aaronp613) and reported by MacRumors.\n\n## Known limitations\n\nFor now the feature has somewhat unpredictable behavior: the widget does not reappear immediately and the most reliable way to bring it back is to pause playback, wait a few minutes, and resume. Behavior also varies depending on the app being used — switching from a podcast to video playback, for example, re-invokes the widget. These are typical first-beta behaviors, likely to be refined before the autumn release.",
+      "sources": [
+        {
+          "title": "MacRumors",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "MacRumors – WWDC 2026 Recap",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008707+02:00"
+    },
+    {
+      "slug": "mlx-metal-4-rdma-thunderbolt-multi-mac-training",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "MLX aggiornato: Metal 4 e training distribuito su piú Mac via RDMA su Thunderbolt",
+      "titleEn": "MLX updated: Metal 4 support and distributed training across multiple Macs via RDMA over Thunderbolt",
+      "excerptIt": "Il framework open-source di ricerca ML di Apple riceve il supporto a Metal 4 e la capacitá di distribuire il training di modelli su piú Mac collegati via Thunderbolt, usando RDMA per ridurre la latenza di trasferimento dati.",
+      "excerptEn": "Apple's open-source ML research framework gains Metal 4 support and the ability to scale model training across multiple Macs connected via Thunderbolt, using RDMA to reduce data transfer latency.",
+      "bodyIt": "## MLX si evolve con il silicio Apple\n\nAl Platforms State of the Union del WWDC 2026 Apple ha annunciato un aggiornamento significativo a MLX, il suo framework open-source per la ricerca su machine learning ottimizzato per Apple Silicon. La novitá principale è il supporto a Metal 4, la nuova API grafica e di calcolo presentata contestualmente, che permette di sfruttare piú efficacemente la GPU unificata dei chip M-series. La seconda novitá, forse piú insolita, riguarda la scalabilitá: MLX puó ora distribuire il training di modelli su piú Mac collegati via Thunderbolt, usando RDMA (Remote Direct Memory Access) per trasferire i dati direttamente tra le memorie dei dispositivi senza passare per la CPU, riducendo la latenza e aumentando il throughput.\n\n## Il contesto: cluster Mac per la ricerca\n\nL'aggiornamento è rilevante soprattutto per i ricercatori che lavorano con hardware Apple: consente di costruire cluster di Mac Studio o Mac Pro per addestrare modelli che altrimenti richiederebbero hardware dedicato. Non è un annuncio rivolto al grande pubblico, ma definisce il posizionamento di Apple nel panorama della ricerca AI: l'ecosistema chiuso diventa paradossalmente un vantaggio quando Thunderbolt e memoria unificata consentono trasferimenti RDMA che su hardware eterogeneo richiederebbero infrastrutture ben piú complesse. MacRumors lo ha segnalato tra i punti chiave del Platforms State of the Union.",
+      "bodyEn": "## MLX evolves with Apple silicon\n\nAt the WWDC 2026 Platforms State of the Union, Apple announced a significant update to MLX, its open-source machine learning research framework optimized for Apple Silicon. The main addition is Metal 4 support, the new graphics and compute API introduced alongside it, which allows more efficient use of the unified GPU in M-series chips. The second addition, perhaps more unusual, concerns scalability: MLX can now distribute model training across multiple Macs connected via Thunderbolt, using RDMA (Remote Direct Memory Access) to transfer data directly between device memories without going through the CPU, reducing latency and increasing throughput.\n\n## Context: Mac clusters for research\n\nThe update is particularly relevant for researchers working with Apple hardware: it allows building clusters of Mac Studio or Mac Pro machines to train models that would otherwise require dedicated hardware. It is not an announcement aimed at the general public, but it defines Apple's positioning in the AI research landscape: the closed ecosystem paradoxically becomes an advantage when Thunderbolt and unified memory enable RDMA transfers that on heterogeneous hardware would require far more complex infrastructure. MacRumors highlighted it as one of the key points of the Platforms State of the Union.",
+      "sources": [
+        {
+          "title": "MacRumors – Platforms State of the Union 2026",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "Let's Data Science – WWDC26 Platforms Recap",
+          "url": "https://letsdatascience.com/news/apple-shares-five-minute-wwdc26-platforms-recap-video-598fea67"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008714+02:00"
+    },
+    {
+      "slug": "notion-swiftui-nativo-migrazione-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Notion migra a SwiftUI nativo: Apple la cita come caso di studio al WWDC 2026",
+      "titleEn": "Notion migrates to native SwiftUI: Apple cites it as a case study at WWDC 2026",
+      "excerptIt": "Durante il Platforms State of the Union Apple ha usato Notion come esempio emblematico di app che abbandona le tecnologie UI multipiattaforma basate su web per adottare SwiftUI nativo, puntando su prestazioni e coerenza con il sistema.",
+      "excerptEn": "During the Platforms State of the Union Apple used Notion as an emblematic example of an app abandoning web-based cross-platform UI technologies in favor of native SwiftUI, aiming for better performance and system consistency.",
+      "bodyIt": "## La scelta di Notion come testimonial\n\nNon è abituale che Apple nomini esplicitamente un'applicazione di terze parti durante un discorso tecnico come il Platforms State of the Union. Il fatto che Cupertino abbia scelto Notion — uno dei prodotti di produttivitá piú diffusi tra sviluppatori, designer e professionisti della conoscenza — per illustrare la migrazione da UI basate su tecnologie web multipiattaforma a SwiftUI nativo è un segnale preciso: Apple vuole che altri seguano lo stesso percorso, e usa Notion come prova di fattibilitá.\n\n## Cosa cambia concretamente\n\nLe applicazioni che costruiscono la loro UI tramite WebView o framework cross-platform come React Native o Electron ottengono spesso risultati funzionalmente accettabili ma visivamente disomogenei e meno reattivi rispetto alle app native. La migrazione a SwiftUI porta prestazioni migliori, animazioni piú fluide, integrazione piú profonda con le funzioni di sistema — dal Liquid Glass al Dynamic Island — e un allineamento automatico con gli aggiornamenti di iOS e macOS. MacRumors ha riportato la citazione di Notion tra i punti del Platforms State of the Union, evidenziando come Apple stia usando gli aggiornamenti a SwiftUI 27 — tra cui drag-to-reorder, swipe actions in qualsiasi container e layout annidati fino a due volte piú veloci — per incentivare questa transizione.",
+      "bodyEn": "## Why Notion as a testimonial\n\nIt is unusual for Apple to explicitly name a third-party application during a technical address like the Platforms State of the Union. The fact that Cupertino chose Notion — one of the most widely used productivity products among developers, designers, and knowledge workers — to illustrate the migration from web-based cross-platform UI technologies to native SwiftUI is a precise signal: Apple wants others to follow the same path, and uses Notion as proof of feasibility.\n\n## What concretely changes\n\nApplications that build their UI through WebView or cross-platform frameworks such as React Native or Electron often achieve functionally acceptable but visually inconsistent and less responsive results compared to native apps. Migrating to SwiftUI brings better performance, smoother animations, deeper integration with system features — from Liquid Glass to Dynamic Island — and automatic alignment with iOS and macOS updates. MacRumors reported the Notion citation among the highlights of the Platforms State of the Union, noting how Apple is using the SwiftUI 27 updates — including drag-to-reorder, swipe actions in any container, and nested layouts up to twice as fast — to incentivize this transition.",
+      "sources": [
+        {
+          "title": "MacRumors – Platforms State of the Union 2026",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "MacRumors – Frontpage",
+          "url": "https://www.macrumors.com/"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008721+02:00"
+    },
+    {
+      "slug": "xcode-27-plugin-ecosystem-figma-github-mcp-agent-client",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode",
+        "intelligenza-artificiale"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Xcode 27: ecosistema di plugin aperti con Figma e GitHub al lancio, protocollo agent-client",
+      "titleEn": "Xcode 27: open plugin ecosystem with Figma and GitHub at launch, agent-client protocol",
+      "excerptIt": "Apple ha aperto Xcode 27 a plugin di terze parti tramite un protocollo agent-client che supporta skills, MCP tools e agenti AI. Figma e GitHub saranno disponibili al lancio, mentre Anthropic, OpenAI e Google porteranno i loro agenti di coding nell'IDE.",
+      "excerptEn": "Apple has opened Xcode 27 to third-party plugins via an agent-client protocol supporting skills, MCP tools, and AI agents. Figma and GitHub will be available at launch, while Anthropic, OpenAI, and Google will bring their coding agents into the IDE.",
+      "bodyIt": "## Un IDE che si apre all'esterno\n\nXcode è sempre stato un ambiente tendenzialmente chiuso, con estensibilitá limitata rispetto a concorrenti come VS Code. Al WWDC 2026 Apple ha cambiato rotta: Xcode 27 introduce un protocollo agent-client che permette agli sviluppatori di estendere l'IDE tramite plugin che possono portare skills personalizzate, strumenti MCP (Model Context Protocol) e agenti AI di terze parti. Al momento del lancio, Figma e GitHub avranno giá plugin disponibili, rispettivamente per l'integrazione dei file di design e per la gestione del codice sorgente.\n\n## Anthropic, OpenAI e Google nell'IDE\n\nLa parte piú rilevante per lo sviluppo AI-assistito è l'accordo con i tre principali provider di modelli. Secondo MacRumors e Let's Data Science, Apple sta lavorando con Anthropic, OpenAI e Google per portare i loro agenti di coding direttamente in Xcode. Le conversazioni con questi agenti si comportano come file all'interno dell'IDE: possono eseguire test, usare i Playground e controllare un'app in esecuzione end-to-end. Questo posiziona Xcode 27 come ambiente integrato in cui l'agente AI ha accesso completo al contesto del progetto — build system, simulatore, debugging — senza uscire dall'IDE.",
+      "bodyEn": "## An IDE opening up\n\nXcode has always been a relatively closed environment, with limited extensibility compared to competitors like VS Code. At WWDC 2026 Apple changed course: Xcode 27 introduces an agent-client protocol that allows developers to extend the IDE through plugins that can bring custom skills, MCP (Model Context Protocol) tools, and third-party AI agents. At launch, Figma and GitHub will already have available plugins, for design file integration and source code management respectively.\n\n## Anthropic, OpenAI, and Google in the IDE\n\nThe most relevant part for AI-assisted development is the agreement with the three main model providers. According to MacRumors and Let's Data Science, Apple is working with Anthropic, OpenAI, and Google to bring their coding agents directly into Xcode. Conversations with these agents behave like files within the IDE: they can run tests, use Playgrounds, and drive a running app end to end. This positions Xcode 27 as an integrated environment in which the AI agent has full access to the project context — build system, simulator, debugging — without leaving the IDE.",
+      "sources": [
+        {
+          "title": "MacRumors – Platforms State of the Union 2026",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "Let's Data Science – WWDC26 Platforms Recap",
+          "url": "https://letsdatascience.com/news/apple-shares-five-minute-wwdc26-platforms-recap-video-598fea67"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008728+02:00"
+    },
+    {
+      "slug": "ios-apps-resizable-iphone-mirroring-ios-27",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design",
+        "continuity"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27: le app iPhone diventano ridimensionabili su iPad e Mac via iPhone Mirroring",
+      "titleEn": "iOS 27: iPhone apps become resizable on iPad and Mac via iPhone Mirroring",
+      "excerptIt": "Con iOS 27 e macOS Golden Gate le app progettate per iPhone possono essere ridimensionate per sfruttare schermi piú grandi quando girano su iPad o tramite iPhone Mirroring sul Mac, con un nuovo iOS Simulator ridimensionabile per facilitare i test.",
+      "excerptEn": "With iOS 27 and macOS Golden Gate, apps designed for iPhone can be resized to take advantage of larger screens when running on iPad or via iPhone Mirroring on Mac, with a new resizable iOS Simulator to ease testing.",
+      "bodyIt": "## Il confine tra iPhone e iPad si assottiglia\n\nFino a iOS 26, un'app progettata per iPhone veniva eseguita su iPad in una finestra a dimensione fissa, con le classiche bande laterali nere a riempire lo spazio vuoto. iOS 27 e macOS Golden Gate cambiano questo schema: le app iOS sono ora ridimensionabili, consentendo agli utenti di adattarle alle dimensioni dello schermo del dispositivo su cui girano — sia esso un iPad sia un Mac tramite iPhone Mirroring. Lo riportano MacRumors e la sintesi del Platforms State of the Union pubblicata da Let's Data Science.\n\n## Implicazioni per sviluppatori e utenti\n\nPer gli sviluppatori, Apple ha introdotto un iOS Simulator ridimensionabile che semplifica il test delle app su dimensioni diverse senza dover cambiare dispositivo di simulazione. Per gli utenti, il vantaggio pratico è immediato durante iPhone Mirroring: app che prima apparivano come finestrelle in un formato telefonico possono ora occupare piú schermo sul Mac. Questa modifica è particolarmente rilevante in ottica foldable iPhone — il cui form factor richiederá app in grado di gestire finestre di dimensioni variabili — e rafforza la coerenza dell'ecosistema continuity tra i dispositivi Apple.",
+      "bodyEn": "## The boundary between iPhone and iPad thins\n\nUntil iOS 26, an app designed for iPhone ran on iPad in a fixed-size window, with the classic black sidebars filling the empty space. iOS 27 and macOS Golden Gate change this: iOS apps are now resizable, allowing users to adapt them to the screen size of the device they are running on — whether an iPad or a Mac via iPhone Mirroring. This is reported by MacRumors and the Platforms State of the Union summary published by Let's Data Science.\n\n## Implications for developers and users\n\nFor developers, Apple has introduced a resizable iOS Simulator that simplifies testing apps at different sizes without changing the simulation device. For users, the practical benefit is immediate during iPhone Mirroring: apps that previously appeared as small phone-format windows can now occupy more screen on the Mac. This change is particularly relevant in the context of the foldable iPhone — whose form factor will require apps capable of handling variable-size windows — and reinforces the continuity consistency of the Apple ecosystem across devices.",
+      "sources": [
+        {
+          "title": "MacRumors – Platforms State of the Union 2026",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "Let's Data Science – WWDC26 Platforms Recap",
+          "url": "https://letsdatascience.com/news/apple-shares-five-minute-wwdc26-platforms-recap-video-598fea67"
+        }
+      ],
+      "publishedAt": "2026-06-10T17:03:54.008735+02:00"
+    },
     {
       "slug": "apple-cash-bill-splitting-scontrino-foto-wallet-messages",
       "macroArea": "servizi-ecosistema",
