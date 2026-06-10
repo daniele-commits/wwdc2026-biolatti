@@ -1,9 +1,242 @@
 {
-  "lastUpdate": "2026-06-10T20:31:06.803252+02:00",
+  "lastUpdate": "2026-06-10T21:03:39.265431+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "apple-core-ai-framework-sostituisce-core-ml-wwdc-2026",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "intelligenza-artificiale",
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Core AI sostituisce Core ML: il framework AI di sistema si rinnova",
+      "titleEn": "Core AI replaces Core ML: Apple's system AI framework gets a major overhaul",
+      "excerptIt": "Apple ha introdotto a WWDC 2026 Core AI, il successore di Core ML, pensato per integrare in modo nativo le capacità dei modelli fondazionali moderni nelle app. Il cambio di nome riflette un cambio di paradigma: dall'inferenza su modelli custom alla gestione di modelli linguistici e multimodali di grandi dimensioni.",
+      "excerptEn": "Apple introduced Core AI at WWDC 2026, replacing Core ML with a framework designed natively for large foundation models. The renaming signals a shift from custom-model inference to system-level LLM and multimodal integration.",
+      "bodyIt": "## Dal modello su misura al modello fondazionale\n\nPer anni Core ML ha rappresentato il punto di accesso ufficiale all'inferenza on-device su Apple Silicon: uno strato pensato per modelli addestrati dagli sviluppatori e importati nel formato `.mlmodel`. Con iOS 27 e macOS Golden Gate, Apple ha annunciato Core AI come sostituto diretto, ridisegnato attorno alla realtà dei modelli fondazionali di grandi dimensioni — quelli che Apple chiama Apple Foundation Models (AFM).\n\nSecondo quanto riportato da 9to5Mac prima del keynote e confermato durante le sessioni tecniche, il nuovo framework espone API piú coerenti con la gestione di contesti lunghi, con il ragionamento multi-step e con il routing dinamico tra esecuzione on-device e Private Cloud Compute. Non si tratta di un semplice rebranding: la struttura interna è stata rivista per allinearsi al protocollo `LanguageModel` introdotto in Swift e già presente nelle Foundation Models API aperte agli sviluppatori.\n\n## Cosa cambia per chi sviluppa\n\nGli sviluppatori che usavano Core ML per attività classiche — classificazione immagini, regressione, rilevamento oggetti — troveranno un percorso di migrazione documentato da Apple, ma il messaggio è chiaro: per qualsiasi funzione che coinvolga linguaggio, generazione di testo o comprensione multimodale, Core AI è il punto di partenza. L'ecosistema di strumenti in Xcode 27 è già aggiornato di conseguenza, con il Coding Assistant capace di suggerire l'integrazione di Core AI dove prima si sarebbe usato Core ML.\n\nIl cambio ha implicazioni anche sul fronte delle prestazioni: Core AI è ottimizzato per sfruttare i nuovi Neural Engine presenti nei chip A18, A19 e nella famiglia M4/M5, riducendo la latenza per i task di inferenza rispetto al vecchio stack.",
+      "bodyEn": "## From custom model to foundation model\n\nFor years, Core ML was Apple's official gateway to on-device inference on Apple Silicon — a layer designed for developer-trained models imported in `.mlmodel` format. With iOS 27 and macOS Golden Gate, Apple announced Core AI as its direct replacement, rebuilt around the reality of large foundation models — what Apple calls Apple Foundation Models (AFM).\n\nAs reported by 9to5Mac ahead of the keynote and confirmed during technical sessions, the new framework exposes APIs more consistent with long-context handling, multi-step reasoning, and dynamic routing between on-device execution and Private Cloud Compute. This is not a simple rebrand: the internal architecture has been revised to align with the `LanguageModel` protocol introduced in Swift and already present in the Foundation Models APIs open to developers.\n\n## What changes for developers\n\nDevelopers who used Core ML for classic tasks — image classification, regression, object detection — will find a documented migration path from Apple, but the message is clear: for anything involving language, text generation, or multimodal understanding, Core AI is the starting point. The Xcode 27 tooling ecosystem is already updated accordingly, with the Coding Assistant able to suggest Core AI integration where Core ML would previously have been used.\n\nThe change also has performance implications: Core AI is optimized to leverage the new Neural Engines in A18, A19, and M4/M5 chips, reducing inference latency compared to the old stack.",
+      "sources": [
+        {
+          "title": "9to5Mac — WWDC 2026 Guides",
+          "url": "https://9to5mac.com/guides/wwdc/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026 Everything Announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Apple Developer — WWDC26 Sessions",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265373+02:00"
+    },
+    {
+      "slug": "ios-27-live-activity-precision-finding-amici",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27: Live Activity per Precision Finding con gli amici in Find My",
+      "titleEn": "iOS 27: Live Activity for Precision Finding with friends in Find My",
+      "excerptIt": "iOS 27 porta una Live Activity dedicata al Precision Finding con i contatti in Find My, rendendo visibile sulla schermata di blocco la distanza in tempo reale da una persona condivisa. Una funzione pratica per incontrarsi in luoghi affollati senza dover riaprire l'app ogni volta.",
+      "excerptEn": "iOS 27 adds a dedicated Live Activity for Precision Finding with contacts in Find My, surfacing real-time distance to a shared person directly on the Lock Screen without reopening the app.",
+      "bodyIt": "## Find My oltre gli oggetti\n\nFind My in iOS 27 riceve un aggiornamento concreto segnalato nella lista dei 263 elementi del keynote: una Live Activity dedicata al Precision Finding con le persone. Fino a oggi la funzione di rilevamento ad alta precisione — basata su Ultra Wideband — era disponibile solo per gli AirTag e richiedeva di tenere l'app aperta o di avviarla manualmente. Con iOS 27, quando si sta cercando un contatto in uno spazio affollato (un aeroporto, un festival, un mercato), la distanza e la direzione appaiono come Live Activity sulla Dynamic Island o sulla schermata di blocco.\n\n## Come funziona in pratica\n\nLa Live Activity si attiva automaticamente quando entrambe le persone hanno la condivisione di posizione attiva e si trovano nel raggio di rilevamento UWB. L'interfaccia mostra la distanza stimata e, sui dispositivi con Dynamic Island, una freccia direzionale animata. Non è necessario tenere lo schermo acceso o l'app in foreground.\n\nL'annuncio è stato incluso nella maxi-slide dei 263 miglioramenti mostrata rapidamente durante il keynote dell'8 giugno e ripresa nel dettaglio da iClarified. È una di quelle funzioni che non ottiene tempo sul palco ma che nella quotidianità cambia in modo misurabile l'esperienza di chi usa Find My per coordinarsi con persone reali, non solo per ritrovare oggetti perduti.",
+      "bodyEn": "## Find My beyond objects\n\nFind My in iOS 27 receives a concrete update flagged in the keynote's 263-item list: a dedicated Live Activity for Precision Finding with people. Until now, the high-precision detection feature — based on Ultra Wideband — was only available for AirTags and required keeping the app open or launching it manually. With iOS 27, when searching for a contact in a crowded space (an airport, a festival, a market), the distance and direction appear as a Live Activity on the Dynamic Island or Lock Screen.\n\n## How it works in practice\n\nThe Live Activity activates automatically when both people have location sharing enabled and are within UWB detection range. The interface shows the estimated distance and, on Dynamic Island devices, an animated directional arrow. There is no need to keep the screen on or the app in the foreground.\n\nThe announcement was included in the 263-improvement mega-slide shown briefly during the June 8 keynote and covered in detail by iClarified. It is one of those features that doesn't get stage time but measurably changes the everyday experience for those who use Find My to coordinate with real people, not just to find lost objects.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Coverage",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026 Everything Announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265400+02:00"
+    },
+    {
+      "slug": "ios-27-wallet-order-tracking-australia-canada",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Wallet Order Tracking arriva in Australia e Canada con iOS 27",
+      "titleEn": "Wallet Order Tracking expands to Australia and Canada with iOS 27",
+      "excerptIt": "Il tracciamento degli ordini direttamente nell'app Wallet di iOS 27 si espande ad Australia e Canada. La funzione, già disponibile negli Stati Uniti, permette di seguire lo stato di spedizione di un acquisto senza uscire dall'ecosistema Apple.",
+      "excerptEn": "Wallet Order Tracking in iOS 27 expands to Australia and Canada. The feature, already available in the US, lets users track shipment status for purchases without leaving the Apple ecosystem.",
+      "bodyIt": "## L'espansione geografica di Wallet\n\nTra i 263 miglioramenti elencati nella slide finale del keynote WWDC 2026, Apple ha confermato che il Wallet Order Tracking — la funzione che aggrega le informazioni di tracciamento degli ordini di e-commerce direttamente nell'app Wallet — arriva in Australia e Canada con iOS 27. Fino ad oggi la funzione era limitata al mercato statunitense, dove i principali retailer avevano già integrato il supporto tramite i pass Wallet.\n\n## Come funziona e perché conta\n\nWallet Order Tracking funziona attraverso i pass digitali che i rivenditori inviano via e-mail o SMS: quando un pass di conferma ordine è salvato nel Wallet, iOS aggiorna automaticamente lo stato di consegna senza che l'utente debba aprire l'app del corriere o tornare sull'app del negozio. La notifica arriva direttamente nella schermata di blocco contestualizzata al pass.\n\nL'espansione ad Australia e Canada è il primo passo verso una distribuzione globale. Per i mercati non ancora supportati, tra cui l'Italia, non c'è ancora una data. Il modello di adozione dipende dall'integrazione da parte dei retailer locali, un processo che negli Stati Uniti ha richiesto circa due anni dal lancio. Riportato dalla lista completa pubblicata da iClarified sulla base della slide del keynote dell'8 giugno.",
+      "bodyEn": "## Wallet's geographic expansion\n\nAmong the 263 improvements listed in the final WWDC 2026 keynote slide, Apple confirmed that Wallet Order Tracking — the feature that aggregates e-commerce order tracking information directly in the Wallet app — is coming to Australia and Canada with iOS 27. Until now the feature was limited to the US market, where major retailers had already integrated support via Wallet passes.\n\n## How it works and why it matters\n\nWallet Order Tracking works through digital passes that retailers send via email or SMS: when an order confirmation pass is saved in Wallet, iOS automatically updates delivery status without the user needing to open the carrier app or return to the store app. The notification arrives directly on the Lock Screen contextualized to the pass.\n\nThe expansion to Australia and Canada is the first step toward global distribution. For markets not yet supported, including Italy, there is no date yet. The adoption model depends on integration by local retailers, a process that took approximately two years from launch in the United States. Reported from the full list published by iClarified based on the June 8 keynote slide.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors — WWDC 2026",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265406+02:00"
+    },
+    {
+      "slug": "ios-27-foldable-display-count-terzo-indicatore-beta",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 beta: trovata una terza API per dispositivi multi-display integrati",
+      "titleEn": "iOS 27 beta: a third API found for devices with multiple built-in displays",
+      "excerptIt": "Oltre ai già noti riferimenti a foldState e angleDegrees, i ricercatori hanno individuato nella prima beta di iOS 27 una nuova chiave che restituisce il conteggio totale dei display integrati in un dispositivo. Un terzo indicatore che consolida ulteriormente la preparazione software per un iPhone pieghevole.",
+      "excerptEn": "Beyond the already-known foldState and angleDegrees references, researchers found in the first iOS 27 beta a new key that returns the total count of built-in displays on a device — a third indicator further consolidating software preparation for a foldable iPhone.",
+      "bodyIt": "## Il terzo indizio nella beta\n\nI ricercatori che analizzano sistematicamente il codice della prima beta di iOS 27 hanno trovato, oltre ai giá noti `foldState` e `angleDegrees`, una terza API che merita attenzione: una chiave che restituisce il conteggio totale dei display integrati presenti sul dispositivo. In un iPhone attuale il valore sarebbe sempre uno. Un dispositivo pieghevole con due schermi interni restituirebbe due.\n\nMacRumors ha documentato questa scoperta sottolineando che, combinata con le altre due stringhe, l'insieme forma un insieme coerente di primitive software destinate a descrivere lo stato fisico di un dispositivo con cerniera. Non si tratta di stringhe isolate né di resti di codice abbandonato: il loro posizionamento suggerisce che facciano parte di un'API pubblica o semi-pubblica che Apple sta preparando per gli sviluppatori.\n\n## Verso iPhone Ultra\n\nLa triplice evidenza rafforza la lettura secondo cui il cosiddetto iPhone Ultra — il primo iPhone pieghevole di Apple, atteso a settembre 2026 insieme a iPhone 18 Pro — sarà gestito da iOS 27 con API dedicate allo stato della cerniera e al layout multi-schermo. Agli sviluppatori sarà presumibilmente chiesto di dichiarare in anticipo il supporto a questo tipo di layout, analogamente a quanto avviene con l'adaptive layout per iPad. Il tutto senza che Apple abbia fatto un solo annuncio esplicito al riguardo durante il keynote.",
+      "bodyEn": "## The third clue in the beta\n\nResearchers systematically analyzing the code of the first iOS 27 beta found, beyond the already-known `foldState` and `angleDegrees`, a third API worth noting: a key that returns the total count of built-in displays present on the device. On a current iPhone the value would always be one. A foldable device with two internal screens would return two.\n\nMacRumors documented this discovery, noting that combined with the other two strings, the set forms a coherent group of software primitives intended to describe the physical state of a device with a hinge. These are not isolated strings or abandoned code remnants: their positioning suggests they are part of a public or semi-public API that Apple is preparing for developers.\n\n## Toward iPhone Ultra\n\nThe triple evidence reinforces the reading that the so-called iPhone Ultra — Apple's first foldable iPhone, expected in September 2026 alongside iPhone 18 Pro — will be managed by iOS 27 with dedicated APIs for hinge state and multi-screen layout. Developers will presumably be asked to declare support for this type of layout in advance, similar to how adaptive layout works for iPad. All this without Apple having made a single explicit announcement about it during the keynote.",
+      "sources": [
+        {
+          "title": "MacRumors — iOS 27 foldable references",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "TechCrunch — WWDC 2026 Everything Announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265411+02:00"
+    },
+    {
+      "slug": "tvos-27-smart-downloads-apple-tv",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "tvOS 27: Smart Downloads porta i download automatici su Apple TV",
+      "titleEn": "tvOS 27: Smart Downloads brings automatic downloads to Apple TV",
+      "excerptIt": "tvOS 27 introduce Smart Downloads su Apple TV: il sistema scarica automaticamente i contenuti nelle ore di bassa attività, pronti per la riproduzione offline. Una funzione attesa da chi usa Apple TV in contesti con connettività instabile.",
+      "excerptEn": "tvOS 27 introduces Smart Downloads on Apple TV, automatically downloading content during low-activity hours so it's ready for offline playback — a long-requested feature for users with unreliable connectivity.",
+      "bodyIt": "## Contenuti pronti prima che tu li cerchi\n\ntvOS 27 introduce Smart Downloads, una funzione già presente in altri contesti Apple che ora arriva sulla piattaforma televisiva. Il sistema analizza le abitudini di visione e scarica automaticamente i prossimi episodi delle serie seguite, i film nella lista Guarda dopo e i contenuti consigliati nelle ore notturne o di bassa attività di rete, quando l'Apple TV è in standby ma connessa all'alimentazione.\n\nL'annuncio è tra i 263 miglioramenti elencati nella slide del keynote WWDC 2026 e riportati integralmente da iClarified. Non ha ricevuto tempo sul palco, ma colma una lacuna concreta: fino a tvOS 26, Apple TV non gestiva il pre-download automatico dei contenuti, cosa che i concorrenti come Roku, Fire TV e Google TV offrono da anni.\n\n## Chi ne beneficia di piú\n\nLa funzione è particolarmente utile per chi ha connessioni domestiche con limitazioni di banda nelle ore di punta, per chi viaggia e vuole portare contenuti offline sulla propria Apple TV (o via AirPlay verso un dispositivo mobile), e per chi usa Apple TV in luoghi con connettività saltuaria. Il sistema si integra con le app che supportano il framework di download in background di tvOS, il che significa che il supporto dipenderà anche dall'adozione da parte degli sviluppatori di app di streaming di terze parti.",
+      "bodyEn": "## Content ready before you look for it\n\ntvOS 27 introduces Smart Downloads, a feature already present in other Apple contexts that now comes to the television platform. The system analyzes viewing habits and automatically downloads the next episodes of followed series, movies in the Watch Later list, and recommended content during nighttime or low-network-activity hours, when Apple TV is in standby but connected to power.\n\nThe announcement is among the 263 improvements listed in the WWDC 2026 keynote slide and reported in full by iClarified. It did not receive stage time, but it closes a concrete gap: until tvOS 26, Apple TV did not manage automatic pre-downloading of content, something competitors like Roku, Fire TV, and Google TV have offered for years.\n\n## Who benefits most\n\nThe feature is particularly useful for those with home connections that have bandwidth limitations during peak hours, for travelers who want to bring offline content on their Apple TV (or via AirPlay to a mobile device), and for those who use Apple TV in locations with intermittent connectivity. The system integrates with apps that support the tvOS background download framework, meaning support will also depend on adoption by third-party streaming app developers.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechRadar — WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265414+02:00"
+    },
+    {
+      "slug": "ios-27-web-audio-non-interrompe-sistema",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27: l'audio web non interrompe piú la musica o i podcast in riproduzione",
+      "titleEn": "iOS 27: web audio no longer interrupts music or podcasts playing in the background",
+      "excerptIt": "iOS 27 risolve un comportamento fastidioso da anni: l'audio proveniente da pagine web in Safari non interrompe piú automaticamente la riproduzione musicale o dei podcast in corso. Una correzione piccola in apparenza, ma che migliora l'esperienza audio quotidiana in modo significativo.",
+      "excerptEn": "iOS 27 fixes a years-old annoyance: audio from Safari web pages no longer automatically interrupts music or podcast playback. A small-seeming fix with a significant impact on everyday audio experience.",
+      "bodyIt": "## Un problema da anni, finalmente risolto\n\nChiunque abbia mai aperto un link in Safari mentre ascoltava musica o un podcast sa quanto fosse frustrante: l'audio della pagina web — un video che parte in autoplay, un banner sonoro, un player non richiesto — interrompeva immediatamente la riproduzione in corso senza possibilità di gestirla facilmente. iOS 27 cambia questo comportamento in modo diretto: l'audio web non ottiene piú automaticamente la priorità sul flusso audio di sistema.\n\nIl cambiamento è elencato tra i 263 miglioramenti del keynote WWDC 2026, documentati nella loro totalità da iClarified. Non è una funzione nuova in senso stretto, ma una correzione di comportamento attesa da una larga parte degli utenti. Il modello adottato è simile a quello che i browser desktop gestiscono da anni tramite la politica di autoplay: l'audio di una pagina web non ottiene automaticamente il focus audio di sistema.\n\n## Impatto pratico\n\nIn termini concreti: aprire un articolo con un video incorporato in Safari non fermerá piú Apple Music, Spotify, Overcast o qualsiasi altra app audio. Il comportamento esatto — se l'audio web viene silenziato, messo in pausa o semplicemente non prende il controllo finché l'utente non interagisce — non è ancora documentato nei dettagli tecnici pubblici della beta, ma il risultato per l'utente è che la riproduzione non viene piú interrotta involontariamente.",
+      "bodyEn": "## A years-old problem, finally fixed\n\nAnyone who has ever opened a link in Safari while listening to music or a podcast knows how frustrating it was: audio from the web page — an autoplaying video, a sound banner, an uninvited player — immediately interrupted ongoing playback with no easy way to manage it. iOS 27 changes this behavior directly: web audio no longer automatically takes priority over the system audio stream.\n\nThe change is listed among the 263 keynote improvements documented in full by iClarified. It is not a new feature in the strict sense, but a behavior correction expected by a large portion of users. The adopted model is similar to what desktop browsers have managed for years through autoplay policy: web page audio does not automatically get system audio focus.\n\n## Practical impact\n\nIn concrete terms: opening an article with an embedded video in Safari will no longer stop Apple Music, Spotify, Overcast, or any other audio app. The exact behavior — whether web audio is muted, paused, or simply does not take control until the user interacts — is not yet documented in the public technical details of the beta, but the result for the user is that playback is no longer involuntarily interrupted.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265418+02:00"
+    },
+    {
+      "slug": "ipados-27-undo-redo-home-screen-edits",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iPadOS 27: finalmente Annulla e Ripristina per le modifiche alla schermata Home",
+      "titleEn": "iPadOS 27: Undo and Redo finally arrive for Home Screen edits on iPad",
+      "excerptIt": "iPadOS 27 aggiunge il supporto ad Annulla e Ripristina durante la modifica della schermata Home. Chi ha mai spostato per errore un'icona o eliminato involontariamente una cartella sul proprio iPad sa quanto questa funzione mancasse.",
+      "excerptEn": "iPadOS 27 adds Undo and Redo support while editing the Home Screen. Anyone who has accidentally moved an icon or deleted a folder on their iPad knows how long this feature has been missing.",
+      "bodyIt": "## Il jiggle mode finalmente ha una rete di sicurezza\n\nSu iPhone la schermata Home ha da tempo alcune protezioni contro le modifiche accidentali, ma su iPad — dove le icone occupano spazio su una griglia piú grande e il trascinamento involontario è piú frequente — mancava il supporto ad Annulla e Ripristina durante la modalità di modifica. iPadOS 27 colma questa lacuna: dopo aver attivato la modifica della schermata Home, è possibile annullare l'ultimo spostamento o eliminazione con un gesto standard (scuotere il dispositivo o usare la scorciatoia da tastiera Cmd+Z) e ripristinarlo altrettanto facilmente.\n\nLa funzione è tra i 263 miglioramenti elencati nella slide del keynote WWDC 2026 e documentati da iClarified. Non è una novità epocale, ma è il tipo di correzione che chi usa intensivamente l'iPad come dispositivo di lavoro aveva segnalato come mancanza concreta da anni.\n\n## Contesto: iPad come dispositivo produttivo\n\nApple ha dedicato negli ultimi anni grande attenzione a posizionare iPad come strumento produttivo, introducendo scorciatoie da tastiera avanzate, Stage Manager e miglioramenti al multitasking. L'assenza di Annulla/Ripristina nella schermata Home era una di quelle incongruenze difficili da giustificare per un dispositivo che si propone come sostituto del computer. Con iPadOS 27 viene rimossa.",
+      "bodyEn": "## Jiggle mode finally has a safety net\n\nOn iPhone the Home Screen has long had some protections against accidental edits, but on iPad — where icons occupy space on a larger grid and accidental dragging is more frequent — Undo and Redo support during edit mode was missing. iPadOS 27 closes this gap: after activating Home Screen editing, you can undo the last move or deletion with a standard gesture (shake the device or use the Cmd+Z keyboard shortcut) and redo it just as easily.\n\nThe feature is among the 263 improvements listed in the WWDC 2026 keynote slide and documented by iClarified. It is not an epochal novelty, but it is the type of correction that heavy iPad users had flagged as a concrete gap for years.\n\n## Context: iPad as a productive device\n\nApple has in recent years devoted great attention to positioning iPad as a productivity tool, introducing advanced keyboard shortcuts, Stage Manager, and multitasking improvements. The absence of Undo/Redo on the Home Screen was one of those inconsistencies hard to justify for a device positioning itself as a computer replacement. With iPadOS 27 it is removed.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "Tom's Guide — WWDC 2026 recap",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265421+02:00"
+    },
+    {
+      "slug": "ios-27-thread-accessori-smart-home-connettivita",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27 migliora la connettivitá degli accessori Thread per la casa intelligente",
+      "titleEn": "iOS 27 improves Thread home accessories connectivity",
+      "excerptIt": "iOS 27 migliora la connettivitá degli accessori domotici basati su Thread, il protocollo mesh a bassa latenza su cui Apple ha puntato come standard per la smart home. Tempi di risposta piú rapidi e connessioni piú stabili per luci, sensori e altri dispositivi compatibili.",
+      "excerptEn": "iOS 27 improves connectivity for Thread-based home accessories, the low-latency mesh protocol Apple has bet on as the smart home standard. Faster response times and more stable connections for lights, sensors, and other compatible devices.",
+      "bodyIt": "## Thread e l'ecosistema Matter\n\nThread è il protocollo di rete mesh che Apple ha adottato come infrastruttura per gli accessori della casa intelligente compatibili con Matter e HomeKit. A differenza di Wi-Fi e Bluetooth, Thread è progettato specificamente per dispositivi a basso consumo — sensori di temperatura, serrature, interruttori — e forma una rete mesh resiliente in cui ogni dispositivo compatibile può fare da router per gli altri.\n\nTra i 263 miglioramenti del keynote WWDC 2026, Apple ha confermato un miglioramento specifico alla connettivitá Thread in iOS 27. I dettagli tecnici non sono stati elaborati sul palco, ma la voce nella slide è formulata come \"Improved connectivity for Thread home accessories\", il che suggerisce interventi al livello dello stack di rete o del Border Router implementato negli HomePod e in Apple TV.\n\n## Perché conta per chi ha una smart home Apple\n\nGli utenti che hanno investito in accessori Thread — in particolare quelli certificati Matter — hanno segnalato nel corso degli ultimi anni problemi di latenza e disconnessioni occasionali, soprattutto in reti con molti dispositivi. Un miglioramento alla connettivitá Thread si traduce direttamente in automazioni piú reattive, notifiche dai sensori piú tempestive e una maggiore affidabilitá complessiva dell'ecosistema Home. Riportato dalla lista integrale pubblicata da iClarified.",
+      "bodyEn": "## Thread and the Matter ecosystem\n\nThread is the mesh network protocol that Apple has adopted as infrastructure for smart home accessories compatible with Matter and HomeKit. Unlike Wi-Fi and Bluetooth, Thread is designed specifically for low-power devices — temperature sensors, locks, switches — and forms a resilient mesh network where each compatible device can act as a router for others.\n\nAmong the 263 improvements in the WWDC 2026 keynote, Apple confirmed a specific improvement to Thread connectivity in iOS 27. Technical details were not elaborated on stage, but the item in the slide is worded as 'Improved connectivity for Thread home accessories', suggesting interventions at the network stack level or the Border Router implemented in HomePods and Apple TV.\n\n## Why it matters for Apple smart home users\n\nUsers who have invested in Thread accessories — particularly those certified for Matter — have reported over recent years problems with latency and occasional disconnections, especially in networks with many devices. An improvement to Thread connectivity translates directly into more responsive automations, more timely notifications from sensors, and greater overall reliability of the Home ecosystem. Reported from the full list published by iClarified.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechRadar — WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        },
+        {
+          "title": "Apple Developer — WWDC26",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-10T21:03:39.265425+02:00"
+    },
     {
       "slug": "tesla-apple-carplay-supporto-finalmente",
       "macroArea": "servizi-ecosistema",
