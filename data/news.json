@@ -1,9 +1,157 @@
 {
-  "lastUpdate": "2026-06-10T02:12:24.717616+02:00",
+  "lastUpdate": "2026-06-10T05:31:09.809595+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "apple-cash-bill-splitting-scontrino-foto-wallet-messages",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "intelligenza-artificiale"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Cash divide il conto: foto allo scontrino, importi assegnati e richieste via Wallet",
+      "titleEn": "Apple Cash bill splitting: photograph a receipt, assign items, request payment via Wallet",
+      "excerptIt": "Con iOS 27, Apple Cash acquisisce una funzione di divisione del conto guidata dall'AI: si fotografa lo scontrino, si assegnano le voci alle persone presenti e si inviano le richieste di pagamento direttamente da Wallet o Messaggi. Una feature che riduce la dipendenza da app di terze parti per i pagamenti condivisi.",
+      "excerptEn": "iOS 27 brings an AI-guided bill-splitting feature to Apple Cash: photograph a receipt, assign items to individuals, and send payment requests directly from Wallet or Messages.",
+      "bodyIt": "## Divide il conto senza app di terze parti\n\nUna delle aggiunte piú silenziose di iOS 27 riguarda Apple Cash e l'app Wallet. Secondo quanto riportato da MacRumors prima del keynote e confermato nei materiali distribuiti agli sviluppatori, la funzione di divisione del conto permette di scattare una foto a uno scontrino, lasciare che l'AI ne estragga le voci e assegnarle manualmente alle persone coinvolte nel pagamento. Le richieste vengono poi inviate tramite Wallet o Messaggi.\n\n## Perché conta\n\nL'integrazione diretta nell'ecosistema Apple riduce la necessitá di app come Splitwise o Venmo per chi giá usa Apple Cash come strumento di pagamento quotidiano. La catena — fotografia, riconoscimento voci, richiesta di pagamento — rimane interamente on-device per la parte di elaborazione dell'immagine, in linea con l'approccio privacy-first che Apple ha ribadito durante il keynote. La funzione richiede iOS 27 e Apple Cash, disponibile per ora solo negli Stati Uniti.",
+      "bodyEn": "## Bill splitting without third-party apps\n\nOne of iOS 27's quieter additions concerns Apple Cash and the Wallet app. As reported by MacRumors ahead of the keynote and confirmed in developer materials, the new bill-splitting feature lets users photograph a receipt, have AI extract line items, and manually assign them to individuals. Payment requests are then sent via Wallet or Messages.\n\n## Why it matters\n\nThe direct integration into Apple's ecosystem reduces the need for apps like Splitwise or Venmo for users who already rely on Apple Cash for daily payments. The pipeline — photo, item recognition, payment request — stays entirely on-device for image processing, consistent with the privacy-first approach Apple emphasised during the keynote. The feature requires iOS 27 and Apple Cash, currently available in the United States only.",
+      "sources": [
+        {
+          "title": "MacRumors - WWDC 2026 Coverage",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        },
+        {
+          "title": "The MacRumors Show: What to Expect at WWDC 2026",
+          "url": "https://forums.macrumors.com/threads/the-macrumors-show-what-to-expect-at-wwdc-2026.2483361/"
+        },
+        {
+          "title": "Engadget - Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T05:31:09.809529+02:00"
+    },
+    {
+      "slug": "airplay-google-cast-ios-27-eu-dma-cast-alternativo",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity",
+        "privacy"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 in UE: AirPlay si apre a Google Cast e altri sistemi di cast alternativi",
+      "titleEn": "iOS 27 in the EU: AirPlay opens to Google Cast and alternative casting systems",
+      "excerptIt": "In risposta ai requisiti del Digital Markets Act, iOS 27 nell'Unione Europea consentirá di proiettare contenuti su dispositivi Google Cast e altri sistemi di cast alternativi, rompendo l'esclusivitá di AirPlay per il mirroring e lo streaming.",
+      "excerptEn": "In response to Digital Markets Act requirements, iOS 27 in the EU will allow content to be cast to Google Cast and other alternative casting systems, breaking AirPlay's exclusivity.",
+      "bodyIt": "## L'obbligo DMA apre l'ecosistema\n\nSegnalato nei materiali pre-WWDC e confermato dalle note di rilascio della beta per sviluppatori, iOS 27 introduce nell'Unione Europea la possibilitá di inviare contenuti in streaming a dispositivi compatibili con Google Cast — e potenzialmente altri sistemi alternativi ad AirPlay. La misura é riconducibile direttamente agli obblighi del Digital Markets Act, che impone ad Apple di garantire interoperabilitá con tecnologie di terze parti.\n\n## Cosa cambia in pratica\n\nGli utenti europei con iOS 27 potranno quindi proiettare video, audio o schermo su televisori e speaker che non supportano AirPlay ma usano Chromecast o stack compatibili. La funzione non sostituisce AirPlay per il resto del mondo: rimane una concessione geograficamente limitata nata da un vincolo normativo, non da una scelta strategica di Apple. L'impatto reale dipenderá da quanto l'integrazione sará fluida rispetto all'esperienza nativa AirPlay — un dettaglio che le settimane di beta chiariranno.",
+      "bodyEn": "## DMA obligation opens the ecosystem\n\nNoted in pre-WWDC materials and confirmed in developer beta release notes, iOS 27 introduces in the European Union the ability to stream content to Google Cast-compatible devices — and potentially other AirPlay alternatives. The measure is directly attributable to Digital Markets Act obligations, which require Apple to ensure interoperability with third-party technologies.\n\n## What changes in practice\n\nEuropean users on iOS 27 will be able to cast video, audio, or screen content to TVs and speakers that support Chromecast or compatible stacks but not AirPlay. The feature does not replace AirPlay for the rest of the world: it remains a geographically limited concession born of regulatory constraint, not strategic choice. The real-world quality of the integration will become clearer during the beta period.",
+      "sources": [
+        {
+          "title": "The MacRumors Show: What to Expect at WWDC 2026",
+          "url": "https://forums.macrumors.com/threads/the-macrumors-show-what-to-expect-at-wwdc-2026.2483361/"
+        },
+        {
+          "title": "Engadget - Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors - WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-10T05:31:09.809562+02:00"
+    },
+    {
+      "slug": "siri-ai-cronologia-conversazioni-auto-eliminazione-privacy",
+      "macroArea": "privacy-sicurezza",
+      "tags": [
+        "siri",
+        "privacy",
+        "intelligenza-artificiale"
+      ],
+      "category": "Privacy e Sicurezza",
+      "titleIt": "Siri AI: la cronologia delle conversazioni si elimina automaticamente, con tre opzioni di controllo",
+      "titleEn": "Siri AI: conversation history auto-deletes, with three user-controlled retention options",
+      "excerptIt": "Con la nuova app Siri AI, gli utenti potranno scegliere per quanto tempo conservare la cronologia delle conversazioni: 30 giorni, un anno oppure mai. Un controllo esplicito sulla ritenzione dei dati che Apple presenta come garanzia di trasparenza.",
+      "excerptEn": "With the new Siri AI app, users can choose how long conversation history is retained: 30 days, one year, or never. An explicit data retention control Apple frames as a transparency guarantee.",
+      "bodyIt": "## Tre opzioni, zero ambiguitá\n\nLa nuova app dedicata Siri AI, annunciata al WWDC 2026 come interfaccia conversazionale a pieno schermo modellata su iMessage, includerá un'impostazione esplicita per la gestione della cronologia delle conversazioni. Gli utenti potranno scegliere tra eliminazione automatica dopo 30 giorni, conservazione per un anno o nessuna eliminazione automatica. La scelta é presentata nelle impostazioni privacy dell'app.\n\n## Contesto e significato\n\nIl dettaglio non é stato enfatizzato durante il keynote, ma emerge chiaramente dai materiali per sviluppatori e dalle anticipazioni di MacRumors. In un momento in cui i chatbot AI raccolgono e potenzialmente usano le conversazioni degli utenti per l'addestramento, Apple si distingue rendendo la scelta di ritenzione esplicita e granulare fin dall'inizio. La mossa é coerente con la narrativa privacy che l'azienda ha costruito attorno ad Apple Intelligence: elaborazione on-device dove possibile, Private Cloud Compute per le richieste piú complesse, e ora controllo diretto sulla durata della memoria conversazionale.",
+      "bodyEn": "## Three options, zero ambiguity\n\nThe new dedicated Siri AI app, announced at WWDC 2026 as a full-screen conversational interface modelled on iMessage, will include an explicit setting for managing conversation history. Users can choose between automatic deletion after 30 days, retention for one year, or no automatic deletion. The choice is surfaced in the app's privacy settings.\n\n## Context and significance\n\nThe detail was not emphasised during the keynote but emerges clearly from developer materials and MacRumors reporting. At a time when AI chatbots collect and potentially use user conversations for training, Apple differentiates itself by making retention explicit and granular from the outset. The move is consistent with the privacy narrative Apple has built around Apple Intelligence: on-device processing where possible, Private Cloud Compute for more complex requests, and now direct user control over conversational memory duration.",
+      "sources": [
+        {
+          "title": "The MacRumors Show: What to Expect at WWDC 2026",
+          "url": "https://forums.macrumors.com/threads/the-macrumors-show-what-to-expect-at-wwdc-2026.2483361/"
+        },
+        {
+          "title": "MacRumors - WWDC 2026",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        },
+        {
+          "title": "Engadget - Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T05:31:09.809572+02:00"
+    },
+    {
+      "slug": "ios-27-satellite-maps-condivisione-foto-funzioni-espanse",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27 espande le funzioni satellite: Apple Maps e condivisione foto anche senza copertura",
+      "titleEn": "iOS 27 expands satellite features: Apple Maps and photo sharing even without cell coverage",
+      "excerptIt": "iOS 27 porta il satellite oltre le emergenze: Apple Maps potrá essere usato per la navigazione e sará possibile condividere foto tramite connessione satellite, aprendo le funzionalitá offline a scenari di uso quotidiano in aree remote.",
+      "excerptEn": "iOS 27 takes satellite beyond emergencies: Apple Maps can be used for navigation and photo sharing becomes possible via satellite connection, extending offline use to everyday remote area scenarios.",
+      "bodyIt": "## Dal soccorso all'uso quotidiano\n\nIl supporto satellite di Apple, introdotto con iPhone 14 per le chiamate di emergenza e successivamente esteso ai messaggi tramite satellite, fa un ulteriore passo in avanti con iOS 27. Secondo quanto riportato nei materiali pre-keynote analizzati da MacRumors, le funzioni satellite vengono espanse per includere l'uso di Apple Maps — presumibilmente per la navigazione o la ricerca di posizione — e la condivisione di foto, operazioni che oggi richiedono una connessione dati.\n\n## Perché é rilevante\n\nLa progressione logica é chiara: Apple sta trasformando il satellite da strumento di emergenza a infrastruttura di connettivitá di riserva per scenari di vita reale. Chi si trova in zone montane, in navigazione o semplicemente in aree con scarsa copertura cellulare potrá condividere la propria posizione aggiornata via Maps o inviare una foto senza attendere di tornare in zona coperta. I dettagli tecnici — latenza, dimensione massima dei file, tariffazione — non sono stati ancora resi pubblici nei materiali della beta.",
+      "bodyEn": "## From emergency to everyday use\n\nApple's satellite support, introduced with iPhone 14 for emergency calls and later extended to satellite messaging, takes another step forward with iOS 27. According to pre-keynote materials analysed by MacRumors, satellite features are expanded to include Apple Maps use — presumably for navigation or location lookup — and photo sharing, operations that today require a data connection.\n\n## Why it matters\n\nThe logical progression is clear: Apple is turning satellite from an emergency tool into a backup connectivity infrastructure for real-life scenarios. Users in mountainous areas, at sea, or simply in poor cell coverage zones will be able to share their current Maps location or send a photo without waiting to return to coverage. Technical details — latency, maximum file size, pricing — have not yet been disclosed in beta materials.",
+      "sources": [
+        {
+          "title": "The MacRumors Show: What to Expect at WWDC 2026",
+          "url": "https://forums.macrumors.com/threads/the-macrumors-show-what-to-expect-at-wwdc-2026.2483361/"
+        },
+        {
+          "title": "MacRumors - WWDC 2026 Coverage",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        },
+        {
+          "title": "Engadget - Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T05:31:09.809580+02:00"
+    },
+    {
+      "slug": "apple-pay-express-transit-dallas-houston-nuove-citta-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Pay Express Transit arriva a Dallas e Houston: niente Face ID, il telefono passa e paga",
+      "titleEn": "Apple Pay Express Transit lands in Dallas and Houston: no Face ID needed, tap and go",
+      "excerptIt": "Con iOS 27, Apple Pay Express Transit si espande a Dallas e Houston, permettendo di pagare i mezzi pubblici locali semplicemente avvicinando l'iPhone al terminale, senza sbloccare il dispositivo né autorizzare con Face ID.",
+      "excerptEn": "With iOS 27, Apple Pay Express Transit expands to Dallas and Houston, letting users pay local transit fares by simply tapping iPhone to a terminal, no unlock or Face ID required.",
+      "bodyIt": "## Come funziona Express Transit\n\nApple Pay Express Transit é una modalitá speciale di pagamento in cui una carta selezionata — di credito, debito o un abbonamento transit dedicato — viene autorizzata automaticamente ai tornelli dei trasporti pubblici senza richiedere sblocco del dispositivo o autenticazione biometrica. La funzione é attiva da anni in cittá come New York, Londra, Tokyo e alcune metropolitane italiane.\n\n## Le nuove cittá: Dallas e Houston\n\nCon iOS 27, il supporto si estende a Dallas (sistema DART) e Houston (RideMETRO). A Houston l'utente aggiunge una carta virtuale RideMETRO nell'app Wallet; a Dallas si puó pagare direttamente con una qualsiasi carta di credito o debito contactless. Le due aggiunte portano il totale delle cittá americane supportate a un numero significativo, confermando la strategia di Apple di consolidare Wallet come hub di pagamento di prossimitá nei trasporti urbani statunitensi.",
+      "bodyEn": "## How Express Transit works\n\nApple Pay Express Transit is a special payment mode where a selected card — credit, debit, or a dedicated transit pass — is automatically authorised at transit gates without requiring device unlock or biometric authentication. The feature has been active for years in cities like New York, London, Tokyo, and select European metro systems.\n\n## The new cities: Dallas and Houston\n\nWith iOS 27, support expands to Dallas (DART system) and Houston (RideMETRO). In Houston, users add a virtual RideMETRO card to the Wallet app; in Dallas, any contactless credit or debit card can be used directly. The two additions extend the roster of supported US cities, reinforcing Apple's strategy of consolidating Wallet as a proximity payment hub for urban transit in the United States.",
+      "sources": [
+        {
+          "title": "MacRumors - Apple Pay Express Transit",
+          "url": "https://www.macrumors.com/"
+        },
+        {
+          "title": "Engadget - Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        },
+        {
+          "title": "MacRumors - WWDC 2026 Coverage",
+          "url": "https://www.macrumors.com/guide/wwdc-2026/"
+        }
+      ],
+      "publishedAt": "2026-06-10T05:31:09.809586+02:00"
+    },
     {
       "slug": "tim-cook-executive-chairman-ternus-ceo-settembre-2026",
       "macroArea": "servizi-ecosistema",
