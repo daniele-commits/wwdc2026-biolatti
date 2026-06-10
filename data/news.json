@@ -1,9 +1,151 @@
 {
-  "lastUpdate": "2026-06-10T17:03:54.008743+02:00",
+  "lastUpdate": "2026-06-10T18:02:41.219842+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ios-27-s3-files-finder-shortcuts-bucket-nativi",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27 e macOS Golden Gate portano i bucket S3 in Files, Finder e Shortcuts",
+      "titleEn": "iOS 27 and macOS Golden Gate bring S3 buckets to Files, Finder, and Shortcuts",
+      "excerptIt": "Apple ha aggiunto il supporto nativo ai bucket Amazon S3 direttamente in Files, Finder e Shortcuts, senza app di terze parti. Una funzione di nicchia ma concreta per chi lavora con infrastrutture cloud.",
+      "excerptEn": "Apple has added native support for Amazon S3 buckets directly in Files, Finder, and Shortcuts, without third-party apps. A niche but tangible feature for those working with cloud infrastructure.",
+      "bodyIt": "Tra le decine di annunci secondari presentati nel keynote dell'8 giugno tramite la cosiddetta «word cloud» — una diapositiva con oltre 260 novità elencate in rapida sequenza — uno ha attirato l'attenzione degli sviluppatori e dei professionisti del settore: iOS 27 e macOS Golden Gate introducono il supporto nativo ai bucket Amazon S3 direttamente nell'app Files, in Finder e in Shortcuts.\n\nSignifica che chiunque utilizzi AWS S3 per archiviare file, asset o backup potrà accedere ai propri bucket direttamente dall'interfaccia di sistema, senza installare app dedicate né ricorrere a workaround via WebDAV o client di terze parti. L'integrazione in Shortcuts apre inoltre la strada ad automazioni che spostano, rinominano o processano file su S3 con la stessa naturalezza con cui si opera sul filesystem locale.\n\nL'annuncio è stato documentato da MacStories, che ha catturato e catalogato per intero la diapositiva word-cloud del keynote. Non è stato enfatizzato sul palco, ma per i team di sviluppo e i professionisti creativi che usano S3 come backend di archiviazione rappresenta un salto qualitativo reale nell'integrazione tra ecosistema Apple e infrastruttura cloud standard di settore.",
+      "bodyEn": "Among the dozens of secondary announcements presented during the June 8 keynote via the so-called 'word cloud' slide — a single frame listing over 260 new features — one caught the attention of developers and professionals: iOS 27 and macOS Golden Gate introduce native support for Amazon S3 buckets directly in the Files app, Finder, and Shortcuts.\n\nThis means anyone using AWS S3 to store files, assets, or backups can now access their buckets directly from the system interface, without dedicated apps or WebDAV workarounds. The Shortcuts integration also opens the door to automations that move, rename, or process files on S3 as naturally as operating on the local filesystem.\n\nThe announcement was documented by MacStories, which captured and catalogued the entire keynote word-cloud slide. It wasn't highlighted on stage, but for development teams and creative professionals using S3 as a storage backend, it represents a genuine improvement in the integration between the Apple ecosystem and cloud infrastructure.",
+      "sources": [
+        {
+          "title": "MacStories – WWDC 2026: Small Details and Compatibility Lists",
+          "url": "https://www.macstories.net/news/wwdc-2026-small-details-and-compatibility-lists/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T18:02:41.219781+02:00"
+    },
+    {
+      "slug": "ios-27-nuove-lingue-ui-english-canada-philippines-lingue-indigene",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "accessibilita"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "iOS 27 aggiunge nuove lingue UI e tastiere per lingue indigene nordamericane",
+      "titleEn": "iOS 27 adds new UI languages and keyboards for North American indigenous languages",
+      "excerptIt": "Oltre alle tastiere già annunciate per Afrikaans e Baybayin, iOS 27 porta interfacce localizzate per English (Canada) e English (Philippines) e supporto tastiera per lingue indigene nordamericane come Blackfoot, Comanche, Cree, Kiowa e Tsuu'tina.",
+      "excerptEn": "Beyond the already-announced keyboards for Afrikaans and Baybayin, iOS 27 brings localized interfaces for English (Canada) and English (Philippines) and keyboard support for North American indigenous languages including Blackfoot, Comanche, Cree, Kiowa, and Tsuu'tina.",
+      "bodyIt": "La diapositiva word-cloud del keynote WWDC 2026 conteneva, tra gli annunci minori, due aggiornamenti sulla localizzazione che meritano attenzione separata rispetto alle tastiere già documentate.\n\nIl primo riguarda nuove varianti di interfaccia utente: iOS 27 aggiunge English (Canada) ed English (Philippines) come lingue UI autonome, con formattazioni di data, numero e terminologia localizzate per ciascuna regione. Non è solo una questione di tastiera: è la possibilità di avere un sistema operativo che parla le convenzioni locali di queste aree geografiche.\n\nIl secondo riguarda lingue indigene nordamericane. Apple ha aggiunto tastiere per Blackfoot, Comanche, Cree, Kiowa e Tsuu'tina — lingue parlate da comunità delle Pianure e delle aree sudoccidentali del Nord America. È un gesto di rappresentazione tecnologica che Apple promuove con regolarità ormai da diversi cicli, ma che con iOS 27 raggiunge un insieme di lingue storicamente trascurate dai sistemi operativi principali. MacStories ha documentato l'intero elenco catturandolo dalla diapositiva originale del keynote.",
+      "bodyEn": "The WWDC 2026 keynote word-cloud slide contained, among the minor announcements, two localization updates worth separate attention from the already-documented keyboards.\n\nThe first concerns new UI language variants: iOS 27 adds English (Canada) and English (Philippines) as standalone UI languages, with date, number formatting, and terminology localized for each region. It's not just a keyboard matter — it's the ability to have an operating system that speaks the local conventions of these geographic areas.\n\nThe second concerns North American indigenous languages. Apple has added keyboards for Blackfoot, Comanche, Cree, Kiowa, and Tsuu'tina — languages spoken by communities from the Plains and southwestern areas of North America. MacStories documented the full list by capturing it from the original keynote slide.",
+      "sources": [
+        {
+          "title": "MacStories – WWDC 2026: Small Details and Compatibility Lists",
+          "url": "https://www.macstories.net/news/wwdc-2026-small-details-and-compatibility-lists/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        }
+      ],
+      "publishedAt": "2026-06-10T18:02:41.219809+02:00"
+    },
+    {
+      "slug": "apple-design-awards-2026-vincitori-12-app-giochi",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "design"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Apple Design Awards 2026: annunciati i 12 vincitori tra app e giochi",
+      "titleEn": "Apple Design Awards 2026: 12 winners announced across apps and games",
+      "excerptIt": "Apple ha reso noti i vincitori degli Apple Design Awards 2026 durante la settimana del WWDC, scegliendo 12 app e giochi tra i 36 finalisti precedentemente annunciati. I premi riconoscono eccellenza tecnica, design e innovazione.",
+      "excerptEn": "Apple announced the winners of the 2026 Apple Design Awards during WWDC week, selecting 12 apps and games from the 36 previously announced finalists. The awards recognize technical excellence, design, and innovation.",
+      "bodyIt": "Durante la settimana del WWDC 2026, Apple ha comunicato i 12 vincitori degli Apple Design Awards 2026, scelti tra i 36 finalisti resi noti nelle settimane precedenti all'evento. I premi, assegnati ogni anno, riconoscono sviluppatori che si sono distinti per innovazione, qualità tecnica e cura del design nelle categorie app e giochi.\n\nSecondo quanto riportato da 9to5Mac e MacRumors, i vincitori sono stati selezionati tra le categorie tradizionali che includono Delight and Fun, tra le altre. Apple premia annualmente app che dimostrano un uso esemplare delle piattaforme e delle API più recenti, e il ciclo del 2026 non fa eccezione: molte delle app premiate integrano già funzioni di Apple Intelligence o sfruttano il redesign Liquid Glass introdotto in iOS 26 e ulteriormente raffinato in iOS 27.\n\nGli Apple Design Awards rappresentano un segnale importante per la comunità degli sviluppatori indipendenti: essere premiati ha un impatto diretto sulla visibilità nell'App Store e sulla capacità di attrarre nuovi utenti. Per il 2026 la cerimonia si è svolta nel contesto della settimana WWDC, come da tradizione.",
+      "bodyEn": "During WWDC 2026 week, Apple announced the 12 winners of the 2026 Apple Design Awards, chosen from the 36 finalists revealed in the weeks before the event. The awards, given annually, recognize developers who have stood out for innovation, technical quality, and design care across app and game categories.\n\nAccording to 9to5Mac and MacRumors, winners were selected from traditional categories including Delight and Fun, among others. Apple annually honors apps that demonstrate exemplary use of the latest platforms and APIs, and the 2026 cycle is no exception: many of the winning apps already integrate Apple Intelligence features or leverage the Liquid Glass redesign introduced in iOS 26 and further refined in iOS 27.\n\nThe Apple Design Awards are an important signal for the independent developer community: being recognized has a direct impact on App Store visibility and the ability to attract new users.",
+      "sources": [
+        {
+          "title": "9to5Mac – Apple Design Awards 2026 winners",
+          "url": "https://9to5mac.com/page/5/"
+        },
+        {
+          "title": "MacRumors – Everything Apple Announced at WWDC 2026",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        },
+        {
+          "title": "Apple Newsroom – WWDC26",
+          "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+        }
+      ],
+      "publishedAt": "2026-06-10T18:02:41.219818+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-lista-mac-compatibili-apple-silicon-only",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi Operativi",
+      "titleIt": "macOS Golden Gate: ecco la lista completa dei Mac compatibili, solo Apple Silicon",
+      "titleEn": "macOS Golden Gate: the full list of compatible Macs, Apple Silicon only",
+      "excerptIt": "Con macOS Golden Gate Apple taglia definitivamente il supporto ai Mac Intel. La lista completa dei modelli compatibili, emersa dopo il keynote, chiarisce quali macchine potranno aggiornare e quali resteranno ferme a macOS Tahoe.",
+      "excerptEn": "With macOS Golden Gate, Apple definitively drops support for Intel Macs. The full list of compatible models, published after the keynote, clarifies which machines can upgrade and which will remain on macOS Tahoe.",
+      "bodyIt": "Dopo il keynote dell'8 giugno, MacRumors ha pubblicato un articolo dedicato alla lista completa dei Mac compatibili con macOS Golden Gate. La notizia principale è già nota — nessun Mac Intel può installare il nuovo sistema operativo — ma la lista puntuale dei modelli supportati è emersa solo nella giornata successiva al keynote, quando Apple ha aggiornato le proprie pagine tecniche.\n\nSono compatibili tutti i Mac con chip Apple Silicon: MacBook Air con M1 o superiore, MacBook Pro con M1 o superiore, Mac mini con M1 o superiore, Mac Studio (tutte le generazioni), Mac Pro con Apple Silicon (M2 Ultra in poi). I MacBook Air e MacBook Pro Intel del 2020 e precedenti — inclusi modelli ancora relativamente recenti e performanti come i MacBook Pro Intel del 2019 — rimangono esclusi in modo definitivo.\n\nmacOS Tahoe, rilasciato nell'autunno 2025, è quindi l'ultimo sistema operativo per Mac Intel: chi possiede ancora una di queste macchine non riceverà più aggiornamenti di sistema dopo il ciclo attuale. È la fine di un'era iniziata nel 2020 con il primo M1 e che Apple ha gestito con una transizione più lunga del previsto, mantenendo Rosetta 2 per cinque anni.",
+      "bodyEn": "After the June 8 keynote, MacRumors published a dedicated article on the full list of Macs compatible with macOS Golden Gate. The main news is already known — no Intel Mac can install the new operating system — but the precise list of supported models only emerged the day after the keynote, when Apple updated its technical pages.\n\nAll Macs with Apple Silicon chips are compatible: MacBook Air with M1 or later, MacBook Pro with M1 or later, Mac mini with M1 or later, Mac Studio (all generations), Mac Pro with Apple Silicon (M2 Ultra onwards). Intel MacBook Air and MacBook Pro models from 2020 and earlier — including some relatively recent and capable machines like 2019 Intel MacBook Pros — are permanently excluded.\n\nmacOS Tahoe, released in fall 2025, is therefore the last operating system for Intel Macs: owners of these machines will no longer receive system updates after the current cycle.",
+      "sources": [
+        {
+          "title": "MacRumors – macOS Golden Gate compatible Macs",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-recap/"
+        },
+        {
+          "title": "MacStories – WWDC 2026: Small Details and Compatibility Lists",
+          "url": "https://www.macstories.net/news/wwdc-2026-small-details-and-compatibility-lists/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T18:02:41.219826+02:00"
+    },
+    {
+      "slug": "wwdc-2026-kuo-analisi-post-keynote-gemini-siri-test-reale",
+      "macroArea": "apple-intelligence",
+      "tags": [
+        "intelligenza-artificiale",
+        "siri"
+      ],
+      "category": "Apple Intelligence",
+      "titleIt": "Kuo dopo il keynote: il vero banco di prova di Apple e' fare meglio di Google con Gemini",
+      "titleEn": "Kuo after the keynote: Apple's real test is doing better than Google with Gemini",
+      "excerptIt": "L'analista Ming-Chi Kuo ha commentato il WWDC 2026 sottolineando che la reazione di breve termine dei mercati non conta: la sfida vera per Apple e' dimostrare di saper usare i modelli Gemini meglio di Google stessa, grazie all'integrazione con l'hardware e l'ecosistema.",
+      "excerptEn": "Analyst Ming-Chi Kuo commented on WWDC 2026, noting that short-term market reaction is irrelevant: Apple's real challenge is demonstrating it can use Gemini models better than Google itself, through tight hardware and ecosystem integration.",
+      "bodyIt": "A keynote concluso, l'analista Ming-Chi Kuo ha pubblicato la propria lettura dell'evento in un post su X, citato da MacRumors. La tesi centrale è diretta: Apple sta usando Google Gemini come modello di base per il nuovo Siri AI e per alcune funzioni di Apple Intelligence; questo è un fatto pubblico e ormai assodato. Ma il vero banco di prova, secondo Kuo, non è il fatto in sé quanto la capacità di Apple di ricavarne esperienze migliori rispetto a quelle che Google stessa offre con gli stessi modelli.\n\nL'argomentazione ha senso: Apple dispone di dati contestuali on-device che Google non ha — cronologia del calendario, messaggi, foto, abitudini d'uso, tutto elaborato localmente senza uscire dal dispositivo. Se Siri AI riesce a sfruttare questo contesto per fornire risposte più pertinenti e azioni più accurate rispetto a qualsiasi chatbot cloud-first, allora il fatto che il modello sottostante provenga da Mountain View diventa irrilevante per l'utente finale.\n\nKuo ha poi precisato che la valutazione definitiva non arriverà dal prezzo del titolo Apple nei giorni successivi al keynote — già sceso per le aspettative deluse degli investitori — ma dalla risposta degli utenti nella fase di beta e al lancio autunnale. Un punto che distingue l'analisi tecnica dal rumore di mercato, e che resta il criterio più sensato per giudicare se il nuovo Siri mantenga le promesse.",
+      "bodyEn": "After the keynote, analyst Ming-Chi Kuo published his reading of the event in a post on X, cited by MacRumors. The central argument is straightforward: Apple is using Google Gemini as the base model for the new Siri AI and some Apple Intelligence features — this is a public and established fact. But the real test, according to Kuo, is not the fact itself but Apple's ability to derive better experiences from it than Google does with the same models.\n\nThe argument makes sense: Apple has on-device contextual data that Google doesn't — calendar history, messages, photos, usage habits, all processed locally without leaving the device. If Siri AI can leverage this context to provide more relevant answers and more accurate actions than any cloud-first chatbot, then the fact that the underlying model comes from Mountain View becomes irrelevant to the end user.\n\nKuo also clarified that the definitive assessment won't come from Apple's stock price in the days following the keynote — already down due to disappointed investor expectations — but from user response during the beta phase and the fall launch.",
+      "sources": [
+        {
+          "title": "MacRumors – Apple Outlines Major AI and Developer Tool Updates",
+          "url": "https://www.macrumors.com/2026/06/09/apple-outlines-major-ai-and-developer-tool-updates/"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced on Siri AI",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-10T18:02:41.219834+02:00"
+    },
     {
       "slug": "commissione-europea-risposta-blocco-siri-ai-ue",
       "macroArea": "privacy-sicurezza",
