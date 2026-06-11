@@ -1,9 +1,187 @@
 {
-  "lastUpdate": "2026-06-11T20:03:08.895537+02:00",
+  "lastUpdate": "2026-06-11T20:47:32.290549+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "realitykit-navmesh-pathfinding-lightmaps-wwdc-2026",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Spatial / visionOS",
+      "titleIt": "RealityKit: NavMesh, lightmaps e reverb mesh per esperienze più realistiche",
+      "titleEn": "RealityKit: NavMesh pathfinding, lightmaps and reverb meshes for richer experiences",
+      "excerptIt": "La sessione WWDC 2026 dedicata a RealityKit introduce la navigazione automatica con NavMesh, il baking di lightmaps in Reality Composer Pro 3 e le reverb mesh per l'audio spaziale personalizzato.",
+      "excerptEn": "The WWDC 2026 RealityKit session introduces automatic navigation via NavMesh, lightmap baking in Reality Composer Pro 3, and reverb meshes for customizable spatial audio.",
+      "bodyIt": "## NavMesh pathfinding: NPC che si orientano da soli\n\nUna delle aggiunte più concrete alla sessione \"Explore advances in RealityKit\" di WWDC 2026 è l'introduzione di un navigation mesh nativo. RealityKit può ora generare automaticamente una mappa di navigazione a partire dalla geometria della scena, consentendo a personaggi e NPC di percorrere ambienti complessi senza che lo sviluppatore debba gestire manualmente i percorsi. È uno strumento che nelle app di gioco e nelle esperienze formative riduce significativamente il lavoro di implementazione.\n\n## Lightmaps e illuminazione indiretta in Reality Composer Pro 3\n\nRealityKit supporta ora l'allegazione di texture lightmap per illuminazione indiretta, occlusione ambientale e beauty pass. Apple consiglia di usare il nuovo light baker integrato in Reality Composer Pro 3 per generare queste mappe, ottenendo effetti di luce riflessa negli interni che prima richiedevano soluzioni esterne. La distinzione tra luci statiche (gestite da lightmaps) e dinamiche (coperte dalle soft shadows già annunciate) è ora formalizzata nell'API.\n\n## Reverb mesh e audio spaziale configurabile\n\nSul fronte audio, RealityKit introduce le reverb mesh personalizzabili: invece di affidarsi al riverbero automatico calcolato dalla geometria, uno sviluppatore può definire esattamente quale volume dell'ambiente contribuisce all'eco e alla riflessione del suono. Il risultato è un audio spaziale più coerente in scene ibride dove la geometria visiva e quella acustica non coincidono perfettamente — un caso comune in esperienze mixed reality.\n\nTutte queste funzionalità, documentate da Apple Developer nella sessione video ufficiale, si aggiungono alle cloth simulation, ai Gaussian splats e alle soft shadow già presentate, delineando un aggiornamento sostanziale al motore 3D cross-platform di Apple.",
+      "bodyEn": "## NavMesh pathfinding: automatic NPC navigation\n\nOne of the most practical additions in the WWDC 2026 \"Explore advances in RealityKit\" session is native navigation mesh support. RealityKit can now automatically generate a navigation map from scene geometry, allowing characters and NPCs to traverse complex environments without manual path management. In gaming and training applications this substantially reduces implementation overhead.\n\n## Lightmaps and indirect lighting in Reality Composer Pro 3\n\nRealityKit now supports attaching lightmap textures for indirect lighting, ambient occlusion, and beauty passes. Apple recommends using the new light baker built into Reality Composer Pro 3 to generate these maps, achieving reflected-light effects in interiors that previously required external solutions. The API now formally distinguishes between static lighting (handled by lightmaps) and dynamic lighting (covered by the previously announced soft shadows).\n\n## Reverb meshes and configurable spatial audio\n\nOn the audio side, RealityKit introduces customizable reverb meshes: rather than relying on automatic reverb computed from visible geometry, a developer can define exactly which volume of the environment contributes to echo and sound reflection. The result is more consistent spatial audio in mixed reality scenes where visual and acoustic geometry do not perfectly coincide.\n\nAll these capabilities are documented in the official Apple Developer session video, adding to cloth simulations, Gaussian splats, and soft shadows already announced, together outlining a substantial update to Apple's cross-platform 3D engine.",
+      "sources": [
+        {
+          "title": "Apple Developer – Explore advances in RealityKit (WWDC26)",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/279/"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290467+02:00"
+    },
+    {
+      "slug": "visionos-27-spatial-accessories-framework-enterprise-tracking",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Spatial / visionOS",
+      "titleIt": "visionOS 27: Spatial Accessories framework per accessori fisici tracciati in tempo reale",
+      "titleEn": "visionOS 27: Spatial Accessories framework for real-time physical object tracking",
+      "excerptIt": "Apple introduce un framework dedicato agli accessori spaziali che registra hardware fisici a livello di sistema su Vision Pro, consentendo a qualsiasi app di tracciarli senza integrazioni per-titolo.",
+      "excerptEn": "Apple introduces a dedicated spatial accessories framework that registers physical hardware system-wide on Vision Pro, letting any app track them without per-title integration.",
+      "bodyIt": "## Un registro di sistema per gli accessori fisici\n\nCon visionOS 27 Apple formalizza il concetto di \"accessorio spaziale\": un hardware fisico — un attrezzo, un dispositivo medico, un controller industriale — che viene registrato a livello di sistema su Vision Pro tramite il nuovo Spatial Accessories framework. La conseguenza pratica è che qualsiasi app installata sul visore può accedere all'accessorio senza che lo sviluppatore debba integrarlo singolarmente: la registrazione avviene una volta sola.\n\n## API e flusso di sviluppo\n\nGli sviluppatori scoprono gli accessori tramite `GCSpatialAccessory` e gestiscono il tracciamento tramite `AccessoryTrackingProvider`. Gli accessori possono essere scambiati a caldo senza riavviare la sessione ARKit, il che è rilevante in contesti industriali e formativi dove gli strumenti cambiano frequentemente durante una sessione. Già esistono kit di riferimento commerciali: DFRobot con il modello seeMote Cap e MikroE con Spatial Anchor R1.\n\n## Integrazione con engine di terze parti\n\nUnity PolySpatial, Unreal Engine e Godot ricevono tutti plug-in controller spaziali in visionOS 27, il che significa che i team che usano engine non nativi ottengono il supporto agli accessori senza scrivere Swift nativo. È una mossa che abbassa la barriera d'ingresso per le aziende che stanno già costruendo simulatori su engine consolidati.\n\nIl caso d'uso emblematico citato da Apple durante WWDC 2026 è quello di un simulatore di manutenzione che traccia una chiave dinamometrica fisica — abbinando overlay digitali orientati in tempo reale con lo strumento in movimento.",
+      "bodyEn": "## A system-wide registry for physical accessories\n\nWith visionOS 27, Apple formalises the concept of a \"spatial accessory\": a physical piece of hardware — a tool, a medical device, an industrial controller — that is registered system-wide on Vision Pro via the new Spatial Accessories framework. The practical consequence is that any installed app can access the accessory without per-title integration; registration happens once.\n\n## API and development flow\n\nDevelopers discover accessories via `GCSpatialAccessory` and manage tracking via `AccessoryTrackingProvider`. Accessories hot-swap without restarting the ARKit session, which matters in industrial and training contexts where tools change frequently mid-session. Reference kits are already available commercially: DFRobot with the seeMote Cap and MikroE with the Spatial Anchor R1.\n\n## Third-party engine integration\n\nUnity PolySpatial, Unreal Engine, and Godot all receive spatial controller plug-ins in visionOS 27, meaning teams on established engines get accessory support without writing native Swift. This lowers the entry barrier for companies already building simulators on mature engines.\n\nThe emblematic use case cited by Apple at WWDC 2026 is a maintenance simulator tracking a physical torque wrench, overlaying digital step-by-step instructions anchored to the tool's real-time orientation.",
+      "sources": [
+        {
+          "title": "Frame Sixty – WWDC 2026: How Apple Is Redefining Spatial Computing as Enterprise Infrastructure",
+          "url": "https://framesixty.com/spatial-computing/"
+        },
+        {
+          "title": "Apple Developer – WWDC26 Schedule",
+          "url": "https://developer.apple.com/wwdc26/schedule/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290501+02:00"
+    },
+    {
+      "slug": "visionos-27-foveated-streaming-kia-autodesk-enterprise",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design"
+      ],
+      "category": "Spatial / visionOS",
+      "titleIt": "visionOS 27 Foveated Streaming: Kia usa Vision Pro con VRED per validazione design veicoli",
+      "titleEn": "visionOS 27 Foveated Streaming: Kia uses Vision Pro with VRED for vehicle design validation",
+      "excerptIt": "Apple ha mostrato durante WWDC 2026 come Kia usi il framework FoveatedStreamingSession con Autodesk VRED su PC Windows per validare i design delle automobili in scala reale su Vision Pro.",
+      "excerptEn": "At WWDC 2026 Apple showed how Kia uses the FoveatedStreamingSession framework with Autodesk VRED on a Windows PC to validate car designs at full scale on Vision Pro.",
+      "bodyIt": "## Il caso industriale concreto\n\nDurante la sessione WWDC 2026 \"Use foveated streaming to bring immersive content to visionOS\", Apple ha rivelato il primo cliente automotive pubblicamente nominato per la pipeline di foveated streaming: Kia, che usa Autodesk VRED combinato con il framework Innoactive e FoveatedStreamingSession per esaminare vetture in scala 1:1 su Vision Pro in fase di validazione del design. È un caso d'uso che prima richiedeva costose installazioni CAVE o studi di realtà virtuale dedicati.\n\n## Come funziona l'architettura tecnica\n\nL'API per sviluppatori si chiama `FoveatedStreamingSession` ed è una Swift API basata su sessioni. L'accoppiamento avviene tramite un protocollo TCP leggero, usando un QR code che contiene un token client e un hash del certificato. Un canale di messaggi bidirezionale permette all'app visionOS e all'endpoint PC o cloud di scambiarsi dati personalizzati; i contenuti RealityKit nativi possono essere composti sopra il feed in streaming all'interno dello stesso spazio immersivo.\n\n## Requisiti di sistema\n\nPer costruire un'implementazione serve un PC Windows o un'istanza cloud con l'endpoint OpenXR, l'NVIDIA CloudXR SDK e un'app visionOS ricevente costruita intorno a `FoveatedStreamingSession`. Lato Mac, sono necessari macOS 27 SDK, le API Swift USD Kit e un `SpatialPreviewDevicePicker` per selezionare il visore come destinazione. Quick Look gestisce automaticamente il rendering sul lato visionOS.",
+      "bodyEn": "## The concrete industrial case\n\nDuring the WWDC 2026 session \"Use foveated streaming to bring immersive content to visionOS\", Apple revealed the first publicly named automotive customer for the foveated streaming pipeline: Kia, which uses Autodesk VRED combined with the Innoactive framework and FoveatedStreamingSession to examine cars at 1:1 scale on Vision Pro during design validation. This is a use case that previously required expensive CAVE installations or dedicated VR studios.\n\n## Technical architecture\n\nThe developer API is called `FoveatedStreamingSession`, a session-based Swift API. Pairing happens over a lightweight TCP protocol using a QR code carrying a client token and certificate hash. A bidirectional message channel lets the visionOS app and PC or cloud endpoint exchange custom data; native RealityKit content can be composited on top of the streamed feed within the same immersive space.\n\n## System requirements\n\nBuilding an implementation requires a Windows PC or cloud instance running the OpenXR endpoint, the NVIDIA CloudXR SDK, and a visionOS receiver app built around `FoveatedStreamingSession`. On the Mac side, the macOS 27 SDK, USD Kit Swift APIs, and a `SpatialPreviewDevicePicker` are needed to select the headset endpoint; Quick Look handles the visionOS rendering side automatically.",
+      "sources": [
+        {
+          "title": "Frame Sixty – WWDC 2026: How Apple Is Redefining Spatial Computing as Enterprise Infrastructure",
+          "url": "https://framesixty.com/spatial-computing/"
+        },
+        {
+          "title": "Apple Developer – WWDC26 Videos",
+          "url": "https://developer.apple.com/wwdc26/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290511+02:00"
+    },
+    {
+      "slug": "swift-64-wwdc-2026-novita-linguaggio",
+      "macroArea": "sviluppatori",
+      "tags": [
+        "swift-xcode"
+      ],
+      "category": "Sviluppatori",
+      "titleIt": "Swift 6.4 al WWDC 2026: cosa cambia per gli sviluppatori Apple",
+      "titleEn": "Swift 6.4 at WWDC 2026: what changes for Apple developers",
+      "excerptIt": "WWDC 2026 porta Swift 6.4 con aggiornamenti a SwiftUI, nuovi strumenti di test e debug in Xcode 27 e il framework Core AI che sostituisce Core ML come asse portante dell'intelligenza on-device.",
+      "excerptEn": "WWDC 2026 brings Swift 6.4 with SwiftUI updates, new testing and debugging tools in Xcode 27, and the Core AI framework replacing Core ML as the backbone of on-device intelligence.",
+      "bodyIt": "## Un aggiornamento distribuito su tutto lo stack\n\nIl recap per sviluppatori del WWDC 2026 evidenzia Swift 6.4 come aggiornamento di linguaggio che accompagna Xcode 27. Le novità si distribuiscono su piú livelli: miglioramenti a SwiftUI per layout annidati e drag-reorder, nuovi flussi di test e debug nell'IDE e una localizzazione AI-powered che genera automaticamente le stringhe tradotte a partire dal contesto del codice.\n\n## Core AI al posto di Core ML\n\nL'introduzione piú significativa per chi sviluppa app con intelligenza artificiale è il framework Core AI, che sostituisce formalmente Core ML come livello di astrazione per i modelli on-device. Core AI offre profili dinamici, supporto multi-agent e — tramite il protocollo `LanguageModel` — la possibilità di collegare modelli di terze parti come Gemini o Claude con la stessa API. Questo unifica il codice per modelli locali e remoti senza richiedere due percorsi distinti.\n\n## Xcode 27: Device Hub e localizzazione automatica\n\nXcode 27 introduce il Device Hub come pannello unificato per la gestione di dispositivi fisici e simulatori. La funzione di localizzazione AI-powered genera traduzioni candidate direttamente nell'editor, che lo sviluppatore può accettare, modificare o rifiutare. Xcode Cloud accelera i tempi di build grazie all'infrastruttura Apple Silicon esclusiva, coerentemente con la fine del supporto Intel annunciata per macOS Golden Gate.",
+      "bodyEn": "## An update distributed across the entire stack\n\nThe WWDC 2026 developer recap highlights Swift 6.4 as a language update accompanying Xcode 27. Improvements span multiple layers: SwiftUI enhancements for nested layouts and drag-reorder, new testing and debugging flows in the IDE, and AI-powered localisation that automatically generates translated strings from code context.\n\n## Core AI replacing Core ML\n\nThe most significant introduction for AI app developers is the Core AI framework, which formally replaces Core ML as the abstraction layer for on-device models. Core AI offers dynamic profiles, multi-agent support, and — via the `LanguageModel` protocol — the ability to connect third-party models such as Gemini or Claude using the same API. This unifies code for local and remote models without requiring two separate paths.\n\n## Xcode 27: Device Hub and automatic localisation\n\nXcode 27 introduces Device Hub as a unified panel for managing physical devices and simulators. The AI-powered localisation feature generates candidate translations directly in the editor, which the developer can accept, modify, or reject. Xcode Cloud speeds up build times thanks to Apple Silicon-exclusive infrastructure, consistent with the end of Intel support announced for macOS Golden Gate.",
+      "sources": [
+        {
+          "title": "Appcircle – WWDC 2026 Recap for Developers",
+          "url": "https://appcircle.io/blog/wwdc-2026-recap-for-developers"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290518+02:00"
+    },
+    {
+      "slug": "carplay-audio-miniplayer-wwdc-2026-263-slide",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "CarPlay: Audio MiniPlayer e altre novità dalla slide dei 263 annunci WWDC 2026",
+      "titleEn": "CarPlay: Audio MiniPlayer and other details from WWDC 2026's 263-feature slide",
+      "excerptIt": "La slide con 263 funzioni mostrata durante il keynote WWDC 2026 rivela un Audio MiniPlayer per CarPlay, il setup proattivo della car key e miglioramenti minori al pairing HomeKit.",
+      "excerptEn": "The 263-feature slide shown during the WWDC 2026 keynote reveals an Audio MiniPlayer for CarPlay, proactive car key setup, and minor HomeKit pairing improvements.",
+      "bodyIt": "## Audio MiniPlayer in CarPlay\n\nTra le oltre 260 funzioni elencate nella slide panoramica del keynote WWDC 2026, CarPlay riceve un Audio MiniPlayer: un controllo compatto che permette di gestire la riproduzione audio senza uscire dall'app corrente nell'interfaccia CarPlay. È un dettaglio di usabilità rilevante per chi usa CarPlay con app di podcast o streaming audio durante la navigazione.\n\n## Setup proattivo della car key\n\nUn'altra voce della stessa slide riguarda il \"Proactive car key setup\": iOS 27 rileva quando un veicolo compatibile con la car key digitale è nelle vicinanze e guida l'utente attraverso la configurazione senza che debba cercarne l'opzione nelle Impostazioni. L'approccio rispecchia la direzione generale di iOS 27 verso suggerimenti contestuali basati sull'ambiente circostante.\n\n## HomeKit: pairing piú veloce e storage camera piú affidabile\n\nSempre dalla slide dei 263 elementi emergono due miglioramenti a HomeKit: il pairing degli accessori è diventato piú veloce e lo storage delle telecamere di sicurezza è descritto come piú affidabile. Non sono funzioni annunciate sul palco, ma correggono problemi noti segnalati dagli utenti nel corso degli ultimi cicli software.\n\nLa slide è stata mostrata brevemente durante il keynote WWDC 2026 dell'8 giugno; la lista completa è stata ricostruita e pubblicata da iClarified sulla base delle immagini catturate durante la trasmissione.",
+      "bodyEn": "## Audio MiniPlayer in CarPlay\n\nAmong the 260+ features listed on the panoramic keynote slide at WWDC 2026, CarPlay gains an Audio MiniPlayer: a compact control allowing audio playback management without leaving the current app in the CarPlay interface. It is a meaningful usability detail for users who run podcast or streaming audio apps alongside navigation.\n\n## Proactive car key setup\n\nAnother item from the same slide concerns \"Proactive car key setup\": iOS 27 detects when a digital car key-compatible vehicle is nearby and guides the user through configuration without needing to locate the option in Settings. The approach mirrors the broader iOS 27 direction toward context-aware suggestions based on the surrounding environment.\n\n## HomeKit: faster pairing and more reliable camera storage\n\nAlso from the 263-item list come two HomeKit improvements: accessory pairing is now faster and security camera storage is described as more reliable. These are not stage-announced features, but they address known issues reported by users across recent software cycles.\n\nThe slide was shown briefly during the WWDC 2026 keynote on June 8; the full list was reconstructed and published by iClarified from images captured during the stream.",
+      "sources": [
+        {
+          "title": "iClarified – Here Are the 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget – Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290525+02:00"
+    },
+    {
+      "slug": "ipados-27-scribble-hindi-marathi-apple-pencil",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "accessibilita",
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iPadOS 27: Scribble con Apple Pencil arriva in hindi e marathi",
+      "titleEn": "iPadOS 27: Scribble with Apple Pencil comes to Hindi and Marathi",
+      "excerptIt": "iPadOS 27 espande Scribble — la funzione che converte la scrittura a mano in testo tramite Apple Pencil — aggiungendo il supporto per l'hindi e il marathi, due delle lingue piú parlate in India.",
+      "excerptEn": "iPadOS 27 expands Scribble — the feature converting handwriting to text via Apple Pencil — by adding support for Hindi and Marathi, two of India's most widely spoken languages.",
+      "bodyIt": "## Scribble e il mercato indiano\n\nScribble è la funzione di iPadOS che converte in tempo reale la scrittura a mano con Apple Pencil in testo digitale, utilizzabile in qualsiasi campo di testo del sistema. Con iPadOS 27, Apple aggiunge il supporto per hindi e marathi, rispettivamente la lingua ufficiale indiana con piú parlanti madrelingua e la lingua ufficiale del Maharashtra con oltre 80 milioni di parlanti.\n\n## Perché conta\n\nL'espansione di Scribble a queste lingue non è solo un aggiornamento tecnico: segnala una priorità strategica verso il mercato indiano, che Apple ha identificato come uno dei principali bacini di crescita. Le scritture devanagari — usate sia dall'hindi sia dal marathi — hanno caratteristiche morfologiche complesse (legature, segni vocalici sovrapposti) che rendono il riconoscimento della scrittura a mano piú difficile rispetto agli alfabeti latini. Il fatto che Apple abbia raggiunto una qualità sufficiente per il lancio pubblico è un traguardo non banale.\n\n## Il contesto degli annunci WWDC 2026 sulle lingue\n\nL'aggiunta si affianca ad altri annunci linguistici di iOS 27: nuove tastiere per Afrikaans, Baybayin, Guaranì, Lussemburghese, Xhosa e Zulu, e nuove varianti di interfaccia per inglese (Canada) e inglese (Filippine). Apple sta costruendo un ecosistema linguistico piú ampio, con la scrittura a mano come vettore specifico per le lingue con scritture non latine.",
+      "bodyEn": "## Scribble and the Indian market\n\nScribble is the iPadOS feature that converts Apple Pencil handwriting into digital text in real time, usable in any system text field. With iPadOS 27, Apple adds support for Hindi and Marathi — respectively India's official language with the most native speakers and the official language of Maharashtra with over 80 million speakers.\n\n## Why it matters\n\nExpanding Scribble to these languages is not just a technical update: it signals a strategic priority toward the Indian market, which Apple has identified as one of its main growth pools. Devanagari scripts — used by both Hindi and Marathi — have complex morphological characteristics (ligatures, overlapping vowel signs) that make handwriting recognition more difficult than Latin alphabets. Reaching sufficient quality for a public launch is a non-trivial achievement.\n\n## The broader linguistic context of WWDC 2026\n\nThe addition sits alongside other iOS 27 language announcements: new keyboards for Afrikaans, Baybayin, Guaraní, Luxembourgish, Xhosa, and Zulu, and new interface variants for English (Canada) and English (Philippines). Apple is building a broader linguistic ecosystem, with handwriting as a specific vector for languages with non-Latin scripts.",
+      "sources": [
+        {
+          "title": "iClarified – Here Are the 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechCrunch – WWDC 2026: Everything announced",
+          "url": "https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290533+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-ethernet-status-menu-bar",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "macOS Golden Gate: lo stato Ethernet appare nella menu bar",
+      "titleEn": "macOS Golden Gate: Ethernet status appears in the menu bar",
+      "excerptIt": "macOS Golden Gate aggiunge un indicatore di stato per la connessione Ethernet direttamente nella menu bar, colmando un'asimmetria storica rispetto al Wi-Fi che da anni dispone di un'icona dedicata.",
+      "excerptEn": "macOS Golden Gate adds an Ethernet status indicator directly in the menu bar, closing a longstanding asymmetry with Wi-Fi which has had a dedicated icon for years.",
+      "bodyIt": "## Un dettaglio atteso da molto tempo\n\nTra le 263 funzioni elencate nella slide del keynote WWDC 2026, una riguarda specificamente macOS Golden Gate: lo stato della connessione Ethernet appare ora nella menu bar, con un indicatore visibile senza dover aprire le Preferenze di Sistema o il Centro di Controllo. È una funzione che gli utenti di Mac fissi — iMac, Mac mini, Mac Pro, Mac Studio — con connessione via cavo aspettavano da anni.\n\n## Perché la sua assenza era anomala\n\nSu macOS, l'icona Wi-Fi nella menu bar mostra da sempre la qualità del segnale e consente un accesso rapido alle reti disponibili. La connessione Ethernet, nonostante sia la scelta prioritaria per chi ha bisogno di bassa latenza e banda stabile, non aveva un equivalente visivo rapido. Per verificarne lo stato bisognava aprire il pannello Rete nelle Impostazioni di Sistema. Con macOS Golden Gate questa disparità viene corretta.\n\n## Contestualizzazione nel design di Golden Gate\n\nL'aggiunta si inserisce coerentemente nel redesign della menu bar e della toolbar annunciato con macOS Golden Gate, dove Apple ha lavorato a uniformare e rendere piú informativo il sistema di indicatori di stato. Il comportamento preciso dell'icona — se mostri anche la velocità della connessione o solo lo stato attivo/inattivo — non è stato dettagliato nelle fonti disponibili al momento della pubblicazione di questo articolo.",
+      "bodyEn": "## A long-awaited detail\n\nAmong the 263 features listed on the WWDC 2026 keynote slide, one specifically concerns macOS Golden Gate: Ethernet connection status now appears in the menu bar, visible without opening System Preferences or Control Centre. This is a feature that desktop Mac users — iMac, Mac mini, Mac Pro, Mac Studio — with wired connections have been waiting years for.\n\n## Why its absence was anomalous\n\nOn macOS, the Wi-Fi icon in the menu bar has always shown signal quality and provided quick access to available networks. Ethernet, despite being the preferred choice for users needing low latency and stable bandwidth, had no equivalent quick visual indicator. Checking its status required opening the Network panel in System Settings. macOS Golden Gate corrects this disparity.\n\n## Context within Golden Gate's design\n\nThe addition fits coherently into the menu bar and toolbar redesign announced with macOS Golden Gate, where Apple worked to unify and make the status indicator system more informative. The precise behaviour of the icon — whether it also shows connection speed or only active/inactive status — was not detailed in sources available at the time of publication.",
+      "sources": [
+        {
+          "title": "iClarified – Here Are the 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacStories – WWDC 2026: Small Details and Compatibility Lists",
+          "url": "https://www.macstories.net/news/wwdc-2026-small-details-and-compatibility-lists/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:47:32.290540+02:00"
+    },
     {
       "slug": "ipados-27-files-app-5x-veloce-drive-esterni-usb",
       "macroArea": "sistemi-operativi",
