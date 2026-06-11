@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>visionOS 27: Safari con ambienti immersivi e viste multi-tab | Apple WWDC 2026</title>
+  <meta name="description" content="Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due…">
+  <meta name="author" content="Daniele Biolatti">
+  <link rel="canonical" href="https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html">
+  <link rel="alternate" hreflang="it" href="https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html">
+  <link rel="alternate" hreflang="en" href="https://wwdc2026.biolatti.it/en/visionos-27-safari-immersive-environments-multiple-tab-views.html">
+  <link rel="alternate" hreflang="x-default" href="https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html">
+  <meta property="og:title" content="visionOS 27: Safari con ambienti immersivi e viste multi-tab | Apple WWDC 2026">
+  <meta property="og:description" content="Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due…">
+  <meta property="og:url" content="https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="it_IT">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="visionOS 27: Safari con ambienti immersivi e viste multi-tab | Apple WWDC 2026">
+  <meta name="twitter:description" content="Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due…">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260522b">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7X467EKS2K"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7X467EKS2K');
+</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="./" class="site-logo">
+        <svg class="site-logo__mark" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <rect width="64" height="64" rx="12" fill="#FFC300"/>
+          <circle cx="32" cy="32" r="20" fill="none" stroke="#E96D50" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 30"/>
+          <path d="M 10 38 Q 18 28 26 38 T 42 38 T 56 38" fill="none" stroke="#00796B" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__name">Apple WWDC 2026<small>biolatti.it</small></span>
+      </a>
+      <nav class="site-nav">
+        <a href="./" >Home</a>
+        <details class="nav-dropdown">
+          <summary>Aree tematiche</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./macro-aree/sistemi-operativi.html">Sistemi operativi</a>
+            <a href="./macro-aree/apple-intelligence.html">Apple Intelligence e Siri</a>
+            <a href="./macro-aree/sviluppatori.html">Sviluppatori</a>
+            <a href="./macro-aree/design-interfacce.html">Design e interfacce</a>
+            <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a>
+            <a href="./macro-aree/salute-benessere.html">Salute e benessere</a>
+            <a href="./macro-aree/servizi-ecosistema.html">Servizi ed ecosistema</a>
+            <a href="./macro-aree/privacy-sicurezza.html">Privacy e sicurezza</a>
+          </div>
+        </details>
+        <details class="nav-dropdown">
+          <summary>Argomenti</summary>
+          <div class="nav-dropdown__menu">
+            <a href="./tag/intelligenza-artificiale.html">Intelligenza artificiale</a>
+            <a href="./tag/siri.html">Siri</a>
+            <a href="./tag/swift-xcode.html">Swift e Xcode</a>
+            <a href="./tag/design.html">Design</a>
+            <a href="./tag/privacy.html">Privacy</a>
+            <a href="./tag/salute.html">Salute</a>
+            <a href="./tag/continuity.html">Continuity ed ecosistema</a>
+            <a href="./tag/accessibilita.html">Accessibilita</a>
+          </div>
+        </details>
+        <a href="./analisi.html" >Analisi</a>
+        <a href="./top-10.html" >Top 10</a>
+        <a href="./timeline.html" >Archivio</a>
+        <div class="lang-switch">
+          <a href="#" class="active">IT</a>
+          <span class="sep">/</span>
+          <a href="en/visionos-27-safari-immersive-environments-multiple-tab-views.html">EN</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="article">
+    <div class="article__inner">
+      <nav class="article__breadcrumb"><a href="./">WWDC 2026</a> / <a href="./macro-aree/spatial-visionos.html">Spatial computing e visionOS</a></nav>
+      <header class="article__header">
+        <h1 class="article__title">visionOS 27: Safari con ambienti immersivi e viste multi-tab</h1>
+        <p class="article__lede">Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due cambiamenti che trasformano il browser da strumento piatto a esperienza spaziale vera.</p>
+        <div class="article__meta">
+          <span>Pubblicato: <span data-ts="2026-06-11T17:03:55.183676+02:00">2026-06-11T17:03:55.183676+02:00</span></span>
+          <span>Area tematica: Spatial computing e visionOS</span>
+        </div>
+      </header>
+      <div class="article__body">
+        <h2>Ambienti immersivi in Safari</h2>
+<p>tra le novità di visionOS 27, gli ambienti immersivi arrivano anche in Safari. La funzione, citata nelle analisi delle sessioni WWDC 2026 su Framesixty.com, permette di navigare il web immersi in un contesto spaziale — un completamento logico degli Environment già disponibili per app come TV e Musica. Non è ancora chiaro se gli ambienti siano predefiniti o personalizzabili, ma la direzione è inequivocabile: Apple vuole che Safari su Vision Pro non sembri una finestra di browser flottante, bensì un'esperienza contestualizzata nello spazio.</p>
+<h2>Viste multi-tab</h2>
+<p>Al numero 242 della lista di 263 funzioni WWDC 2026 pubblicata da iClarified compare il supporto a «Multiple tab views in Safari in visionOS». Su un visore che per natura consente layout spaziali senza i vincoli di uno schermo fisso, la gestione di più gruppi di schede come oggetti distinti nello spazio ha una logica ergonomica propria: si possono tenere aree tematiche separate senza dover scorrere una lista piatta.</p>
+<h2>Convergenza verso un browser spaziale</h2>
+<p>Le due funzioni insieme — ambienti immersivi e struttura multi-tab — segnalano che Apple sta trasformando Safari su Vision Pro in qualcosa di categoricamente diverso dalle versioni iOS e macOS. Non è un porting, è un browser ripensato per la dimensione spaziale.</p>
+        
+        <div class="sources">
+          <h3>Fonti</h3>
+          <ul><li><a href="https://framesixty.com/whats-new-in-visionos-27/" target="_blank" rel="noopener">Framesixty — What's New in visionOS 27</a></li><li><a href="https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide" target="_blank" rel="noopener">iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide</a></li></ul>
+        </div>
+
+        
+        <div class="article-tags">
+          <h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.06em;">Tag</h4>
+          <div class="tag-pills"><a href="./tag/design.html" class="tag-pill">Design</a></div>
+        </div>
+
+        <p style="margin-top: 2.5rem;"><a href="./">← Torna alla home</a></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <div>
+        <h4>Apple WWDC 2026</h4>
+        <p>Copertura indipendente, in italiano, dell'Apple WWDC 2026. A cura di Daniele Biolatti con il supporto di Kairos.</p>
+      </div>
+      <div>
+        <h4>Naviga</h4>
+        <ul>
+          <li><a href="./">Home</a></li>
+          <li><a href="./analisi.html">Analisi</a></li>
+          <li><a href="./top-10.html">Top 10</a></li>
+          <li><a href="./timeline.html">Archivio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Risorse</h4>
+        <ul>
+          <li><a href="https://biolatti.it">Sito principale</a></li>
+          <li><a href="https://developer.apple.com/wwdc26/">Sito ufficiale Apple WWDC</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>© 2026 Daniele Biolatti. Tutte le notizie restano di proprieta delle rispettive fonti.</span>
+      <span>Informazioni aggiornate al 12 giugno 2026. Nessuna affiliazione con Apple. Le fonti originali sono linkate in ogni articolo.</span>
+    </div>
+  </footer>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "visionOS 27: Safari con ambienti immersivi e viste multi-tab", "description": "Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due cambiamenti che trasformano il browser da strumento piatto a esperienza spaziale vera.", "datePublished": "2026-06-11T17:03:55.183676+02:00", "dateModified": "2026-06-11T17:03:55.183676+02:00", "author": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "publisher": {"@type": "Person", "name": "Daniele Biolatti", "url": "https://biolatti.it"}, "inLanguage": "it", "mainEntityOfPage": "https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html", "url": "https://wwdc2026.biolatti.it/visionos-27-safari-immersive-environments-multiple-tab-views.html", "articleSection": "Spatial computing e visionOS", "keywords": "design"}</script><script src="assets/js/main.js"></script>
+</body>
+</html>

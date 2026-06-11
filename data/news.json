@@ -1,9 +1,212 @@
 {
-  "lastUpdate": "2026-06-11T05:42:00.963049+02:00",
+  "lastUpdate": "2026-06-11T17:03:55.183706+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "visionos-27-m5-apple-vision-pro-specifiche-foveated-streaming-pc",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design",
+        "intelligenza-artificiale"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "visionOS 27 richiede Apple Vision Pro M5: WiFi 3× più veloce e streaming da PC Windows",
+      "titleEn": "visionOS 27 requires M5 Apple Vision Pro: 3× faster Wi-Fi and PC streaming",
+      "excerptIt": "Apple ha definito la baseline hardware di visionOS 27: il nuovo Apple Vision Pro con chip M5, che porta connettività Wi-Fi fino a tre volte più rapida e un nuovo framework Foveated Streaming per trasmettere contenuti OpenXR direttamente da PC Windows o cloud, senza cavi.",
+      "excerptEn": "Apple has set the hardware baseline for visionOS 27: the new M5 Apple Vision Pro, which brings up to 3× faster Wi-Fi connectivity and a new Foveated Streaming framework to stream OpenXR content from Windows PCs or cloud instances without cables.",
+      "bodyIt": "## Una nuova baseline hardware\n\nNelle sessioni WWDC 2026 dedicate a visionOS 27, Apple ha chiarito che la piattaforma è progettata attorno al nuovo Apple Vision Pro con chip M5. Secondo quanto riportato da Framesixty.com nella sua analisi delle sessioni sviluppatori, il dispositivo offre «oltre 4K pixel per occhio» e tracking delle mani a 90 Hz, con connettività Wi-Fi fino a tre volte più veloce rispetto alla generazione precedente — un dato che non è cosmetico, ma diventa la precondizione tecnica per i nuovi flussi di lavoro in streaming.\n\n## Foveated Streaming: OpenXR da Windows senza cavi\n\nIl dettaglio più rilevante per gli sviluppatori enterprise è il Foveated Streaming framework, che trasmette contenuti OpenXR da un PC Windows o da un'istanza cloud direttamente a Vision Pro via Wi-Fi. Il sistema è costruito su NVIDIA CloudXR e usa la compressione video guidata dal punto di fissazione oculare (eye-tracked gaze-based compression): il rendering a piena risoluzione avviene solo dove l'utente sta guardando, riducendo drasticamente la banda richiesta. Il framework si integra con ARKit, SwiftUI e RealityKit, senza richiedere cavi o dongle aggiuntivi.\n\n## Tre percorsi ufficiali per gli sviluppatori\n\nApple ha formalizzato tre strategie di sviluppo per visionOS 27: la modalità compatibilità per le app iOS/iPadOS esistenti (attivabile via App Store Connect), lo sviluppo spaziale nativo con SwiftUI, RealityKit e Reality Composer Pro, e l'estensione di contenuti Mac o PC attraverso i nuovi framework di streaming. Ogni percorso ha un profilo di costo e impegno diverso. Il developer beta è disponibile da oggi; la distribuzione generale arriverà in autunno 2026.",
+      "bodyEn": "## A new hardware baseline\n\nIn WWDC 2026 sessions dedicated to visionOS 27, Apple clarified that the platform is designed around the new M5 Apple Vision Pro. According to Framesixty.com's analysis of the developer sessions, the device offers \"over 4K pixels per eye\" and 90Hz hand tracking, with Wi-Fi connectivity up to three times faster than the previous generation — a figure that is not cosmetic, but becomes the technical precondition for the new streaming workflows.\n\n## Foveated Streaming: OpenXR from Windows without cables\n\nThe most relevant detail for enterprise developers is the Foveated Streaming framework, which streams OpenXR content from a Windows PC or a cloud instance directly to Vision Pro over Wi-Fi. The system is built on NVIDIA CloudXR and uses eye-tracked, gaze-based video compression: full-quality rendering only occurs where the user is looking, drastically reducing bandwidth requirements. The framework integrates with ARKit, SwiftUI, and RealityKit, with no cables or dongles required.\n\n## Three official developer paths\n\nApple has formalised three development strategies for visionOS 27: compatibility mode for existing iOS/iPadOS apps (enabled via App Store Connect), native spatial development with SwiftUI, RealityKit, and Reality Composer Pro, and extending Mac or PC content through the new streaming frameworks. Each carries a different cost and effort profile. The developer beta is available today; general availability arrives in fall 2026.",
+      "sources": [
+        {
+          "title": "Framesixty — What's New in visionOS 27",
+          "url": "https://framesixty.com/whats-new-in-visionos-27/"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183625+02:00"
+    },
+    {
+      "slug": "realitykit-2026-soft-shadows-gaussian-splats-cloth-ray-traced-acoustics",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "RealityKit a WWDC 2026: soft shadows, gaussian splat, cloth e acustica ray-traced",
+      "titleEn": "RealityKit at WWDC 2026: soft shadows, gaussian splats, cloth simulation and ray-traced acoustics",
+      "excerptIt": "Le sessioni WWDC 2026 dedicati a RealityKit portano un salto qualitativo nel rendering e nella simulazione fisica: ombre morbide, lightmap precalcolate, splat gaussiani, simulazione tessuti, navmesh e acustica ray-traced sono ora API ufficiali, non più ingegneria personalizzata.",
+      "excerptEn": "WWDC 2026 sessions dedicated to RealityKit bring a substantial leap in rendering and physical simulation: soft shadows, baked lightmaps, gaussian splats, cloth simulation, navigation meshes, and ray-traced acoustics are now official APIs, no longer requiring custom engineering.",
+      "bodyIt": "## Rendering fisicamente credibile come standard\n\nFino a visionOS 26, ottenere ombre morbide o illuminazione precalcolata in RealityKit richiedeva soluzioni su misura. Con visionOS 27, Apple ha trasformato queste tecniche in API supportate ufficialmente. Secondo l'analisi dettagliata delle sessioni WWDC 2026 pubblicata da Blake Crosley, RealityKit acquisisce ora soft shadows, baked lightmaps, texture proiettive che si riversano sulle pareti reali, simulazione di tessuti (cloth), navigation mesh per i personaggi, gaussian splat e acustica ray-traced.\n\n## Reality Composer Pro 3 e il flusso senza cicli di build\n\nReality Composer Pro 3 integra queste capacità in un flusso di authoring senza necessità di rebuild: anteprima live sul visore, prototipi e istanze, grafi a nodi e un assistente AI per la generazione di contenuti 3D. Gli Xcode plug-in permettono ora di eseguire componenti personalizzati direttamente all'interno dello strumento di authoring — lo sviluppatore può attivare il debugger di Xcode e raggiungere breakpoint nel codice del plug-in mentre un artista modifica il modello.\n\n## Impatto pratico\n\nCinema 4D e SketchUp sono citati esplicitamente come integrazioni nominate nel Spatial Preview framework. Concretamente, un designer che lavora in Cinema 4D su Mac può vedere un modello in scala reale su Vision Pro e modificarlo in diretta, senza un'app visore intermedia — eliminando un intero ciclo di build dal processo di design review. Il fatto che primitive prima considerate avanzate diventino API di sistema abbassa la soglia d'ingresso per team con risorse limitate.",
+      "bodyEn": "## Physically credible rendering as a standard\n\nUntil visionOS 26, achieving soft shadows or pre-baked lighting in RealityKit required custom solutions. With visionOS 27, Apple has turned these techniques into officially supported APIs. According to detailed session analysis published by Blake Crosley, RealityKit now gains soft shadows, baked lightmaps, projective textures that spill onto real walls, cloth simulation, navigation meshes for characters, gaussian splats, and ray-traced acoustics.\n\n## Reality Composer Pro 3 and the build-cycle-free workflow\n\nReality Composer Pro 3 integrates these capabilities into an authoring workflow without the need for rebuild cycles: live preview on the headset, prototypes and instances, node-based graphs, and an AI assistant for 3D content generation. Xcode plug-ins now allow running custom components directly inside the authoring tool — a developer can attach the Xcode debugger and hit breakpoints in plug-in code while an artist modifies the model.\n\n## Practical impact\n\nCinema 4D and SketchUp are explicitly cited as named integrations in the Spatial Preview framework. In practice, a designer working in Cinema 4D on a Mac can preview a model at real-world scale on Vision Pro and edit it live, with no custom headset app in between — removing an entire build step from a design review loop. Making previously advanced primitives into system APIs lowers the entry barrier for resource-constrained teams.",
+      "sources": [
+        {
+          "title": "Blake Crosley — RealityKit And Reality Composer Pro 3 In 2026",
+          "url": "https://blakecrosley.com/blog/realitykit-reality-composer-pro-3"
+        },
+        {
+          "title": "Apple Developer — WWDC26 session 279, Explore advances in RealityKit",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/279"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183653+02:00"
+    },
+    {
+      "slug": "macos-golden-gate-hdr-system-ui-interfaccia-display",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e Interfacce",
+      "titleIt": "macOS Golden Gate porta l'HDR all'intera interfaccia di sistema",
+      "titleEn": "macOS Golden Gate brings HDR to the entire system UI",
+      "excerptIt": "Tra le oltre 260 novità elencate nella slide-fiume del keynote WWDC 2026, Apple ha confermato il supporto HDR per l'interfaccia di sistema di macOS Golden Gate: una modifica che riguarda menu, barre degli strumenti e ogni elemento visivo nativo del sistema operativo.",
+      "excerptEn": "Among the 260+ features listed in the WWDC 2026 keynote's mega-slide, Apple confirmed HDR support for the macOS Golden Gate system UI, a change that affects menus, toolbars, and every native visual element of the operating system.",
+      "bodyIt": "## Da HDR nei contenuti a HDR nell'interfaccia\n\nFinora, l'HDR su Mac era una questione riservata ai contenuti multimediali: video, foto, anteprime. Con macOS Golden Gate, Apple estende il supporto all'intera interfaccia di sistema. La voce compare al numero 247 nella lista di 263 funzioni pubblicata da iClarified — una lista costruita a partire dalla slide mostrata brevemente durante il keynote dell'8 giugno.\n\n## Cosa significa in pratica\n\nSu display Pro Display XDR, MacBook Pro con Liquid Retina XDR e qualsiasi monitor compatibile HDR, l'intera UI di sistema — barre dei menu, finestre, controlli, Dock — potrà sfruttare la gamma di luminanza estesa. Il risultato atteso è una maggiore coerenza percettiva tra i contenuti HDR e i cromie dell'ambiente che li circonda, eliminando il contrasto straniante tra un video HDR e i widget grigi del sistema.\n\n## Un cambio silenzioso ma strutturale\n\nNon è stato menzionato nel keynote narrato, è apparso nella slide rapida delle funzioni minori. Questo lo rende tipico del modo in cui Apple gestisce i cambiamenti a livello di rendering di sistema: infrastrutturali, poco telegenici, ma con impatto duraturo sulla coerenza visiva della piattaforma.",
+      "bodyEn": "## From HDR in content to HDR in the interface\n\nUntil now, HDR on Mac was a matter reserved for media content: video, photos, previews. With macOS Golden Gate, Apple extends support to the entire system interface. The item appears at number 247 in the list of 263 features published by iClarified — a list built from the slide shown briefly during the June 8 keynote.\n\n## What it means in practice\n\nOn Pro Display XDR, MacBook Pro with Liquid Retina XDR, and any HDR-compatible monitor, the entire system UI — menu bars, windows, controls, Dock — will be able to leverage extended luminance range. The expected result is greater perceptual consistency between HDR content and the surrounding interface environment, eliminating the jarring contrast between an HDR video and the grey system widgets around it.\n\n## A quiet but structural change\n\nIt was not mentioned in the narrated keynote and appeared only in the rapid flash of minor features. This makes it typical of how Apple handles system-level rendering changes: infrastructural, not very telegenic, but with lasting impact on the visual consistency of the platform.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183662+02:00"
+    },
+    {
+      "slug": "watchos-27-guest-key-transit-card-smart-stack-wallet",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "watchOS 27: Guest Key per gli ospiti e carte transit nella Smart Stack",
+      "titleEn": "watchOS 27: Guest Key for guests and transit cards in the Smart Stack",
+      "excerptIt": "watchOS 27 introduce due funzioni pratiche annunciate nella slide-sommario del keynote: la Guest Key permette di condividere una chiave digitale temporanea direttamente dall'Apple Watch, mentre le carte transit e i documenti d'identità diventano accessibili direttamente dalla Smart Stack.",
+      "excerptEn": "watchOS 27 introduces two practical functions announced in the keynote's summary slide: Guest Key allows sharing a temporary digital key directly from Apple Watch, while transit cards and identity documents become accessible directly from the Smart Stack.",
+      "bodyIt": "## Guest Key: condividere un accesso dall'orologio\n\nLa funzione Guest Key, elencata al numero 69 nella lista delle 263 novità di WWDC 2026 documentata da iClarified, consente all'utente di condividere una chiave digitale temporanea direttamente da watchOS 27. La funzione si innesta sul sistema di chiavi digitali già presente in Wallet e si integra con gli accessori compatibili HomeKit o con le serrature NFC. Il vantaggio di gestirla dall'orologio è la rapidità: nessuna necessità di estrarre l'iPhone.\n\n## Carte transit e ID nella Smart Stack\n\nAl numero 234 della stessa lista compare l'integrazione delle carte transit e dei documenti d'identità nella Smart Stack. Significa che passaggi per la metropolitana, biglietti dei mezzi pubblici e tessere identificative digitali saranno suggeriti proattivamente dallo stack intelligente basandosi su posizione e orario, esattamente come già accade con le complicazioni più contestuali.\n\n## Piccole funzioni, grande uso quotidiano\n\nEntrambe le funzioni non hanno ricevuto menzione esplicita nel keynote narrato, ma sono tra quelle con il tasso di utilizzo quotidiano più alto: la condivisione di accessi temporanei e il pagamento o controllo biglietti sono i casi d'uso più frequenti per chi usa Apple Watch come strumento di autonomia rispetto all'iPhone.",
+      "bodyEn": "## Guest Key: sharing access from the watch\n\nThe Guest Key feature, listed at number 69 in the 263-item WWDC 2026 list documented by iClarified, allows users to share a temporary digital key directly from watchOS 27. The feature builds on the digital keys system already present in Wallet and integrates with HomeKit-compatible accessories or NFC locks. The advantage of managing it from the watch is speed: no need to take out the iPhone.\n\n## Transit cards and IDs in the Smart Stack\n\nAt number 234 of the same list, the integration of transit cards and identity documents into the Smart Stack is listed. This means transit passes, public transport tickets, and digital ID cards will be proactively suggested by the intelligent stack based on location and time, much like contextual complications already do.\n\n## Small features, high daily usage\n\nNeither function received explicit mention in the narrated keynote, but both rank among those with the highest daily usage rate: sharing temporary access and paying for or checking tickets are the most frequent use cases for those who use Apple Watch as an independence tool from the iPhone.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Apple Developer — WWDC26 Schedule",
+          "url": "https://developer.apple.com/wwdc26/schedule/"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183670+02:00"
+    },
+    {
+      "slug": "visionos-27-safari-immersive-environments-multiple-tab-views",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "visionOS 27: Safari con ambienti immersivi e viste multi-tab",
+      "titleEn": "visionOS 27: Safari with immersive environments and multiple tab views",
+      "excerptIt": "Safari su visionOS 27 acquista due funzioni distinte: la possibilità di navigare immersi in ambienti spaziali e il supporto a viste con schede multiple, due cambiamenti che trasformano il browser da strumento piatto a esperienza spaziale vera.",
+      "excerptEn": "Safari on visionOS 27 gains two distinct features: the ability to browse while immersed in spatial environments, and support for multiple tab views, two changes that transform the browser from a flat tool into a genuinely spatial experience.",
+      "bodyIt": "## Ambienti immersivi in Safari\n\ntra le novità di visionOS 27, gli ambienti immersivi arrivano anche in Safari. La funzione, citata nelle analisi delle sessioni WWDC 2026 su Framesixty.com, permette di navigare il web immersi in un contesto spaziale — un completamento logico degli Environment già disponibili per app come TV e Musica. Non è ancora chiaro se gli ambienti siano predefiniti o personalizzabili, ma la direzione è inequivocabile: Apple vuole che Safari su Vision Pro non sembri una finestra di browser flottante, bensì un'esperienza contestualizzata nello spazio.\n\n## Viste multi-tab\n\nAl numero 242 della lista di 263 funzioni WWDC 2026 pubblicata da iClarified compare il supporto a «Multiple tab views in Safari in visionOS». Su un visore che per natura consente layout spaziali senza i vincoli di uno schermo fisso, la gestione di più gruppi di schede come oggetti distinti nello spazio ha una logica ergonomica propria: si possono tenere aree tematiche separate senza dover scorrere una lista piatta.\n\n## Convergenza verso un browser spaziale\n\nLe due funzioni insieme — ambienti immersivi e struttura multi-tab — segnalano che Apple sta trasformando Safari su Vision Pro in qualcosa di categoricamente diverso dalle versioni iOS e macOS. Non è un porting, è un browser ripensato per la dimensione spaziale.",
+      "bodyEn": "## Immersive environments in Safari\n\nAmong the new features of visionOS 27, immersive environments arrive in Safari too. The feature, cited in WWDC 2026 session analyses on Framesixty.com, allows browsing the web while immersed in a spatial context — a logical extension of the Environments already available for apps like TV and Music. It is not yet clear whether environments are preset or customisable, but the direction is unambiguous: Apple wants Safari on Vision Pro to feel like a contextualised spatial experience, not a floating browser window.\n\n## Multiple tab views\n\nAt number 242 in the 263-feature WWDC 2026 list published by iClarified, support for \"Multiple tab views in Safari in visionOS\" is listed. On a headset that by its nature allows spatial layouts unconstrained by a fixed screen, managing multiple tab groups as distinct objects in space has its own ergonomic logic: thematic areas can be kept separate without scrolling through a flat list.\n\n## Converging towards a spatial browser\n\nThe two features together — immersive environments and multi-tab structure — signal that Apple is transforming Safari on Vision Pro into something categorically different from the iOS and macOS versions. It is not a port; it is a browser rethought for the spatial dimension.",
+      "sources": [
+        {
+          "title": "Framesixty — What's New in visionOS 27",
+          "url": "https://framesixty.com/whats-new-in-visionos-27/"
+        },
+        {
+          "title": "iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183676+02:00"
+    },
+    {
+      "slug": "photos-identity-documents-collection-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "iOS 27 e Foto: una raccolta dedicata ai documenti d'identita",
+      "titleEn": "iOS 27 and Photos: a dedicated collection for identity documents",
+      "excerptIt": "Tra le funzioni minori ma concrete di iOS 27, l'app Foto introduce una raccolta separata per i documenti d'identita, che raggruppa automaticamente passaporti, patenti e carte d'identita fotografati o importati, separandoli dall'archivio generale.",
+      "excerptEn": "Among the minor but concrete features of iOS 27, the Photos app introduces a separate collection for identity documents, automatically grouping passports, driving licences, and ID cards that have been photographed or imported, separating them from the general library.",
+      "bodyIt": "## Una raccolta separata per i documenti sensibili\n\nAl numero 248 della lista dei 263 cambiamenti WWDC 2026 documentata da iClarified compare la voce «Identity Documents collection in Photos». La funzione crea nell'app Foto una raccolta dedicata ai documenti d'identita, analoga alle raccolte già esistenti per Screenshot, Selfie o Video rallentati. Il riconoscimento avviene presumibilmente tramite Apple Intelligence o machine learning on-device, senza che le immagini vengano elaborate su cloud.\n\n## Perché conta, nonostante la semplicità\n\nChiunque abbia mai cercato la foto di un passaporto tra migliaia di scatti capisce l'utilità. Ma c'è un livello più sottile: isolare i documenti d'identita in una raccolta dedicata significa che iOS 27 potrà applicare loro regole di privacy differenziate — per esempio richiedere Face ID anche in presenza di accesso all'app Foto già sbloccato — o renderli accessibili a Siri AI per compilare moduli senza dover scorrere la libreria.\n\n## In linea con la strategia Wallet\n\nLa funzione si legge in parallelo con l'espansione di Wallet come contenitore di documenti digitali e con Visual Intelligence, che già in iOS 26 permetteva di leggere testi da immagini. iOS 27 consolida la direzione: i documenti fisici hanno un corrispettivo digitale organizzato nel sistema, non sparso casualmente in libreria.",
+      "bodyEn": "## A separate collection for sensitive documents\n\nAt number 248 in the 263-change WWDC 2026 list documented by iClarified, the item \"Identity Documents collection in Photos\" appears. The feature creates a dedicated collection in the Photos app for identity documents, analogous to existing collections for Screenshots, Selfies, or Slo-Mo videos. Recognition presumably occurs via Apple Intelligence or on-device machine learning, without images being processed in the cloud.\n\n## Why it matters, despite its simplicity\n\nAnyone who has ever searched for a passport photo among thousands of shots understands the utility. But there is a subtler level: isolating identity documents in a dedicated collection means iOS 27 can apply differentiated privacy rules to them — for example requiring Face ID even when the Photos app is already unlocked — or make them accessible to Siri AI for filling in forms without scrolling through the library.\n\n## Aligned with the Wallet strategy\n\nThe feature reads in parallel with Wallet's expansion as a digital document container and with Visual Intelligence, which in iOS 26 already allowed reading text from images. iOS 27 consolidates the direction: physical documents have an organised digital counterpart in the system, not scattered randomly across the library.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Apple Newsroom — Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183684+02:00"
+    },
+    {
+      "slug": "apple-music-automix-transitions-album-pages-ios-27",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "Apple Music su iOS 27: AutoMix con nuove transizioni e pagine album rinnovate",
+      "titleEn": "Apple Music on iOS 27: AutoMix with new transitions and refreshed album pages",
+      "excerptIt": "iOS 27 porta due aggiornamenti distinti ad Apple Music: le nuove AutoMix transitions rendono piu fluide le code di riproduzione con mix automatici tra brani, mentre le pagine degli album ricevono un redesign visivo nella lista delle 263 funzioni annunciate al keynote WWDC 2026.",
+      "excerptEn": "iOS 27 brings two distinct updates to Apple Music: new AutoMix transitions make playback queues smoother with automatic mixes between tracks, while album pages receive a visual redesign in the list of 263 features announced at the WWDC 2026 keynote.",
+      "bodyIt": "## AutoMix con nuove transizioni\n\nL'AutoMix di Apple Music — la funzione che crea mix continui tra brani nella coda di riproduzione, simile a un DJ set — riceve nuove modalità di transizione in iOS 27. La voce appare al numero 58 nella lista dei 263 cambiamenti WWDC 2026 pubblicata da iClarified. L'aggiornamento non è descritto nei dettagli tecnici, ma il termine «New AutoMix transitions» suggerisce l'aggiunta di effetti di dissolvenza o crossfade diversi da quelli attualmente disponibili. Per chi usa Apple Music in mobilità o durante sessioni di allenamento, una transizione più naturale tra brani di genere diverso ha impatto diretto sull'esperienza d'ascolto.\n\n## Album pages rinnovate\n\nAl numero 61 della stessa lista compare la voce «Refreshed album pages in Apple Music». La copertura del keynote, inclusa quella di MacRumors, aveva già segnalato un redesign delle pagine artista; questa voce specifica che anche le pagine degli album ricevono un trattamento grafico aggiornato. In un'app in cui la scoperta musicale passa spesso dall'immagine di copertina e dalle informazioni associate, un redesign delle pagine album ha rilevanza anche per gli utenti che usano Apple Music come strumento editoriale oltre che come riproduttore.\n\n## Continuita con il redesign generale\n\nEntrambe le novità si inseriscono nel contesto del Liquid Glass e del redesign complessivo di iOS 27: anche le app di sistema che sembravano già rifinite ricevono iterazioni visive e funzionali, a conferma che WWDC 2026 non ha limitato le modifiche alla sola AI.",
+      "bodyEn": "## AutoMix with new transitions\n\nApple Music's AutoMix — the feature that creates continuous mixes between tracks in the playback queue, similar to a DJ set — receives new transition modes in iOS 27. The item appears at number 58 in the 263-change WWDC 2026 list published by iClarified. The update is not described in technical detail, but the term \"New AutoMix transitions\" suggests the addition of different crossfade or blend effects beyond those currently available. For those who use Apple Music while commuting or during workout sessions, a more natural transition between tracks of different genres has a direct impact on the listening experience.\n\n## Refreshed album pages\n\nAt number 61 of the same list, \"Refreshed album pages in Apple Music\" appears. Keynote coverage, including that of MacRumors, had already noted a redesign of artist pages; this entry specifies that album pages also receive an updated graphical treatment. In an app where music discovery often passes through cover art and associated information, a redesign of album pages is relevant even for users who treat Apple Music as an editorial tool as well as a player.\n\n## Continuity with the general redesign\n\nBoth updates fit into the context of Liquid Glass and the overall iOS 27 redesign: even system apps that already seemed polished receive visual and functional iterations, confirming that WWDC 2026 did not limit changes to AI alone.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features Revealed in Apple's Massive WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Roundup",
+          "url": "https://www.macrumors.com/roundup/wwdc/"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183690+02:00"
+    },
+    {
+      "slug": "visionos-27-spatial-preview-framework-cinema4d-sketchup-design-review",
+      "macroArea": "spatial-visionos",
+      "tags": [
+        "design",
+        "swift-xcode"
+      ],
+      "category": "Spatial e visionOS",
+      "titleIt": "visionOS 27: Spatial Preview framework per design review live da Cinema 4D e SketchUp",
+      "titleEn": "visionOS 27: Spatial Preview framework for live design review from Cinema 4D and SketchUp",
+      "excerptIt": "Il nuovo Spatial Preview framework di visionOS 27 permette di portare modelli 3D da Cinema 4D o SketchUp direttamente su Vision Pro in scala reale, con modifica bidirezionale in tempo reale e senza un'app headset intermedia, eliminando un intero ciclo di build dal processo di design review.",
+      "excerptEn": "The new Spatial Preview framework in visionOS 27 allows bringing 3D models from Cinema 4D or SketchUp directly to Vision Pro at real-world scale, with bidirectional real-time editing and without an intermediate headset app, eliminating an entire build cycle from the design review process.",
+      "bodyIt": "## Una sessione WWDC 2026 dedicata\n\nApple ha dedicato una sessione specifica al Spatial Preview framework in WWDC 2026 — «Discover the Spatial Preview framework» — dettagliando le capacità dello strumento. Secondo l'analisi di Framesixty.com, il framework supporta foto spaziali, frame di Apple Immersive Video, PDF, immagini standard, scene USD 3D live, con editing USD bidirezionale in tempo reale e ottimizzazione automatica come decimazione delle mesh e riduzione delle texture.\n\n## Integrazione con Cinema 4D e SketchUp\n\nCinema 4D e SketchUp sono le prime applicazioni nominate come integrazioni ufficiali. Il caso d'uso descritto da Apple è diretto: un designer che lavora su un modello in Cinema 4D su Mac può aprire Vision Pro e vedere lo stesso modello in scala reale, modificarlo in diretta e vedere i cambiamenti riflessi immediatamente nel file originale — senza passare per un'app Vision Pro separata, senza cicli di compilazione, senza esportare in un formato intermedio.\n\n## SharePlay e Quick Look spaziale\n\nIl framework include anche SharePlay per la collaborazione, permettendo a piu persone di partecipare alla stessa sessione di design review in spazio condiviso. Quick Look spaziale completa il quadro, rendendo possibile mostrare un modello a un cliente senza richiedere che abbia installato l'app del designer. Si tratta dell'integrazione piu diretta mai offerta da Apple tra strumenti di authoring professionali 3D e la piattaforma Vision Pro.",
+      "bodyEn": "## A dedicated WWDC 2026 session\n\nApple dedicated a specific session to the Spatial Preview framework at WWDC 2026 — \"Discover the Spatial Preview framework\" — detailing the tool's capabilities. According to Framesixty.com's analysis, the framework supports spatial photos, Apple Immersive Video frames, PDFs, standard images, and live USD 3D scenes, with bidirectional live USD editing and automatic optimisation such as mesh decimation and texture downsampling.\n\n## Integration with Cinema 4D and SketchUp\n\nCinema 4D and SketchUp are the first applications cited as official integrations. The use case described by Apple is direct: a designer working on a model in Cinema 4D on a Mac can open Vision Pro and see the same model at real-world scale, edit it live, and see changes immediately reflected in the original file — without going through a separate Vision Pro app, without build cycles, without exporting to an intermediate format.\n\n## SharePlay and spatial Quick Look\n\nThe framework also includes SharePlay for collaboration, allowing multiple people to participate in the same design review session in shared space. Spatial Quick Look completes the picture, making it possible to show a model to a client without requiring them to have the designer's app installed. This represents the most direct integration Apple has ever offered between professional 3D authoring tools and the Vision Pro platform.",
+      "sources": [
+        {
+          "title": "Framesixty — What's New in visionOS 27",
+          "url": "https://framesixty.com/whats-new-in-visionos-27/"
+        },
+        {
+          "title": "Apple Developer — WWDC26 session 284, Collaborate on structured 3D models in visionOS",
+          "url": "https://developer.apple.com/videos/play/wwdc2026/284"
+        }
+      ],
+      "publishedAt": "2026-06-11T17:03:55.183697+02:00"
+    },
     {
       "slug": "wwdc-2026-chiusura-musicale-erick-architect-keynote",
       "macroArea": "servizi-ecosistema",
