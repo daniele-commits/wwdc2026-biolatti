@@ -1,9 +1,38 @@
 {
-  "lastUpdate": "2026-06-11T02:03:11.236198+02:00",
+  "lastUpdate": "2026-06-11T05:42:00.963049+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "wwdc-2026-chiusura-musicale-erick-architect-keynote",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "design"
+      ],
+      "category": "Servizi ed Ecosistema",
+      "titleIt": "WWDC 2026: il keynote si chiude con Erick the Architect",
+      "titleEn": "WWDC 2026: Keynote Closes With Erick the Architect Performance",
+      "excerptIt": "Apple ha concluso il keynote dell'8 giugno con un numero musicale di Erick the Architect, rapper e produttore legato al collettivo Flatbush Zombies, che ha cantato un brano dedicato agli sviluppatori. Una scelta insolita per un evento tradizionalmente sobrio.",
+      "excerptEn": "Apple closed the June 8 keynote with a musical performance by Erick the Architect, rapper and producer known from the Flatbush Zombies collective, who performed a song dedicated to developers.",
+      "bodyIt": "## Un finale fuori dal copione\n\nL'11:17 del mattino ora californiana ha segnato la fine del keynote WWDC 2026 in modo inatteso: sul palco virtuale è apparso Erick the Architect, rapper e produttore del collettivo Flatbush Zombies, per un breve numero musicale con un testo esplicitamente dedicato agli sviluppatori Apple. Secondo il live blog di MacRumors, il brano si chiudeva con le parole «thanks for developing these apps for me and all my friends».\n\nLa scelta di affidare la chiusura dell'evento a un artista hip-hop — anziché al consueto montaggio di clip sulle app — rispecchia la tendenza di Apple a trasformare il keynote in uno spettacolo piú articolato, sulla scia del formato introdotto con i keynote pre-registrati dell'era Covid. Non è la prima volta che Apple inserisce momenti musicali nei suoi eventi, ma raramente il numero conclusivo ha un testo cosí esplicitamente rivolto alla community degli sviluppatori.\n\nL'effetto complessivo è ambivalente: da un lato rafforza il senso di comunità che Apple vuole trasmettere agli oltre 34 milioni di sviluppatori registrati sulla sua piattaforma; dall'altro, in un keynote già considerato da parte della stampa tecnica piuttosto denso di AI e scarno di sorprese hardware, il finale musicale rischia di sembrare un riempitivo ben confezionato. MacRumors e il live blog di Tom's Guide hanno segnalato il momento, ma senza particolare enfasi critica.",
+      "bodyEn": "## An Unusual Finale\n\nAt 11:17 a.m. Pacific Time, the WWDC 2026 keynote ended in an unexpected way: Erick the Architect, rapper and producer of the Flatbush Zombies collective, appeared for a brief musical performance with lyrics explicitly addressed to Apple developers. According to MacRumors' live blog, the song concluded with the words «thanks for developing these apps for me and all my friends».\n\nThe choice to close the event with a hip-hop artist — rather than the usual montage of app clips — reflects Apple's ongoing effort to turn the keynote into a more elaborate show, continuing the format that emerged with pre-recorded keynotes during the Covid era. Apple has included musical moments in its events before, but rarely has the closing number featured lyrics so explicitly aimed at the developer community.\n\nThe overall effect is ambivalent: on one hand it reinforces the sense of community Apple wants to convey to its more than 34 million registered developers; on the other, in a keynote already seen by parts of the tech press as heavy on AI and light on hardware surprises, the musical finale risks coming across as a well-packaged filler. MacRumors and Tom's Guide live blogs noted the moment without particular critical emphasis.",
+      "sources": [
+        {
+          "title": "MacRumors – WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Tom's Guide – WWDC 2026 Live News Updates",
+          "url": "https://www.tomsguide.com/news/live/wwdc-2026-live-news-updates"
+        },
+        {
+          "title": "Engadget – Everything Announced at WWDC 2026",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T05:42:00.963021+02:00"
+    },
     {
       "slug": "watchos-27-indoor-run-walk-tracking-precisione-migliorata",
       "macroArea": "salute-benessere",
