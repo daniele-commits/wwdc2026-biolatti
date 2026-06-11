@@ -1,9 +1,213 @@
 {
-  "lastUpdate": "2026-06-11T17:03:55.183706+02:00",
+  "lastUpdate": "2026-06-11T20:03:08.895537+02:00",
   "eventName": "Apple WWDC 2026",
   "eventStart": "2026-06-08T19:00:00+02:00",
   "eventEnd": "2026-06-12T23:59:00+02:00",
   "items": [
+    {
+      "slug": "ipados-27-files-app-5x-veloce-drive-esterni-usb",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iPadOS 27: Files su drive esterni fino a 5 volte più veloce, alla pari con Finder",
+      "titleEn": "iPadOS 27: Files app browsing and transfers up to 5x faster on external drives",
+      "excerptIt": "Apple ha ottimizzato l'app File su iPad per trasferire e sfogliare contenuti su drive esterni con velocità finalmente comparabile a quella di Finder su Mac. Un divario storico che si chiude.",
+      "excerptEn": "Apple has optimized the Files app on iPad so that browsing and copying to external drives is now up to 5x faster — finally on par with Finder on Mac.",
+      "bodyIt": "## Il problema storico\n\nDa quando iPadOS ha introdotto il supporto ai drive esterni, la lentezza dell'app File nel trasferire e sfogliare contenuti era uno dei punti di attrito più citati dagli utenti professionali. Rispetto a Finder su Mac, il gap era evidente e frustrante per chiunque usasse l'iPad come macchina da lavoro primaria.\n\n## Cosa cambia con iPadOS 27\n\nApple ha annunciato al WWDC 2026 che su iPadOS 27 il browsing e il trasferimento di file verso drive esterni — inclusi SSD USB4 — avvengono fino a 5 volte più velocemente rispetto alla versione precedente. Secondo MacRumors, che ha seguito il keynote in diretta, la nuova velocità è \"as fast as Finder on Mac\". Popular Science sottolinea che i test interni di Apple sono stati condotti su iPad Pro M4 con un SSD APFS esterno via USB4, copiando 10.000 file JPEG.\n\n## Perché conta\n\nNon si tratta di un numero marketing astratto: per chi usa iPad Pro come sostituto del laptop — editing video, gestione di librerie fotografiche, workflow documentali — la velocità di I/O su storage esterno è pratica quotidiana. Portare le prestazioni al livello di Finder significa ridurre uno degli argomenti storicamente usati per giustificare il passaggio a un Mac. Il miglioramento non richiede hardware nuovo: è un aggiornamento software disponibile per tutti i modelli compatibili con iPadOS 27.",
+      "bodyEn": "## A long-standing frustration\n\nEver since iPadOS introduced external drive support, the Files app's sluggishness when browsing and transferring content was one of the most frequently cited pain points for professional iPad users. Compared to Finder on Mac, the gap was noticeable and frustrating for anyone using iPad as a primary work machine.\n\n## What changes with iPadOS 27\n\nApple announced at WWDC 2026 that on iPadOS 27, browsing and transferring files to external drives — including USB4 SSDs — is now up to 5x faster than in the previous version. According to MacRumors' live keynote coverage, the new speed is 'as fast as Finder on Mac.' Popular Science notes that Apple's internal tests were conducted on an iPad Pro M4 with a USB4 APFS external SSD, copying 10,000 JPEG files.\n\n## Why it matters\n\nThis isn't an abstract marketing number: for anyone using iPad Pro as a laptop replacement — video editing, managing photo libraries, document workflows — external storage I/O speed matters daily. Bringing performance in line with Finder removes one of the historically reliable arguments for choosing a Mac over an iPad. The improvement requires no new hardware: it is a software update available to all iPadOS 27-compatible models.",
+      "sources": [
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        },
+        {
+          "title": "Popular Science — Everything you need to know about Apple's 2026 WWDC keynote",
+          "url": "https://www.popsci.com/gear/apple-wwdc-announcements-2026/"
+        },
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895458+02:00"
+    },
+    {
+      "slug": "notes-ios-27-section-links-navigazione-interna",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: Note ottiene i link di sezione per la navigazione interna ai documenti",
+      "titleEn": "iOS 27: Notes app gains section links for internal document navigation",
+      "excerptIt": "L'app Note su iOS 27 introduce i link di sezione, permettendo di creare collegamenti interni a specifici paragrafi o intestazioni all'interno della stessa nota. Una funzione attesa da chi usa Note per documenti strutturati.",
+      "excerptEn": "The Notes app in iOS 27 introduces section links, allowing users to create internal links to specific headings or paragraphs within a note — a long-requested feature for structured document use.",
+      "bodyIt": "## Cosa sono i section links\n\nI section links in Note permettono di inserire un collegamento ipertestuale che porta direttamente a un'intestazione o a una sezione specifica all'interno della stessa nota. È la stessa funzione che strumenti come Notion o i documenti Word supportano da anni, e che mancava inspiegabilmente dall'app di casa Apple.\n\n## Impatto pratico\n\nLa funzione è particolarmente utile per note lunghe e strutturate: guide personali, appunti di studio, documenti di progetto. Finora l'unico modo per navigare rapidamente in una nota lunga era lo scorrimento manuale. Con iOS 27, si potranno creare indici interni cliccabili, rendendo Note un'app più adatta alla gestione di documenti complessi. La funzione è elencata tra le 263 novità della slide di chiusura del keynote, come riportato da iClarified.",
+      "bodyEn": "## What section links are\n\nSection links in Notes allow users to insert a hyperlink that leads directly to a specific heading or section within the same note. This is a feature that tools like Notion or Word documents have supported for years, and that was inexplicably missing from Apple's native app.\n\n## Practical impact\n\nThe feature is particularly useful for long, structured notes: personal guides, study notes, project documents. Until now, the only way to navigate quickly in a long note was manual scrolling. With iOS 27, users can create clickable internal indexes, making Notes more suited to complex document management. The feature is listed among the 263 changes in the closing slide of the keynote, as reported by iClarified.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895485+02:00"
+    },
+    {
+      "slug": "photos-ios-27-star-ratings-slideshows-personalizzabili",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: Foto ottiene le valutazioni a stelle e gli slideshow personalizzabili",
+      "titleEn": "iOS 27: Photos app gains star ratings and customizable slideshows",
+      "excerptIt": "Con iOS 27 l'app Foto introduce due novità attese dai fotoamatori: la possibilità di assegnare un voto da una a cinque stelle alle immagini e la personalizzazione degli slideshow automatici.",
+      "excerptEn": "iOS 27 brings two long-requested features to Photos: star ratings for organizing images by quality, and the ability to customize automatic slideshows.",
+      "bodyIt": "## Valutazioni a stelle\n\nL'app Foto di iOS 27 introduce un sistema di rating a stelle, consentendo di assegnare un punteggio a ogni immagine per facilitare la selezione e l'organizzazione. Chi gestisce grandi librerie fotografiche — magari importate da fotocamere esterne — sa quanto sia utile poter contrassegnare rapidamente le foto migliori senza spostarle in album dedicati. Strumenti come Lightroom o la stessa app Foto su macOS avevano già questa funzione; ora arriva anche su iPhone e iPad.\n\n## Slideshow personalizzabili\n\nIn parallelo, gli slideshow automatici che l'app genera da album o ricordi possono ora essere personalizzati dall'utente in termini di selezione delle foto, ordine e stile. Prima la personalizzazione era minima e l'algoritmo decideva quasi tutto. Entrambe le funzioni sono confermate nella lista delle 263 novità annunciate da Apple durante il keynote WWDC 2026, secondo la copertura di iClarified.",
+      "bodyEn": "## Star ratings\n\nThe Photos app in iOS 27 introduces a star rating system, allowing users to assign a score to each image for easier selection and organization. Anyone managing large photo libraries — perhaps imported from external cameras — knows how useful it is to quickly mark the best photos without moving them to dedicated albums. Tools like Lightroom and even the Photos app on macOS already had this feature; now it comes to iPhone and iPad too.\n\n## Customizable slideshows\n\nSeparately, automatic slideshows that the app generates from albums or memories can now be customized by the user in terms of photo selection, order, and style. Previously, customization was minimal and the algorithm decided almost everything. Both features are confirmed in the list of 263 new features announced by Apple during the WWDC 2026 keynote, according to iClarified's coverage.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895494+02:00"
+    },
+    {
+      "slug": "messages-ios-27-ricerca-numero-telefono-nickname-contatto",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "design"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "iOS 27: Messaggi, ricerca delle conversazioni per numero di telefono o soprannome",
+      "titleEn": "iOS 27: Messages lets you search conversations by phone number or contact nickname",
+      "excerptIt": "Su iOS 27 l'app Messaggi permette di cercare conversazioni digitando direttamente il numero di telefono o il soprannome di un contatto, eliminando un limite storico della ricerca nell'app.",
+      "excerptEn": "iOS 27 lets users search Messages conversations by phone number or contact nickname directly — removing a longstanding limitation of the app's search function.",
+      "bodyIt": "## Un limite che sparisce\n\nFino a iOS 26, la ricerca nell'app Messaggi funzionava bene solo se si conosceva il nome del contatto cosí come salvato in Rubrica. Cercare una conversazione per numero di telefono nudo — utile quando si riceve un messaggio da un numero non in rubrica — era impossibile. Con iOS 27, la ricerca accetta anche il numero diretto e il soprannome eventualmente assegnato al contatto.\n\n## Perché è rilevante\n\nÈ una di quelle funzioni che sembrano banali finché non servono: qualcuno ti scrive da un numero sconosciuto, poi lo salvi, ma la conversazione vecchia scompare dalla ricerca. Oppure hai salvato un contatto con un soprannome informale e la ricerca per nome non trova nulla. iOS 27 chiude entrambi questi casi. La funzione è documentata nella lista delle 263 novità del keynote WWDC 2026, riportata da iClarified, e confermata nei live blog di MacRumors.",
+      "bodyEn": "## A limitation disappears\n\nUp through iOS 26, searching in the Messages app worked well only if you knew the contact's name exactly as saved in the address book. Searching a conversation by bare phone number — useful when you receive a message from an unsaved number — was impossible. With iOS 27, search also accepts the number directly and any nickname assigned to the contact.\n\n## Why it matters\n\nThis is one of those features that seems trivial until you need it: someone texts from an unknown number, then you save them, but the old conversation disappears from search. Or you have a contact saved under an informal nickname and name-based search finds nothing. iOS 27 closes both gaps. The feature is documented in the list of 263 keynote changes covered by iClarified, and confirmed in MacRumors' live blog.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "MacRumors — WWDC 2026 Live Keynote Coverage",
+          "url": "https://www.macrumors.com/2026/06/08/wwdc-2026-live-coverage/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895501+02:00"
+    },
+    {
+      "slug": "ipados-27-menu-bar-persistente-opzionale",
+      "macroArea": "design-interfacce",
+      "tags": [
+        "design"
+      ],
+      "category": "Design e interfacce",
+      "titleIt": "iPadOS 27: menu bar persistente opzionale, un passo verso macOS",
+      "titleEn": "iPadOS 27: optional persistent menu bar brings iPad closer to Mac workflows",
+      "excerptIt": "iPadOS 27 introduce un'opzione per tenere la barra dei menu sempre visibile, come avviene su Mac. Una scelta pensata per chi usa iPad con tastiera e vuole un'esperienza desktop più coerente.",
+      "excerptEn": "iPadOS 27 adds an option to keep the menu bar persistently visible, mirroring Mac behavior and offering a more consistent desktop-class experience for keyboard-first iPad users.",
+      "bodyIt": "## La barra dei menu su iPad\n\nSu iPadOS la barra dei menu in stile Mac è comparsa con l'introduzione dello Stage Manager, ma il suo comportamento di scomparsa automatica la rendeva più una presenza estetica che uno strumento funzionale. Con iPadOS 27, Apple introduce l'opzione di renderla persistente: sempre visibile, sempre accessibile, esattamente come su macOS.\n\n## A chi serve\n\nLa funzione è indirizzata a chi usa iPad Pro o iPad Air con Magic Keyboard in configurazioni simil-desktop. Avere accesso costante ai menu delle app senza dover sollevare lo sguardo o spostare il cursore in alto ogni volta riduce la discontinuità tra l'esperienza iPad e quella Mac. È un piccolo aggiustamento con un impatto concreto sul flusso di lavoro, specialmente per sviluppatori e professionisti creativi che alternano i due dispositivi. La novità è elencata tra le 263 funzioni della slide di chiusura del keynote, come documentato da iClarified.",
+      "bodyEn": "## The menu bar on iPad\n\nOn iPadOS, the Mac-style menu bar appeared with the introduction of Stage Manager, but its auto-hiding behavior made it more of an aesthetic presence than a functional tool. With iPadOS 27, Apple introduces the option to make it persistent: always visible, always accessible, exactly like on macOS.\n\n## Who benefits\n\nThe feature targets users who use iPad Pro or iPad Air with Magic Keyboard in desktop-like configurations. Having constant access to app menus without having to move the cursor to the top every time reduces the discontinuity between the iPad and Mac experience. It's a small adjustment with a concrete impact on workflow, especially for developers and creative professionals who alternate between both devices. The feature is listed among the 263 items in the closing slide of the WWDC keynote, as documented by iClarified.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895508+02:00"
+    },
+    {
+      "slug": "freeform-collaborative-folders-wwdc-2026",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "Freeform ottiene le cartelle collaborative in iPadOS e macOS 27",
+      "titleEn": "Freeform gets collaborative folders in iPadOS and macOS 27",
+      "excerptIt": "L'app Freeform introduce le cartelle condivisibili tra piú utenti, rendendo possibile organizzare insieme bacheche e contenuti creativi senza ricorrere a soluzioni di terze parti.",
+      "excerptEn": "Freeform now supports collaborative folders, making it possible to organize shared boards and creative content together without relying on third-party tools.",
+      "bodyIt": "## Freeform e la collaborazione\n\nLanciata nel 2022, Freeform è rimasta a lungo un'app apprezzata per la lavagna digitale condivisa ma limitata nella struttura organizzativa: non era possibile raccogliere piú bacheche in cartelle condivise con lo stesso team. Con iPadOS e macOS 27, Apple introduce le cartelle collaborative, che permettono a piú utenti di accedere e organizzare insieme un insieme di bacheche all'interno della stessa struttura gerarchica.\n\n## Contesto e impatto\n\nPer i team che usano Freeform come strumento di brainstorming o pianificazione visiva, l'assenza di cartelle condivise era un ostacolo reale: si finiva per accumulare bacheche sparpagliate senza un modo sensato di archiviarle o condividerle in blocco. La nuova funzione avvicina Freeform ai workflow di strumenti come Miro o FigJam, pur rimanendo nell'ecosistema Apple. La novità è inclusa nella lista delle 263 funzioni annunciate al keynote WWDC 2026, riportata da iClarified.",
+      "bodyEn": "## Freeform and collaboration\n\nLaunched in 2022, Freeform was long appreciated as a shared digital whiteboard but limited in organizational structure: it was not possible to collect multiple boards in shared folders with the same team. With iPadOS and macOS 27, Apple introduces collaborative folders, allowing multiple users to access and organize a set of boards together within the same hierarchical structure.\n\n## Context and impact\n\nFor teams using Freeform as a brainstorming or visual planning tool, the absence of shared folders was a real obstacle: boards would accumulate without any sensible way to archive or share them in bulk. The new feature brings Freeform closer to the workflows of tools like Miro or FigJam, while remaining within the Apple ecosystem. The feature is included in the list of 263 functions announced at the WWDC keynote, as reported by iClarified.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Apple Newsroom — Apple unveils next generation of Apple Intelligence, Siri AI, and more",
+          "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895515+02:00"
+    },
+    {
+      "slug": "watchos-27-maps-parked-car-widget-smart-stack",
+      "macroArea": "sistemi-operativi",
+      "tags": [
+        "continuity"
+      ],
+      "category": "Sistemi operativi",
+      "titleIt": "watchOS 27: il widget Auto Parcheggiata di Mappe arriva nello Smart Stack",
+      "titleEn": "watchOS 27: Maps Parked Car widget lands in Smart Stack",
+      "excerptIt": "watchOS 27 aggiunge il widget Auto Parcheggiata di Mappe allo Smart Stack dell'Apple Watch, rendendo accessibile dal polso la posizione dell'ultimo parcheggio senza aprire l'app.",
+      "excerptEn": "watchOS 27 adds a Maps Parked Car widget to Apple Watch's Smart Stack, surfacing the last parking location directly from the wrist without opening the app.",
+      "bodyIt": "## Dove ho lasciato l'auto?\n\nLa funzione Auto Parcheggiata di Mappe — che rileva automaticamente dove hai parcheggiato quando l'iPhone si disconnette dal CarPlay o dal Bluetooth dell'auto — era giá disponibile su iPhone e su Mappe. Con watchOS 27, quella posizione compare direttamente nello Smart Stack dell'Apple Watch come widget contestuale, visibile con un solo scroll dal quadrante.\n\n## Perché è utile sul polso\n\nIn città o in parcheggi multipiano, ricordare dove si è lasciata l'auto è un problema banale ma frequente. Poter vedere la posizione direttamente dal polso — senza tirare fuori il telefono, sbloccare lo schermo e aprire Mappe — è il tipo di micro-utilità che l'Apple Watch dovrebbe offrire per definizione. Il widget si attiva contestualmente quando serve, senza occupare spazio permanente sul quadrante. La funzione è parte delle 263 novità elencate nella slide finale del keynote WWDC 2026, secondo la documentazione di iClarified.",
+      "bodyEn": "## Where did I park?\n\nThe Maps Parked Car feature — which automatically detects where you parked when iPhone disconnects from CarPlay or the car's Bluetooth — was already available on iPhone and Maps. With watchOS 27, that location appears directly in Apple Watch's Smart Stack as a contextual widget, visible with a single scroll from the watch face.\n\n## Why it's useful on the wrist\n\nIn cities or multi-story parking lots, remembering where you left the car is a trivial but frequent problem. Being able to see the location directly from the wrist — without taking out the phone, unlocking the screen, and opening Maps — is exactly the kind of micro-utility Apple Watch should offer by definition. The widget activates contextually when needed, without permanently occupying space on the watch face. The feature is part of the 263 changes listed in the final slide of the WWDC keynote, according to iClarified's documentation.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "TechRadar — Apple WWDC 2026 as it happened",
+          "url": "https://www.techradar.com/news/live/apple-wwdc-2026-live"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895521+02:00"
+    },
+    {
+      "slug": "icloud-shared-albums-permessi-partecipanti-aggiuntivi",
+      "macroArea": "servizi-ecosistema",
+      "tags": [
+        "privacy"
+      ],
+      "category": "Servizi ed ecosistema",
+      "titleIt": "iCloud Album condivisi: permessi per i partecipanti piú granulari in iOS 27",
+      "titleEn": "iCloud Shared Albums: more granular participant permissions in iOS 27",
+      "excerptIt": "iOS 27 introduce permessi aggiuntivi per i partecipanti agli album condivisi di iCloud, permettendo al proprietario di controllare chi può aggiungere foto, chi può commentare e chi può invitare altri.",
+      "excerptEn": "iOS 27 adds more granular participant permissions to iCloud Shared Albums, letting owners control who can add photos, comment, or invite others independently.",
+      "bodyIt": "## Condivisione con piú controllo\n\nGli album condivisi di iCloud permettono a piú persone di contribuire con foto e video in uno spazio comune. Fino a iOS 26, i permessi erano essenzialmente binari: partecipante attivo o sola visualizzazione. Con iOS 27, il proprietario dell'album può assegnare permessi piú granulari ai singoli partecipanti, differenziando ad esempio chi può solo guardare, chi può aggiungere contenuti e chi può invitare nuovi membri.\n\n## Contesto\n\nÈ un miglioramento che risponde a un'esigenza reale nelle condivisioni familiari o di gruppo allargate: non sempre si vuole che tutti i partecipanti possano invitare sconosciuti o aggiungere foto liberamente. La funzione si affianca all'altra novità già annunciata degli album condivisi in iOS 27 — la risoluzione piena per Android e Windows — completando un pacchetto di aggiornamenti significativo per uno degli strumenti di condivisione fotografica piú usati nell'ecosistema Apple. Documentata nella lista delle 263 funzioni del keynote WWDC 2026 da iClarified.",
+      "bodyEn": "## Sharing with more control\n\niCloud Shared Albums let multiple people contribute photos and videos to a shared space. Through iOS 26, permissions were essentially binary: active participant or view-only. With iOS 27, the album owner can assign more granular permissions to individual participants, differentiating for example who can only view, who can add content, and who can invite new members.\n\n## Context\n\nThis addresses a real need in family or extended group sharing: you don't always want all participants to be able to invite strangers or add photos freely. The feature complements the other already-announced Shared Albums improvement in iOS 27 — full resolution for Android and Windows — completing a significant update package for one of the most-used photo sharing tools in the Apple ecosystem. Documented in the list of 263 WWDC keynote features by iClarified.",
+      "sources": [
+        {
+          "title": "iClarified — 263 New Features in Apple's WWDC 2026 Slide",
+          "url": "https://www.iclarified.com/101152/here-are-the-263-new-features-revealed-in-apples-massive-wwdc-2026-slide"
+        },
+        {
+          "title": "Engadget — Everything announced at Apple's WWDC 2026 keynote",
+          "url": "https://www.engadget.com/2189698/everything-announced-at-apples-wwdc-2026-keynote/"
+        }
+      ],
+      "publishedAt": "2026-06-11T20:03:08.895527+02:00"
+    },
     {
       "slug": "visionos-27-m5-apple-vision-pro-specifiche-foveated-streaming-pc",
       "macroArea": "spatial-visionos",
