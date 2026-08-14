@@ -47,12 +47,53 @@ COVERAGE_END_DATE_EN = "June 12, 2026"
 # Macro-area hero illustrations (WebP, 1600x844, ~30-70 KB each)
 # Located under assets/img/macroaree/<filename>.webp
 # -----------------------------------------------------------------------------
-MACROAREA_IMAGES = {}
+MACROAREA_IMAGES = {
+    "sistemi-operativi": "sistemi-operativi-ios-ipados-macos-wwdc-2026",
+    "apple-intelligence": "apple-intelligence-siri-ai-wwdc-2026",
+    "sviluppatori": "sviluppatori-xcode-swift-wwdc-2026",
+    "design-interfacce": "design-interfacce-liquid-glass-wwdc-2026",
+    "spatial-visionos": "spatial-visionos-wwdc-2026",
+    "salute-benessere": "salute-benessere-watchos-wwdc-2026",
+    "servizi-ecosistema": "servizi-ecosistema-icloud-continuity-wwdc-2026",
+    "privacy-sicurezza": "privacy-sicurezza-wwdc-2026",
+}
 
-MACROAREA_ALT = {}
+MACROAREA_ALT = {
+    "sistemi-operativi": {
+        "it": "Illustrazione a tratto: una figura cammina verso iPhone, iPad e Mac stilizzati collegati da un'onda sismografica, simbolo dell'aggiornamento congiunto dei sistemi operativi Apple.",
+        "en": "Line illustration: a figure walks toward stylized iPhone, iPad and Mac shapes linked by a seismographic wave, symbolizing the joint update of Apple's operating systems.",
+    },
+    "apple-intelligence": {
+        "it": "Illustrazione a tratto: un cerchio terracotta aperto attraversa una composizione di forme geometriche, a rappresentare l'intelligenza artificiale integrata in Apple Intelligence e Siri.",
+        "en": "Line illustration: an open terracotta circle cuts through a composition of geometric shapes, representing the AI woven into Apple Intelligence and Siri.",
+    },
+    "sviluppatori": {
+        "it": "Illustrazione a tratto: una figura tocca il nodo centrale di una rete di cerchi collegati da linee a molla, simbolo delle API e degli SDK per sviluppatori.",
+        "en": "Line illustration: a figure touches the central node of a network of circles linked by spring-like lines, symbolizing developer APIs and SDKs.",
+    },
+    "design-interfacce": {
+        "it": "Illustrazione a tratto: una figura osserva pannelli semitrasparenti sovrapposti attraversati da un arco terracotta, evocando gli strati del nuovo linguaggio di design Liquid Glass.",
+        "en": "Line illustration: a figure looks at overlapping semi-transparent panels crossed by a terracotta arc, evoking the layers of the new Liquid Glass design language.",
+    },
+    "spatial-visionos": {
+        "it": "Illustrazione a tratto: una figura in scala ridotta immersa in uno spazio profondo definito da linee sismografiche, a rappresentare lo spatial computing di visionOS.",
+        "en": "Line illustration: a small-scale figure immersed in a deep space defined by seismographic lines, representing visionOS spatial computing.",
+    },
+    "salute-benessere": {
+        "it": "Illustrazione a tratto: una linea pulsante come un elettrocardiogramma attraversa un orologio racchiuso da un cerchio terracotta aperto, simbolo di salute e benessere su watchOS.",
+        "en": "Line illustration: a pulsing line like an electrocardiogram crosses a watch enclosed by an open terracotta circle, symbolizing health and wellbeing on watchOS.",
+    },
+    "servizi-ecosistema": {
+        "it": "Illustrazione a tratto: forme collegate da linee oscillanti evocano la continuità tra dispositivi dell'ecosistema Apple, tra iCloud e Continuity.",
+        "en": "Line illustration: shapes linked by oscillating lines evoke continuity across Apple ecosystem devices, from iCloud to Continuity.",
+    },
+    "privacy-sicurezza": {
+        "it": "Illustrazione a tratto: un cerchio terracotta aperto protegge una forma centrale, simbolo della protezione dei dati e della sicurezza al centro del WWDC 2026.",
+        "en": "Line illustration: an open terracotta circle shields a central shape, symbolizing data protection and security at the heart of WWDC 2026.",
+    },
+}
 
-# No hero illustrations at launch; the hourly updater + phase-2 review may add them.
-DEFAULT_OG_IMAGE_SLUG = None
+DEFAULT_OG_IMAGE_SLUG = "sistemi-operativi"
 
 
 def macroarea_image_path(macroarea_slug, asset_pref="./"):
