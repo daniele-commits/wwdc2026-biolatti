@@ -126,9 +126,9 @@ LABELS = {
         "nav_timeline": "Archivio",
         "nav_about": "Chi cura",
         "switch_lang_label": "EN",
-        "hero_eyebrow": f"Copertura del WWDC 2026 aggiornata in tempo reale",
-        "hero_title": "Apple WWDC 2026: <em>gli annunci</em>, in italiano, organizzati per tema.",
-        "hero_subtitle": "La conferenza per sviluppatori di Apple si svolge dall'8 al 12 giugno 2026, con il keynote di apertura lunedi 8 alle 19:00 italiane. Questa pagina si aggiorna in automatico man mano che escono gli annunci: tutto ricostruito in italiano, organizzato per area, con le fonti originali a portata di click.",
+        "hero_eyebrow": f"Informazioni relative al WWDC 2026 aggiornate al {COVERAGE_END_DATE_IT}",
+        "hero_title": "Apple WWDC 2026: <em>264 annunci</em>, in italiano, organizzati per tema.",
+        "hero_subtitle": "La conferenza per sviluppatori di Apple si è svolta dall'8 al 12 giugno 2026, con il keynote di apertura la sera dell'8. Su questa pagina trovi tutti gli annunci, ricostruiti in italiano, organizzati per area, con le fonti originali a portata di click.",
         "hero_meta_dates": "8-12 giugno 2026",
         "section_featured_eyebrow": "Gli annunci che pesano di piu",
         "section_featured_title": "Da dove iniziare",
@@ -197,9 +197,9 @@ LABELS = {
         "nav_timeline": "Archive",
         "nav_about": "About",
         "switch_lang_label": "IT",
-        "hero_eyebrow": f"WWDC 2026 coverage, updated in real time",
-        "hero_title": "Apple WWDC 2026: <em>the announcements</em>, organized by topic.",
-        "hero_subtitle": "Apple's developer conference runs from June 8 to 12, 2026, with the opening keynote on Monday June 8 at 10am PT. This page updates automatically as announcements land: everything organized by area, with original sources one click away.",
+        "hero_eyebrow": f"WWDC 2026 coverage, updated as of {COVERAGE_END_DATE_EN}",
+        "hero_title": "Apple WWDC 2026: <em>264 announcements</em>, organized by topic.",
+        "hero_subtitle": "Apple's developer conference ran from June 8 to 12, 2026, with the opening keynote on the evening of June 8. On this page you'll find every announcement, rebuilt in English, organized by area, with original sources one click away.",
         "hero_meta_dates": "June 8-12, 2026",
         "section_featured_eyebrow": "The announcements that matter most",
         "section_featured_title": "Start here",
@@ -1117,9 +1117,31 @@ def render_tag_page(lang, tag, data):
 # -----------------------------------------------------------------------------
 
 # Rationale text shown next to each top-10 entry — kept brief, one paragraph.
-TOP10_RATIONALE_IT = {}
+TOP10_RATIONALE_IT = {
+    "siri-27-chatbot-gemini-app-dedicata": "Il pivot più atteso degli ultimi anni: Siri lascia il formato assistente per diventare un'app chatbot a sé stante, alimentata da modelli co-sviluppati con Google. Cambia il prodotto, cambia la promessa.",
+    "siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno": "La riserva più importante sull'annuncio più importante: Siri AI non sarà nel lancio autunnale di iOS 27. Una beta separata arriva più avanti, senza una data precisa.",
+    "liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari": "Non un ritocco estetico ma una revisione tecnica delle fondamenta: bordi scuri, riflessi speculari e una diffusione ripensata rispondono punto per punto alle critiche di leggibilità di iOS 26.",
+    "xcode-27-coding-assistant-simula-intere-app": "L'assistente di Xcode 27 non suggerisce più solo righe di codice: genera, costruisce e simula un'intera app in autonomia, mentre Core AI sostituisce Core ML come framework di sistema.",
+    "foundation-models-languagemodel-protocol-gemini-claude-swift": "Con un'unica interfaccia Swift, Gemini, Claude e i modelli on-device diventano intercambiabili aggiornando una dipendenza. Apple smette di insistere di avere sempre il modello migliore.",
+    "macos-golden-gate-fine-era-intel-impatto-concreto-utenti": "Nessun Mac Intel riceverà più aggiornamenti di sistema, e Rosetta 2 viene dismesso. La fine ufficiale, dopo sei anni di transizione, di un intero capitolo hardware Apple.",
+    "wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote": "Federighi abbandona il tradizionale giro piattaforma per piattaforma e organizza il keynote attorno a tre assi — piattaforma, fiducia, intelligenza — con oltre dieci minuti dedicati al child safety.",
+    "wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead": "'Il meglio deve ancora venire': Tim Cook chiude il suo ultimo keynote da CEO con un messaggio personale. Il successore Ternus, visto alla cena della vigilia, non è apparso sul palco.",
+    "siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo": "Voci espressive e dettatura potenziata restano esclusive di iPhone 17 Pro e iPhone Air. Apple traccia una linea netta dentro la propria gamma, non solo tra chi ha Apple Intelligence e chi no.",
+    "foundation-models-open-source-estate-2026-apple-annuncio": "Il core del framework Foundation Models sarà open source entro l'estate, prima ancora del lancio pubblico di iOS 27. Una scommessa sulla fiducia degli sviluppatori più che sul prodotto finito.",
+}
 
-TOP10_RATIONALE_EN = {}
+TOP10_RATIONALE_EN = {
+    "siri-27-chatbot-gemini-app-dedicata": "The most anticipated pivot in years: Siri leaves the assistant format behind to become a standalone chatbot app, powered by models co-developed with Google. The product changes, and so does the promise.",
+    "siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno": "The biggest caveat on the biggest announcement: Siri AI won't ship with iOS 27 this autumn. A separate beta arrives later, with no firm date.",
+    "liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari": "Not a cosmetic tweak but a technical rebuild of the foundations: dark edges, specular highlights and reworked diffusion answer iOS 26's legibility complaints point by point.",
+    "xcode-27-coding-assistant-simula-intere-app": "Xcode 27's assistant no longer just suggests lines of code: it generates, builds and simulates an entire app on its own, while Core AI replaces Core ML as the system framework.",
+    "foundation-models-languagemodel-protocol-gemini-claude-swift": "With a single Swift interface, Gemini, Claude and on-device models become interchangeable by updating one dependency. Apple stops insisting it always has the best model.",
+    "macos-golden-gate-fine-era-intel-impatto-concreto-utenti": "No Intel Mac will receive further system updates, and Rosetta 2 is retired. The official close, after six years of transition, of an entire Apple hardware chapter.",
+    "wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote": "Federighi drops the traditional platform-by-platform tour and organizes the keynote around three axes — platform, trust, intelligence — with over ten minutes devoted to child safety.",
+    "wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead": "'The best is still ahead': Tim Cook closes his final keynote as CEO with a personal message. Successor Ternus, seen at the eve dinner, never appeared on stage.",
+    "siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo": "Expressive voices and upgraded dictation stay exclusive to iPhone 17 Pro and iPhone Air. Apple draws a sharp line inside its own lineup, not just between who has Apple Intelligence and who doesn't.",
+    "foundation-models-open-source-estate-2026-apple-annuncio": "The core of the Foundation Models framework will go open source by summer, ahead of iOS 27's public launch. A bet on developer trust more than on the finished product.",
+}
 
 def render_top10_page(lang, data):
     L = LABELS[lang]
@@ -1293,9 +1315,115 @@ def markdown_to_html(md_text, slug_url_resolver=None):
 
 
 # Hand-translated EN version of the analisi content (kept inline to avoid an extra MD file)
-ANALISI_BODY_EN = """# Apple WWDC 2026 — Thematic analysis
+ANALISI_BODY_EN = """# Apple WWDC 2026 — Thematic analysis and takeaways
 
-The thematic analysis is published after the event, once coverage is complete. During the conference this page links back to the live, automatically updated home.
+## What WWDC 2026 really was
+
+WWDC 2026 was the WWDC where Apple stopped talking about Siri as a promise and started treating it as something it had to explain. Three dominant narratives hold together the 264 articles published on this site: **the Siri AI pivot, arriving late on itself**, **Liquid Glass walking back a year of criticism**, and **a bet on model-agnostic AI infrastructure**, most visible in how Apple opened Xcode and Foundation Models to Gemini, Claude, and third-party models.
+
+### Narrative 1 — Siri AI: the pivot that arrives late on itself
+
+This is the story that dominated coverage, with 62 articles in the Apple Intelligence and Siri area alone. Apple unveils [Siri AI as a standalone, chatbot-style app](/siri-27-chatbot-gemini-app-dedicata.html), a format it had excluded from its vision of the assistant for years. Under the hood, cloud processing runs on [Foundation Models co-developed with Google, on Nvidia GPUs inside Google's cloud infrastructure](/afm-cloud-pro-foundation-models-nvidia-google.html) — an architectural detail that says more than any slide on stage.
+
+Then the caveats arrive, one after another. Siri AI [isn't included in the iOS 27 autumn launch](/siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno.html): a separate beta slips to later in the year. The best features — expressive voices, upgraded dictation — [remain exclusive to iPhone 17 Pro and iPhone Air](/siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo.html). At launch it [speaks only English](/siri-ai-solo-inglese-lancio-lingue-future.html). It's [blocked on iOS and iPadOS in the European Union under the Digital Markets Act, and excluded from China too](/siri-ai-china-blocco-eu-ios-ipad-disponibile-macos-watchos-visionos.html) — with Brussels [publicly correcting Apple's own account](/commissione-europea-risposta-blocco-siri-ai-ue.html), noting the company had sought an exemption rather than build a compliant solution.
+
+The sharpest comment comes from outside Apple: analyst Ming-Chi Kuo, [after the keynote, observes that Apple's real test isn't announcing Siri AI but proving it can use Google's own models better than Google itself](/wwdc-2026-kuo-analisi-post-keynote-gemini-siri-test-reale.html). WWDC 2026 delivered the promise. The real test is still ahead.
+
+### Narrative 2 — Liquid Glass, the redesign that listens (a year late)
+
+Apple didn't stop at an opacity slider: it [reworked the technical foundations of how Liquid Glass diffuses content behind it](/liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari.html), adding dark edges and specular highlights for genuinely better legibility. The [new intensity slider on iOS 27 is a direct response to accessibility failures documented by the Nielsen Norman Group](/ios-27-liquid-glass-intensity-slider-accessibilita-risposta.html) after iOS 26 shipped — the source of the problem, cited explicitly.
+
+The rest of the revision is systematic: [sidebars that extend to the window edge, icons that keep their own color instead of turning translucent, cross-platform color consistency](/liquid-glass-revisione-sidebar-bordo-icone-colore-uniformita.html), [a unified toolbar on macOS Golden Gate](/macos-golden-gate-toolbar-uniforme-design-aggiornamento.html), and [HDR support extended to the entire system interface](/macos-golden-gate-hdr-system-ui-interfaccia-display.html). This isn't a new design language. It's the old one, corrected by someone who read every complaint.
+
+### Narrative 3 — Apple bets on model-agnostic AI infrastructure
+
+The least-hyped story on stage, and the most interesting one for anyone watching Apple as a developer platform. The [LanguageModel protocol makes Gemini, Claude, and on-device models interchangeable](/foundation-models-languagemodel-protocol-gemini-claude-swift.html): swap one Swift Package Manager dependency, no application code touched. It's an implicit admission that Apple no longer insists it has the best model for every task.
+
+In the same vein, [Core AI replaces Core ML](/apple-core-ai-framework-sostituisce-core-ml-wwdc-2026.html) as the system framework built for large language and multimodal models, [Foundation Models will go open source by summer](/foundation-models-open-source-estate-2026-apple-annuncio.html), and Private Cloud Compute access [becomes free for developers under two million downloads](/foundation-models-free-tier-sviluppatori-piccoli-private-cloud-compute.html), lowering the economic barrier to entry. Xcode 27 opens to a [third-party plugin ecosystem — Figma, GitHub, and soon Anthropic, OpenAI and Google — through an agent-client protocol](/xcode-27-plugin-ecosystem-figma-github-mcp-agent-client.html), and its coding assistant [can now simulate an entire app before it's even built](/xcode-27-coding-assistant-simula-intere-app.html). Apple is building the infrastructure for a world where the model behind its own apps might not be its own.
+
+## The 10 most important announcements
+
+1. **Siri becomes Siri AI** — A standalone, chatbot-style app powered by Foundation Models co-developed with Google. The most anticipated pivot in years, with every caveat that comes with its launch. ([/siri-27-chatbot-gemini-app-dedicata.html](https://wwdc2026.biolatti.it/en/siri-27-chatbot-gemini-app-dedicata.html))
+
+2. **Siri AI doesn't ship with iOS 27 this autumn** — A separate beta slips to late 2026, decoupling the new interface from the system release. The single most important caveat on the event's most-hyped product. ([/siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno.html](https://wwdc2026.biolatti.it/en/siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno.html))
+
+3. **Liquid Glass technically rebuilt** — Dark edges, specular highlights, and diffusion reworked from the ground up: the concrete answer to iOS 26's legibility complaints. ([/liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari.html](https://wwdc2026.biolatti.it/en/liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari.html))
+
+4. **Xcode goes agentic** — The coding assistant can generate, build and simulate an entire app on its own, while Core AI replaces Core ML as the system framework for large models. ([/xcode-27-coding-assistant-simula-intere-app.html](https://wwdc2026.biolatti.it/en/xcode-27-coding-assistant-simula-intere-app.html))
+
+5. **The LanguageModel protocol** — Gemini, Claude and on-device models become interchangeable by updating a single Swift dependency. Apple stops insisting it always has the best model. ([/foundation-models-languagemodel-protocol-gemini-claude-swift.html](https://wwdc2026.biolatti.it/en/foundation-models-languagemodel-protocol-gemini-claude-swift.html))
+
+6. **macOS Golden Gate closes the book on Intel** — No Intel Mac will receive further updates, and Rosetta 2 is retired. The official end of a six-year era. ([/macos-golden-gate-fine-era-intel-impatto-concreto-utenti.html](https://wwdc2026.biolatti.it/en/macos-golden-gate-fine-era-intel-impatto-concreto-utenti.html))
+
+7. **The keynote restructures around three axes** — Platform, trust, intelligence: Federighi drops the traditional platform-by-platform tour to organize the event by theme, with over ten minutes devoted to child safety. ([/wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote.html](https://wwdc2026.biolatti.it/en/wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote.html))
+
+8. **Tim Cook's last keynote** — "The best is still ahead": Cook closes his final WWDC as CEO with a personal message. Ternus, his successor, had been seen at the pre-event dinner but never appeared on stage. ([/wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead.html](https://wwdc2026.biolatti.it/en/wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead.html))
+
+9. **Siri AI at two speeds** — The most advanced features — expressive voices, higher-quality dictation — require iPhone 17 Pro or iPhone Air. Apple draws a sharp line inside its own lineup. ([/siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo.html](https://wwdc2026.biolatti.it/en/siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo.html))
+
+10. **Foundation Models goes open source** — The framework's core will be released by summer 2026, ahead of iOS 27's public launch. A bet on developer trust more than on the finished product. ([/foundation-models-open-source-estate-2026-apple-annuncio.html](https://wwdc2026.biolatti.it/en/foundation-models-open-source-estate-2026-apple-annuncio.html))
+
+## Reclassification into 8 thematic areas
+
+The site organizes coverage into eight areas, framed from the point of view of the people who'll use these systems in the coming months, not from the stage demo. Below, one by one, with links to the most representative articles.
+
+### 1. Apple Intelligence and Siri — 62 articles
+
+The most populated area, and it's the story told above: from [Siri AI's debut as a chatbot](/siri-27-chatbot-gemini-app-dedicata.html) to [geographic restrictions](/siri-ai-china-blocco-eu-ios-ipad-disponibile-macos-watchos-visionos.html), from [hardware stratification](/siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo.html) to Apple Intelligence features [turning proactive](/apple-intelligence-proattivita-cross-app-messaggi-foto-calendario-suggerimenti.html) across messages, email and photos without being asked.
+
+### 2. Operating systems — 61 articles
+
+Platform news read from the point of view of daily use: from [the end of Intel support on macOS Golden Gate](/macos-golden-gate-fine-era-intel-impatto-concreto-utenti.html) to [watchOS 27 compatibility cuts, discovered by users rather than announced on stage](/watchos-27-sei-apple-watch-tagliati-ultra1-series9-compatibilita-silenziosa.html), down to [foldable iPhone references found in the beta's code](/ios-27-foldable-iphone-riferimenti-beta-foldstate-angledegrees.html) with no official confirmation whatsoever.
+
+### 3. Services and ecosystem — 48 articles
+
+The glue between Apple's devices, but also where the company's leadership transition played out: [Tim Cook's last keynote](/wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead.html), [Ternus seen at the eve dinner but absent from the stage](/john-ternus-cena-pre-wwdc-assente-keynote-debutto-pubblico.html), and a [shorter, restructured keynote than usual](/wwdc-2026-keynote-formato-insolito-76-minuti-senza-piattaforme.html). On the product side, from [Tesla finally supporting CarPlay](/tesla-apple-carplay-supporto-finalmente.html) to Wallet [splitting the bill from a photographed receipt](/apple-cash-bill-splitting-scontrino-foto-wallet-messages.html).
+
+### 4. Developers — 34 articles
+
+WWDC's technical soul: the [LanguageModel protocol](/foundation-models-languagemodel-protocol-gemini-claude-swift.html), [open-source Foundation Models](/foundation-models-open-source-estate-2026-apple-annuncio.html), [Xcode going agentic](/xcode-27-coding-assistant-simula-intere-app.html), the [plugin ecosystem with Figma and GitHub](/xcode-27-plugin-ecosystem-figma-github-mcp-agent-client.html). Not every developer was happy: part of the community [praised the tools but panned the keynote format](/wwdc-2026-react-community-keynote-critiche-sviluppatori.html), calling it among the worst in years.
+
+### 5. Design and interfaces — 22 articles
+
+The systematic Liquid Glass revision told above: from the [technical rebuild of diffusion](/liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari.html) to the [intensity slider built to answer documented accessibility complaints](/ios-27-liquid-glass-intensity-slider-accessibilita-risposta.html), down to [HDR support extended across the entire macOS system interface](/macos-golden-gate-hdr-system-ui-interfaccia-display.html).
+
+### 6. Privacy and security — 18 articles
+
+Where Apple's promises meet regulatory reality: [the European Commission publicly correcting Apple's account of the Siri AI block](/commissione-europea-risposta-blocco-siri-ai-ue.html), a keynote that [devoted over ten minutes to child safety](/wwdc-2026-keynote-struttura-nuova-child-safety-10-minuti-parental-controls.html) with [mandatory child accounts under thirteen](/ios-27-child-accounts-obbligatori-under-13-sistema-eta.html), and a [protest against non-consensual deepfakes outside Apple Park](/protesta-deepfake-wwdc-2026-apple-park-ingresso.html) that shadowed the event from the outside.
+
+### 7. Spatial computing and visionOS — 13 articles
+
+The most experimental area, and this year the most explicitly enterprise-facing: [Kia using Vision Pro with VRED to validate car design](/visionos-27-foveated-streaming-kia-autodesk-enterprise.html), a new [Spatial Preview framework bringing Cinema 4D and SketchUp models to real scale](/visionos-27-spatial-preview-framework-cinema4d-sketchup-design-review.html), a hardware baseline raised to [Vision Pro with the M5 chip](/visionos-27-m5-apple-vision-pro-specifiche-foveated-streaming-pc.html). One bright spot on accessibility: [Wheelchair Control uses eye tracking to drive a motorized wheelchair](/visionos-27-wheelchair-control-eye-tracking-sedia-a-rotelle.html).
+
+### 8. Health and wellbeing — 6 articles
+
+The smallest area of the event, and almost entirely incremental: [Fitness+ adds perimenopause and menopause workouts](/fitness-plus-workout-perimenopause-menopausa-wwdc-2026.html), [GymKit arrives on iPhone and AirPods Pro 3, breaking a seven-year Apple Watch exclusive](/gymkit-iphone-airpods-pro-3-ios-27.html), [indoor run and walk tracking gets more precise](/watchos-27-indoor-run-walk-tracking-precisione-migliorata.html). No structural news on sensors or diagnostics.
+
+## What was missing (or barely covered)
+
+A few absences and a few threads covered too thinly, noted for honesty's sake — they're part of the picture as much as the strong announcements.
+
+**No consumer hook for spatial computing.** Every meaningful visionOS announcement targets enterprise and developers — Kia, Autodesk, Cinema 4D, SketchUp. Zero new hardware at a more accessible price, zero new reason for a consumer to consider Vision Pro.
+
+**Health nearly stood still.** With just 6 pieces of news and no new sensor or diagnostic capability, the area where Apple has historically built its strongest advantage was the least eventful of the whole conference.
+
+**Siri AI's real test is still ahead.** As Ming-Chi Kuo notes, the on-stage demo — directions pulled from an Instagram post — is isolated and curated. No independent benchmarks, no extended real-world use beyond the keynote.
+
+**Official communication less precise than usual.** Apple had to correct itself at least three times after the keynote: Siri AI's EU availability (two successive corrections on which platforms are excluded), and Apple Watch Series 9's compatibility with watchOS 27, mistakenly omitted from the official page and then restored. For a company that treats precision as an identity trait, that's not a small detail.
+
+**The foldable iPhone remains an official non-statement.** The references in the beta code — foldState, angleDegrees, a third indicator counting displays, new layout APIs — are numerous and consistent. On stage, total silence.
+
+## Temporal pattern: when the announcements that matter actually broke
+
+Coverage followed three distinct waves, reconstructed from articles' publication timestamps.
+
+**Wave 1 — Keynote and opening night** (June 8, 15:29–23:33). The opening announcements and the big consumer headlines: the Golden Gate name, Siri AI's debut with the EU block already stated, the Liquid Glass redesign with its opacity slider, Image Playground 2, mandatory child accounts, Tim Cook's closing remarks. The densest stretch of "on-stage" news.
+
+**Wave 2 — Overnight and the Platforms State of the Union** (June 9, 00:03–23:19). The most technical and densest block: open-source Foundation Models, the LanguageModel protocol, agentic Xcode, most of the Apple Intelligence integrations across system apps, the first round of regulatory corrections on Siri AI in Europe, Group Labs selling out within minutes for Foundation Models and App Intents. The single busiest day for article volume.
+
+**Wave 3 — Follow-ups and analysis** (June 10-11). Hands-on videos from the beta, technical deep dives on RealityKit and visionOS, Ming-Chi Kuo's post-keynote analysis, the discovery of the slide listing over 250 (later 263) minor changes flashed briefly during the keynote, the Apple Design Awards and Swift Student Challenge winners. This is where the details the keynote had no time for surface — and it's no accident that the foldable references and the compatibility corrections show up precisely in this window.
+
+The rule that emerges: **the announcements with the most structural weight — the LanguageModel protocol, open-source Foundation Models, the end of Intel support — landed in the second, technical wave, not in the opening keynote.** The keynote sells Siri AI. The content that actually changes how you build on Apple is elsewhere.
 """
 
 

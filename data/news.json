@@ -7450,13 +7450,32 @@
       "labelEn": "Accessibility"
     }
   ],
-  "topStories": [],
+  "topStories": [
+    "siri-27-chatbot-gemini-app-dedicata",
+    "siri-ai-beta-separata-non-inclusa-ios27-lancio-autunno",
+    "liquid-glass-rifondazione-tecnica-diffusione-bordo-scuro-highlights-speculari",
+    "xcode-27-coding-assistant-simula-intere-app",
+    "foundation-models-languagemodel-protocol-gemini-claude-swift",
+    "macos-golden-gate-fine-era-intel-impatto-concreto-utenti",
+    "wwdc-2026-tre-aree-focus-platform-trust-intelligence-struttura-keynote",
+    "wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead",
+    "siri-ai-iphone-17-pro-air-modello-on-device-piu-potente-esclusivo",
+    "foundation-models-open-source-estate-2026-apple-annuncio"
+  ],
   "featuredStories": {
     "mediaBuzz": {
-      "items": []
+      "items": [
+        "siri-27-chatbot-gemini-app-dedicata",
+        "wwdc-2026-tim-cook-discorso-finale-keynote-the-best-is-still-ahead",
+        "commissione-europea-risposta-blocco-siri-ai-ue"
+      ]
     },
     "underratedStructural": {
-      "items": []
+      "items": [
+        "foundation-models-languagemodel-protocol-gemini-claude-swift",
+        "foundation-models-open-source-estate-2026-apple-annuncio",
+        "macos-golden-gate-fine-era-intel-impatto-concreto-utenti"
+      ]
     }
   },
   "redirects": []
