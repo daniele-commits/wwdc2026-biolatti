@@ -12,3 +12,13 @@ build.py
 update_news.py
 _adapt_build.py
 notify_items.json
+# --- aggiunte 2026-09-22 ---
+# Dati sorgente e coda di revisione: nessuna pagina/JS li carica (verificato con grep)
+data/news.json
+data/review_queue.json
+# Sorgenti Gemini (2,3-3,6 MB) non referenziate: le pagine usano le .webp
+assets/img/macroaree/Gemini_Generated_Image_*.jpeg
+# Documenti e test di lavoro
+analisi/
+*.md
+tests/

@@ -1,15 +1,22 @@
 name: WWDC 2026 hourly update
 
-# Gira ogni ora (UTC). Lo script update_news.py si auto-limita alla finestra
-# evento (8-12 giugno 2026 + 12h di grazia): fuori finestra esce subito.
-# Dopo il 13 giugno il workflow puo essere disabilitato da Actions > ... > Disable.
+# Evento concluso (8-12 giugno 2026): il blocco `schedule:` e stato rimosso
+# (GitHub lo aveva gia auto-disabilitato). Resta solo l'avvio manuale.
+# Il primo step controlla la finestra evento e, se e chiusa, il job termina
+# senza fare nulla (nessuna chiamata API, nessun commit).
+# Per un evento futuro: aggiornare EVENT_END qui sotto e in data/news.json
+# ("eventEnd") e, se serve, ripristinare uno `schedule:`.
 on:
-  schedule:
-    # Solo ore attive (UTC; CEST = UTC+2): keynote + giornata/serata USA.
-    # Salta le ore morte europee (mattina/pomeriggio) per non bruciare credito.
-    - cron: "0 16-23 * * *"   # 18:00 - 01:00 CEST
-    - cron: "0 0-1 * * *"     # 02:00 - 03:00 CEST (coda notturna keynote)
-  workflow_dispatch: {}   # esecuzione manuale dal tab Actions (per effetto "live")
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignora la finestra evento (WWDC_FORCE=1)"
+        type: boolean
+        default: false
+
+env:
+  EVENT_END: "2026-06-12T23:59:00+02:00"   # fine evento (stessa data di data/news.json)
+  GRACE_HOURS: "12"                        # grazia per i follow-up post-evento
 
 # Evita run sovrapposti.
 concurrency:
@@ -23,19 +30,43 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      - name: Controllo finestra evento
+        id: window
+        env:
+          FORCE: ${{ inputs.force }}
+        run: |
+          end_ts=$(date -d "$EVENT_END" +%s)
+          limit=$(( end_ts + GRACE_HOURS * 3600 ))
+          now=$(date +%s)
+          if [ "$FORCE" = "true" ] || [ "$now" -le "$limit" ]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+            echo "Finestra evento aperta (o forzata): procedo."
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "Finestra evento chiusa ($EVENT_END + ${GRACE_HOURS}h): nessuna azione."
+          fi
+
       - name: Checkout
-        uses: actions/checkout@v4
+        if: steps.window.outputs.active == 'true'
+        uses: actions/checkout@v5
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        if: steps.window.outputs.active == 'true'
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
+      - name: Test offline
+        if: steps.window.outputs.active == 'true'
+        run: python -m unittest discover -s tests
+
       - name: Esegui aggiornamento
         id: run
+        if: steps.window.outputs.active == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           WWDC_MODEL: ${{ vars.WWDC_MODEL }}
+          WWDC_FORCE: ${{ inputs.force && '1' || '' }}
         run: |
           set -o pipefail
           python update_news.py | tee run.log
@@ -45,6 +76,7 @@ jobs:
 
       - name: Commit & push
         id: commit
+        if: steps.window.outputs.active == 'true'
         env:
           COUNT: ${{ steps.run.outputs.count }}
         run: |
@@ -63,7 +95,7 @@ jobs:
           fi
 
       - name: Posta sul canale Telegram
-        if: steps.run.outputs.count != '0' && steps.commit.outputs.changed == 'true'
+        if: steps.window.outputs.active == 'true' && steps.run.outputs.count != '0' && steps.commit.outputs.changed == 'true'
         env:
           TG_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TG_CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
